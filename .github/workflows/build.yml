@@ -374,8 +374,11 @@ jobs:
           rem GIT_NEEDED_SUBMODULES stays intact, otherwise helpcontent2 is
           rem never cloned and the helppack build dies.
           if exist config_build.mk echo export GIT_NEEDED_SUBMODULES=>>config_build.mk
-          if exist config_build.mk echo export PATH=C:/Program Files/Git/cmd;$(PATH)>>config_build.mk
-          if exist config_host.mk echo export PATH=C:/Program Files/Git/cmd;$(PATH)>>config_host.mk
+          rem round 33 lesson: plain "=" makes PATH self-referencing (recursive
+          rem variable) -> "Recursive variable 'PATH' references itself";
+          rem ":=" expands $(PATH) once at read time (simply-expanded)
+          if exist config_build.mk echo export PATH := C:/Program Files/Git/cmd;$(PATH)>>config_build.mk
+          if exist config_host.mk echo export PATH := C:/Program Files/Git/cmd;$(PATH)>>config_host.mk
           findstr /C:"GIT_NEEDED_SUBMODULES" config_build.mk
           make fetch -j8 || exit /b 1
           findstr /C:"WSL=" config_host.mk
