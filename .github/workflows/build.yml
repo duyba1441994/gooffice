@@ -161,8 +161,21 @@ jobs:
             'junit-4.10.jar'                         = 'https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar'
             'nasm-2.16.03-win64.zip'                 = 'https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/win64/nasm-2.16.03-win64.zip'
           }
+          # round 36 (win-arm64): qt.io / nasm.us intermittently answer 504 and
+          # the run died in 3 min before even starting the build -> retry each
+          # file with backoff instead of failing the whole job on one hiccup
           foreach ($k in $files.Keys) {
-            Invoke-WebRequest -Uri $files[$k] -OutFile "$dl\$k"
+            $ok = $false
+            for ($i = 1; $i -le 5 -and -not $ok; $i++) {
+              try {
+                Invoke-WebRequest -Uri $files[$k] -OutFile "$dl\$k"
+                $ok = $true
+              } catch {
+                Write-Host "attempt $i failed for ${k}: $($_.Exception.Message)"
+                Start-Sleep -Seconds (15 * $i)
+              }
+            }
+            if (-not $ok) { throw "download failed after 5 attempts: $k" }
           }
           New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\bin","$env:USERPROFILE\lo" | Out-Null
           Copy-Item "$dl\make-4.2.1-msvc.exe" "$env:USERPROFILE\bin\make.exe"
