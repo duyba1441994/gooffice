@@ -1,0 +1,19 @@
+diff --git a/setup_native/source/win32/customactions/sellang/sellang.cxx b/setup_native/source/win32/customactions/sellang/sellang.cxx
+index 201b4b4..ba4dabe 100644
+--- a/setup_native/source/win32/customactions/sellang/sellang.cxx
++++ b/setup_native/source/win32/customactions/sellang/sellang.cxx
+@@ -338,6 +338,14 @@ extern "C" __declspec(dllexport) UINT __stdcall SelectLanguage( MSIHANDLE handle
+             add_ui_lang(langid_to_string(static_cast<LANGID>(langid)));
+         }
+         EnumUILanguagesA(enum_ui_lang_proc, 0, 0);
++        // GoOffice: the Vietnamese UI langpack is bundled in this installer
++        // by design, so always consider it a relevant UI language. Without
++        // this, a Typical or silent install on non-Vietnamese Windows only
++        // matches en_US (ProductLanguage / system UI languages) and the
++        // SelectLanguage custom action would set gm_Langpack_r_vi to
++        // INSTALLSTATE_ABSENT, producing an English-only installation.
++        // An explicitly provided UI_LANGS property still takes precedence.
++        add_ui_lang("vi");
+     }
+ 
+     // If the set of langpacks that match any of the relevant UI languages is

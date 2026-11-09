@@ -117,7 +117,8 @@ jobs:
             "$GITHUB_WORKSPACE/patches/0021-win-nspr-pr-abspath.patch" \
             "$GITHUB_WORKSPACE/patches/0022-win-zip-via-python.patch" \
             "$GITHUB_WORKSPACE/patches/0023-win-scp2-langdir-pureperl.patch" \
-            "$GITHUB_WORKSPACE/patches/0024-win-joblimiter-release-race.patch"
+            "$GITHUB_WORKSPACE/patches/0024-win-joblimiter-release-race.patch" \
+            "$GITHUB_WORKSPACE/patches/0025-win-sellang-default-vi-langpack.patch"
           echo "CORE_DIR=$RUNNER_TEMP/core" >> "$GITHUB_ENV"
 
       # ---------- platform deps ----------
