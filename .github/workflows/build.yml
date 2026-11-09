@@ -403,6 +403,15 @@ jobs:
           if exist config_build.mk findstr /C:"STRAWBERRY_PERL=C:" config_build.mk
           if exist config_build.mk if errorlevel 1 echo STRAWBERRY_PERL=C:/Users/runneradmin/lo/spp/perl/bin/perl.exe>>config_build.mk
           if exist config_build.mk findstr /C:"STRAWBERRY_PERL=C:" config_build.mk
+          rem round 37 (win-arm64): same NASM disease as round 23 on the host
+          rem side - with MSYSTEM set gbuild hands nasm cygwin-style /d/...
+          rem paths which the native nasm.exe cannot open ("fatal: unable to
+          rem open output file"). Point the build-side NASM at msys2's, which
+          rem reads both path styles; openssl keeps finding the native one
+          rem via PATH (its nmake never uses $(NASM)).
+          if exist config_build.mk findstr /C:"NASM=" config_build.mk
+          if exist config_build.mk if errorlevel 1 echo NASM=C:/msys64/usr/bin/nasm.exe>>config_build.mk
+          if exist config_build.mk findstr /C:"NASM=" config_build.mk
           findstr /C:"GIT_NEEDED_SUBMODULES" config_build.mk
           make fetch -j8 || exit /b 1
           findstr /C:"WSL=" config_host.mk
