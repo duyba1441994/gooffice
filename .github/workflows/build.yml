@@ -409,9 +409,13 @@ jobs:
           rem open output file"). Point the build-side NASM at msys2's, which
           rem reads both path styles; openssl keeps finding the native one
           rem via PATH (its nmake never uses $(NASM)).
-          if exist config_build.mk findstr /C:"NASM=" config_build.mk
-          if exist config_build.mk if errorlevel 1 echo NASM=C:/msys64/usr/bin/nasm.exe>>config_build.mk
-          if exist config_build.mk findstr /C:"NASM=" config_build.mk
+          rem round 38 fix: configure already writes an EMPTY "export NASM="
+          rem line into config_build.mk, so the guarded append skipped itself
+          rem (findstr matched the empty line) and round 37 died exactly like
+          rem round 36. Append unconditionally instead - last definition
+          rem wins, mirroring the config_host.mk treatment.
+          if exist config_build.mk echo NASM=C:/msys64/usr/bin/nasm.exe>>config_build.mk
+          if exist config_build.mk findstr /C:"NASM=C:" config_build.mk
           findstr /C:"GIT_NEEDED_SUBMODULES" config_build.mk
           make fetch -j8 || exit /b 1
           findstr /C:"WSL=" config_host.mk
