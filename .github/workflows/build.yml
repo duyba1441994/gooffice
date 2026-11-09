@@ -380,6 +380,16 @@ jobs:
           rem ":=" expands $(PATH) once at read time (simply-expanded)
           if exist config_build.mk echo export PATH := C:/Program Files/Git/cmd;$(PATH)>>config_build.mk
           if exist config_host.mk echo export PATH := C:/Program Files/Git/cmd;$(PATH)>>config_host.mk
+          rem round 35 (win-arm64): the cross-toolset sub-make (gb_Side=build)
+          rem includes config_build.mk (Makefile.gbuild: config_$(gb_Side).mk),
+          rem which configure leaves without STRAWBERRY_PERL -> the openssl
+          rem recipe (MSC branch) exports an empty PERL and nmake never starts:
+          rem "Configure: command not found". Same disease as the empty
+          rem STRAWBERRY_PERL in config_host.mk; bake the real path on the
+          rem build side too (last definition wins).
+          if exist config_build.mk findstr /C:"STRAWBERRY_PERL=C:" config_build.mk
+          if exist config_build.mk if errorlevel 1 echo STRAWBERRY_PERL=C:/Users/runneradmin/lo/spp/perl/bin/perl.exe>>config_build.mk
+          if exist config_build.mk findstr /C:"STRAWBERRY_PERL=C:" config_build.mk
           findstr /C:"GIT_NEEDED_SUBMODULES" config_build.mk
           make fetch -j8 || exit /b 1
           findstr /C:"WSL=" config_host.mk
