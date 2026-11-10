@@ -448,6 +448,26 @@ jobs:
           )
 
       # ---------- artifacts ----------
+      - name: Localize MSI installer wizard to Vietnamese
+        if: startsWith(matrix.platform, 'win-')
+        shell: pwsh
+        run: |
+          # The multilang MSI keeps its UI tables in the FIRST setup language
+          # (en-US), so the installation wizard is always English. Rewrite the
+          # Control/RadioButton/UIText/ActionText/Error/LaunchCondition tables
+          # with the upstream vi msi_languages.po translations + glossary
+          # fallbacks for the strings upstream leaves empty.
+          $po = Join-Path $env:CORE_DIR 'translations/source/vi/instsetoo_native/inc_openoffice/windows/msi_languages.po'
+          $script = Join-Path $env:GITHUB_WORKSPACE 'scripts/msi-localize-vi.ps1'
+          $msis = Get-ChildItem -Path (Join-Path $env:CORE_DIR 'workdir/installation') -Recurse -Filter *.msi |
+            Where-Object { $_.FullName -match '\\msi\\install\\' }
+          if (-not (Test-Path $po)) { throw "po not found: $po" }
+          if (-not (Test-Path $script)) { throw "script not found: $script" }
+          foreach ($m in $msis) {
+            Write-Host "Localizing $($m.FullName)"
+            & $script -MsiPath $m.FullName -PoPath $po
+          }
+
       - name: Locate installer artifacts
         shell: bash
         run: |
