@@ -126,6 +126,19 @@ jobs:
             "$GITHUB_WORKSPACE"/patches/translations/*.patch
           echo "CORE_DIR=$RUNNER_TEMP/core" >> "$GITHUB_ENV"
 
+      # ---------- branding ----------
+      - name: Brand MSI wizard bitmaps (GoOffice)
+        if: startsWith(matrix.platform, 'win-')
+        shell: bash
+        run: |
+          # replace the LibreOffice box-art sidebar/top-banner of the MSI
+          # wizard with GoOffice-branded bitmaps (same dimensions as the
+          # templates: Image 162x312, Banner 632x57)
+          cp "$GITHUB_WORKSPACE/branding/msi/Image.bmp" \
+             "$CORE_DIR/instsetoo_native/inc_common/windows/msi_templates/Binary/Image.bmp"
+          cp "$GITHUB_WORKSPACE/branding/msi/Banner.bmp" \
+             "$CORE_DIR/instsetoo_native/inc_common/windows/msi_templates/Binary/Banner.bmp"
+
       # ---------- platform deps ----------
       - name: Install deps (Linux arm64)
         if: matrix.platform == 'linux-arm64'
