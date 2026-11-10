@@ -1,0 +1,547 @@
+diff --git a/source/vi/sfx2/messages.po b/source/vi/sfx2/messages.po
+index 222610f..b1f5079 100644
+--- a/source/vi/sfx2/messages.po
++++ b/source/vi/sfx2/messages.po
+@@ -1,20 +1,6 @@
+-#. extracted from sfx2
++﻿#. extracted from sfx2
+ msgid ""
+-msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
+-"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+-"POT-Creation-Date: 2026-06-16 12:24+0200\n"
+-"PO-Revision-Date: 2025-03-05 00:05+0000\n"
+-"Last-Translator: Hoàng Ngọc Long <dragonknight192105@yahoo.com>\n"
+-"Language-Team: Vietnamese <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/vi/>\n"
+-"Language: vi\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Accelerator-Marker: ~\n"
+-"X-Generator: LibreOffice\n"
+-"X-POOTLE-MTIME: 1540151882.000000\n"
++msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\nPOT-Creation-Date: 2026-06-16 12:24+0200\nPO-Revision-Date: 2025-03-05 00:05+0000\nLast-Translator: Hoàng Ngọc Long <dragonknight192105@yahoo.com>\nLanguage-Team: Vietnamese <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/vi/>\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Accelerator-Marker: ~\nX-Generator: LibreOffice\nX-POOTLE-MTIME: 1540151882.000000\n"
+ 
+ #. bHbFE
+ #: include/sfx2/strings.hrc:27
+@@ -112,9 +98,7 @@ msgctxt "STR_TEMPLATE_TOOLTIP"
+ msgid ""
+ "Title: $1\n"
+ "Category: $2"
+-msgstr ""
+-"Tiêu đề: $1\n"
+-"Danh mục: $2"
++msgstr "Tiêu đề: $1\nDanh mục: $2"
+ 
+ #. W2X7Y
+ #: include/sfx2/strings.hrc:43
+@@ -219,9 +203,7 @@ msgctxt "STR_XMLSEC_QUERY_SAVESIGNEDBEFORESIGN"
+ msgid ""
+ "The document has to be saved before it can be signed. Saving the document removes all present signatures.\n"
+ "Do you want to save the document?"
+-msgstr ""
+-"Tài liệu cần phải được lưu trước khi có thể thêm chữ ký. Chức năng lưu tài liệu cũng gỡ bỏ bất cứ chữ ký nào đã có.\n"
+-"Bạn có muốn lưu tài liệu không?"
++msgstr "Tài liệu cần phải được lưu trước khi có thể thêm chữ ký. Chức năng lưu tài liệu cũng gỡ bỏ bất cứ chữ ký nào đã có.\nBạn có muốn lưu tài liệu không?"
+ 
+ #. iFaMb
+ #: include/sfx2/strings.hrc:62
+@@ -289,9 +271,7 @@ msgctxt "STR_MSG_ERROR_LOCAL_MOVE"
+ msgid ""
+ "Error moving the following templates to $1.\n"
+ "$2"
+-msgstr ""
+-"Lỗi khi di chuyển các mẫu sau sang $1:\n"
+-"$2"
++msgstr "Lỗi khi di chuyển các mẫu sau sang $1:\n$2"
+ 
+ #. Sh34g
+ #: include/sfx2/strings.hrc:73
+@@ -299,9 +279,7 @@ msgctxt "STR_MSG_ERROR_EXPORT"
+ msgid ""
+ "Error exporting the following templates:\n"
+ "$1"
+-msgstr ""
+-"Lỗi khi xuất các mẫu sau:\n"
+-"$1"
++msgstr "Lỗi khi xuất các mẫu sau:\n$1"
+ 
+ #. NFsZu
+ #: include/sfx2/strings.hrc:74
+@@ -309,9 +287,7 @@ msgctxt "STR_MSG_ERROR_IMPORT"
+ msgid ""
+ "Error importing the following templates to $1:\n"
+ "$2"
+-msgstr ""
+-"Lỗi khi nhập các mẫu sau sang $1:\n"
+-"$2"
++msgstr "Lỗi khi nhập các mẫu sau sang $1:\n$2"
+ 
+ #. g5zLe
+ #: include/sfx2/strings.hrc:75
+@@ -319,9 +295,7 @@ msgctxt "STR_MSG_ERROR_DELETE_TEMPLATE"
+ msgid ""
+ "The following templates cannot be deleted:\n"
+ "$1"
+-msgstr ""
+-"Không thể xóa các mẫu sau:\n"
+-"$1"
++msgstr "Không thể xóa các mẫu sau:\n$1"
+ 
+ #. 89xV6
+ #: include/sfx2/strings.hrc:76
+@@ -329,9 +303,7 @@ msgctxt "STR_MSG_ERROR_DELETE_FOLDER"
+ msgid ""
+ "The following folders cannot be deleted:\n"
+ "$1"
+-msgstr ""
+-"Không thể xóa các thư mục sau:\n"
+-"$1"
++msgstr "Không thể xóa các thư mục sau:\n$1"
+ 
+ #. buPTz
+ #: include/sfx2/strings.hrc:77
+@@ -495,9 +467,7 @@ msgctxt "STR_NO_WEBBROWSER_FOUND"
+ msgid ""
+ "Opening \"$(ARG1)\" failed with error code $(ARG2) and message: \"$(ARG3)\"\n"
+ "Maybe no web browser could be found on your system. In that case, please check your Desktop Preferences or install a web browser (for example, Firefox) in the default location requested during the browser installation."
+-msgstr ""
+-"Mở \"$(ARG1)\" thất bại với mã lỗi $(ARG2) và tin nhắn: \"$(ARG3)\"\n"
+-"Có thể không có trình duyệt web nào tìm thấy tên hệ thống của bạn. Trong trường hợp đó, vui lòng kiểm tra Tùy chọn Desktop hoặc cài đặt một trình duyệt web (ví dụ như Firefox) ở vị trí mặc định trong quá trình cài đặt trình duyệt."
++msgstr "Mở \"$(ARG1)\" thất bại với mã lỗi $(ARG2) và tin nhắn: \"$(ARG3)\"\nCó thể không có trình duyệt web nào tìm thấy tên hệ thống của bạn. Trong trường hợp đó, vui lòng kiểm tra Tùy chọn Desktop hoặc cài đặt một trình duyệt web (ví dụ như Firefox) ở vị trí mặc định trong quá trình cài đặt trình duyệt."
+ 
+ #. QEABe
+ #: include/sfx2/strings.hrc:106
+@@ -505,9 +475,7 @@ msgctxt "STR_DANGEROUS_TO_OPEN"
+ msgid ""
+ "It might be dangerous to open \"$(ARG1)\".\n"
+ "Do you really want to open it?"
+-msgstr ""
+-"Có thể nguy hiểm khi mở \"$(ARG1)\".\n"
+-"Bạn có thực sự muốn mở nó không?"
++msgstr "Có thể nguy hiểm khi mở \"$(ARG1)\".\nBạn có thực sự muốn mở nó không?"
+ 
+ #. ADqLM
+ #: include/sfx2/strings.hrc:107
+@@ -751,11 +719,7 @@ msgid ""
+ "\n"
+ "Would you like to change the document, and update all links\n"
+ "to get the most recent data?"
+-msgstr ""
+-"Tài liệu %{filename} chứa một hoặc nhiều đường dẫn đến dữ liệu ngoài.\n"
+-"\n"
+-"Bạn có muốn thay đổi tài liệu, và cập nhật tất cả các đường dẫn\n"
+-"để lấy dữ liệu mới nhất?"
++msgstr "Tài liệu %{filename} chứa một hoặc nhiều đường dẫn đến dữ liệu ngoài.\n\nBạn có muốn thay đổi tài liệu, và cập nhật tất cả các đường dẫn\nđể lấy dữ liệu mới nhất?"
+ 
+ #. zJGEM
+ #: include/sfx2/strings.hrc:147
+@@ -769,9 +733,7 @@ msgctxt "STR_SECURITY_WARNING_NO_HYPERLINKS"
+ msgid ""
+ "For security reasons, the hyperlink cannot be executed.\n"
+ "The stated address will not be opened."
+-msgstr ""
+-"Vì lý do bảo mật, không thể thực hiện siêu liên kết này.\n"
+-"Địa chỉ đã nêu sẽ không được mở."
++msgstr "Vì lý do bảo mật, không thể thực hiện siêu liên kết này.\nĐịa chỉ đã nêu sẽ không được mở."
+ 
+ #. vcMzA
+ #: include/sfx2/strings.hrc:149
+@@ -812,9 +774,7 @@ msgctxt "RID_SVXSTR_XMLSEC_QUERY_LOSINGSIGNATURE"
+ msgid ""
+ "Saving will remove all existing signatures.\n"
+ "Do you want to continue saving the document?"
+-msgstr ""
+-"Việc lưu sẽ gỡ bỏ tất cả các chữ ký đã có.\n"
+-"Bạn có muốn tiếp tục lưu tài liệu này không?"
++msgstr "Việc lưu sẽ gỡ bỏ tất cả các chữ ký đã có.\nBạn có muốn tiếp tục lưu tài liệu này không?"
+ 
+ #. zxeJ7
+ #: include/sfx2/strings.hrc:158
+@@ -830,9 +790,7 @@ msgctxt "RID_SVXSTR_XMLSEC_QUERY_SAVEBEFORESIGN"
+ msgid ""
+ "The document has to be saved before it can be signed.\n"
+ "Do you want to save the document?"
+-msgstr ""
+-"Cần phải lưu tài liệu trước khi ký.\n"
+-"Bạn có muốn lưu tài liệu này không?"
++msgstr "Cần phải lưu tài liệu trước khi ký.\nBạn có muốn lưu tài liệu này không?"
+ 
+ #. zNVEd
+ #: include/sfx2/strings.hrc:160
+@@ -840,9 +798,7 @@ msgctxt "STR_QUERY_CANCELCHECKOUT"
+ msgid ""
+ "This will discard all changes on the server since check-out.\n"
+ "Do you want to proceed?"
+-msgstr ""
+-"Điều này sẽ hủy tất cả các thay đổi trên máy chủ kể từ lúc hiệu chỉnh.\n"
+-"Bạn có muốn tiếp tục?"
++msgstr "Điều này sẽ hủy tất cả các thay đổi trên máy chủ kể từ lúc hiệu chỉnh.\nBạn có muốn tiếp tục?"
+ 
+ #. QeNqB
+ #: include/sfx2/strings.hrc:161
+@@ -933,11 +889,7 @@ msgid ""
+ "could not be found.\n"
+ "\n"
+ "Check spelling of method name."
+-msgstr ""
+-"Không tìm thấy phương pháp thành phần\n"
+-"thích hợp %1.\n"
+-"\n"
+-"Hãy kiểm tra xem bạn đã chính tả đúng tên phương pháp."
++msgstr "Không tìm thấy phương pháp thành phần\nthích hợp %1.\n\nHãy kiểm tra xem bạn đã chính tả đúng tên phương pháp."
+ 
+ #. 2FLYB
+ #: include/sfx2/strings.hrc:176
+@@ -984,12 +936,7 @@ msgid ""
+ "\n"
+ "Exit change recording mode?\n"
+ "\n"
+-msgstr ""
+-"Hành động này sẽ thoát khỏi chế độ ghi thay đổi.\n"
+-"Không có thông tin về thay đổi sẽ được ghi lại kể từ lúc này.\n"
+-"\n"
+-"Thoát khỏi chế độ ghi thay đổi?\n"
+-"\n"
++msgstr "Hành động này sẽ thoát khỏi chế độ ghi thay đổi.\nKhông có thông tin về thay đổi sẽ được ghi lại kể từ lúc này.\n\nThoát khỏi chế độ ghi thay đổi?\n\n"
+ 
+ #. E2CcY
+ #: include/sfx2/strings.hrc:183
+@@ -1033,9 +980,7 @@ msgctxt "STR_FILTER_NOT_INSTALLED"
+ msgid ""
+ "The selected filter $(FILTER) has not been installed.\n"
+ "Would you like to do this now?"
+-msgstr ""
+-"Bộ lọc đã chọn $(FILTER) chưa được cài đặt.\n"
+-"Bạn có muốn cài đặt nó ngay không?"
++msgstr "Bộ lọc đã chọn $(FILTER) chưa được cài đặt.\nBạn có muốn cài đặt nó ngay không?"
+ 
+ #. gQhYY
+ #: include/sfx2/strings.hrc:192
+@@ -1043,9 +988,7 @@ msgctxt "STR_FILTER_CONSULT_SERVICE"
+ msgid ""
+ "The selected filter $(FILTER) is not included in your edition.\n"
+ "You can find information about orders on our homepage."
+-msgstr ""
+-"Bộ lọc đã chọn $(FILTER) không nằm trong bản in này.\n"
+-"Bạn có thể xem thông tin về đơn đặt hàng trên chỗ Web của chúng tôi."
++msgstr "Bộ lọc đã chọn $(FILTER) không nằm trong bản in này.\nBạn có thể xem thông tin về đơn đặt hàng trên chỗ Web của chúng tôi."
+ 
+ #. HQg4A
+ #: include/sfx2/strings.hrc:194
+@@ -1243,9 +1186,7 @@ msgctxt "STR_SFX_QUERY_WRONG_TYPE"
+ msgid ""
+ "The value entered does not match the specified type.\n"
+ "The value will be stored as text."
+-msgstr ""
+-"Giá trị đã nhập không hợp kiểu chỉ định.\n"
+-"Giá trị này sẽ được khôi khục dưới dạng văn bản."
++msgstr "Giá trị đã nhập không hợp kiểu chỉ định.\nGiá trị này sẽ được khôi khục dưới dạng văn bản."
+ 
+ #. cinmA
+ #: include/sfx2/strings.hrc:235
+@@ -1277,9 +1218,7 @@ msgctxt "STR_TABPAGE_INVALIDPARENT"
+ msgid ""
+ "This Style cannot be used as a base Style,\n"
+ "because it would result in a recursive reference."
+-msgstr ""
+-"Kiểu này không thể được dùng như là một kiểu cơ bản,\n"
+-"bởi vì nó sẽ dẫn đến kết quả là tham chiếu đệ quy."
++msgstr "Kiểu này không thể được dùng như là một kiểu cơ bản,\nbởi vì nó sẽ dẫn đến kết quả là tham chiếu đệ quy."
+ 
+ #. 9ffGh
+ #: include/sfx2/strings.hrc:241
+@@ -1299,9 +1238,7 @@ msgctxt "STR_POOL_STYLE_NAME"
+ msgid ""
+ "Name already exists as a default Style.\n"
+ "Please choose another name."
+-msgstr ""
+-"Tên này đã tồn tại như là kiểu dáng mặc định.\n"
+-"Hãy chọn tên khác."
++msgstr "Tên này đã tồn tại như là kiểu dáng mặc định.\nHãy chọn tên khác."
+ 
+ #. NWDmA
+ #: include/sfx2/strings.hrc:244
+@@ -1310,10 +1247,7 @@ msgid ""
+ "One or more of the selected styles is in use in this document.\n"
+ "If you will delete it, text or objects using these styles will revert to the parent style.\n"
+ "Do you still wish to delete these styles?\n"
+-msgstr ""
+-"Một hoặc nhiều các kiểu đã chọn đang được sử dụng trong tài liệu này.\n"
+-"Nếu như bạn xóa chúng, văn bản hoặc đối tượng đang sử dụng các kiểu này sẽ trở về kiểu gốc.\n"
+-"Bạn vẫn muốn xóa các kiểu này?\n"
++msgstr "Một hoặc nhiều các kiểu đã chọn đang được sử dụng trong tài liệu này.\nNếu như bạn xóa chúng, văn bản hoặc đối tượng đang sử dụng các kiểu này sẽ trở về kiểu gốc.\nBạn vẫn muốn xóa các kiểu này?\n"
+ 
+ #. kuD77
+ #: include/sfx2/strings.hrc:245
+@@ -1393,9 +1327,7 @@ msgctxt "STR_NODEFPRINTER"
+ msgid ""
+ "No default printer found.\n"
+ "Please choose a printer and try again."
+-msgstr ""
+-"Không tìm thấy máy in mặc định.\n"
+-"Hãy chọn một máy in và thử lại."
++msgstr "Không tìm thấy máy in mặc định.\nHãy chọn một máy in và thử lại."
+ 
+ #. a3NTu
+ #: include/sfx2/strings.hrc:263
+@@ -1403,9 +1335,7 @@ msgctxt "STR_NOSTARTPRINTER"
+ msgid ""
+ "Could not start printer.\n"
+ "Please check your printer configuration."
+-msgstr ""
+-"Không thể khởi chạy máy in.\n"
+-"Hãy kiểm tra lại cấu hình máy in đó."
++msgstr "Không thể khởi chạy máy in.\nHãy kiểm tra lại cấu hình máy in đó."
+ 
+ #. acKHX
+ #: include/sfx2/strings.hrc:264
+@@ -1426,10 +1356,7 @@ msgid ""
+ "The page size and orientation have been modified.\n"
+ "Would you like to save the new settings in the\n"
+ "active document?"
+-msgstr ""
+-"Kích cỡ và hướng của trang đã bị thay đổi.\n"
+-"Bạn có muốn lưu thiết lập mới này trong\n"
+-"tài liệu hoạt động không?"
++msgstr "Kích cỡ và hướng của trang đã bị thay đổi.\nBạn có muốn lưu thiết lập mới này trong\ntài liệu hoạt động không?"
+ 
+ #. cxuAH
+ #: include/sfx2/strings.hrc:267
+@@ -1438,10 +1365,7 @@ msgid ""
+ "The page size has been modified.\n"
+ "Should the new settings be saved\n"
+ "in the active document?"
+-msgstr ""
+-"Kích cỡ của trang đã bị sửa đổi.\n"
+-"Có nên lưu thiết lập mới\n"
+-"vào tài liệu hoạt động không?"
++msgstr "Kích cỡ của trang đã bị sửa đổi.\nCó nên lưu thiết lập mới\nvào tài liệu hoạt động không?"
+ 
+ #. 4QJxB
+ #: include/sfx2/strings.hrc:268
+@@ -1450,10 +1374,7 @@ msgid ""
+ "The page size and orientation have been modified.\n"
+ "Would you like to save the new settings in the\n"
+ "active document?"
+-msgstr ""
+-"Kích cỡ và hướng của trang đã bị thay đổi.\n"
+-"Bạn có muốn lưu thiết lập mới này trong\n"
+-"tài liệu hoạt động không?"
++msgstr "Kích cỡ và hướng của trang đã bị thay đổi.\nBạn có muốn lưu thiết lập mới này trong\ntài liệu hoạt động không?"
+ 
+ #. RXbfs
+ #: include/sfx2/strings.hrc:269
+@@ -1461,9 +1382,7 @@ msgctxt "STR_CANT_CLOSE"
+ msgid ""
+ "The document cannot be closed because a\n"
+ " print job is being carried out."
+-msgstr ""
+-"Không thể đóng tài liệu vì\n"
+-" công việc in đang được thực hiện."
++msgstr "Không thể đóng tài liệu vì\n công việc in đang được thực hiện."
+ 
+ #. YGyQP
+ #: include/sfx2/strings.hrc:270
+@@ -1471,9 +1390,7 @@ msgctxt "STR_ERROR_SEND_MAIL"
+ msgid ""
+ "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
+ "Please check the %PRODUCTNAME settings or your email program settings."
+-msgstr ""
+-"Xảy ra lỗi khi gửi tin nhắn. Các lỗi có thể xảy ra do thiếu tài khoản người dùng hoặc thiết lập bị lỗi.\n"
+-"Vui lòng kiểm tra lại cài đặt %PRODUCTNAME hoặc cài đặt chương trình email của bạn."
++msgstr "Xảy ra lỗi khi gửi tin nhắn. Các lỗi có thể xảy ra do thiếu tài khoản người dùng hoặc thiết lập bị lỗi.\nVui lòng kiểm tra lại cài đặt %PRODUCTNAME hoặc cài đặt chương trình email của bạn."
+ 
+ #. X6uDp
+ #: include/sfx2/strings.hrc:271
+@@ -1503,10 +1420,7 @@ msgid ""
+ "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
+ "\n"
+ "Error code is $1"
+-msgstr ""
+-"Xảy ra lỗi khi gửi tin nhắn. Các lỗi có thể xảy ra do thiếu tài khoản người dùng hoặc thiết lập bị lỗi.\n"
+-"\n"
+-"Mã lỗi là $1"
++msgstr "Xảy ra lỗi khi gửi tin nhắn. Các lỗi có thể xảy ra do thiếu tài khoản người dùng hoặc thiết lập bị lỗi.\n\nMã lỗi là $1"
+ 
+ #. ZWTDr
+ #: include/sfx2/strings.hrc:276
+@@ -1526,9 +1440,7 @@ msgctxt "STR_QUERY_OPENASTEMPLATE_LOCKED"
+ msgid ""
+ "This document cannot be edited, because it is locked in another session.%LOCKINFO\n"
+ "Do you want to edit a copy of the document?"
+-msgstr ""
+-"Tài liệu này không thể được chỉnh sửa, vì nó đang bị khóa trong một phiên khác.%LOCKINFO\n"
+-"Bạn có muốn chỉnh sửa một bản sao của tài liệu không?"
++msgstr "Tài liệu này không thể được chỉnh sửa, vì nó đang bị khóa trong một phiên khác.%LOCKINFO\nBạn có muốn chỉnh sửa một bản sao của tài liệu không?"
+ 
+ #. n3sMB
+ #: include/sfx2/strings.hrc:279
+@@ -5132,13 +5044,13 @@ msgstr ""
+ #: sfx2/uiconfig/ui/startcenter.ui:17
+ msgctxt "startcenter|clear_all"
+ msgid "Clear Recent Documents"
+-msgstr ""
++msgstr "Xóa tài liệu gần đây"
+ 
+ #. zmWnH
+ #: sfx2/uiconfig/ui/startcenter.ui:24
+ msgctxt "startcenter|clear_unavailable"
+ msgid "Clear Unavailable Files"
+-msgstr ""
++msgstr "Xóa các tệp không khả dụng"
+ 
+ #. isnw8
+ #: sfx2/uiconfig/ui/startcenter.ui:115
+@@ -5151,20 +5063,20 @@ msgstr "Mở tập tin"
+ #: sfx2/uiconfig/ui/startcenter.ui:136
+ msgctxt "startcenter|open_remote"
+ msgid "Remote File_s"
+-msgstr ""
++msgstr "Tệp trê_n mây"
+ 
+ #. ZUnZ9
+ #: sfx2/uiconfig/ui/startcenter.ui:169
+ msgctxt "startcenter|open_recent"
+ msgid "_Recent Documents"
+-msgstr ""
++msgstr "_Tài liệu gần đây"
+ 
+ #. BnkvG
+ #: sfx2/uiconfig/ui/startcenter.ui:189
+ #, fuzzy
+ msgctxt "startcenter|templates_all"
+ msgid "T_emplates"
+-msgstr "Mẫu :"
++msgstr "_Mẫu tài liệu"
+ 
+ #. JEkqY
+ #: sfx2/uiconfig/ui/startcenter.ui:226
+@@ -5178,37 +5090,37 @@ msgstr "Tạo:"
+ #, fuzzy
+ msgctxt "startcenter|writer_all"
+ msgid "_Writer Document"
+-msgstr "Tài liệu chủ"
++msgstr "_Tài liệu Writer"
+ 
+ #. Bvz5c
+ #: sfx2/uiconfig/ui/startcenter.ui:257
+ msgctxt "startcenter|calc_all"
+ msgid "_Calc Spreadsheet"
+-msgstr ""
++msgstr "_Bảng tính Calc"
+ 
+ #. RxGP6
+ #: sfx2/uiconfig/ui/startcenter.ui:277
+ msgctxt "startcenter|impress_all"
+ msgid "_Impress Presentation"
+-msgstr ""
++msgstr "_Trình chiếu Impress"
+ 
+ #. 7fE2M
+ #: sfx2/uiconfig/ui/startcenter.ui:297
+ msgctxt "startcenter|draw_all"
+ msgid "_Draw Drawing"
+-msgstr ""
++msgstr "_Bản vẽ Draw"
+ 
+ #. 7wn8r
+ #: sfx2/uiconfig/ui/startcenter.ui:317
+ msgctxt "startcenter|math_all"
+ msgid "_Math Formula"
+-msgstr ""
++msgstr "_Công thức Math"
+ 
+ #. nnwDC
+ #: sfx2/uiconfig/ui/startcenter.ui:337
+ msgctxt "startcenter|database_all"
+ msgid "_Base Database"
+-msgstr ""
++msgstr "_Cơ sở dữ liệu Base"
+ 
+ #. ZEDmn
+ #: sfx2/uiconfig/ui/startcenter.ui:359
+@@ -5222,7 +5134,7 @@ msgstr "Trợ giúp"
+ #, fuzzy
+ msgctxt "startcenter|extensions"
+ msgid "E_xtensions"
+-msgstr "Mở rộng"
++msgstr "_Phần mở rộng"
+ 
+ #. rDw4E
+ #: sfx2/uiconfig/ui/startcenter.ui:502
+@@ -5234,55 +5146,55 @@ msgstr "Ứng dụng"
+ #: sfx2/uiconfig/ui/startcenter.ui:522
+ msgctxt "startcenter|all_recent_label"
+ msgid "Recent Files List"
+-msgstr ""
++msgstr "Danh sách tệp gần đây"
+ 
+ #. kho2B
+ #: sfx2/uiconfig/ui/startcenter.ui:535
+ msgctxt "startcenter|local_view_label"
+ msgid "Templates List"
+-msgstr ""
++msgstr "Danh sách mẫu tài liệu"
+ 
+ #. FcFBB
+ #: sfx2/uiconfig/ui/startcenter.ui:560
+ msgctxt "startcenter|filter_label"
+ msgid "Filter:"
+-msgstr ""
++msgstr "Bộ lọc:"
+ 
+ #. KyntM
+ #: sfx2/uiconfig/ui/startcenter.ui:577
+ msgctxt "startcenter|filter_none"
+ msgid "All Documents"
+-msgstr ""
++msgstr "Tất cả tài liệu"
+ 
+ #. fAxHB
+ #: sfx2/uiconfig/ui/startcenter.ui:578
+ msgctxt "startcenter|filter_writer"
+ msgid "Text Documents"
+-msgstr ""
++msgstr "Tài liệu văn bản"
+ 
+ #. zdYmN
+ #: sfx2/uiconfig/ui/startcenter.ui:579
+ msgctxt "startcenter|filter_calc"
+ msgid "Spreadsheets"
+-msgstr ""
++msgstr "Bảng tính"
+ 
+ #. DZVJB
+ #: sfx2/uiconfig/ui/startcenter.ui:580
+ msgctxt "startcenter|filter_impress"
+ msgid "Presentations"
+-msgstr ""
++msgstr "Bản trình chiếu"
+ 
+ #. 67F9T
+ #: sfx2/uiconfig/ui/startcenter.ui:581
+ msgctxt "startcenter|filter_draw"
+ msgid "Drawings"
+-msgstr ""
++msgstr "Bản vẽ"
+ 
+ #. ZCQZB
+ #: sfx2/uiconfig/ui/startcenter.ui:598
+ msgctxt "startcenter|mbActions|tool_tip"
+ msgid "Actions"
+-msgstr ""
++msgstr "Thao tác"
+ 
+ #. wB5su
+ #: sfx2/uiconfig/ui/startcenter.ui:708
+@@ -5429,7 +5341,7 @@ msgstr ""
+ #: sfx2/uiconfig/ui/templatedlg.ui:184
+ msgctxt "templatedlg|applist"
+ msgid "Text Documents"
+-msgstr ""
++msgstr "Tài liệu văn bản"
+ 
+ #. eECt7
+ #: sfx2/uiconfig/ui/templatedlg.ui:185
