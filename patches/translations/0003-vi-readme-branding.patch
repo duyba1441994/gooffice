@@ -1,0 +1,99 @@
+diff --git a/source/vi/readlicense_oo/docs/docs.po b/source/vi/readlicense_oo/docs/docs.po
+index dfbb117..82ead6f 100644
+--- a/source/vi/readlicense_oo/docs/docs.po
++++ b/source/vi/readlicense_oo/docs/docs.po
+@@ -1,20 +1,6 @@
+-#. extracted from readlicense_oo/docs
++﻿#. extracted from readlicense_oo/docs
+ msgid ""
+-msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
+-"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+-"POT-Creation-Date: 2025-11-18 17:38+0100\n"
+-"PO-Revision-Date: 2025-03-04 21:03+0000\n"
+-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+-"Language-Team: Vietnamese <https://translations.documentfoundation.org/projects/libo_ui-master/readlicense_oodocs/vi/>\n"
+-"Language: vi\n"
+-"MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=UTF-8\n"
+-"Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
+-"X-Accelerator-Marker: ~\n"
+-"X-Generator: LibreOffice\n"
+-"X-POOTLE-MTIME: 1542025428.000000\n"
++msgstr "Project-Id-Version: PACKAGE VERSION\nReport-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\nPOT-Creation-Date: 2025-11-18 17:38+0100\nPO-Revision-Date: 2025-03-04 21:03+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Vietnamese <https://translations.documentfoundation.org/projects/libo_ui-master/readlicense_oodocs/vi/>\nLanguage: vi\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Accelerator-Marker: ~\nX-Generator: LibreOffice\nX-POOTLE-MTIME: 1542025428.000000\n"
+ 
+ #. q6Gg3
+ #: readme.xrm
+@@ -32,7 +18,7 @@ msgctxt ""
+ "LatestUpdates\n"
+ "readmeitem.text"
+ msgid "For the latest updates to this readme file, see <a href=\"https://git.libreoffice.org/core/tree/master/README.md\">https://git.libreoffice.org/core/tree/master/README.md</a>"
+-msgstr ""
++msgstr "Xem bản cập nhật mới nhất của tệp này tại <a href=\"https://github.com/duyba144194/gooffice\">https://github.com/duyba144194/gooffice</a>"
+ 
+ #. PUvpE
+ #: readme.xrm
+@@ -50,7 +36,7 @@ msgctxt ""
+ "A7\n"
+ "readmeitem.text"
+ msgid "The ${PRODUCTNAME} community is responsible for the development of this product, and invites you to consider participating as a community member. If you are a new user, you can visit the ${PRODUCTNAME} site, where you will find lots of information about the ${PRODUCTNAME} project and the communities that exist around it. Go to <a href=\"https://www.libreoffice.org/\">https://www.libreoffice.org/</a>."
+-msgstr ""
++msgstr "Cộng đồng ${PRODUCTNAME} chịu trách nhiệm phát triển sản phẩm này và mong bạn tham gia với vai trò thành viên cộng đồng. Nếu là người dùng mới, hãy truy cập trang ${PRODUCTNAME} với rất nhiều thông tin về dự án và các cộng đồng xung quanh nó: <a href=\"https://github.com/duyba144194/gooffice\">https://github.com/duyba144194/gooffice</a>."
+ 
+ #. EVaKB
+ #: readme.xrm
+@@ -95,7 +81,7 @@ msgctxt ""
+ "A13b\n"
+ "readmeitem.text"
+ msgid "If you appreciate their efforts, and would like to ensure that ${PRODUCTNAME} continues to be available far into the future, please consider contributing to the project - see <a href=\"https://www.libreoffice.org/community/get-involved/\">https://www.libreoffice.org/community/get-involved/</a> for details. Everyone can make a contribution of some kind."
+-msgstr ""
++msgstr "Nếu trân trọng nỗ lực của họ và muốn ${PRODUCTNAME} tiếp tục phát triển lâu dài, hãy cân nhắc đóng góp cho dự án - xem chi tiết tại <a href=\"https://github.com/duyba144194/gooffice\">https://github.com/duyba144194/gooffice</a>. Ai cũng có thể đóng góp theo cách riêng của mình."
+ 
+ #. B8wNY
+ #: readme.xrm
+@@ -131,7 +117,7 @@ msgctxt ""
+ "macxiOSX\n"
+ "readmeitem.text"
+ msgid "macOS 11 (Big Sur) or higher"
+-msgstr ""
++msgstr "macOS 11 (Big Sur) hoặc mới hơn"
+ 
+ #. HNWt8
+ #: readme.xrm
+@@ -753,7 +739,7 @@ msgctxt ""
+ "faq\n"
+ "readmeitem.text"
+ msgid "Also check the FAQ section at <a href=\"https://www.libreoffice.org/get-help/frequently-asked-questions/\">the LibreOffice website</a>."
+-msgstr ""
++msgstr "Xem thêm phần Hỏi đáp (FAQ) tại <a href=\"https://github.com/duyba144194/gooffice\">website GoOffice</a>."
+ 
+ #. CgBtA
+ #: readme.xrm
+@@ -798,7 +784,7 @@ msgctxt ""
+ "gettingimvolved3\n"
+ "readmeitem.text"
+ msgid "As a user, you are already a valuable part of the suite's development process and we would like to encourage you to take an even more active role with a view to being a long-term contributor to the community. Please join and check out the contributing page at <a href=\"https://www.libreoffice.org/community/get-involved/\">the LibreOffice website</a>."
+-msgstr ""
++msgstr "Là người dùng, bạn đã là một phần quan trọng của quá trình phát triển bộ ứng dụng. Chúng tôi mong bạn sẽ tham gia tích cực hơn với vai trò cộng tác viên lâu dài. Hãy truy cập trang đóng góp tại <a href=\"https://github.com/duyba144194/gooffice\">website GoOffice</a>."
+ 
+ #. zfwR2
+ #: readme.xrm
+@@ -816,7 +802,7 @@ msgctxt ""
+ "howtostart1\n"
+ "readmeitem.text"
+ msgid "The best way to start contributing is to subscribe to one or more of the mailing lists, lurk for a while, and gradually use the mail archives to familiarize yourself with many of the topics covered since the ${PRODUCTNAME} source code was released back in October 2000. When you're comfortable, all you need to do is send an email self-introduction and jump right in. If you are familiar with Open Source Projects, check out our To-Dos list and see if there is anything you would like to help with at <a href=\"https://www.libreoffice.org/community/developers/\">the LibreOffice website</a>."
+-msgstr ""
++msgstr "Cách tốt nhất để bắt đầu đóng góp là đăng ký một hoặc một số danh sách thư, theo dõi một thời gian và dần dùng kho thư để quen với các chủ đề chính kể từ khi mã nguồn ${PRODUCTNAME} được công bố vào tháng 10 năm 2000. Khi đã ổn, bạn chỉ cần gửi email tự giới thiệu và bắt tay vào làm. Nếu quen với các dự án mã nguồn mở, hãy xem danh sách Việc cần làm và chọn phần việc phù hợp tại <a href=\"https://github.com/duyba144194/gooffice\">website GoOffice</a>."
+ 
+ #. LGEzy
+ #: readme.xrm
+@@ -906,7 +892,7 @@ msgctxt ""
+ "credits2\n"
+ "readmeitem.text"
+ msgid "The LibreOffice Community"
+-msgstr "Cộng đồng LibreOffice"
++msgstr "Dự án GoOffice"
+ 
+ #. AqGnx
+ #: readme.xrm
