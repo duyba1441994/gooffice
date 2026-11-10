@@ -9,6 +9,7 @@ branding/          Bộ nhận diện GoOffice (intro.png, logo*.svg, about.svg,
 autogen/           File autogen.input cho từng nền tảng build
 scripts/           Script build local (Windows x64, Linux x64)
 patches/           Patch riêng cho source LibreOffice (nếu cần)
+patches/translations/  Patch bổ sung bản dịch tiếng Việt (áp vào repo LibreOffice/translations)
 .github/workflows/ CI GitHub Actions cho macOS arm64/x64, Windows arm64, Linux arm64
 ```
 
