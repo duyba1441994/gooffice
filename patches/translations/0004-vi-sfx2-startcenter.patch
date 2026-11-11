@@ -1,10 +1,9 @@
 diff --git a/source/vi/sfx2/messages.po b/source/vi/sfx2/messages.po
-index 222610f..b1f5079 100644
+index 222610f..1acbf6d 100644
 --- a/source/vi/sfx2/messages.po
 +++ b/source/vi/sfx2/messages.po
 @@ -1,20 +1,6 @@
--#. extracted from sfx2
-+﻿#. extracted from sfx2
+ #. extracted from sfx2
  msgid ""
 -msgstr ""
 -"Project-Id-Version: PACKAGE VERSION\n"

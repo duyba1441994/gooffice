@@ -1,10 +1,9 @@
 diff --git a/source/vi/instsetoo_native/inc_openoffice/windows/msi_languages.po b/source/vi/instsetoo_native/inc_openoffice/windows/msi_languages.po
-index 065165c..f2de1a0 100644
+index 065165c..8d160a8 100644
 --- a/source/vi/instsetoo_native/inc_openoffice/windows/msi_languages.po
 +++ b/source/vi/instsetoo_native/inc_openoffice/windows/msi_languages.po
 @@ -1,20 +1,6 @@
--#. extracted from instsetoo_native/inc_openoffice/windows/msi_languages
-+﻿#. extracted from instsetoo_native/inc_openoffice/windows/msi_languages
+ #. extracted from instsetoo_native/inc_openoffice/windows/msi_languages
  msgid ""
 -msgstr ""
 -"Project-Id-Version: PACKAGE VERSION\n"
