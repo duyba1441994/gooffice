@@ -1,7 +1,7 @@
-diff --git a/source/vi/readlicense_oo/docs/docs.po b/source/vi/readlicense_oo/docs/docs.po
+diff --git a/source/vi/readlicense_oo/docs.po b/source/vi/readlicense_oo/docs.po
 index dfbb117..0a2947b 100644
---- a/source/vi/readlicense_oo/docs/docs.po
-+++ b/source/vi/readlicense_oo/docs/docs.po
+--- a/source/vi/readlicense_oo/docs.po
++++ b/source/vi/readlicense_oo/docs.po
 @@ -1,20 +1,6 @@
  #. extracted from readlicense_oo/docs
  msgid ""
