@@ -118,7 +118,8 @@ jobs:
             "$GITHUB_WORKSPACE/patches/0022-win-zip-via-python.patch" \
             "$GITHUB_WORKSPACE/patches/0023-win-scp2-langdir-pureperl.patch" \
             "$GITHUB_WORKSPACE/patches/0024-win-joblimiter-release-race.patch" \
-            "$GITHUB_WORKSPACE/patches/0025-win-sellang-default-vi-langpack.patch"
+            "$GITHUB_WORKSPACE/patches/0025-win-sellang-default-vi-langpack.patch" \
+            "$GITHUB_WORKSPACE/patches/0026-gooffice-vi-factory-uinames.patch"
           # Vietnamese translation fixes, applied inside the translations repo:
           # upstream vi .po has many fuzzy/empty entries, which the build
           # silently replaces with English (half-English menus/toolbars).
