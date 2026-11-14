@@ -43,7 +43,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value>Writer</value>
-+          <value>Văn bản tổng hợp</value>
++          <value>Tài liệu chủ</value>
          </prop>
          <prop oor:name="ooSetupFactoryWindowStateConfigRef">
            <value>WriterGlobalWindowState</value>
@@ -52,7 +52,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value>Writer</value>
-+          <value>Văn bản</value>
++          <value>Tài liệu</value>
          </prop>
          <prop oor:name="ooSetupFactoryWindowStateConfigRef">
            <value>WriterWindowState</value>
@@ -61,7 +61,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Database Form</value>
-+          <value xml:lang="en-US">Base: Biểu mẫu</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Biểu mẫu</value>
          </prop>
          <prop oor:name="ooSetupFactoryWindowStateConfigRef">
            <value>WriterFormWindowState</value>
@@ -70,7 +70,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Report Design</value>
-+          <value xml:lang="en-US">Base: Thiết kế báo cáo</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Thiết kế báo cáo</value>
          </prop>
          <prop oor:name="ooSetupFactoryWindowStateConfigRef">
            <value>WriterReportWindowState</value>
@@ -88,7 +88,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value>Writer/Web</value>
-+          <value>Văn bản Web</value>
++          <value>Tài liệu Web</value>
          </prop>
          <prop oor:name="ooSetupFactoryWindowStateConfigRef">
            <value>WriterWebWindowState</value>
@@ -97,7 +97,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Relation Design</value>
-+          <value xml:lang="en-US">Base: Thiết kế quan hệ</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Thiết kế quan hệ</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.sdb.QueryDesign" oor:op="replace" install:module="base">
@@ -106,7 +106,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Query Design</value>
-+          <value xml:lang="en-US">Base: Thiết kế truy vấn</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Thiết kế truy vấn</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.sdb.ViewDesign" oor:op="replace" install:module="base">
@@ -115,7 +115,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: View Design</value>
-+          <value xml:lang="en-US">Base: Thiết kế truy vấn</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Thiết kế khung nhìn</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.sdb.TableDesign" oor:op="replace" install:module="base">
@@ -124,7 +124,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Table Design</value>
-+          <value xml:lang="en-US">Base: Thiết kế bảng</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Thiết kế bảng</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.sdb.DataSourceBrowser" oor:op="replace" install:module="base">
@@ -133,7 +133,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Data View</value>
-+          <value xml:lang="en-US">Base: Xem dữ liệu</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Xem dữ liệu</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.sdb.TableDataView" oor:op="replace" install:module="base">
@@ -142,7 +142,7 @@ index 9b282bcf2..c9b4f3e47 100644
          </prop>
          <prop oor:name="ooSetupFactoryUIName">
 -          <value xml:lang="en-US">Base: Table Data View</value>
-+          <value xml:lang="en-US">Base: Xem dữ liệu bảng</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Xem dữ liệu bảng</value>
          </prop>
        </node>
        <node oor:name="com.sun.star.frame.Bibliography" oor:op="replace">

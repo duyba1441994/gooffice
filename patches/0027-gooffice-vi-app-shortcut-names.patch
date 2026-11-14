@@ -1,0 +1,216 @@
+diff --git a/officecfg/registry/data/org/openoffice/Setup.xcu b/officecfg/registry/data/org/openoffice/Setup.xcu
+index b5a4426..02faebf 100644
+--- a/officecfg/registry/data/org/openoffice/Setup.xcu
++++ b/officecfg/registry/data/org/openoffice/Setup.xcu
+@@ -749,7 +749,7 @@
+           <value>GenericCategories</value>
+         </prop>
+         <prop oor:name="ooSetupFactoryUIName">
+-          <value>Base</value>
++          <value>Cơ sở dữ liệu</value>
+         </prop>
+       </node>
+       <node oor:name="com.sun.star.report.ReportDefinition" oor:op="replace" install:module="reportbuilder">
+@@ -769,7 +769,7 @@
+           <value>GenericCategories</value>
+         </prop>
+         <prop oor:name="ooSetupFactoryUIName">
+-          <value xml:lang="en-US">Base: Report Builder</value>
++          <value xml:lang="en-US">Cơ sở dữ liệu: Trình tạo báo cáo</value>
+         </prop>
+       </node>
+     </node>
+diff --git a/scp2/source/base/folderitem_base.scp b/scp2/source/base/folderitem_base.scp
+index 75e1d5d..a7f77a5 100644
+--- a/scp2/source/base/folderitem_base.scp
++++ b/scp2/source/base/folderitem_base.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Sbase
+-    Name = "%PRODUCTNAME Base";
++    Name = "%PRODUCTNAME Cơ sở dữ liệu";
+     ModuleID = gid_Module_Prg_Base_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_base_brand_exe_sbase;
+diff --git a/scp2/source/calc/folderitem_calc.scp b/scp2/source/calc/folderitem_calc.scp
+index a41ade6..d8919ba 100644
+--- a/scp2/source/calc/folderitem_calc.scp
++++ b/scp2/source/calc/folderitem_calc.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Scalc
+-    Name = "%PRODUCTNAME Calc";
++    Name = "%PRODUCTNAME Bảng tính";
+     ModuleID = gid_Module_Prg_Calc_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_calc_brand_exe_scalc;
+diff --git a/scp2/source/draw/folderitem_draw.scp b/scp2/source/draw/folderitem_draw.scp
+index 5dc8757..542b628 100644
+--- a/scp2/source/draw/folderitem_draw.scp
++++ b/scp2/source/draw/folderitem_draw.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Sdraw
+-    Name = "%PRODUCTNAME Draw";
++    Name = "%PRODUCTNAME Bản vẽ";
+     ModuleID = gid_Module_Prg_Draw_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_draw_brand_exe_sdraw;
+diff --git a/scp2/source/impress/folderitem_impress.scp b/scp2/source/impress/folderitem_impress.scp
+index c35221b..7640d07 100644
+--- a/scp2/source/impress/folderitem_impress.scp
++++ b/scp2/source/impress/folderitem_impress.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Simpress
+-    Name = "%PRODUCTNAME Impress";
++    Name = "%PRODUCTNAME Trình chiếu";
+     ModuleID = gid_Module_Prg_Impress_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_impress_brand_exe_simpress;
+diff --git a/scp2/source/math/folderitem_math.scp b/scp2/source/math/folderitem_math.scp
+index 44ddc07..012886c 100644
+--- a/scp2/source/math/folderitem_math.scp
++++ b/scp2/source/math/folderitem_math.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Smath
+-    Name = "%PRODUCTNAME Math";
++    Name = "%PRODUCTNAME Công thức";
+     ModuleID = gid_Module_Prg_Math_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_math_brand_exe_smath;
+diff --git a/scp2/source/writer/folderitem_writer.scp b/scp2/source/writer/folderitem_writer.scp
+index 306fc88..669f25b 100644
+--- a/scp2/source/writer/folderitem_writer.scp
++++ b/scp2/source/writer/folderitem_writer.scp
+@@ -20,7 +20,7 @@
+ 
+ #ifndef ENABLE_SILENT_MSI
+ FolderItem gid_Folderitem_Swriter
+-    Name = "%PRODUCTNAME Writer";
++    Name = "%PRODUCTNAME Tài liệu";
+     ModuleID = gid_Module_Prg_Wrt_Bin;
+     FolderID = gid_Folder_Staroffice51;
+     FileID = auto_writer_brand_exe_swriter;
+diff --git a/sysui/desktop/menus/base.desktop b/sysui/desktop/menus/base.desktop
+index 89e3d61..a1b29f4 100644
+--- a/sysui/desktop/menus/base.desktop
++++ b/sysui/desktop/menus/base.desktop
+@@ -23,7 +23,7 @@ Type=Application
+ Categories=Office;Database;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --base %%FILE%%
+ MimeType=application/vnd.oasis.opendocument.base;application/vnd.sun.xml.base;
+-Name=%PRODUCTNAME Base
++Name=%PRODUCTNAME Cơ sở dữ liệu
+ GenericName=Database Development
+ Comment=Manage databases, create queries and reports to track and manage your information.
+ StartupNotify=true
+diff --git a/sysui/desktop/menus/calc.desktop b/sysui/desktop/menus/calc.desktop
+index 9d4477a..1e36900 100644
+--- a/sysui/desktop/menus/calc.desktop
++++ b/sysui/desktop/menus/calc.desktop
+@@ -23,7 +23,7 @@ Type=Application
+ Categories=Office;Spreadsheet;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --calc %%FILE%%
+ MimeType=application/clarisworks;application/csv;application/excel;application/msexcel;application/tab-separated-values;application/vnd.apache.parquet;application/vnd.apple.numbers;application/vnd.lotus-1-2-3;application/vnd.ms-excel;application/vnd.ms-excel.sheet.binary.macroEnabled.12;application/vnd.ms-excel.sheet.macroEnabled.12;application/vnd.ms-excel.template.macroEnabled.12;application/vnd.ms-works;application/vnd.oasis.opendocument.chart;application/vnd.oasis.opendocument.chart-template;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.spreadsheet-template;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.stardivision.calc;application/vnd.stardivision.chart;application/vnd.sun.xml.calc;application/vnd.sun.xml.calc.template;application/x-123;application/x-dbase;application/x-dbf;application/x-dos_ms_excel;application/x-excel;application/x-gnumeric;application/x-iwork-numbers-sffnumbers;application/x-ms-excel;application/x-msexcel;application/x-quattropro;application/x-starcalc;application/x-starchart;text/comma-separated-values;text/csv;text/spreadsheet;text/tab-separated-values;text/x-comma-separated-values;text/x-csv;
+-Name=%PRODUCTNAME Calc
++Name=%PRODUCTNAME Bảng tính
+ GenericName=Spreadsheet
+ Comment=Perform calculations, analyze information and manage lists in spreadsheets.
+ StartupNotify=true
+diff --git a/sysui/desktop/menus/draw.desktop b/sysui/desktop/menus/draw.desktop
+index 39bc3bb..bc3e8c2 100644
+--- a/sysui/desktop/menus/draw.desktop
++++ b/sysui/desktop/menus/draw.desktop
+@@ -23,7 +23,7 @@ Type=Application
+ Categories=Office;FlowChart;Graphics;2DGraphics;VectorGraphics;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --draw %%FILE%%
+ MimeType=application/clarisworks;application/pdf;application/vnd.corel-draw;application/vnd.ms-publisher;application/vnd.oasis.opendocument.graphics;application/vnd.oasis.opendocument.graphics-flat-xml;application/vnd.oasis.opendocument.graphics-template;application/vnd.quark.quarkxpress;application/vnd.stardivision.draw;application/vnd.sun.xml.draw;application/vnd.sun.xml.draw.template;application/vnd.visio;application/x-pagemaker;application/x-stardraw;application/x-wpg;image/x-emf;image/x-freehand;image/x-wmf;
+-Name=%PRODUCTNAME Draw
++Name=%PRODUCTNAME Bản vẽ
+ GenericName=Drawing Program
+ Comment=Create and edit drawings, flow charts and logos.
+ StartupNotify=true
+diff --git a/sysui/desktop/menus/impress.desktop b/sysui/desktop/menus/impress.desktop
+index a080a83..03674a5 100644
+--- a/sysui/desktop/menus/impress.desktop
++++ b/sysui/desktop/menus/impress.desktop
+@@ -23,7 +23,7 @@ Type=Application
+ Categories=Office;Presentation;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --impress %%FILE%%
+ MimeType=application/mspowerpoint;application/vnd.apple.keynote;application/vnd.ms-powerpoint;application/vnd.ms-powerpoint.presentation.macroEnabled.12;application/vnd.ms-powerpoint.slideshow.macroEnabled.12;application/vnd.ms-powerpoint.template.macroEnabled.12;application/vnd.oasis.opendocument.presentation;application/vnd.oasis.opendocument.presentation-flat-xml;application/vnd.oasis.opendocument.presentation-template;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.slide;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.stardivision.impress;application/vnd.sun.xml.impress;application/vnd.sun.xml.impress.template;application/x-iwork-keynote-sffkey;application/x-starimpress;
+-Name=%PRODUCTNAME Impress
++Name=%PRODUCTNAME Trình chiếu
+ GenericName=Presentation
+ Comment=Create and edit presentations for slideshows, meetings and Web pages.
+ StartupNotify=true
+diff --git a/sysui/desktop/menus/math.desktop b/sysui/desktop/menus/math.desktop
+index 917be8f..485a0b7 100644
+--- a/sysui/desktop/menus/math.desktop
++++ b/sysui/desktop/menus/math.desktop
+@@ -24,7 +24,7 @@ Type=Application
+ Categories=Office;Education;Science;Math;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --math %%FILE%%
+ MimeType=application/mathml+xml;application/vnd.oasis.opendocument.formula;application/vnd.oasis.opendocument.formula-template;application/vnd.stardivision.math;application/vnd.sun.xml.math;application/x-starmath;text/mathml;
+-Name=%PRODUCTNAME Math
++Name=%PRODUCTNAME Công thức
+ GenericName=Formula Editor
+ Comment=Create and edit scientific formulas and equations.
+ StartupNotify=true
+diff --git a/sysui/desktop/menus/startcenter.desktop b/sysui/desktop/menus/startcenter.desktop
+index 2077dd0..346c7fb 100644
+--- a/sysui/desktop/menus/startcenter.desktop
++++ b/sysui/desktop/menus/startcenter.desktop
+@@ -36,27 +36,27 @@ X-KDE-Protocols=file,http,webdav,webdavs
+ Actions=Writer;Calc;Impress;Draw;Base;Math;
+ 
+ [Desktop Action Writer]
+-Name=Writer
++Name=Tài liệu
+ Exec=${UNIXBASISROOTNAME} --writer
+ 
+ [Desktop Action Calc]
+-Name=Calc
++Name=Bảng tính
+ Exec=${UNIXBASISROOTNAME} --calc
+ 
+ [Desktop Action Impress]
+-Name=Impress
++Name=Trình chiếu
+ Exec=${UNIXBASISROOTNAME} --impress
+ 
+ [Desktop Action Draw]
+-Name=Draw
++Name=Bản vẽ
+ Exec=${UNIXBASISROOTNAME} --draw
+ 
+ [Desktop Action Base]
+-Name=Base
++Name=Cơ sở dữ liệu
+ Exec=${UNIXBASISROOTNAME} --base
+ 
+ [Desktop Action Math]
+-Name=Math
++Name=Công thức
+ Exec=${UNIXBASISROOTNAME} --math
+ 
+ ##End of actions menu
+diff --git a/sysui/desktop/menus/writer.desktop b/sysui/desktop/menus/writer.desktop
+index 200decb..666747c 100644
+--- a/sysui/desktop/menus/writer.desktop
++++ b/sysui/desktop/menus/writer.desktop
+@@ -23,7 +23,7 @@ Type=Application
+ Categories=Office;WordProcessor;X-Red-Hat-Base;
+ Exec=${UNIXBASISROOTNAME} --writer %%FILE%%
+ MimeType=application/clarisworks;application/docbook+xml;application/macwriteii;application/msword;application/prs.plucker;application/rtf;application/vnd.apple.pages;application/vnd.lotus-wordpro;application/vnd.ms-word;application/vnd.ms-word.document.macroEnabled.12;application/vnd.ms-word.template.macroEnabled.12;application/vnd.ms-works;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.text-master;application/vnd.oasis.opendocument.text-master-template;application/vnd.oasis.opendocument.text-template;application/vnd.oasis.opendocument.text-web;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.palm;application/vnd.stardivision.writer-global;application/vnd.sun.xml.writer;application/vnd.sun.xml.writer.global;application/vnd.sun.xml.writer.template;application/vnd.wordperfect;application/wordperfect;application/x-abiword;application/x-aportisdoc;application/x-doc;application/x-extension-txt;application/x-fictionbook+xml;application/x-hwp;application/x-iwork-pages-sffpages;application/x-mswrite;application/x-pocket-word;application/x-sony-bbeb;application/x-starwriter;application/x-starwriter-global;application/x-t602;text/plain;text/rtf;
+-Name=%PRODUCTNAME Writer
++Name=%PRODUCTNAME Tài liệu
+ GenericName=Word Processor
+ Comment=Create and edit text and graphics in letters, reports, documents and Web pages.
+ StartupNotify=true
