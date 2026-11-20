@@ -2,6 +2,19 @@
 
 > Bộ office mã nguồn mở dựa trên LibreOffice, mang thương hiệu GoOffice.
 > **30-10-2026: 5/5 nền tảng + QA tổng thể hoàn tất** 🏆 — chi tiết QA: `docs/QA-REPORT.md`
+> **20-11-2026 (PC mới GoAI): tích hợp xong nhánh vi-app-names, 5/5 nền tảng xanh** ✅
+
+## Phiên 20-11 (PC mới — GoAI, nhận repo qua rar từ PC cũ 19-11)
+
+- **PC mới setup lại**: cài Git 2.56 + gh 2.105 (winget), gh auth device-flow, repo-local `autocrlf=false` (29 file nhiễu CRLF từ rar đã chuẩn hóa — không mất WIP gì)
+- **CI 19-11 chết vì billing GitHub tạm thời** (repo vẫn public) → rerun là sống
+- **win-arm64 CI XANH từ 15-11** (runs 43674752986/43674744231) — việc port round 34+ đã xong từ trước, ai cần cập nhật guide cũ
+- **Tích hợp nhánh `vi-app-names` vào main** (commit 7acb876): patch dịch của nhánh sinh trên base khác, không apply trực tiếp → clone translations@26.8.2.2, `git apply --reject` + resolve 9 hunks cui theo giá trị nhánh, đánh lại số 0006-vi-app-names + 0007-vi-sfx2-vcl-fpicker; 0026 bản v2 (Tài liệu chủ/Bảng tính/Cơ sở dữ liệu...) + 0027 shortcut names; build.yml chuyển sang apply từng patch (patch sau dựa cây của patch trước). Verify: full chain sạch từ pristine, tree hash cuối trùng cây đích; 0026/0027 apply sạch trên file tag core
+- **GTK**: gtk3 đã bật sẵn mọi bản Linux (đủ, giữ nguyên — không bật gtk4 vội); deb không khai `Depends: libgtk-3-0` (giống TDF); kit test Ubuntu 24.04 tại `docs/GTK-UBUNTU-TEST.md` + `setup/check-gtk-linux.sh`; bộ cài Linux 44 deb đã copy ra `C:\Users\GoAI\GoOffice\ubuntu-test-kit\`
+- **Đã cài win-x64 build 7acb876 lên PC mới**: MSI từ run 44660983715 (xanh), gỡ cũ (ProductCode cũ) + cài main + helppack vi; verify 3/3 UIName Việt trong xcd (Tài liệu chủ/Bảng tính/Cơ sở dữ liệu: Biểu mẫu) + smoke html→txt PASS. Lưu ý: mỗi CI build regen GUID → phải gỡ trước cài sau (không upgrade trực tiếp được)
+- **Đang chạy**: linux-arm64 (44689488662) + macos-arm64/x64-cross (44689492639) cho commit mới
+
+
 
 ## Kết quả QA (30-10)
 - **License**: phần tự viết sạch (không verbatim GPL/Apache); 9 patch chỉ chạm file MPL; install có license.txt/NOTICE/CREDITS
