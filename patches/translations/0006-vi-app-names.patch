@@ -1,0 +1,2608 @@
+diff --git a/source/vi/chart2/messages.po b/source/vi/chart2/messages.po
+index 58ea513a..a71b1cad 100644
+--- a/source/vi/chart2/messages.po
++++ b/source/vi/chart2/messages.po
+@@ -4007,13 +4007,13 @@ msgstr "Phạm vi cho %VALUETYPE"
+ #: chart2/uiconfig/ui/tp_DataSource.ui:338
+ msgctxt "tp_DataSource|extended_tip|EDT_RANGE"
+ msgid "Shows the source range address from the second column of the Data Range list box. You can change the range in the text box or by dragging in the document. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Hiển thị địa chỉ của phạm vi nguồn từ cột thứ hai của hộp liệt kê Phạm vi Dữ liệu. Bạn có thể thay đổi phạm vi trong hộp văn bản, hoặc bằng cách kéo trong tài liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Hiển thị địa chỉ của phạm vi nguồn từ cột thứ hai của hộp liệt kê Phạm vi Dữ liệu. Bạn có thể thay đổi phạm vi trong hộp văn bản, hoặc bằng cách kéo trong tài liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. CwKet
+ #: chart2/uiconfig/ui/tp_DataSource.ui:356
+ msgctxt "tp_DataSource|extended_tip|IMB_RANGE_MAIN"
+ msgid "Shows the source range address from the second column of the Data Range list box. You can change the range in the text box or by dragging in the document. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Hiển thị địa chỉ của phạm vi nguồn từ cột thứ hai của hộp liệt kê Phạm vi Dữ liệu. Bạn có thể thay đổi phạm vi trong hộp văn bản, hoặc bằng cách kéo trong tài liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Hiển thị địa chỉ của phạm vi nguồn từ cột thứ hai của hộp liệt kê Phạm vi Dữ liệu. Bạn có thể thay đổi phạm vi trong hộp văn bản, hoặc bằng cách kéo trong tài liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. FX2CF
+ #: chart2/uiconfig/ui/tp_DataSource.ui:381
+@@ -4031,13 +4031,13 @@ msgstr "Nhãn Dữ liệu (_L)"
+ #: chart2/uiconfig/ui/tp_DataSource.ui:427
+ msgctxt "tp_DataSource|extended_tip|EDT_CATEGORIES"
+ msgid "Shows the source range address of the categories (the texts you can see on the x-axis of a category chart). For an XY-chart, the text box contains the source range of the data labels which are displayed for the data points. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Hiển thị địa chỉ phạm vi nguồn của phân loại (chuỗi văn bản bạn thấy trên trục X của đồ thị phân loại). Đối với đồ thị kiểu XY, hộp văn bản chứa phạm vi nguồn của nhãn dữ liệu được hiển thị cho điểm dữ liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Hiển thị địa chỉ phạm vi nguồn của phân loại (chuỗi văn bản bạn thấy trên trục X của đồ thị phân loại). Đối với đồ thị kiểu XY, hộp văn bản chứa phạm vi nguồn của nhãn dữ liệu được hiển thị cho điểm dữ liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. EYFEo
+ #: chart2/uiconfig/ui/tp_DataSource.ui:445
+ msgctxt "tp_DataSource|extended_tip|IMB_RANGE_CAT"
+ msgid "Shows the source range address of the categories (the texts you can see on the x-axis of a category chart). For an XY-chart, the text box contains the source range of the data labels which are displayed for the data points. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Hiển thị địa chỉ phạm vi nguồn của phân loại (chuỗi văn bản bạn thấy trên trục X của đồ thị phân loại). Đối với đồ thị kiểu XY, hộp văn bản chứa phạm vi nguồn của nhãn dữ liệu được hiển thị cho điểm dữ liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Hiển thị địa chỉ phạm vi nguồn của phân loại (chuỗi văn bản bạn thấy trên trục X của đồ thị phân loại). Đối với đồ thị kiểu XY, hộp văn bản chứa phạm vi nguồn của nhãn dữ liệu được hiển thị cho điểm dữ liệu. Để thu nhỏ hộp thoại này trong khi bạn chọn phạm vi dữ liệu trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. YwALA
+ #: chart2/uiconfig/ui/tp_DataSource.ui:482
+@@ -4469,7 +4469,7 @@ msgstr "Phạm vi _Dữ liệu:"
+ #: chart2/uiconfig/ui/tp_RangeChooser.ui:69
+ msgctxt "tp_RangeChooser|extended_tip|ED_RANGE"
+ msgid "Enter the data range that you want to include in your chart. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Gõ phạm vi dữ liệu bạn muốn chèn vào đồ thị. Để thu nhỏ hộp thoại này trong khi chọn phạm vi trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Gõ phạm vi dữ liệu bạn muốn chèn vào đồ thị. Để thu nhỏ hộp thoại này trong khi chọn phạm vi trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. FyVoD
+ #: chart2/uiconfig/ui/tp_RangeChooser.ui:83
+@@ -4481,7 +4481,7 @@ msgstr "Chọn phạm vi dữ liệu"
+ #: chart2/uiconfig/ui/tp_RangeChooser.ui:88
+ msgctxt "tp_RangeChooser|extended_tip|IB_RANGE"
+ msgid "Enter the data range that you want to include in your chart. To minimize this dialog while you select the data range in Calc, click the Select data range button."
+-msgstr "Gõ phạm vi dữ liệu bạn muốn chèn vào đồ thị. Để thu nhỏ hộp thoại này trong khi chọn phạm vi trong Calc, nhấn vào nút Chọn phạm vi dữ liệu."
++msgstr "Gõ phạm vi dữ liệu bạn muốn chèn vào đồ thị. Để thu nhỏ hộp thoại này trong khi chọn phạm vi trong %PRODUCTNAME Bảng tính, nhấn vào nút Chọn phạm vi dữ liệu."
+ 
+ #. RGGHE
+ #: chart2/uiconfig/ui/tp_RangeChooser.ui:105
+diff --git a/source/vi/connectivity/registry/writer/org/openoffice/Office/DataAccess.po b/source/vi/connectivity/registry/writer/org/openoffice/Office/DataAccess.po
+index 562e379b..90c70a7e 100644
+--- a/source/vi/connectivity/registry/writer/org/openoffice/Office/DataAccess.po
++++ b/source/vi/connectivity/registry/writer/org/openoffice/Office/DataAccess.po
+@@ -24,4 +24,4 @@ msgctxt ""
+ "DriverTypeDisplayName\n"
+ "value.text"
+ msgid "Writer Document"
+-msgstr "Tài liệu Writer"
++msgstr "Tài liệu văn bản"
+diff --git a/source/vi/cui/messages.po b/source/vi/cui/messages.po
+index 63d3ccfd..e7555421 100644
+--- a/source/vi/cui/messages.po
++++ b/source/vi/cui/messages.po
+@@ -1350,25 +1350,25 @@ msgstr "Thông điệp:"
+ #: cui/inc/strings.hrc:242
+ msgctxt "RID_SVXSTR_CHG_MATH"
+ msgid "MathType to %PRODUCTNAME Math or reverse"
+-msgstr "MathType thành %PRODUCTNAME Math hoặc ngược lại"
++msgstr "MathType thành %PRODUCTNAME Công thức hoặc ngược lại"
+ 
+ #. Ttggs
+ #: cui/inc/strings.hrc:243
+ msgctxt "RID_SVXSTR_CHG_WRITER"
+ msgid "WinWord to %PRODUCTNAME Writer or reverse"
+-msgstr "WinWord thành %PRODUCTNAME Writer hoặc ngược lại"
++msgstr "WinWord thành %PRODUCTNAME Tài liệu hoặc ngược lại"
+ 
+ #. ZJRKY
+ #: cui/inc/strings.hrc:244
+ msgctxt "RID_SVXSTR_CHG_CALC"
+ msgid "Excel to %PRODUCTNAME Calc or reverse"
+-msgstr "Excel sang %PRODUCTNAME hoặc ngược lại"
++msgstr "Excel sang %PRODUCTNAME Bảng tính hoặc ngược lại"
+ 
+ #. VmuND
+ #: cui/inc/strings.hrc:245
+ msgctxt "RID_SVXSTR_CHG_IMPRESS"
+ msgid "PowerPoint to %PRODUCTNAME Impress or reverse"
+-msgstr "PowerPoint thành %PRODUCTNAME Impress hoặc ngược lại"
++msgstr "PowerPoint thành %PRODUCTNAME Trình chiếu hoặc ngược lại"
+ 
+ #. Y6sza
+ #: cui/inc/strings.hrc:246
+@@ -1380,13 +1380,13 @@ msgstr "SmartArt thành hình dạng %PRODUCTNAME"
+ #: cui/inc/strings.hrc:247
+ msgctxt "RID_SVXSTR_CHG_VISIO"
+ msgid "Visio to %PRODUCTNAME Draw"
+-msgstr "Visio sang %PRODUCTNAME Draw"
++msgstr "Visio sang %PRODUCTNAME Bản vẽ"
+ 
+ #. 6v3Ym
+ #: cui/inc/strings.hrc:248
+ msgctxt "RID_SVXSTR_CHG_PDF"
+ msgid "PDF to %PRODUCTNAME Draw"
+-msgstr "PDF sang %PRODUCTNAME Draw"
++msgstr "PDF sang %PRODUCTNAME Bản vẽ"
+ 
+ #. dDtDU
+ #: cui/inc/strings.hrc:250
+@@ -2611,7 +2611,7 @@ msgstr "Tô sáng văn bản"
+ #: cui/inc/strings.hrc:489
+ msgctxt "REG_CALCGRID"
+ msgid "Calc Grid"
+-msgstr "Lưới Calc"
++msgstr "Lưới Bảng tính"
+ 
+ #. mTTsD
+ #: cui/inc/strings.hrc:490
+@@ -2701,7 +2701,7 @@ msgstr "Công thức"
+ #: cui/inc/strings.hrc:504
+ msgctxt "REG_CALCTEXT"
+ msgid "Calc Text"
+-msgstr "Văn bản Calc"
++msgstr "Chữ Bảng tính"
+ 
+ #. DNpo8
+ #: cui/inc/strings.hrc:505
+@@ -2713,7 +2713,7 @@ msgstr "Nền ô được bảo vệ"
+ #: cui/inc/strings.hrc:506
+ msgctxt "REG_DRAWGRID"
+ msgid "Draw Grid"
+-msgstr "Lưới Draw"
++msgstr "Lưới Bản vẽ"
+ 
+ #. MFUFE
+ #: cui/inc/strings.hrc:507
+@@ -2875,31 +2875,31 @@ msgstr "Màu chữ cửa sổ"
+ #: cui/inc/strings.hrc:533
+ msgctxt "REG_WRITERNOTEBOOKBARCOLOR"
+ msgid "Writer Notebookbar color"
+-msgstr "Màu Notebookbar Writer"
++msgstr "Màu Notebookbar của Tài liệu"
+ 
+ #. hV3Yg
+ #: cui/inc/strings.hrc:534
+ msgctxt "REG_CALCNOTEBOOKBARCOLOR"
+ msgid "Calc Notebookbar color"
+-msgstr "Màu Notebookbar Calc"
++msgstr "Màu Notebookbar của Bảng tính"
+ 
+ #. 7WFsE
+ #: cui/inc/strings.hrc:535
+ msgctxt "REG_IMPRESSNOTEBOOKBARCOLOR"
+ msgid "Impress Notebookbar color"
+-msgstr "Màu Notebookbar Impress"
++msgstr "Màu Notebookbar của Trình chiếu"
+ 
+ #. k4bvX
+ #: cui/inc/strings.hrc:536
+ msgctxt "REG_DRAWNOTEBOOKBARCOLOR"
+ msgid "Draw Notebookbar color"
+-msgstr "Màu Notebookbar Draw"
++msgstr "Màu Notebookbar của Bản vẽ"
+ 
+ #. rESaU
+ #: cui/inc/strings.hrc:537
+ msgctxt "REG_BASECOLOR"
+ msgid "Base color"
+-msgstr "Màu Base"
++msgstr "Màu cơ sở"
+ 
+ #. BZsQs
+ #: cui/inc/strings.hrc:538
+@@ -3399,14 +3399,14 @@ msgstr "%PRODUCTNAME nhiều tuỳ giao diện người dùng để bạn cảm
+ #: cui/inc/tipoftheday.hrc:55
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Need to allow changes to parts of a read-only document in Writer? Insert frames or sections that can authorize changes."
+-msgstr "Cần phải cho phép thay đổi một số phần của tài liệu chỉ đọc trong Writer? Chèn khung hoặc các phần mà cho phép thay đổi."
++msgstr "Cần phải cho phép thay đổi một số phần của tài liệu chỉ đọc trong %PRODUCTNAME Tài liệu? Chèn khung hoặc các phần mà cho phép thay đổi."
+ 
+ #. BFjAp
+ #. local help missing
+ #: cui/inc/tipoftheday.hrc:56
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "To print the notes of your slides go to File ▸ Print ▸ %PRODUCTNAME Impress tab and select Notes under Document ▸ Type."
+-msgstr "Để in ghi chú của các trang chiếu vào Tệp ▸ In ▸ Thẻ %PRODUCTNAME Impress và chọn Ghi chú dưới Tài liệu ▸ Kiểu."
++msgstr "Để in ghi chú của các trang chiếu vào Tệp ▸ In ▸ Thẻ %PRODUCTNAME Trình chiếu và chọn Ghi chú dưới Tài liệu ▸ Kiểu."
+ 
+ #. yevwi
+ #: cui/inc/tipoftheday.hrc:57
+@@ -3419,7 +3419,7 @@ msgstr "Để khởi động tạm thời với hồ sơ người dùng mới, h
+ #: cui/inc/tipoftheday.hrc:58
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Writing a book? %PRODUCTNAME master document lets you manage large documents as a container for individual %PRODUCTNAME Writer files."
+-msgstr "Viết sách? %PRODUCTNAME Master document cho phép bạn quản lý các tài liệu lớn dưới dạng vùng chứa cho các tiệp %PRODUCTNAME Writer riêng lẻ."
++msgstr "Viết sách? %PRODUCTNAME Master document cho phép bạn quản lý các tài liệu lớn dưới dạng vùng chứa cho các tiệp %PRODUCTNAME Tài liệu riêng lẻ."
+ 
+ #. GQABP
+ #. local help missing
+@@ -3492,7 +3492,7 @@ msgstr "Để loại bỏ nhiều siêu liên kết cùng một lúc, lựa ch
+ #: cui/inc/tipoftheday.hrc:70
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "To zoom a selection to fit the entire window in Draw, use the / (divide key) on the number pad."
+-msgstr "Để thu phóng vùng chọn để vừa màn hình trong Draw, sử dụng phím / (phím chia) trên bàn phím số."
++msgstr "Để thu phóng vùng chọn để vừa màn hình trong %PRODUCTNAME Bản vẽ, sử dụng phím / (phím chia) trên bàn phím số."
+ 
+ #. xfHwX
+ #: cui/inc/tipoftheday.hrc:71
+@@ -3535,25 +3535,25 @@ msgstr "Muốn sắp xếp một bảng tổng hợp? Nhấn vào mũi tên củ
+ #: cui/inc/tipoftheday.hrc:77
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Display photos or images with different shapes in Writer. Insert and select shape, then Insert ▸ Image. To adjust image, right-click on selected shape and choose Area."
+-msgstr "Hiển thị các bức ảnh với những hình dạng khác nhau trong Writer. Chèn và chọn hình dạng, sau đó Chèn ▸ Hình ảnh. Để điều chỉnh hình ảnh, nhấn chuột phải vào hình dạng đã chọn, chọn Bề mặt."
++msgstr "Hiển thị các bức ảnh với những hình dạng khác nhau trong %PRODUCTNAME Tài liệu. Chèn và chọn hình dạng, sau đó Chèn ▸ Hình ảnh. Để điều chỉnh hình ảnh, nhấn chuột phải vào hình dạng đã chọn, chọn Bề mặt."
+ 
+ #. si5Y9
+ #: cui/inc/tipoftheday.hrc:78
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use Page/Slide ▸ Properties ▸ “Fit object to paper format” in Draw/Impress to resize the objects so that they fit on your chosen paper format."
+-msgstr "Sử dụng Trang/Trang chiếu ▸ Thuộc tính ▸ \"Vừa đối tượng với định dạng giấy\" trong Draw/Impress để thay đổi kích thước đối tượng sao cho chúng vừa với định dạng giấy bạn đã chọn."
++msgstr "Sử dụng Trang/Trang chiếu ▸ Thuộc tính ▸ \"Vừa đối tượng với định dạng giấy\" trong %PRODUCTNAME Bản vẽ/%PRODUCTNAME Trình chiếu để thay đổi kích thước đối tượng sao cho chúng vừa với định dạng giấy bạn đã chọn."
+ 
+ #. hj7H4
+ #: cui/inc/tipoftheday.hrc:79
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Fit the entire page in a Draw window, use * on the number pad."
+-msgstr "Điều chỉnh lại toàn bộ trang để vừa trong một cửa sổ Draw, sử dụng phím * trong bàn phím số."
++msgstr "Điều chỉnh lại toàn bộ trang để vừa trong một cửa sổ %PRODUCTNAME Bản vẽ, sử dụng phím * trong bàn phím số."
+ 
+ #. pESS4
+ #: cui/inc/tipoftheday.hrc:80
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "In a Draw page, use “-” to zoom out; “+” to zoom in."
+-msgstr "Trong một trang Draw, dùng phím “-” để thu nhỏ; “+” để phóng to."
++msgstr "Trong một trang %PRODUCTNAME Bản vẽ, dùng phím “-” để thu nhỏ; “+” để phóng to."
+ 
+ #. PJFH2
+ #: cui/inc/tipoftheday.hrc:81
+@@ -3566,7 +3566,7 @@ msgstr "Muốn hiển thị nội dung của một tài liệu khác trong tài
+ #: cui/inc/tipoftheday.hrc:82
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "To automatically number table rows in Writer, select the relevant column, then apply a List Style."
+-msgstr "Để tự động đánh số các hàng của bảng trong Writer, chọn cột liên quan, sau đó áp dụng Kiểu"
++msgstr "Để tự động đánh số các hàng của bảng trong %PRODUCTNAME Tài liệu, chọn cột liên quan, sau đó áp dụng Kiểu"
+ 
+ #. AzNEm
+ #. no local help URI
+@@ -3579,7 +3579,7 @@ msgstr "%PRODUCTNAME cho phép bạn sử dụng các công cụ hỗ trợ, nh
+ #: cui/inc/tipoftheday.hrc:84
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to sort a series in %PRODUCTNAME Calc such as A1, A2, A3, A11, A15, not in alphabetical order but on the number? Enable natural sort in the Options tab."
+-msgstr "Muốn sắp xếp một dãy trong %PRODUCTNAME Calc như A1, A2, A3, A11, A15, không theo thử tự chữ cái nhưng theo số? Bật sắp xếp tự nhiên trong thẻ Tuỳ chọn."
++msgstr "Muốn sắp xếp một dãy trong %PRODUCTNAME Bảng tính như A1, A2, A3, A11, A15, không theo thử tự chữ cái nhưng theo số? Bật sắp xếp tự nhiên trong thẻ Tuỳ chọn."
+ 
+ #. Wx8QG
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/scalc/01/12030200.html
+@@ -3592,7 +3592,7 @@ msgstr "Bạn có thể thay đổi chức năng mặc định trong thanh trạ
+ #: cui/inc/tipoftheday.hrc:86
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to add many of the same shapes in Draw/Impress? Double-click a tool in the drawing toolbar to use it for repeated tasks."
+-msgstr "Muốn thêm nhiều lần cùng một hình trong Draw/Impress? Nháy đúp chuột một công cụ trong thanh công cụ vẽ để sử dụng nó cho các tác vụ lặp lại."
++msgstr "Muốn thêm nhiều lần cùng một hình trong %PRODUCTNAME Bản vẽ/%PRODUCTNAME Trình chiếu? Nháy đúp chuột một công cụ trong thanh công cụ vẽ để sử dụng nó cho các tác vụ lặp lại."
+ 
+ #. xGWYj
+ #: cui/inc/tipoftheday.hrc:87
+@@ -3610,7 +3610,7 @@ msgstr "Muốn giữ một phần của tài liệu có thể chỉnh sửa đư
+ #: cui/inc/tipoftheday.hrc:89
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use the Backspace key instead of Delete in Calc. You can choose what to delete."
+-msgstr "Sử dụng phím Backspace thay vì Delete trong Calc. Bạn có thể chọn xoá cái gì."
++msgstr "Sử dụng phím Backspace thay vì Delete trong %PRODUCTNAME Bảng tính. Bạn có thể chọn xoá cái gì."
+ 
+ #. YDDzE
+ #: cui/inc/tipoftheday.hrc:90
+@@ -3640,7 +3640,7 @@ msgstr "Để lặp lại các hàng/cột trên mọi trang sử dụng Định
+ #: cui/inc/tipoftheday.hrc:94
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Insert images and photos into shapes in Draw and Impress. Right-click on a shape, choose Area ▸ Image ▸ Add / Import, and use Options to adjust appearance."
+-msgstr "Chèn hình ảnh vào hình dạng trong Draw và Impress. Nhấn chuột phải vào hình dạng, chọn Bề mặt ▸ Ảnh ▸ Thêm / Nhập, và sử dụng Tuỳ chọn để điều chỉnh."
++msgstr "Chèn hình ảnh vào hình dạng trong %PRODUCTNAME Bản vẽ và %PRODUCTNAME Trình chiếu. Nhấn chuột phải vào hình dạng, chọn Bề mặt ▸ Ảnh ▸ Thêm / Nhập, và sử dụng Tuỳ chọn để điều chỉnh."
+ 
+ #. Fr2CP
+ #: cui/inc/tipoftheday.hrc:95
+@@ -3707,13 +3707,13 @@ msgstr "Tạo tài liệu PDF được tuỳ chỉnh hoàn toàn với định d
+ #: cui/inc/tipoftheday.hrc:106
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Writer includes LibreLogo: simple Logo-like programming environment with turtle vector graphics, DTP and graphic design."
+-msgstr "Writer bao gồm LibreLogo: Môi trường lập trình giống Logo đơn giản với đồ hoạ véc tơ con rùa, DTP và thiết kế đồ hoạ."
++msgstr "%PRODUCTNAME Tài liệu bao gồm LibreLogo: Môi trường lập trình giống Logo đơn giản với đồ hoạ véc tơ con rùa, DTP và thiết kế đồ hoạ."
+ 
+ #. 8x8QZ
+ #: cui/inc/tipoftheday.hrc:108
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Construct your own 2D shapes in Draw. Select two or more objects, and explore possibilities with Shape ▸ Combine, Shape ▸ Merge, Shape ▸ Subtract, and Shape ▸ Intersect."
+-msgstr "Xây dựng các hình 2D của riêng bạn trong Draw. Lựa chọn hai hoặc nhiều đối tượng, và khám phá với Hình dạng ▸ Kết hợp, Hình dạng ▸ Hợp nhất, Hình dạng ▸ Hiệu và Hình dạng ▸ Giao nhau."
++msgstr "Xây dựng các hình 2D của riêng bạn trong %PRODUCTNAME Bản vẽ. Lựa chọn hai hoặc nhiều đối tượng, và khám phá với Hình dạng ▸ Kết hợp, Hình dạng ▸ Hợp nhất, Hình dạng ▸ Hiệu và Hình dạng ▸ Giao nhau."
+ 
+ #. f6Lan
+ #: cui/inc/tipoftheday.hrc:109
+@@ -3731,7 +3731,7 @@ msgstr "Bạn có thể thay đổi giữa tên trường và giá trị thật
+ #: cui/inc/tipoftheday.hrc:111
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Show or hide comments in Writer by clicking the comment toggle button in the ruler."
+-msgstr "Hiển thị hoặc ẩn chú thích trong Writer bằng cách nhấn vào nút chuyển đổi chú thích trên thước."
++msgstr "Hiển thị hoặc ẩn chú thích trong %PRODUCTNAME Tài liệu bằng cách nhấn vào nút chuyển đổi chú thích trên thước."
+ 
+ #. YQ8cC
+ #: cui/inc/tipoftheday.hrc:112
+@@ -3743,7 +3743,7 @@ msgstr "Để bật ghi Maco, vào Công cụ ▸ Tuỳ chỉnh ▸ %PRODUCTNAME
+ #: cui/inc/tipoftheday.hrc:113
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to insert a placeholder for an image in a Writer template? Use Insert ▸ Fields ▸ More fields, click Functions tab, choose PlaceHolder for Type and Image for Format."
+-msgstr "Muốn chèn placeholder cho một ảnh trong mẫu Writer? Dùng Chèn ▸ Trường ▸ Trường khác, nhấn thẻ Chức năng, chọn PlaceHolder cho Loại và Hình ảnh cho Định dạng."
++msgstr "Muốn chèn placeholder cho một ảnh trong mẫu %PRODUCTNAME Tài liệu? Dùng Chèn ▸ Trường ▸ Trường khác, nhấn thẻ Chức năng, chọn PlaceHolder cho Loại và Hình ảnh cho Định dạng."
+ 
+ #. sSeTz
+ #: cui/inc/tipoftheday.hrc:114
+@@ -3768,7 +3768,7 @@ msgstr "Muốn di chuyển một hoặc nhiều đoạn văn bản? Không cần
+ #: cui/inc/tipoftheday.hrc:117
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Change the basic fonts for the predefined template or current document per Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ Basic Fonts."
+-msgstr "Thay đổi phông chữ cơ bản cho mẫu có sẵn hoặc cho tài liệu hiện tại thông qua Công cụ ▸ Tuỳ chỉnh ▸ %PRODUCTNAME Wrtier ▸ Phông chữ cơ bản."
++msgstr "Thay đổi phông chữ cơ bản cho mẫu có sẵn hoặc cho tài liệu hiện tại thông qua Công cụ ▸ Tuỳ chỉnh ▸ %PRODUCTNAME Tài liệu ▸ Phông chữ cơ bản."
+ 
+ #. 9B2EN
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/shared/optionen/01040300.html
+@@ -3817,7 +3817,7 @@ msgstr "Muốn thay đổi kiểm tra chính tả một phần của văn bản?
+ #: cui/inc/tipoftheday.hrc:125
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Writer can insert a blank page between two odd (even) pages that follow. Check “Print automatically inserted blank pages” in the print dialog’s %PRODUCTNAME Writer tab."
+-msgstr "Writer có thể chèn một trang trống giữa hai trang chẵn (lẻ) theo sau. Chọn \"In các trang trống được chèn tự động\" trong hộp thoại in của thẻ %PRODUCTNAME Writer."
++msgstr "%PRODUCTNAME Tài liệu có thể chèn một trang trống giữa hai trang chẵn (lẻ) theo sau. Chọn \"In các trang trống được chèn tự động\" trong hộp thoại in của thẻ %PRODUCTNAME Tài liệu."
+ 
+ #. YVF2y
+ #: cui/inc/tipoftheday.hrc:126
+@@ -3847,19 +3847,19 @@ msgstr "Trợ giúp có sẵn bằng cách nhấn F1, nếu như bạn đã cài
+ #: cui/inc/tipoftheday.hrc:130
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Right-click in the status bar in %PRODUCTNAME Calc and select “Selection count” to display the number of selected cells."
+-msgstr "Nhấn chuột phải vào thanh công cụ trong %PRODUCTNAME Calc và chọn \"Số lượng lựa chọn\" để hiển thị số lượng ô đã lựa chọn."
++msgstr "Nhấn chuột phải vào thanh công cụ trong %PRODUCTNAME Bảng tính và chọn \"Số lượng lựa chọn\" để hiển thị số lượng ô đã lựa chọn."
+ 
+ #. h7afF
+ #: cui/inc/tipoftheday.hrc:131
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to have two or more columns for just a part of a %PRODUCTNAME Writer page? Insert ▸ Section, set with Columns tab, and place text in that section."
+-msgstr "Muốn có hai hoặc nhiều cột chỉ cho một phần của trang %PRODUCTNAME Writer? Chèn ▸ Phần, đặt bằng thẻ Cột, và đặt văn bản vào phần đó."
++msgstr "Muốn có hai hoặc nhiều cột chỉ cho một phần của trang %PRODUCTNAME Tài liệu? Chèn ▸ Phần, đặt bằng thẻ Cột, và đặt văn bản vào phần đó."
+ 
+ #. DmbfV
+ #: cui/inc/tipoftheday.hrc:132
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use Data ▸ Statistics for sampling, descriptive statistics, analysis of variance, correlation, and much more in %PRODUCTNAME Calc."
+-msgstr "Sử dụng Dữ liệu ▸ Thống kê để lấy mẫu, thông tin mô tả, phân tích phương sai, tương quan, và nhiều hơn trong %PRODUCTNAME Calc."
++msgstr "Sử dụng Dữ liệu ▸ Thống kê để lấy mẫu, thông tin mô tả, phân tích phương sai, tương quan, và nhiều hơn trong %PRODUCTNAME Bảng tính."
+ 
+ #. cVaQ3
+ #: cui/inc/tipoftheday.hrc:133
+@@ -3877,13 +3877,13 @@ msgstr "Bạn có thể thay đổi giao diện của %PRODUCTNAME thông qua Xe
+ #: cui/inc/tipoftheday.hrc:135
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "In %PRODUCTNAME Impress, use Insert ▸ Media ▸ Photo Album to create a slideshow from a series of pictures with the “Photo Album” feature."
+-msgstr "Trong %PRODUCTNAME Impress, dùng Chèn ▸ Phương tiện ▸ Album Ảnh để tạo trình chiếu từ một loạt các ảnh với tính năng \"Album Ảnh\"."
++msgstr "Trong %PRODUCTNAME Trình chiếu, dùng Chèn ▸ Phương tiện ▸ Album Ảnh để tạo trình chiếu từ một loạt các ảnh với tính năng \"Album Ảnh\"."
+ 
+ #. DFo3H
+ #: cui/inc/tipoftheday.hrc:136
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "You can show formulas instead of results with View ▸ Show Formulas (or Tools ▸ Options ▸ %PRODUCTNAME Calc ▸ View ▸ Display ▸ Formulas)."
+-msgstr "Bạn có thể hiển thị công thức thay vì kết quả với Xem ▸ Hiển thị công thức (hoặc Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Calc ▸ Xem ▸ Hiển thị ▸ Công thức)."
++msgstr "Bạn có thể hiện công thức thay vì kết quả bằng Xem ▸ Hiện công thức (hoặc Công cụ ▸ Tuỳ chọn ▸ %PRODUCTNAME Bảng tính ▸ Xem ▸ Hiển thị ▸ Công thức)."
+ 
+ #. bY8ve
+ #: cui/inc/tipoftheday.hrc:137
+@@ -3895,7 +3895,7 @@ msgstr "%PRODUCTNAME được phát triển bới một cộng đồng thân thi
+ #: cui/inc/tipoftheday.hrc:138
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Left-handed? Enable Tools ▸ Options ▸ Languages and Locales ▸ General ▸ Asian and check Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ View ▸ Ruler ▸ Right-aligned, which displays the scrollbar to the left."
+-msgstr "Thuận tay trái? Bật Công cụ ▸ Tuỳ chọn ▸ Ngôn ngữ và Địa phương ▸ Chung ▸ Châu Á và chọn Công cụ ▸ Tuỳ chọn ▸ %PRODUCTNAME Writer ▸ Xem ▸ Thước ▸ Căn phải, để hiển thị thanh cuộn sang trái."
++msgstr "Thuận tay trái? Bật Công cụ ▸ Tuỳ chọn ▸ Ngôn ngữ và Địa phương ▸ Chung ▸ Châu Á và chọn Công cụ ▸ Tuỳ chọn ▸ %PRODUCTNAME Tài liệu ▸ Xem ▸ Thước ▸ Căn phải, để hiển thị thanh cuộn sang trái."
+ 
+ #. KgRse
+ #: cui/inc/tipoftheday.hrc:139
+@@ -3925,7 +3925,7 @@ msgstr "Sử dụng nhãn cột hoặc hàng trong công thức. Ví dụ, nếu
+ #: cui/inc/tipoftheday.hrc:143
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Annoyed by the “marching ants” around cells in Calc? Press escape to stop them; the copied content will remain available for pasting."
+-msgstr "Phiền toái bởi \"những con kiến diễu hành\" xung quang các ô trong Calc? Nhấn Esc để dừng chúng; nội dung được sao chép vẫn có sẵn để dán."
++msgstr "Phiền toái bởi \"những con kiến diễu hành\" xung quang các ô trong %PRODUCTNAME Bảng tính? Nhấn Esc để dừng chúng; nội dung được sao chép vẫn có sẵn để dán."
+ 
+ #. fsDVc
+ #: cui/inc/tipoftheday.hrc:144
+@@ -3937,7 +3937,7 @@ msgstr "Muốn trở thành Đại sứ %PRODUCTNAME? Có các chứng chỉ dà
+ #: cui/inc/tipoftheday.hrc:145
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Mix portrait and landscape orientations in a Calc spreadsheet by applying different page styles on sheets."
+-msgstr "Kết hợp hướng dọc và ngang trong bảng tính Calc bằng cách áp dụng các kiểu trang khác nhau trong từng trang tính."
++msgstr "Kết hợp hướng dọc và ngang trong cùng một bảng tính bằng cách áp dụng các kiểu trang khác nhau cho từng trang tính."
+ 
+ #. eRzRG
+ #: cui/inc/tipoftheday.hrc:146
+@@ -4004,7 +4004,7 @@ msgstr "Với Bộ điều hướng, bạn có thể chọn và di chuyển lên
+ #: cui/inc/tipoftheday.hrc:156
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to get a math object into Writer quickly? Type your formula, select it, and use Insert ▸ OLE Object ▸ Formula to convert the text."
+-msgstr "Bạn muốn đưa một đối tượng toán học vào Writer một cách nhanh chóng? Nhập công thức của bạn, chọn nó và sử dụng Chèn ▸ Đối tượng OLE ▸ Công thức để chuyển đổi văn bản."
++msgstr "Bạn muốn đưa một đối tượng toán học vào %PRODUCTNAME Tài liệu một cách nhanh chóng? Nhập công thức của bạn, chọn nó và sử dụng Chèn ▸ Đối tượng OLE ▸ Công thức để chuyển đổi văn bản."
+ 
+ #. Zj7NA
+ #: cui/inc/tipoftheday.hrc:157
+@@ -4022,13 +4022,13 @@ msgstr "%PRODUCTNAME có phiên bản di động. Ngay cả khi không có quy
+ #: cui/inc/tipoftheday.hrc:159
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Writer lets you number your footnotes per page, chapter, document: Tools ▸ Footnote/Endnote Settings ▸ Footnotes tab ▸ Counting."
+-msgstr "Writer cho phép bạn đánh số chú thích chân trang theo trang, chương, tài liệu: Công cụ ▸ Cài đặt Chú thích chân trang/Chú thích cuối trang ▸ tab Chú thích chân trang ▸ Đếm."
++msgstr "%PRODUCTNAME Tài liệu cho phép đánh số cước chú theo trang, chương hoặc tài liệu: Công cụ ▸ Thiết lập cước chú/chú thích cuối ▸ thẻ Cước chú ▸ Đếm."
+ 
+ #. gpVRV
+ #: cui/inc/tipoftheday.hrc:160
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Your Writer document does not reopen with the text cursor at the same editing position it was when you saved it? Add First or Last name in Tools ▸ Options ▸ %PRODUCTNAME ▸ User Data ▸ First/last name."
+-msgstr "Tài liệu Writer của bạn không mở lại với con trỏ văn bản ở cùng vị trí chỉnh sửa như khi bạn lưu nó? Thêm Họ hoặc Tên trong Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME ▸ Dữ liệu người dùng ▸ Họ/tên."
++msgstr "Tài liệu văn bản của bạn không mở lại với con trỏ văn bản ở cùng vị trí chỉnh sửa như khi bạn lưu nó? Thêm Họ hoặc Tên trong Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME ▸ Dữ liệu người dùng ▸ Họ/tên."
+ 
+ #. jEYXp
+ #: cui/inc/tipoftheday.hrc:161
+@@ -4077,7 +4077,7 @@ msgstr "Chọn một đối tượng trong nền tài liệu thông qua công c
+ #: cui/inc/tipoftheday.hrc:168
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Define texts that you often use as AutoText. You will be able to insert them by their name, shortcut or toolbar in any Writer document."
+-msgstr "Xác định văn bản mà bạn thường sử dụng làm Văn bản tự động. Bạn sẽ có thể chèn chúng theo tên, lối tắt hoặc thanh công cụ trong bất kỳ tài liệu Writer nào."
++msgstr "Xác định văn bản mà bạn thường sử dụng làm Văn bản tự động. Bạn sẽ có thể chèn chúng theo tên, lối tắt hoặc thanh công cụ trong bất kỳ tài liệu văn bản nào."
+ 
+ #. 7CjmG
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/swriter/guide/autotext.html
+@@ -4090,7 +4090,7 @@ msgstr "Phát nhạc xuyên suốt bản trình chiếu bằng cách chỉ đị
+ #: cui/inc/tipoftheday.hrc:170
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "%PRODUCTNAME Calc does not calculate from left to right but respects the order Parentheses – Exponents – Multiplication – Division – Addition – Subtraction."
+-msgstr "%PRODUCTNAME Calc không tính toán từ trái sang phải mà tôn trọng thứ tự Dấu ngoặc đơn – Số mũ – Phép nhân – Phép chia – Phép cộng – Phép trừ."
++msgstr "%PRODUCTNAME Bảng tính không tính toán từ trái sang phải mà tôn trọng thứ tự Dấu ngoặc đơn – Số mũ – Phép nhân – Phép chia – Phép cộng – Phép trừ."
+ 
+ #. heb7V
+ #: cui/inc/tipoftheday.hrc:171
+@@ -4109,7 +4109,7 @@ msgstr "Bạn muốn xóa tất cả <> cùng một lúc và giữ văn bản b
+ #: cui/inc/tipoftheday.hrc:173
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Need to present a report written with Writer? File ▸ Send ▸ Outline to Presentation automatically creates a slideshow from the outline."
+-msgstr "Bạn cần trình bày một báo cáo được viết bằng Writer? Tệp ▸ Gửi ▸ Phác thảo sang Bản trình chiếu sẽ tự động tạo bản trình chiếu từ dàn bài."
++msgstr "Bạn cần trình bày một báo cáo được viết bằng %PRODUCTNAME Tài liệu? Tệp ▸ Gửi ▸ Phác thảo sang Bản trình chiếu sẽ tự động tạo bản trình chiếu từ dàn bài."
+ 
+ #. ZdyGi
+ #: cui/inc/tipoftheday.hrc:174
+@@ -4122,7 +4122,7 @@ msgstr "Bạn muốn quản lý việc trình bày các siêu liên kết trong
+ #: cui/inc/tipoftheday.hrc:175
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Uncheck Tools ▸ Options ▸ %PRODUCTNAME Calc ▸ View ▸ Zoom: “Synchronize sheets” so that each sheet in Calc has its own zoom factor."
+-msgstr "Bỏ chọn Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Calc ▸ Xem ▸ Thu phóng: “Đồng bộ trang tính” để mỗi trang tính trong Calc có hệ số thu phóng riêng."
++msgstr "Bỏ chọn Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Bảng tính ▸ Xem ▸ Thu phóng: “Đồng bộ trang tính” để mỗi trang tính trong %PRODUCTNAME Bảng tính có hệ số thu phóng riêng."
+ 
+ #. qK7Xz
+ #: cui/inc/tipoftheday.hrc:176
+@@ -4154,7 +4154,7 @@ msgstr "Bạn có thể tạo chỉ mục hình minh họa từ tên đối tư
+ #: cui/inc/tipoftheday.hrc:180
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use your Android or iPhone to remotely control your Impress presentation."
+-msgstr "Sử dụng Android hoặc iPhone của bạn để điều khiển từ xa bản trình chiếu Impress của bạn."
++msgstr "Sử dụng Android hoặc iPhone của bạn để điều khiển từ xa bản trình chiếu của bạn."
+ 
+ #. GgzTh
+ #. local help missing
+@@ -4173,14 +4173,14 @@ msgstr "Số của bạn được hiển thị dưới dạng ### trong bảng t
+ #: cui/inc/tipoftheday.hrc:183
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Enable massive parallel calculations of formula cells via Tools ▸ Options ▸ %PRODUCTNAME Calc ▸ Calculate ▸ CPU Threading Settings."
+-msgstr "Bật tính toán song song hàng loạt cho các ô công thức qua Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Calc ▸ Tính toán ▸ Cài đặt luồng CPU."
++msgstr "Bật tính toán song song hàng loạt cho các ô công thức qua Công cụ ▸ Tuỳ chọn ▸ %PRODUCTNAME Bảng tính ▸ Tính toán ▸ Thiết lập đa luồng CPU."
+ 
+ #. zAqfX
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/shared/optionen/opencl.html
+ #: cui/inc/tipoftheday.hrc:184
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use the Connector tool from the Drawing toolbar in Draw/Impress to create nice flow charts and optionally copy/paste the object into Writer."
+-msgstr "Sử dụng công cụ Trình kết nối từ thanh công cụ Drawing trong Draw/Impress để tạo các biểu đồ đẹp mắt và tùy ý sao chép/dán đối tượng vào Writer."
++msgstr "Sử dụng công cụ Trình kết nối từ thanh công cụ Drawing trong %PRODUCTNAME Bản vẽ/%PRODUCTNAME Trình chiếu để tạo các biểu đồ đẹp mắt và tùy ý sao chép/dán đối tượng vào %PRODUCTNAME Tài liệu."
+ 
+ #. Uq3tZ
+ #: cui/inc/tipoftheday.hrc:185
+@@ -4217,7 +4217,7 @@ msgstr "Bạn muốn xuất công thức sang CSV? Tập tin ▸ Lưu dưới d
+ #: cui/inc/tipoftheday.hrc:190
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "The presenter console is a great feature when working with %PRODUCTNAME Impress. Have you checked it out?"
+-msgstr "Bảng điều khiển dành cho người thuyết trình là một tính năng tuyệt vời khi làm việc với %PRODUCTNAME Impress. Bạn đã thử chưa?"
++msgstr "Bảng điều khiển dành cho người thuyết trình là một tính năng tuyệt vời khi làm việc với %PRODUCTNAME Trình chiếu. Bạn đã thử chưa?"
+ 
+ #. PFGhM
+ #. local help missing
+@@ -4267,13 +4267,13 @@ msgstr "Bạn có thể xoay hướng bảng ô với Bảng ▸ Thuộc tính
+ #: cui/inc/tipoftheday.hrc:198
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "In %PRODUCTNAME Draw to change the 0/0 point of the rulers, drag the intersection of the two rulers in the top left corner into the workspace."
+-msgstr "Trong %PRODUCTNAME Draw để thay đổi điểm 0/0 của thước, hãy kéo giao điểm của hai thước ở góc trên cùng bên trái vào không gian làm việc."
++msgstr "Trong %PRODUCTNAME Bản vẽ để thay đổi điểm 0/0 của thước, hãy kéo giao điểm của hai thước ở góc trên cùng bên trái vào không gian làm việc."
+ 
+ #. Fcnsr
+ #: cui/inc/tipoftheday.hrc:199
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Move a column in Calc between two others in one step? Click the header then a cell in the column, keep mouse button and move to the target with %MOD2 key."
+-msgstr "Di chuyển một cột trong Calc giữa hai cột khác trong một bước? Nhấp vào tiêu đề, sau đó nhấp vào một ô trong cột, giữ nút chuột và di chuyển đến mục tiêu bằng phím %MOD2."
++msgstr "Di chuyển một cột trong %PRODUCTNAME Bảng tính giữa hai cột khác trong một bước? Nhấp vào tiêu đề, sau đó nhấp vào một ô trong cột, giữ nút chuột và di chuyển đến mục tiêu bằng phím %MOD2."
+ 
+ #. 3xJeA
+ #: cui/inc/tipoftheday.hrc:200
+@@ -4286,13 +4286,13 @@ msgstr "Tự động đánh dấu các mục nhập chỉ mục theo thứ tự
+ #: cui/inc/tipoftheday.hrc:201
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use Format ▸ Align Objects in Impress or Shape ▸ Align Objects in Draw (or the context menu) for precise positioning of objects: it centers on the page if one object is selected or works on the group respectively."
+-msgstr "Sử dụng Định dạng ▸ Căn chỉnh Đối tượng trong Impress hoặc Hình dạng ▸ Căn chỉnh Đối tượng trong Draw (hoặc menu ngữ cảnh) để định vị chính xác các đối tượng: nó sẽ căn giữa trang nếu một đối tượng được chọn hoặc hoạt động trên nhóm tương ứng."
++msgstr "Sử dụng Định dạng ▸ Căn chỉnh Đối tượng trong %PRODUCTNAME Trình chiếu hoặc Hình dạng ▸ Căn chỉnh Đối tượng trong %PRODUCTNAME Bản vẽ (hoặc menu ngữ cảnh) để định vị chính xác các đối tượng: nó sẽ căn giữa trang nếu một đối tượng được chọn hoặc hoạt động trên nhóm tương ứng."
+ 
+ #. TijVG
+ #: cui/inc/tipoftheday.hrc:202
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Do not use tabs to space items on a Writer document. Depending on what you are trying to do, a borderless table can be a better choice."
+-msgstr "Không sử dụng các tab để tạo khoảng trống cho các mục trên tài liệu Writer. Tùy thuộc vào những gì bạn đang cố gắng thực hiện, bảng không viền có thể là lựa chọn tốt hơn."
++msgstr "Không sử dụng các tab để tạo khoảng trống cho các mục trên tài liệu văn bản. Tùy thuộc vào những gì bạn đang cố gắng thực hiện, bảng không viền có thể là lựa chọn tốt hơn."
+ 
+ #. 6GtGH
+ #: cui/inc/tipoftheday.hrc:203
+@@ -4304,14 +4304,14 @@ msgstr "Không cần cuộn qua danh sách tại Công cụ ▸ Tùy chỉnh ▸
+ #: cui/inc/tipoftheday.hrc:204
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "%PRODUCTNAME can automatically add a numbered caption when you insert objects. See Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ AutoCaption."
+-msgstr "%PRODUCTNAME có thể tự động thêm chú thích được đánh số khi bạn chèn đối tượng. Xem Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Writer ▸ Phụ đề tự động."
++msgstr "%PRODUCTNAME có thể tự động thêm chú thích được đánh số khi bạn chèn đối tượng. Xem Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Tài liệu ▸ Phụ đề tự động."
+ 
+ #. 8kpGG
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/shared/optionen/01041100.html
+ #: cui/inc/tipoftheday.hrc:205
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "With %PRODUCTNAME you can use your Google Mail account to do a mail merge. Fill in Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ Mail Merge Email."
+-msgstr "Với %PRODUCTNAME, bạn có thể sử dụng tài khoản Gmail của mình để thực hiện trộn thư. Điền vào Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Writer ▸ Email trộn thư."
++msgstr "Với %PRODUCTNAME, bạn có thể sử dụng tài khoản Gmail của mình để thực hiện trộn thư. Điền vào Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Tài liệu ▸ Email trộn thư."
+ 
+ #. 87ozj
+ #. local help missing
+@@ -4330,7 +4330,7 @@ msgstr "Bạn muốn bắt đầu làm việc với các vĩ lệnh Basic? Hãy
+ #: cui/inc/tipoftheday.hrc:208
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Apply Heading paragraph styles in Writer with shortcut keys: %MOD1+1 applies Heading 1, %MOD1+2 applies Heading 2, etc."
+-msgstr "Áp dụng các kiểu đoạn Tiêu đề trong Writer bằng các phím tắt: %MOD1+1 áp dụng Tiêu đề 1, %MOD1+2 áp dụng Tiêu đề 2, v.v."
++msgstr "Áp dụng các kiểu đoạn Tiêu đề trong %PRODUCTNAME Tài liệu bằng các phím tắt: %MOD1+1 áp dụng Tiêu đề 1, %MOD1+2 áp dụng Tiêu đề 2, v.v."
+ 
+ #. DA82R
+ #: cui/inc/tipoftheday.hrc:209
+@@ -4354,7 +4354,7 @@ msgstr "Cần nội dung tùy chỉnh cho thuộc tính siêu dữ liệu? Tệp
+ #: cui/inc/tipoftheday.hrc:212
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to see, but not print, an object in Draw? Draw it on a layer for which the “Printable” flag is not set (right-click the layer’s tab and choose “Modify Layer”)."
+-msgstr "Bạn muốn xem, nhưng không in, một đối tượng trong Draw? Vẽ nó trên một lớp mà cờ “Có thể in” không được đặt (nhấp chuột phải vào tab của lớp và chọn “Sửa đổi lớp”)."
++msgstr "Bạn muốn xem, nhưng không in, một đối tượng trong %PRODUCTNAME Bản vẽ? Vẽ nó trên một lớp mà cờ “Có thể in” không được đặt (nhấp chuột phải vào tab của lớp và chọn “Sửa đổi lớp”)."
+ 
+ #. CGQaY
+ #: cui/inc/tipoftheday.hrc:213
+@@ -4366,7 +4366,7 @@ msgstr "Để chèn ngày hiện tại vào tài liệu của bạn, hãy sử d
+ #: cui/inc/tipoftheday.hrc:214
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Got many images in your Writer document? Speed up the display by disabling View ▸ Images and charts."
+-msgstr "Có nhiều hình ảnh trong tài liệu Writer của bạn? Tăng tốc độ hiển thị bằng cách tắt Xem ▸ Hình ảnh và biểu đồ."
++msgstr "Có nhiều hình ảnh trong tài liệu văn bản của bạn? Tăng tốc độ hiển thị bằng cách tắt Xem ▸ Hình ảnh và biểu đồ."
+ 
+ #. Y85ij
+ #: cui/inc/tipoftheday.hrc:215
+@@ -4379,7 +4379,7 @@ msgstr "Sử dụng Trang tính ▸ Điền ô ▸ Số ngẫu nhiên để tạ
+ #: cui/inc/tipoftheday.hrc:216
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Rename your slides in Impress to help you define “Go to page” interactions and to have a summary more explicit than Slide1, Slide2…"
+-msgstr "Đổi tên các trang chiếu của bạn trong Impress để giúp bạn xác định các tương tác “Chuyển đến trang” và để có một bản tóm tắt rõ ràng hơn so với Slide1, Slide2…"
++msgstr "Đổi tên các trang chiếu của bạn trong %PRODUCTNAME Trình chiếu để giúp bạn xác định các tương tác “Chuyển đến trang” và để có một bản tóm tắt rõ ràng hơn so với Slide1, Slide2…"
+ 
+ #. iLWEo
+ #: cui/inc/tipoftheday.hrc:217
+@@ -4391,7 +4391,7 @@ msgstr "Bạn muốn hiển thị văn bản trước một số tiêu đề? M
+ #: cui/inc/tipoftheday.hrc:218
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Transpose a Writer table? Copy and paste in Calc, transpose with copy/paste special then copy/paste special ▸ Formatted text in Writer."
+-msgstr "Chuyển vị trí một bảng Writer? Sao chép và dán trong Calc, chuyển đổi với sao chép/dán đặc biệt sau đó sao chép/dán đặc biệt ▸ Văn bản được định dạng trong Writer."
++msgstr "Chuyển vị trí một bảng %PRODUCTNAME Tài liệu? Sao chép và dán trong %PRODUCTNAME Bảng tính, chuyển đổi với sao chép/dán đặc biệt sau đó sao chép/dán đặc biệt ▸ Văn bản được định dạng trong %PRODUCTNAME Tài liệu."
+ 
+ #. mmG7g
+ #: cui/inc/tipoftheday.hrc:219
+@@ -4416,7 +4416,7 @@ msgstr "Thường tạo một tài liệu từ một tài liệu khác? Cân nh
+ #: cui/inc/tipoftheday.hrc:222
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Use Format ▸ Conditional Formatting ▸ Manage in Calc to find out which cells have been defined with conditional formatting."
+-msgstr "Sử dụng Định dạng ▸ Định dạng có điều kiện ▸ Quản lý trong Calc để tìm xem ô nào đã được xác định bằng định dạng có điều kiện."
++msgstr "Sử dụng Định dạng ▸ Định dạng có điều kiện ▸ Quản lý trong %PRODUCTNAME Bảng tính để tìm xem ô nào đã được xác định bằng định dạng có điều kiện."
+ 
+ #. tWQPD
+ #. https://help.libreoffice.org/%PRODUCTVERSION/%LANGUAGENAME/text/scalc/01/05120000.html
+@@ -4448,7 +4448,7 @@ msgstr "Bạn có thể định dạng lại tất cả nhận xét trong tài l
+ #: cui/inc/tipoftheday.hrc:227
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Create a backup of your document in Writer by selecting File ▸ Save a Copy while continuing to work on the original."
+-msgstr "Tạo bản sao lưu tài liệu trong Writer bằng cách chọn Tệp ▸ Lưu bản sao trong khi vẫn tiếp tục làm việc trên bản gốc."
++msgstr "Tạo bản sao lưu tài liệu trong %PRODUCTNAME Tài liệu bằng Tập tin ▸ Lưu bản sao trong khi vẫn tiếp tục làm việc trên bản gốc."
+ 
+ #. fkvVZ
+ #: cui/inc/tipoftheday.hrc:228
+@@ -4478,7 +4478,7 @@ msgstr "Khi chỉnh sửa một ô tại chỗ, bạn có thể nhấp chuột p
+ #: cui/inc/tipoftheday.hrc:232
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Need to move a Writer table? Table ▸ Select ▸ Table and Insert ▸ Frame ▸ Frame and move where you want."
+-msgstr "Cần di chuyển một bảng Writer? Bảng ▸ Chọn ▸ Bảng và Chèn ▸ Khung ▸ Đóng khung và di chuyển đến nơi bạn muốn."
++msgstr "Cần di chuyển một bảng %PRODUCTNAME Tài liệu? Bảng ▸ Chọn ▸ Bảng và Chèn ▸ Khung ▸ Đóng khung và di chuyển đến nơi bạn muốn."
+ 
+ #. TmaSP
+ #: cui/inc/tipoftheday.hrc:233
+@@ -4526,14 +4526,14 @@ msgstr "Gặp khó khăn khi dán văn bản từ tệp PDF hoặc trang web và
+ #: cui/inc/tipoftheday.hrc:240
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "In Calc use TRIMMEAN() to return the mean of a data set excluding the highest and lowest values."
+-msgstr "Trong Calc, hãy sử dụng TRIMMEAN() để trả về giá trị trung bình của một tập dữ liệu không bao gồm các giá trị cao nhất và thấp nhất."
++msgstr "Trong %PRODUCTNAME Bảng tính, hãy sử dụng TRIMMEAN() để trả về giá trị trung bình của một tập dữ liệu không bao gồm các giá trị cao nhất và thấp nhất."
+ 
+ #. U2cxc
+ #. local help missing
+ #: cui/inc/tipoftheday.hrc:241
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "The 4th optional parameter of VLOOKUP Calc function indicates whether the first column of data is sorted. If not, enter FALSE or zero."
+-msgstr "Tham số tùy chọn thứ 4 của hàm VLOOKUP Calc cho biết cột dữ liệu đầu tiên có được sắp xếp hay không. Nếu không, nhập FALSE hoặc số không."
++msgstr "Tham số tuỳ chọn thứ 4 của hàm VLOOKUP trong %PRODUCTNAME Bảng tính cho biết cột dữ liệu đầu tiên có được sắp xếp hay không. Nếu không, hãy nhập FALSE hoặc 0."
+ 
+ #. LThNS
+ #: cui/inc/tipoftheday.hrc:242
+@@ -4545,13 +4545,13 @@ msgstr "Thanh công cụ là theo ngữ cảnh—chúng mở tùy thuộc vào n
+ #: cui/inc/tipoftheday.hrc:243
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "You can create a master document from the current Writer document by using File ▸ Send ▸ Create Master Document."
+-msgstr "Bạn có thể tạo tài liệu chính từ tài liệu Writer hiện tại bằng cách sử dụng Tệp ▸ Gửi ▸ Tạo tài liệu chính."
++msgstr "Bạn có thể tạo tài liệu chính từ tài liệu văn bản hiện tại bằng cách sử dụng Tệp ▸ Gửi ▸ Tạo tài liệu chính."
+ 
+ #. cPNVv
+ #: cui/inc/tipoftheday.hrc:244
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to center cells on a printed page in Calc? Format ▸ Page, Page ▸ Layout settings ▸ Table alignment."
+-msgstr "Bạn muốn căn giữa các ô trên một trang in trong Calc? Định dạng ▸ Trang, Trang ▸ Cài đặt bố cục ▸ Căn chỉnh bảng."
++msgstr "Bạn muốn căn giữa các ô trên một trang in trong %PRODUCTNAME Bảng tính? Định dạng ▸ Trang, Trang ▸ Cài đặt bố cục ▸ Căn chỉnh bảng."
+ 
+ #. dpyeU
+ #: cui/inc/tipoftheday.hrc:245
+@@ -4564,13 +4564,13 @@ msgstr "Các khung có thể được liên kết để văn bản có thể ch
+ #: cui/inc/tipoftheday.hrc:246
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "You can create a chart based on a Writer table by clicking in the table and choosing Insert ▸ Chart."
+-msgstr "Bạn có thể tạo biểu đồ dựa trên bảng Writer bằng cách nhấp vào bảng và chọn Chèn ▸ Biểu đồ."
++msgstr "Bạn có thể tạo biểu đồ dựa trên bảng %PRODUCTNAME Tài liệu bằng cách nhấp vào bảng và chọn Chèn ▸ Biểu đồ."
+ 
+ #. cU6JB
+ #: cui/inc/tipoftheday.hrc:247
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Select options in Tools ▸ Options ▸ %PRODUCTNAME Writer ▸ Formatting Aids ▸ Display Formatting to specify which non-printing characters are displayed."
+-msgstr "Chọn các tùy chọn trong Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Writer ▸ Hỗ trợ định dạng ▸ Định dạng hiển thị để chỉ định các ký tự không in được sẽ được hiển thị."
++msgstr "Chọn các tùy chọn trong Công cụ ▸ Tùy chọn ▸ %PRODUCTNAME Tài liệu ▸ Hỗ trợ định dạng ▸ Định dạng hiển thị để chỉ định các ký tự không in được sẽ được hiển thị."
+ 
+ #. 9cyVB
+ #: cui/inc/tipoftheday.hrc:248
+@@ -4594,7 +4594,7 @@ msgstr "Bỏ chọn Trình chiếu ▸ Cài đặt ▸ Bản trình bày luôn 
+ #: cui/inc/tipoftheday.hrc:251
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want to find the words in bold in a Writer document? Edit ▸ Find and Replace ▸ Other options ▸ Attributes ▸ Font weight."
+-msgstr "Bạn muốn tìm những từ in đậm trong tài liệu Writer? Chỉnh sửa ▸ Tìm và Thay thế ▸ Các tùy chọn khác ▸ Thuộc tính ▸ Trọng lượng phông chữ."
++msgstr "Bạn muốn tìm những từ in đậm trong tài liệu văn bản? Chỉnh sửa ▸ Tìm và Thay thế ▸ Các tùy chọn khác ▸ Thuộc tính ▸ Trọng lượng phông chữ."
+ 
+ #. ppAeT
+ #. local help missing
+@@ -4620,14 +4620,14 @@ msgstr "%PRODUCTNAME có một trung tâm các mẫu để tạo các tài liệ
+ #: cui/inc/tipoftheday.hrc:255
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Calculate loan repayments with Calc: eg. PMT(2%/12;36;2500) interest rate per payment period 2%/12, 36 months, loan amount 2500."
+-msgstr "Tính toán các khoản hoàn trả khoản vay với Calc: vd. PMT(2%/12;36;2500) lãi suất mỗi kỳ trả 2%/12, 36 tháng, số tiền vay 2500."
++msgstr "Tính toán các khoản hoàn trả khoản vay với %PRODUCTNAME Bảng tính: vd. PMT(2%/12;36;2500) lãi suất mỗi kỳ trả 2%/12, 36 tháng, số tiền vay 2500."
+ 
+ #. QZAFw
+ #. local help missing
+ #: cui/inc/tipoftheday.hrc:256
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Cannot find what you want with the VLOOKUP function in Calc? With INDEX and MATCH you can do anything!"
+-msgstr "Không thể tìm thấy những gì bạn muốn với hàm VLOOKUP trong Calc? Với INDEX và MATCH, bạn có thể làm bất cứ điều gì!"
++msgstr "Không thể tìm thấy những gì bạn muốn với hàm VLOOKUP trong %PRODUCTNAME Bảng tính? Với INDEX và MATCH, bạn có thể làm bất cứ điều gì!"
+ 
+ #. ARJgA
+ #. local help missing
+@@ -4640,7 +4640,7 @@ msgstr "Muốn hiện cột ẩn A? Bấm vào một ô trong cột B, nhấn ph
+ #: cui/inc/tipoftheday.hrc:258
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "To change the number of a page in Writer, go to the properties of the first paragraph and at the Text Flow tab check Break ▸ Insert and enter the number."
+-msgstr "Để thay đổi số trang trong Writer, hãy chuyển đến thuộc tính của đoạn đầu tiên và tại tab Dòng văn bản, chọn Dấu ngắt ▸ Chèn và nhập số."
++msgstr "Để thay đổi số trang trong %PRODUCTNAME Tài liệu, hãy chuyển đến thuộc tính của đoạn đầu tiên và tại tab Dòng văn bản, chọn Dấu ngắt ▸ Chèn và nhập số."
+ 
+ #. AgQyA
+ #: cui/inc/tipoftheday.hrc:259
+@@ -4652,7 +4652,7 @@ msgstr "Chạy %PRODUCTNAME trong bất kỳ trình duyệt nào thông qua roll
+ #: cui/inc/tipoftheday.hrc:260
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Strange error code in Calc, Err: followed by a number? This page gives the explanation:"
+-msgstr "Mã lỗi lạ trong Calc, Err: theo sau là một số? Trang này đưa ra lời giải thích:"
++msgstr "Mã lỗi lạ trong %PRODUCTNAME Bảng tính, Err: theo sau là một số? Trang này đưa ra lời giải thích:"
+ 
+ #. GFgmh
+ #. local help missing
+@@ -4709,19 +4709,19 @@ msgstr "Để tìm kiếm trong một số bảng tính, hãy chọn chúng trư
+ #: cui/inc/tipoftheday.hrc:269
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Drag & drop cells from Calc into the normal view of a slide creates a table; into the outline view, each cell creates a line in the outline."
+-msgstr "Kéo và thả các ô từ Calc vào dạng xem thông thường của trang chiếu sẽ tạo ra một bảng; vào chế độ xem phác thảo, mỗi ô sẽ tạo một dòng trong phác thảo."
++msgstr "Kéo và thả các ô từ %PRODUCTNAME Bảng tính vào dạng xem thông thường của trang chiếu sẽ tạo ra một bảng; vào chế độ xem phác thảo, mỗi ô sẽ tạo một dòng trong phác thảo."
+ 
+ #. DgSwJ
+ #: cui/inc/tipoftheday.hrc:270
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "%PRODUCTNAME helps you not to enter two or more spaces in Writer. Check Tools ▸ AutoCorrect ▸ AutoCorrect Options ▸ Options ▸ Ignore double spaces."
+-msgstr "%PRODUCTNAME giúp bạn không phải nhập hai khoảng trắng trở lên trong Writer. Kiểm tra Công cụ ▸ Tự động sửa lỗi ▸ Tùy chọn tự động sửa lỗi ▸ Tùy chọn ▸ Bỏ qua dấu cách kép."
++msgstr "%PRODUCTNAME giúp bạn không phải nhập hai khoảng trắng trở lên trong %PRODUCTNAME Tài liệu. Kiểm tra Công cụ ▸ Tự động sửa lỗi ▸ Tùy chọn tự động sửa lỗi ▸ Tùy chọn ▸ Bỏ qua dấu cách kép."
+ 
+ #. 3Fjtd
+ #: cui/inc/tipoftheday.hrc:271
+ msgctxt "RID_CUI_TIPOFTHEDAY"
+ msgid "Want the cursor to go into the cell to the right, after entering a value in Calc? Use the Tab key instead of Enter."
+-msgstr "Muốn con trỏ đi vào ô bên phải sau khi nhập một giá trị trong Calc? Sử dụng phím Tab thay vì Enter."
++msgstr "Muốn con trỏ đi vào ô bên phải sau khi nhập một giá trị trong %PRODUCTNAME Bảng tính? Sử dụng phím Tab thay vì Enter."
+ 
+ #. By2BE
+ #: cui/inc/tipoftheday.hrc:272
+@@ -4975,7 +4975,7 @@ msgstr "Email"
+ #: cui/inc/treeopt.hrc:69
+ msgctxt "SID_SW_EDITOPTIONS_RES"
+ msgid "%PRODUCTNAME Writer"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "%PRODUCTNAME Tài liệu"
+ 
+ #. CtZCN
+ #: cui/inc/treeopt.hrc:70
+@@ -5065,7 +5065,7 @@ msgstr "Email Trộn thư"
+ #: cui/inc/treeopt.hrc:88
+ msgctxt "SID_SW_ONLINEOPTIONS_RES"
+ msgid "%PRODUCTNAME Writer/Web"
+-msgstr "%PRODUCTNAME Writer/Web"
++msgstr "%PRODUCTNAME Tài liệu Web"
+ 
+ #. BZ7BG
+ #: cui/inc/treeopt.hrc:89
+@@ -5101,7 +5101,7 @@ msgstr "Bảng"
+ #: cui/inc/treeopt.hrc:98
+ msgctxt "SID_SM_EDITOPTIONS_RES"
+ msgid "%PRODUCTNAME Math"
+-msgstr "%PRODUCTNAME Math"
++msgstr "%PRODUCTNAME Công thức"
+ 
+ #. rFHDF
+ #: cui/inc/treeopt.hrc:99
+@@ -5113,7 +5113,7 @@ msgstr "Thiết lập"
+ #: cui/inc/treeopt.hrc:104
+ msgctxt "SID_SC_EDITOPTIONS_RES"
+ msgid "%PRODUCTNAME Calc"
+-msgstr "%PRODUCTNAME Calc"
++msgstr "%PRODUCTNAME Bảng tính"
+ 
+ #. xe2ry
+ #: cui/inc/treeopt.hrc:105
+@@ -5179,7 +5179,7 @@ msgstr "In"
+ #: cui/inc/treeopt.hrc:119
+ msgctxt "SID_SD_EDITOPTIONS_RES"
+ msgid "%PRODUCTNAME Impress"
+-msgstr "%PRODUCTNAME Impress"
++msgstr "%PRODUCTNAME Trình chiếu"
+ 
+ #. GxFDj
+ #: cui/inc/treeopt.hrc:120
+@@ -5209,7 +5209,7 @@ msgstr "In"
+ #: cui/inc/treeopt.hrc:128
+ msgctxt "SID_SD_GRAPHIC_OPTIONS_RES"
+ msgid "%PRODUCTNAME Draw"
+-msgstr "%PRODUCTNAME Draw"
++msgstr "%PRODUCTNAME Bản vẽ"
+ 
+ #. B9gGf
+ #: cui/inc/treeopt.hrc:129
+@@ -5281,7 +5281,7 @@ msgstr "Tính tương thích HTML"
+ #: cui/inc/treeopt.hrc:152
+ msgctxt "SID_SB_STARBASEOPTIONS_RES"
+ msgid "%PRODUCTNAME Base"
+-msgstr "%PRODUCTNAME Base"
++msgstr "%PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. 78XBF
+ #: cui/inc/treeopt.hrc:153
+@@ -15535,7 +15535,7 @@ msgstr "Bối cảnh"
+ #: cui/uiconfig/ui/optctlpage.ui:239
+ msgctxt "extended_tip|numerals"
+ msgid "Selects the type of numerals used within text, text in objects, fields, and controls, in all office suite modules. Only cell contents of Calc are not affected."
+-msgstr "Chọn loại chữ số được sử dụng trong văn bản, văn bản trong đối tượng, trường và điều khiển, trong tất cả các mô-đun bộ ứng dụng văn phòng. Chỉ nội dung ô của Calc không bị ảnh hưởng."
++msgstr "Chọn loại chữ số được sử dụng trong văn bản, văn bản trong đối tượng, trường và điều khiển, trong tất cả các mô-đun bộ ứng dụng văn phòng. Chỉ nội dung ô của %PRODUCTNAME Bảng tính không bị ảnh hưởng."
+ 
+ #. kWczF
+ #: cui/uiconfig/ui/optctlpage.ui:254
+@@ -15653,7 +15653,7 @@ msgstr "Tô sáng"
+ #: cui/uiconfig/ui/optfltrembedpage.ui:261
+ msgctxt "extended_tip|highlighting"
+ msgid "Microsoft Office has two character attributes similar to Writer character background. Select the appropriate attribute (highlighting or shading) which you would like to use during export to Microsoft Office file formats."
+-msgstr "Microsoft Office có hai thuộc tính ký tự tương tự như nền ký tự của Writer. Chọn thuộc tính thích hợp (tô sáng hoặc tô bóng) mà bạn muốn sử dụng trong quá trình xuất sang định dạng tệp Microsoft Office."
++msgstr "Microsoft Office có hai thuộc tính ký tự tương tự như nền ký tự của %PRODUCTNAME Tài liệu. Chọn thuộc tính thích hợp (tô sáng hoặc tô bóng) mà bạn muốn sử dụng trong quá trình xuất sang định dạng tệp Microsoft Office."
+ 
+ #. Dnrx7
+ #: cui/uiconfig/ui/optfltrembedpage.ui:273
+@@ -15665,7 +15665,7 @@ msgstr "Tô bóng"
+ #: cui/uiconfig/ui/optfltrembedpage.ui:282
+ msgctxt "extended_tip|shading"
+ msgid "Microsoft Office has two character attributes similar to Writer character background. Select the appropriate attribute (highlighting or shading) which you would like to use during export to Microsoft Office file formats."
+-msgstr "Microsoft Office có hai thuộc tính ký tự tương tự như nền ký tự của Writer. Chọn thuộc tính thích hợp (tô sáng hoặc tô bóng) mà bạn muốn sử dụng trong quá trình xuất sang định dạng tệp Microsoft Office."
++msgstr "Microsoft Office có hai thuộc tính ký tự tương tự như nền ký tự của %PRODUCTNAME Tài liệu. Chọn thuộc tính thích hợp (tô sáng hoặc tô bóng) mà bạn muốn sử dụng trong quá trình xuất sang định dạng tệp Microsoft Office."
+ 
+ #. gKwdG
+ #: cui/uiconfig/ui/optfltrembedpage.ui:324
+@@ -16205,7 +16205,7 @@ msgstr "Nhập các thẻ HTML không xác đ_ịnh dưới dạng các trườn
+ #: cui/uiconfig/ui/opthtmlpage.ui:463
+ msgctxt "extended_tip|unknowntag"
+ msgid "Mark this check box if you want tags that are not recognized by Writer/Web to be imported as fields."
+-msgstr "Đánh dấu hộp kiểm này nếu bạn muốn các thẻ không được Writer/Web nhận dạng được nhập dưới dạng các trường."
++msgstr "Đánh dấu hộp kiểm này nếu bạn muốn các thẻ không được %PRODUCTNAME Tài liệu Web nhận dạng được nhập dưới dạng các trường."
+ 
+ #. VFTrU
+ #: cui/uiconfig/ui/opthtmlpage.ui:474
+@@ -16715,7 +16715,7 @@ msgstr "Chỉ định loại tiền tệ mặc định được sử dụng cho
+ #: cui/uiconfig/ui/optlanguagespage.ui:526
+ msgctxt "extended_tip|datepatterns"
+ msgid "Specifies the date acceptance patterns for the current locale. Calc spreadsheet and Writer table cell input needs to match locale dependent date acceptance patterns before it is recognized as a valid date."
+-msgstr "Chỉ định các mẫu chấp nhận ngày cho ngôn ngữ hiện tại. Dữ liệu nhập vào ô của bảng Calc và bảng Writer cần phải khớp với các mẫu chấp nhận ngày phụ thuộc vào ngôn ngữ trước khi được nhận dạng là một ngày hợp lệ."
++msgstr "Chỉ định các mẫu chấp nhận ngày cho ngôn ngữ hiện tại. Dữ liệu nhập vào ô của bảng tính và của bảng trong tài liệu văn bản cần khớp với các mẫu chấp nhận ngày theo ngôn ngữ thì mới được nhận dạng là ngày hợp lệ."
+ 
+ #. WoNAA
+ #: cui/uiconfig/ui/optlanguagespage.ui:537
+@@ -20521,7 +20521,7 @@ msgstr "Khi tạo tập tin PDF"
+ #: cui/uiconfig/ui/securityoptionsdialog.ui:171
+ msgctxt "extended_tip|whenpdf"
+ msgid "Select to see a warning dialog when you try to export a document to PDF format that displays recorded changes in Writer, or that displays comments."
+-msgstr "Chọn để xem hộp thoại cảnh báo khi bạn cố gắng xuất tài liệu sang định dạng PDF hiển thị các thay đổi đã ghi trong Writer hoặc hiển thị nhận xét."
++msgstr "Chọn để xem hộp thoại cảnh báo khi bạn cố gắng xuất tài liệu sang định dạng PDF hiển thị các thay đổi đã ghi trong %PRODUCTNAME Tài liệu hoặc hiển thị nhận xét."
+ 
+ #. dJsRK
+ #: cui/uiconfig/ui/securityoptionsdialog.ui:243
+diff --git a/source/vi/dbaccess/messages.po b/source/vi/dbaccess/messages.po
+index 6729a2d5..f9cba13f 100644
+--- a/source/vi/dbaccess/messages.po
++++ b/source/vi/dbaccess/messages.po
+@@ -1918,7 +1918,7 @@ msgstr "Tên của nguồn dữ liệu ODBC"
+ #: dbaccess/inc/strings.hrc:338
+ msgctxt "STR_WRITER_PATH_OR_FILE"
+ msgid "Path to the Writer document"
+-msgstr "Đường dẫn đến tài liệu Writer"
++msgstr "Đường dẫn đến tài liệu văn bản"
+ 
+ #. JScWd
+ #: dbaccess/inc/strings.hrc:339
+@@ -2138,7 +2138,7 @@ msgstr ""
+ #: dbaccess/inc/strings.hrc:376
+ msgctxt "STR_PAGETITLE_DOCUMENT"
+ msgid "Set up Writer Document connection"
+-msgstr ""
++msgstr "Thiết lập kết nối tới tài liệu văn bản"
+ 
+ #. wUEMA
+ #: dbaccess/inc/strings.hrc:377
+@@ -2214,7 +2214,7 @@ msgstr "Thiết lập kết nối đến tập tin văn bản"
+ #: dbaccess/inc/strings.hrc:388
+ msgctxt "STR_TEXT_HELPTEXT"
+ msgid "Select the folder where the CSV (Comma Separated Values) text files are stored. %PRODUCTNAME Base will open these files in read-only mode."
+-msgstr "Chọn thư mục chứa tập tin văn bản CSV (Comma Separated Values/ Các giá trị được phân tách bởi dấu phẩy). %PRODUCTNAME Base sẽ mở các tập tin này ở chế độ chỉ đọc."
++msgstr "Chọn thư mục chứa tập tin văn bản CSV (Comma Separated Values/ Các giá trị được phân tách bởi dấu phẩy). %PRODUCTNAME Cơ sở dữ liệu sẽ mở các tập tin này ở chế độ chỉ đọc."
+ 
+ #. chkNh
+ #: dbaccess/inc/strings.hrc:389
+@@ -2348,7 +2348,7 @@ msgctxt "STR_WRITER_HELPTEXT"
+ msgid ""
+ "Click 'Browse...' to select a %PRODUCTNAME Writer or Microsoft Word document.\n"
+ "%PRODUCTNAME will open this file in read-only mode."
+-msgstr ""
++msgstr "Nhấn 'Duyệt...' để chọn một tài liệu văn bản hoặc Microsoft Word.\n%PRODUCTNAME sẽ mở tập tin này ở chế độ chỉ đọc."
+ 
+ #. og5kg
+ #: dbaccess/inc/strings.hrc:408
+@@ -2627,7 +2627,7 @@ msgstr "Tạo..."
+ #: dbaccess/inc/strings.hrc:461
+ msgctxt "STR_RELATIONDESIGN"
+ msgid " - %PRODUCTNAME Base: Relation design"
+-msgstr " — %PRODUCTNAME Base: Thiết kế Quan hệ"
++msgstr "— %PRODUCTNAME Cơ sở dữ liệu: Thiết kế Quan hệ"
+ 
+ #. ZCd5X
+ #: dbaccess/inc/strings.hrc:462
+@@ -5139,7 +5139,7 @@ msgstr ""
+ #: dbaccess/uiconfig/ui/specialsettingspage.ui:298
+ msgctxt "specialsettingspage|extended_tip|primarykeys"
+ msgid "Enable to overrule Base's heuristics used to detect whether the database supports primary keys."
+-msgstr ""
++msgstr "Bật để bỏ qua cách %PRODUCTNAME Cơ sở dữ liệu tự đoán xem cơ sở dữ liệu có hỗ trợ khoá chính hay không."
+ 
+ #. o7mns
+ #: dbaccess/uiconfig/ui/specialsettingspage.ui:309
+diff --git a/source/vi/filter/messages.po b/source/vi/filter/messages.po
+index 1a0e913c..e99eaf75 100644
+--- a/source/vi/filter/messages.po
++++ b/source/vi/filter/messages.po
+@@ -829,7 +829,7 @@ msgstr "Bình luận dưới dạng chú thích PDF"
+ #: filter/uiconfig/ui/pdfgeneralpage.ui:914
+ msgctxt "pdfgeneralpage|extended_tip|comments"
+ msgid "Select to export comments of Writer and Calc documents as PDF annotations."
+-msgstr "Chọn để xuất chú thích của tài liệu Writer và Calc dưới dạng chú thích PDF."
++msgstr "Chọn để xuất chú thích của tài liệu văn bản và bảng tính dưới dạng chú thích PDF."
+ 
+ #. DiBsa
+ #: filter/uiconfig/ui/pdfgeneralpage.ui:925
+@@ -841,7 +841,7 @@ msgstr "_Chú thích bên lề"
+ #: filter/uiconfig/ui/pdfgeneralpage.ui:934
+ msgctxt "pdfgeneralpage|extended_tip|commentsinmargin"
+ msgid "Select to export comments of Writer documents in the page margin."
+-msgstr "Chọn để xuất chú thích của tài liệu Writer ở lề trang."
++msgstr "Chọn để xuất chú thích của tài liệu văn bản ở lề trang."
+ 
+ #. ghuXR
+ #: filter/uiconfig/ui/pdfgeneralpage.ui:945
+@@ -1463,7 +1463,7 @@ msgstr ""
+ #: filter/uiconfig/ui/pdfuserinterfacepage.ui:247
+ msgctxt "pdfuserinterfacepage|extended_tip|effects"
+ msgid "Select to export Impress slide transition effects to respective PDF effects."
+-msgstr ""
++msgstr "Chọn để xuất hiệu ứng chuyển tiếp trang chiếu của %PRODUCTNAME Trình chiếu sang hiệu ứng PDF tương ứng."
+ 
+ #. JgwC9
+ #: filter/uiconfig/ui/pdfuserinterfacepage.ui:262
+diff --git a/source/vi/filter/source/config/fragments/filters.po b/source/vi/filter/source/config/fragments/filters.po
+index 8fd7c9d2..0a3a1c9c 100644
+--- a/source/vi/filter/source/config/fragments/filters.po
++++ b/source/vi/filter/source/config/fragments/filters.po
+@@ -316,7 +316,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "HTML Document (Calc)"
+-msgstr "Văn bản HTML (Calc)"
++msgstr "Tài liệu HTML (Bảng tính)"
+ 
+ #. oExEE
+ #: HTML__StarWriter_.xcu
+@@ -326,7 +326,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "HTML Document (Writer)"
+-msgstr "Tài liệu HTML (Writer)"
++msgstr "Tài liệu HTML (Tài liệu)"
+ 
+ #. kwx7B
+ #: JPG___JPEG.xcu
+@@ -1031,7 +1031,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "Rich Text Format (Calc)"
+-msgstr ""
++msgstr "Rich Text Format (Bảng tính)"
+ 
+ #. gSCsm
+ #: SVGZ___Compressed_Scalable_Vector_Graphics.xcu
+@@ -1062,7 +1062,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "SVG - Scalable Vector Graphics Draw"
+-msgstr ""
++msgstr "SVG - Đồ hoạ véc-tơ co giãn (Bản vẽ)"
+ 
+ #. VjB4m
+ #: SVM___StarView_Metafile.xcu
+@@ -1263,7 +1263,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "Text (Writer/Web)"
+-msgstr "Văn bản (Writer/Web)"
++msgstr "Văn bản (Tài liệu Web)"
+ 
+ #. EEBpB
+ #: Text___txt___csv__StarCalc_.xcu
+@@ -1303,7 +1303,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "Text - Choose Encoding (Writer/Web)"
+-msgstr ""
++msgstr "Văn bản - Chọn bảng mã (Tài liệu Web)"
+ 
+ #. mDoGT
+ #: UOF_presentation.xcu
+@@ -1494,7 +1494,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "Web Page Query (Calc)"
+-msgstr "Truy vấn trang Web (Calc)"
++msgstr "Truy vấn trang Web (Bảng tính)"
+ 
+ #. 3jBQz
+ #: calc_MS_Excel_2007_Binary.xcu
+@@ -1614,7 +1614,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "JSON Document (Calc)"
+-msgstr ""
++msgstr "Tài liệu JSON (Bảng tính)"
+ 
+ #. 9H65g
+ #: calc_pdf_Export.xcu
+@@ -1664,7 +1664,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "XML Document (Calc)"
+-msgstr ""
++msgstr "Tài liệu XML (Bảng tính)"
+ 
+ #. ASgi2
+ #: chart8.xcu
+@@ -1815,7 +1815,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "HTML Document (Draw)"
+-msgstr "Tài liệu HTML (Draw)"
++msgstr "Tài liệu HTML (Bản vẽ)"
+ 
+ #. wQMFz
+ #: draw_jpg_Export.xcu
+@@ -1926,7 +1926,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "ODF Drawing (Impress)"
+-msgstr "Bản vẽ ODF (Impress)"
++msgstr "Bản vẽ ODF (Trình chiếu)"
+ 
+ #. yYDVB
+ #: impress8_template.xcu
+@@ -2017,7 +2017,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "OpenOffice.org 1.0 Drawing (Impress)"
+-msgstr ""
++msgstr "Bản vẽ OpenOffice.org 1.0 (Trình chiếu)"
+ 
+ #. oviUa
+ #: impress_StarOffice_XML_Impress_Template.xcu
+@@ -2078,7 +2078,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "HTML Document (Impress)"
+-msgstr "Văn bản HTML (Impress)"
++msgstr "Tài liệu HTML (Trình chiếu)"
+ 
+ #. QG7qK
+ #: impress_jpg_Export.xcu
+@@ -2329,7 +2329,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "OpenOffice.org 1.0 Text Document (Writer/Web)"
+-msgstr ""
++msgstr "Tài liệu văn bản OpenOffice.org 1.0 (Tài liệu Web)"
+ 
+ #. kp5x8
+ #: writer_web_StarOffice_XML_Writer_Web_Template.xcu
+@@ -2409,7 +2409,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "HTML (Writer/Global)"
+-msgstr ""
++msgstr "HTML (Tài liệu chủ)"
+ 
+ #. UqpiB
+ #: writerglobal8_template.xcu
+@@ -2440,7 +2440,7 @@ msgctxt ""
+ "UIName\n"
+ "value.text"
+ msgid "Text (Writer/Web)"
+-msgstr "Văn bản (Writer/Web)"
++msgstr "Văn bản (Tài liệu Web)"
+ 
+ #. C2WrF
+ #: writerweb8_writer_template.xcu
+diff --git a/source/vi/fpicker/messages.po b/source/vi/fpicker/messages.po
+index 67390ef2..d7afe86e 100644
+--- a/source/vi/fpicker/messages.po
++++ b/source/vi/fpicker/messages.po
+@@ -651,4 +651,4 @@ msgstr ""
+ #: include/fpicker/strings.hrc:53
+ msgctxt "STR_FILESAVE_SELECTION"
+ msgid "Exports only the selected graphic objects in %PRODUCTNAME Draw and Impress to another format. If this box is not checked, the entire document is exported."
+-msgstr ""
++msgstr "Chỉ xuất các đối tượng đồ hoạ đã chọn trong %PRODUCTNAME Bản vẽ và %PRODUCTNAME Trình chiếu sang định dạng khác. Nếu không đánh dấu ô này, toàn bộ tài liệu sẽ được xuất."
+diff --git a/source/vi/nlpsolver/src/com/sun/star/comp/Calc/NLPSolver.po b/source/vi/nlpsolver/src/com/sun/star/comp/Calc/NLPSolver.po
+index 892b8d5d..019a7981 100644
+--- a/source/vi/nlpsolver/src/com/sun/star/comp/Calc/NLPSolver.po
++++ b/source/vi/nlpsolver/src/com/sun/star/comp/Calc/NLPSolver.po
+@@ -32,4 +32,4 @@ msgctxt ""
+ "extdesc\n"
+ "description.text"
+ msgid "This extension integrates into Calc and offers new Solver engines to use for optimizing nonlinear programming models.\n"
+-msgstr "Phần mở rộng này tích hợp vào Calc, cho phép Solver giải bàn toán lập trình phi tuyến.\n"
++msgstr "Phần mở rộng này tích hợp vào %PRODUCTNAME Bảng tính, cho phép Solver giải bàn toán lập trình phi tuyến.\n"
+diff --git a/source/vi/officecfg/registry/data/org/openoffice.po b/source/vi/officecfg/registry/data/org/openoffice.po
+index 2802c780..c2fd7f25 100644
+--- a/source/vi/officecfg/registry/data/org/openoffice.po
++++ b/source/vi/officecfg/registry/data/org/openoffice.po
+@@ -24,7 +24,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Database Form"
+-msgstr "Cơ sở: Biểu mẫu cơ sở dữ liệu"
++msgstr "Cơ sở dữ liệu: Biểu mẫu"
+ 
+ #. YAxMS
+ #: Setup.xcu
+@@ -34,7 +34,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Report Design"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Thiết kế báo cáo"
+ 
+ #. UDTcx
+ #: Setup.xcu
+@@ -54,7 +54,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Relation Design"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Thiết kế quan hệ"
+ 
+ #. uEmjY
+ #: Setup.xcu
+@@ -64,7 +64,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Query Design"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Thiết kế truy vấn"
+ 
+ #. X5S6E
+ #: Setup.xcu
+@@ -74,7 +74,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: View Design"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Thiết kế khung nhìn"
+ 
+ #. Lsw4Y
+ #: Setup.xcu
+@@ -84,7 +84,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Table Design"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Thiết kế bảng"
+ 
+ #. s3Ecc
+ #: Setup.xcu
+@@ -94,7 +94,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Data View"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Xem dữ liệu"
+ 
+ #. LC2DZ
+ #: Setup.xcu
+@@ -104,7 +104,7 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Table Data View"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Xem dữ liệu bảng"
+ 
+ #. aienR
+ #: Setup.xcu
+@@ -114,4 +114,4 @@ msgctxt ""
+ "ooSetupFactoryUIName\n"
+ "value.text"
+ msgid "Base: Report Builder"
+-msgstr ""
++msgstr "Cơ sở dữ liệu: Trình tạo báo cáo"
+diff --git a/source/vi/officecfg/registry/data/org/openoffice/Office.po b/source/vi/officecfg/registry/data/org/openoffice/Office.po
+index fc495943..5101ea28 100644
+--- a/source/vi/officecfg/registry/data/org/openoffice/Office.po
++++ b/source/vi/officecfg/registry/data/org/openoffice/Office.po
+@@ -11424,7 +11424,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Text documents (Writer)"
+-msgstr ""
++msgstr "Tài liệu văn bản (Tài liệu)"
+ 
+ #. HxKwB
+ #: UI.xcu
+@@ -11434,7 +11434,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Spreadsheets (Calc)"
+-msgstr ""
++msgstr "Bảng tính (Bảng tính)"
+ 
+ #. c3GeA
+ #: UI.xcu
+@@ -11444,7 +11444,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Presentations (Impress)"
+-msgstr ""
++msgstr "Bản trình chiếu (Trình chiếu)"
+ 
+ #. CihR3
+ #: UI.xcu
+@@ -11454,7 +11454,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Drawings (Draw)"
+-msgstr ""
++msgstr "Bản vẽ (Bản vẽ)"
+ 
+ #. AwUgD
+ #: UI.xcu
+@@ -11464,7 +11464,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Web pages (Writer)"
+-msgstr ""
++msgstr "Trang web (Tài liệu)"
+ 
+ #. hvLLP
+ #: UI.xcu
+@@ -11474,7 +11474,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Master documents (Writer)"
+-msgstr ""
++msgstr "Tài liệu chủ (Tài liệu)"
+ 
+ #. bzq3F
+ #: UI.xcu
+@@ -11484,7 +11484,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Formulas (Math)"
+-msgstr ""
++msgstr "Công thức (Công thức)"
+ 
+ #. 2RAkk
+ #: UI.xcu
+@@ -11494,7 +11494,7 @@ msgctxt ""
+ "DisplayName\n"
+ "value.text"
+ msgid "Database documents (Base)"
+-msgstr ""
++msgstr "Tài liệu cơ sở dữ liệu (Cơ sở dữ liệu)"
+ 
+ #. v4FZa
+ #: UI.xcu
+diff --git a/source/vi/officecfg/registry/data/org/openoffice/Office/UI.po b/source/vi/officecfg/registry/data/org/openoffice/Office/UI.po
+index 680a6acf..5dd9292b 100644
+--- a/source/vi/officecfg/registry/data/org/openoffice/Office/UI.po
++++ b/source/vi/officecfg/registry/data/org/openoffice/Office/UI.po
+@@ -8674,7 +8674,7 @@ msgctxt ""
+ "Label\n"
+ "value.text"
+ msgid "Impress R~emote..."
+-msgstr "Điều khiển Impress từ ~xa..."
++msgstr "Điều khiển Trình chiếu từ ~xa..."
+ 
+ #. FFqAQ
+ #: DrawImpressCommands.xcu
+@@ -16484,7 +16484,7 @@ msgctxt ""
+ "Name\n"
+ "value.text"
+ msgid "Math"
+-msgstr "Toán"
++msgstr "Công thức"
+ 
+ #. R4F9p
+ #: GenericCategories.xcu
+diff --git a/source/vi/sc/messages.po b/source/vi/sc/messages.po
+index df38d95a..aee2b8b2 100644
+--- a/source/vi/sc/messages.po
++++ b/source/vi/sc/messages.po
+@@ -709,7 +709,7 @@ msgstr "Nhập"
+ #: sc/inc/globstr.hrc:127
+ msgctxt "STR_MSSG_DOSUBTOTALS_0"
+ msgid "%PRODUCTNAME Calc"
+-msgstr "%PRODUCTNAME Calc"
++msgstr "%PRODUCTNAME Bảng tính"
+ 
+ #. 5wfvQ
+ #: sc/inc/globstr.hrc:128
+@@ -1311,7 +1311,7 @@ msgstr "Bảng DataPilot không tìm thấy tại vị trí này."
+ #: sc/inc/globstr.hrc:225
+ msgctxt "STR_TABLE_NOTFOUND"
+ msgid "No Calc Table found at this position."
+-msgstr ""
++msgstr "Không tìm thấy bảng nào của %PRODUCTNAME Bảng tính tại vị trí này."
+ 
+ #. Q9boB
+ #: sc/inc/globstr.hrc:226
+@@ -20398,13 +20398,13 @@ msgstr ""
+ #: sc/inc/strings.hrc:393
+ msgctxt "sortoptionspage|extended_tip|sortuserlb"
+ msgid "Select the custom sort order that you want to apply. To define a custom sort order, choose Tools - Options - %PRODUCTNAME Calc - Sort Lists."
+-msgstr ""
++msgstr "Chọn thứ tự sắp xếp tuỳ chỉnh bạn muốn áp dụng. Để định nghĩa thứ tự sắp xếp tuỳ chỉnh, chọn Công cụ - Tuỳ chọn - %PRODUCTNAME Bảng tính - Danh sách sắp xếp."
+ 
+ #. T5A7R
+ #: sc/inc/strings.hrc:394
+ msgctxt "subtotaloptionspage|extended_tip|lbuserdef"
+ msgid "Uses a custom sorting order that you defined in the Options dialog box at %PRODUCTNAME Calc - Sort Lists."
+-msgstr ""
++msgstr "Dùng thứ tự sắp xếp tuỳ chỉnh bạn đã định nghĩa trong hộp thoại Tuỳ chọn tại %PRODUCTNAME Bảng tính - Danh sách sắp xếp."
+ 
+ #. gbz6Y
+ #: sc/inc/strings.hrc:395
+@@ -25339,7 +25339,7 @@ msgstr "Bảng/phạm vi _sẵn sàng"
+ #: sc/uiconfig/scalc/ui/externaldata.ui:376
+ msgctxt "externaldata|extended_tip|ExternalDataDialog"
+ msgid "Inserts data from an HTML, Calc, CSV or Excel file into the current sheet as a link. The data must be located within a named range."
+-msgstr ""
++msgstr "Chèn dữ liệu từ tập tin HTML, %PRODUCTNAME Bảng tính, CSV hoặc Excel vào trang tính hiện tại dưới dạng liên kết. Dữ liệu phải nằm trong một vùng có tên."
+ 
+ #. tKoGc
+ #: sc/uiconfig/scalc/ui/filldlg.ui:8
+@@ -28098,13 +28098,13 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/notebookbar.ui:10779
+ msgctxt "TabbedCalc|DrawMenuButton"
+ msgid "_Draw"
+-msgstr ""
++msgstr "_Vẽ"
+ 
+ #. 96WVJ
+ #: sc/uiconfig/scalc/ui/notebookbar.ui:10872
+ msgctxt "TabbedCalc|DrawTabLabel"
+ msgid "~Draw"
+-msgstr ""
++msgstr "~Vẽ"
+ 
+ #. ARTpi
+ #: sc/uiconfig/scalc/ui/notebookbar.ui:10913
+@@ -29488,7 +29488,7 @@ msgstr "Bật tính năng này để có khả năng tương tác với Microsof
+ #: sc/uiconfig/scalc/ui/optcalculatepage.ui:90
+ msgctxt "extended_tip|match"
+ msgid "Specifies that the search criteria you set for the Calc database functions must match the whole cell exactly. When both, the Search criteria = and <> must apply to whole cells box and the Enable wildcards in formulas box are marked, Calc behaves exactly as Microsoft Excel when searching cells in the database functions."
+-msgstr "Chỉ định rằng tiêu chí tìm kiếm bạn đặt cho các hàm cơ sở dữ liệu Calc phải khớp chính xác với toàn bộ ô. Khi cả hai, tiêu chí Tìm kiếm = và <> phải áp dụng cho toàn bộ ô và hộp Bật ký tự đại diện trong công thức được đánh dấu, Calc hoạt động chính xác như Microsoft Excel khi tìm kiếm các ô trong các hàm cơ sở dữ liệu."
++msgstr "Chỉ định rằng tiêu chí tìm kiếm bạn đặt cho các hàm cơ sở dữ liệu %PRODUCTNAME Bảng tính phải khớp chính xác với toàn bộ ô. Khi cả hai, tiêu chí Tìm kiếm = và <> phải áp dụng cho toàn bộ ô và hộp Bật ký tự đại diện trong công thức được đánh dấu, %PRODUCTNAME Bảng tính hoạt động chính xác như Microsoft Excel khi tìm kiếm các ô trong các hàm cơ sở dữ liệu."
+ 
+ #. 5Wn8V
+ #: sc/uiconfig/scalc/ui/optcalculatepage.ui:101
+@@ -29808,7 +29808,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/optcompatibilitypage.ui:123
+ msgctxt "extended_tip|cellLinkCB"
+ msgid "Calc can insert multiple hyperlinks in a cell as text fields, but multiple hyperlinks in a cell cannot be saved to Excel file formats. This option prevents inserting multiple hyperlinks in a cell when Excel files are edited, in order to be interoperable with Excel."
+-msgstr ""
++msgstr "%PRODUCTNAME Bảng tính có thể chèn nhiều siêu liên kết vào một ô dưới dạng trường văn bản, nhưng định dạng Excel không lưu được nhiều siêu liên kết trong một ô. Tuỳ chọn này ngăn chèn nhiều siêu liên kết vào một ô khi sửa tập tin Excel, để tương thích với Excel."
+ 
+ #. BJuZV
+ #: sc/uiconfig/scalc/ui/optcompatibilitypage.ui:152
+@@ -29820,7 +29820,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/optcompatibilitypage.ui:167
+ msgctxt "extended_tip|OptCompatibilityPage"
+ msgid "Defines compatibility options for Calc."
+-msgstr ""
++msgstr "Định nghĩa các tuỳ chọn tương thích cho %PRODUCTNAME Bảng tính."
+ 
+ #. Jcvih
+ #: sc/uiconfig/scalc/ui/optdefaultpage.ui:36
+@@ -30048,7 +30048,7 @@ msgstr "Dấu tách"
+ #: sc/uiconfig/scalc/ui/optformula.ui:456
+ msgctxt "extended_tip|OptFormula"
+ msgid "Defines formula syntax options and loading options for Calc."
+-msgstr ""
++msgstr "Định nghĩa các tuỳ chọn cú pháp công thức và tuỳ chọn nạp cho %PRODUCTNAME Bảng tính."
+ 
+ #. cCfAk
+ #: sc/uiconfig/scalc/ui/optimalcolwidthdialog.ui:8
+@@ -32448,7 +32448,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/searchresults.ui:40
+ msgctxt "searchresults|ShowBox_Tooltip"
+ msgid "Enable the dialog again at Tools - Options - %PRODUCTNAME Calc - View"
+-msgstr ""
++msgstr "Bật lại hộp thoại tại Công cụ - Tuỳ chọn - %PRODUCTNAME Bảng tính - Xem"
+ 
+ #. sekAN
+ #: sc/uiconfig/scalc/ui/searchresults.ui:100
+@@ -32621,13 +32621,13 @@ msgstr "Sử dụng những ô đã chọn làm nguồn dữ liệu cho bảng D
+ #: sc/uiconfig/scalc/ui/selectsource.ui:159
+ msgctxt "selectsource|database"
+ msgid "_Data source registered in Calc"
+-msgstr ""
++msgstr "_Nguồn dữ liệu đã đăng ký trong %PRODUCTNAME Bảng tính"
+ 
+ #. ZDHcm
+ #: sc/uiconfig/scalc/ui/selectsource.ui:168
+ msgctxt "selectsource|extended_tip|database"
+ msgid "Uses a table or query in a database that is registered in Calc as the data source for the pivot table."
+-msgstr ""
++msgstr "Dùng một bảng hoặc truy vấn trong cơ sở dữ liệu đã đăng ký với %PRODUCTNAME Bảng tính làm nguồn dữ liệu cho bảng tổng hợp."
+ 
+ #. ZDghg
+ #: sc/uiconfig/scalc/ui/selectsource.ui:180
+@@ -36449,7 +36449,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:651
+ msgctxt "textimportcsv|extended_tip|detectspecialnumbers"
+ msgid "When this option is enabled, Calc will automatically detect all number formats, including special number formats such as dates, time, and scientific notation."
+-msgstr ""
++msgstr "Khi bật tuỳ chọn này, %PRODUCTNAME Bảng tính sẽ tự động nhận dạng mọi định dạng số, kể cả các định dạng đặc biệt như ngày, giờ và ký hiệu khoa học."
+ 
+ #. C2dCt
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:662
+@@ -36485,7 +36485,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:691
+ msgctxt "textimportcsv|extended_tip|skipemptycells"
+ msgid "When this option is enabled, Calc preserves previous content of cells when pasting empty ones. Otherwise, Calc deletes content of previous cells."
+-msgstr ""
++msgstr "Khi bật tuỳ chọn này, %PRODUCTNAME Bảng tính giữ nguyên nội dung cũ của ô khi dán ô trống. Nếu không, %PRODUCTNAME Bảng tính sẽ xoá nội dung của các ô cũ."
+ 
+ #. qK6j7
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:702
+@@ -36497,7 +36497,7 @@ msgstr ""
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:710
+ msgctxt "textimportcsv|extended_tip|detectscientificnumbers"
+ msgid "When this option is enabled, Calc will automatically detect numbers in scientific notation in addition to basic decimal numbers."
+-msgstr ""
++msgstr "Khi bật tuỳ chọn này, %PRODUCTNAME Bảng tính sẽ tự động nhận dạng số viết theo ký hiệu khoa học, ngoài các số thập phân thông thường."
+ 
+ #. PBycV
+ #: sc/uiconfig/scalc/ui/textimportcsv.ui:732
+@@ -37084,7 +37084,7 @@ msgstr "Đối _tượng"
+ #: sc/uiconfig/scalc/ui/tpviewpage.ui:1072
+ msgctxt "extended_tip|TpViewPage"
+ msgid "Defines which elements of the Calc main window are displayed. You can also show or hide highlighting of values in tables."
+-msgstr ""
++msgstr "Định nghĩa các thành phần hiển thị trong cửa sổ chính của %PRODUCTNAME Bảng tính. Bạn cũng có thể hiện hoặc ẩn việc tô sáng giá trị trong bảng."
+ 
+ #. AnLEa
+ #: sc/uiconfig/scalc/ui/ttestdialog.ui:95
+@@ -37441,7 +37441,7 @@ msgstr "Nhập thông điệp bạn muốn hiển thị khi ô hay phạm vi ô
+ #: sc/uiconfig/scalc/ui/warnautocorrect.ui:13
+ msgctxt "warnautocorrect|WarnAutoCorrect"
+ msgid "%PRODUCTNAME Calc found an error in the formula entered."
+-msgstr ""
++msgstr "%PRODUCTNAME Bảng tính phát hiện lỗi trong công thức vừa nhập."
+ 
+ #. 7BDGp
+ #: sc/uiconfig/scalc/ui/warnautocorrect.ui:14
+diff --git a/source/vi/scp2/source/base.po b/source/vi/scp2/source/base.po
+index 65eb20bb..0ed00392 100644
+--- a/source/vi/scp2/source/base.po
++++ b/source/vi/scp2/source/base.po
+@@ -23,7 +23,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_BASE\n"
+ "LngText.text"
+ msgid "Manage databases, create queries and reports to track and manage your information by using Base."
+-msgstr "Quản lý cơ sở dữ liệu, tạo truy vấn và báo cáo để theo dõi và quản lý thông tin bằng Base."
++msgstr "Quản lý cơ sở dữ liệu, tạo truy vấn và báo cáo để theo dõi và quản lý thông tin bằng %PRODUCTNAME Cơ sở dữ liệu."
+ 
+ #. nSMds
+ #: module_base.ulf
+@@ -32,7 +32,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_BASE\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Base"
+-msgstr "%PRODUCTNAME Base"
++msgstr "%PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. AGMBG
+ #: module_base.ulf
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_BASE\n"
+ "LngText.text"
+ msgid "Create and edit databases by using %PRODUCTNAME Base."
+-msgstr "Tạo và chỉnh sửa cơ sở dữ liệu bằng %PRODUCTNAME Base."
++msgstr "Tạo và chỉnh sửa cơ sở dữ liệu bằng %PRODUCTNAME Cơ sở dữ liệu."
+ 
+ #. nTWAu
+ #: module_base.ulf
+@@ -59,7 +59,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_BASE_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Base"
+-msgstr "Ứng dụng %PRODUCTNAME Base"
++msgstr "Ứng dụng %PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. NFXnv
+ #: module_base.ulf
+@@ -68,7 +68,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_BASE_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Base Help"
+-msgstr "Trợ giúp %PRODUCTNAME Base"
++msgstr "Trợ giúp %PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. 7XyZv
+ #: module_base.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_BASE_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Base"
+-msgstr "Trợ giúp về %PRODUCTNAME Base"
++msgstr "Trợ giúp về %PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. 5fcpj
+ #: postgresqlsdbc.ulf
+diff --git a/source/vi/scp2/source/calc.po b/source/vi/scp2/source/calc.po
+index ae576d8c..cb8e2400 100644
+--- a/source/vi/scp2/source/calc.po
++++ b/source/vi/scp2/source/calc.po
+@@ -32,7 +32,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_CALC\n"
+ "LngText.text"
+ msgid "Perform calculations, analyze information and manage lists in spreadsheets by using Calc."
+-msgstr "Tính toán, phân tích thông tin và quản lý danh sách trong bảng tính bằng Calc."
++msgstr "Tính toán, phân tích thông tin và quản lý danh sách trong bảng tính bằng %PRODUCTNAME Bảng tính."
+ 
+ #. 2sEBu
+ #: module_calc.ulf
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_CALC\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Calc"
+-msgstr "%PRODUCTNAME Calc"
++msgstr "%PRODUCTNAME Bảng tính"
+ 
+ #. erCpE
+ #: module_calc.ulf
+@@ -50,7 +50,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_CALC\n"
+ "LngText.text"
+ msgid "Perform calculations, analyze information and manage lists in spreadsheets by using %PRODUCTNAME Calc."
+-msgstr "Tính toán, phân tích thông tin và quản lý danh sách trong bảng tính bằng %PRODUCTNAME Calc."
++msgstr "Tính toán, phân tích thông tin và quản lý danh sách trong bảng tính bằng %PRODUCTNAME Bảng tính."
+ 
+ #. LAxSN
+ #: module_calc.ulf
+@@ -68,7 +68,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_CALC_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Calc"
+-msgstr "Ứng dụng %PRODUCTNAME Calc"
++msgstr "Ứng dụng %PRODUCTNAME Bảng tính"
+ 
+ #. 4gcnp
+ #: module_calc.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_CALC_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Calc Help"
+-msgstr "Trợ giúp %PRODUCTNAME Calc"
++msgstr "Trợ giúp %PRODUCTNAME Bảng tính"
+ 
+ #. wVArW
+ #: module_calc.ulf
+@@ -86,7 +86,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_CALC_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Calc"
+-msgstr "Trợ giúp về %PRODUCTNAME Calc"
++msgstr "Trợ giúp về %PRODUCTNAME Bảng tính"
+ 
+ #. pturF
+ #: module_calc.ulf
+@@ -104,7 +104,7 @@ msgctxt ""
+ "STR_DESC_MODULE_OPTIONAL_ADDINS\n"
+ "LngText.text"
+ msgid "Add-ins are additional programs that make new functions available in %PRODUCTNAME Calc."
+-msgstr "Phần bổ trợ là các chương trình thêm, cung cấp các chức năng mới cho %PRODUCTNAME Calc."
++msgstr "Phần bổ trợ là các chương trình thêm, cung cấp các chức năng mới cho %PRODUCTNAME Bảng tính."
+ 
+ #. xtCyD
+ #: registryitem_calc.ulf
+diff --git a/source/vi/scp2/source/draw.po b/source/vi/scp2/source/draw.po
+index daf2daad..22b5d465 100644
+--- a/source/vi/scp2/source/draw.po
++++ b/source/vi/scp2/source/draw.po
+@@ -32,7 +32,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_DRAW\n"
+ "LngText.text"
+ msgid "Create and edit drawings, flow charts, and logos by using Draw."
+-msgstr "Tạo và chỉnh sửa bản vẽ, lược đồ, và biểu hình bằng Draw."
++msgstr "Tạo và chỉnh sửa bản vẽ, lược đồ, và biểu hình bằng %PRODUCTNAME Bản vẽ."
+ 
+ #. w5oJE
+ #: module_draw.ulf
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_DRAW\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Draw"
+-msgstr "%PRODUCTNAME Draw"
++msgstr "%PRODUCTNAME Bản vẽ"
+ 
+ #. Sm97Z
+ #: module_draw.ulf
+@@ -50,7 +50,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_DRAW\n"
+ "LngText.text"
+ msgid "Create and edit drawings, flow charts, and logos by using %PRODUCTNAME Draw."
+-msgstr "Tạo và chỉnh sửa bản vẽ, lược đồ và biểu hình bằng %PRODUCTNAME Draw."
++msgstr "Tạo và chỉnh sửa bản vẽ, lược đồ và biểu hình bằng %PRODUCTNAME Bản vẽ."
+ 
+ #. 6iuU9
+ #: module_draw.ulf
+@@ -68,7 +68,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_DRAW_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Draw"
+-msgstr "Ứng dụng %PRODUCTNAME Draw"
++msgstr "Ứng dụng %PRODUCTNAME Bản vẽ"
+ 
+ #. MY3tN
+ #: module_draw.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_DRAW_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Draw Help"
+-msgstr "Trợ giúp %PRODUCTNAME Draw"
++msgstr "Trợ giúp %PRODUCTNAME Bản vẽ"
+ 
+ #. e6aEb
+ #: module_draw.ulf
+@@ -86,7 +86,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_DRAW_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Draw"
+-msgstr "Trợ giúp về %PRODUCTNAME Draw"
++msgstr "Trợ giúp về %PRODUCTNAME Bản vẽ"
+ 
+ #. MrkUJ
+ #: registryitem_draw.ulf
+diff --git a/source/vi/scp2/source/impress.po b/source/vi/scp2/source/impress.po
+index e888c3fd..f3ea9ab1 100644
+--- a/source/vi/scp2/source/impress.po
++++ b/source/vi/scp2/source/impress.po
+@@ -32,7 +32,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_IMPRESS\n"
+ "LngText.text"
+ msgid "Create and edit presentations for slideshows, meeting and Web pages by using Impress."
+-msgstr "Tạo và chỉnh sửa các trình diễn chiếu ảnh, hội họp và các trang Web bằng Impress."
++msgstr "Tạo và chỉnh sửa các trình diễn chiếu ảnh, hội họp và các trang Web bằng %PRODUCTNAME Trình chiếu."
+ 
+ #. 4XJxj
+ #: module_impress.ulf
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_IMPRESS\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Impress"
+-msgstr "%PRODUCTNAME Impress"
++msgstr "%PRODUCTNAME Trình chiếu"
+ 
+ #. 44gb8
+ #: module_impress.ulf
+@@ -50,7 +50,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_IMPRESS\n"
+ "LngText.text"
+ msgid "Create and edit presentations for slideshows, meeting and Web pages by using %PRODUCTNAME Impress."
+-msgstr "Tạo và chỉnh sửa các trình diễn chiếu ảnh, hội họp và các trang Web bằng %PRODUCTNAME Impress."
++msgstr "Tạo và chỉnh sửa các trình diễn chiếu ảnh, hội họp và các trang Web bằng %PRODUCTNAME Trình chiếu."
+ 
+ #. 33n88
+ #: module_impress.ulf
+@@ -68,7 +68,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_IMPRESS_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Impress"
+-msgstr "Ứng dụng %PRODUCTNAME Impress"
++msgstr "Ứng dụng %PRODUCTNAME Trình chiếu"
+ 
+ #. CsaFh
+ #: module_impress.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_IMPRESS_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Impress Help"
+-msgstr "Trợ giúp %PRODUCTNAME Impress"
++msgstr "Trợ giúp %PRODUCTNAME Trình chiếu"
+ 
+ #. vAPBy
+ #: module_impress.ulf
+@@ -86,7 +86,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_IMPRESS_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Impress"
+-msgstr "Trợ giúp về %PRODUCTNAME Impress"
++msgstr "Trợ giúp về %PRODUCTNAME Trình chiếu"
+ 
+ #. Bg4eB
+ #: registryitem_impress.ulf
+diff --git a/source/vi/scp2/source/math.po b/source/vi/scp2/source/math.po
+index 8f0ee49a..fdfda03e 100644
+--- a/source/vi/scp2/source/math.po
++++ b/source/vi/scp2/source/math.po
+@@ -23,7 +23,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_MATH\n"
+ "LngText.text"
+ msgid "Create and edit scientific formulas and equations by using Math."
+-msgstr "Tạo và chỉnh sửa các công thức và phương trình khoa học bằng cách sử dụng Math."
++msgstr "Tạo và chỉnh sửa các công thức và phương trình khoa học bằng cách sử dụng %PRODUCTNAME Công thức."
+ 
+ #. GhCeF
+ #: module_math.ulf
+@@ -32,7 +32,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_MATH\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Math"
+-msgstr "%PRODUCTNAME Math"
++msgstr "%PRODUCTNAME Công thức"
+ 
+ #. AhgCA
+ #: module_math.ulf
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_MATH\n"
+ "LngText.text"
+ msgid "Create and edit scientific formulas and equations by using %PRODUCTNAME Math."
+-msgstr "Tạo và chỉnh sửa các công thức và phương trình khoa học bằng cách sử dụng %PRODUCTNAME Math."
++msgstr "Tạo và chỉnh sửa các công thức và phương trình khoa học bằng cách sử dụng %PRODUCTNAME Công thức."
+ 
+ #. BUC7Z
+ #: module_math.ulf
+@@ -59,7 +59,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_MATH_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Math"
+-msgstr "Ứng dụng %PRODUCTNAME Math"
++msgstr "Ứng dụng %PRODUCTNAME Công thức"
+ 
+ #. 2zAjE
+ #: module_math.ulf
+@@ -68,7 +68,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_MATH_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Math Help"
+-msgstr "Trợ giúp %PRODUCTNAME Math"
++msgstr "Trợ giúp %PRODUCTNAME Công thức"
+ 
+ #. 5jFUu
+ #: module_math.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_MATH_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Math"
+-msgstr "Trợ giúp về %PRODUCTNAME Math"
++msgstr "Trợ giúp về %PRODUCTNAME Công thức"
+ 
+ #. wcGkE
+ #: registryitem_math.ulf
+diff --git a/source/vi/scp2/source/python.po b/source/vi/scp2/source/python.po
+index cac5ccdc..3942bbf8 100644
+--- a/source/vi/scp2/source/python.po
++++ b/source/vi/scp2/source/python.po
+@@ -32,4 +32,4 @@ msgctxt ""
+ "STR_DESC_MODULE_OPTIONAL_PYTHON_LIBRELOGO\n"
+ "LngText.text"
+ msgid "Logo (turtle graphics) toolbar for Writer"
+-msgstr ""
++msgstr "Thanh công cụ Logo (đồ hoạ con rùa) cho %PRODUCTNAME Tài liệu"
+diff --git a/source/vi/scp2/source/writer.po b/source/vi/scp2/source/writer.po
+index 32626aa6..bc979d1c 100644
+--- a/source/vi/scp2/source/writer.po
++++ b/source/vi/scp2/source/writer.po
+@@ -41,7 +41,7 @@ msgctxt ""
+ "STR_FI_TOOLTIP_WRITER\n"
+ "LngText.text"
+ msgid "Create and edit text and images in letters, reports, documents and Web pages by using Writer."
+-msgstr ""
++msgstr "Tạo và chỉnh sửa văn bản, hình ảnh trong thư, báo cáo, tài liệu và trang web bằng %PRODUCTNAME Tài liệu."
+ 
+ #. 3iX4u
+ #: module_writer.ulf
+@@ -50,7 +50,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_WRT\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Writer"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "%PRODUCTNAME Tài liệu"
+ 
+ #. FEGQU
+ #: module_writer.ulf
+@@ -59,7 +59,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_WRT\n"
+ "LngText.text"
+ msgid "Create and edit text and images in letters, reports, documents and Web pages by using %PRODUCTNAME Writer."
+-msgstr ""
++msgstr "Tạo và chỉnh sửa văn bản, hình ảnh trong thư, báo cáo, tài liệu và trang web bằng %PRODUCTNAME Tài liệu."
+ 
+ #. GCUDe
+ #: module_writer.ulf
+@@ -77,7 +77,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_WRT_BIN\n"
+ "LngText.text"
+ msgid "The application %PRODUCTNAME Writer"
+-msgstr "Ứng dụng %PRODUCTNAME Writer"
++msgstr "Ứng dụng %PRODUCTNAME Tài liệu"
+ 
+ #. zYAFQ
+ #: module_writer.ulf
+@@ -86,7 +86,7 @@ msgctxt ""
+ "STR_NAME_MODULE_PRG_WRT_HELP\n"
+ "LngText.text"
+ msgid "%PRODUCTNAME Writer Help"
+-msgstr "Trợ giúp %PRODUCTNAME Writer"
++msgstr "Trợ giúp %PRODUCTNAME Tài liệu"
+ 
+ #. j3zwV
+ #: module_writer.ulf
+@@ -95,7 +95,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_WRT_HELP\n"
+ "LngText.text"
+ msgid "Help about %PRODUCTNAME Writer"
+-msgstr "Trợ giúp về %PRODUCTNAME Writer"
++msgstr "Trợ giúp về %PRODUCTNAME Tài liệu"
+ 
+ #. 5BavU
+ #: module_writer.ulf
+@@ -113,7 +113,7 @@ msgctxt ""
+ "STR_DESC_MODULE_PRG_WRT_WRITER2LATEX\n"
+ "LngText.text"
+ msgid "LaTeX export filter for Writer documents."
+-msgstr "Bộ lọc xuất LaTeX cho tàil iệu Writer"
++msgstr "Bộ lọc xuất LaTeX cho tài liệu văn bản."
+ 
+ #. 9mhd6
+ #: registryitem_writer.ulf
+diff --git a/source/vi/sd/messages.po b/source/vi/sd/messages.po
+index ca076e87..441a6bd9 100644
+--- a/source/vi/sd/messages.po
++++ b/source/vi/sd/messages.po
+@@ -2954,25 +2954,25 @@ msgstr "(không tác giả)"
+ #: sd/inc/strings.hrc:422
+ msgctxt "STR_ANNOTATION_WRAP_FORWARD"
+ msgid "%PRODUCTNAME Impress reached the end of the presentation. Do you want to continue at the beginning?"
+-msgstr "Đã tới cuối cùng của %PRODUCTNAME Impress. Bắt đầu từ trên xuống?"
++msgstr "Đã tới cuối cùng của %PRODUCTNAME Trình chiếu. Bắt đầu từ trên xuống?"
+ 
+ #. P5gKe
+ #: sd/inc/strings.hrc:423
+ msgctxt "STR_ANNOTATION_WRAP_BACKWARD"
+ msgid "%PRODUCTNAME Impress reached the beginning of the presentation. Do you want to continue at the end?"
+-msgstr "Đã đến đầu của %PRODUCTNAME Impress. Bắt đầu từ dưới lên?"
++msgstr "Đã đến đầu của %PRODUCTNAME Trình chiếu. Bắt đầu từ dưới lên?"
+ 
+ #. KGmdL
+ #: sd/inc/strings.hrc:424
+ msgctxt "STR_ANNOTATION_WRAP_FORWARD_DRAW"
+ msgid "%PRODUCTNAME Draw reached the end of the document. Do you want to continue at the beginning?"
+-msgstr "Đã tới cuối của %PRODUCTNAME Draw. Bắt đầu từ trên xuống?"
++msgstr "Đã tới cuối của %PRODUCTNAME Bản vẽ. Bắt đầu từ trên xuống?"
+ 
+ #. oEn6r
+ #: sd/inc/strings.hrc:425
+ msgctxt "STR_ANNOTATION_WRAP_BACKWARD_DRAW"
+ msgid "%PRODUCTNAME Draw reached the beginning of the document. Do you want to continue at the end?"
+-msgstr "Đã tới đầu của %PRODUCTNAME Draw. Bắt đầu từ dưới lên?"
++msgstr "Đã tới đầu của %PRODUCTNAME Bản vẽ. Bắt đầu từ dưới lên?"
+ 
+ #. eP7Vm
+ #: sd/inc/strings.hrc:426
+@@ -3134,25 +3134,25 @@ msgstr "Trang chiếu:"
+ #: sd/inc/strings.hrc:455
+ msgctxt "STR_SAR_WRAP_FORWARD"
+ msgid "%PRODUCTNAME Impress has searched to the end of the presentation. Do you want to continue at the beginning?"
+-msgstr "%PRODUCTNAME Impress vừa duyệt tới cuối trình chiếu. Bạn có muốn tiếp tục từ đầu không?"
++msgstr "%PRODUCTNAME Trình chiếu vừa duyệt tới cuối trình chiếu. Bạn có muốn tiếp tục từ đầu không?"
+ 
+ #. buKAC
+ #: sd/inc/strings.hrc:456
+ msgctxt "STR_SAR_WRAP_BACKWARD"
+ msgid "%PRODUCTNAME Impress has searched to the beginning of the presentation. Do you want to continue at the end?"
+-msgstr "%PRODUCTNAME Impress vừa duyệt tới đầu của trình chiếu. Bạn có muốn tiếp tục từ cuối không?"
++msgstr "%PRODUCTNAME Trình chiếu vừa duyệt tới đầu của trình chiếu. Bạn có muốn tiếp tục từ cuối không?"
+ 
+ #. iiE2i
+ #: sd/inc/strings.hrc:457
+ msgctxt "STR_SAR_WRAP_FORWARD_DRAW"
+ msgid "%PRODUCTNAME Draw has searched to the end of the document. Do you want to continue at the beginning?"
+-msgstr "%PRODUCTNAME Draw vừa lục soát tới cuối của tài liệu. Bạn có muốn tiếp tục từ đầu không?"
++msgstr "%PRODUCTNAME Bản vẽ vừa lục soát tới cuối của tài liệu. Bạn có muốn tiếp tục từ đầu không?"
+ 
+ #. RAhiP
+ #: sd/inc/strings.hrc:458
+ msgctxt "STR_SAR_WRAP_BACKWARD_DRAW"
+ msgid "%PRODUCTNAME Draw has searched to the beginning of the document. Do you want to continue at the end?"
+-msgstr "%PRODUCTNAME Draw vừa lục soát tới đầu của tài liệu. Bạn có muốn tiếp tục từ cuối không?"
++msgstr "%PRODUCTNAME Bản vẽ vừa lục soát tới đầu của tài liệu. Bạn có muốn tiếp tục từ cuối không?"
+ 
+ #. 6GhtE
+ #: sd/inc/strings.hrc:460
+@@ -3946,7 +3946,7 @@ msgstr "Thuộc tính"
+ #: sd/uiconfig/sdraw/ui/insertlayer.ui:322
+ msgctxt "insertlayer|extended_tip|InsertLayerDialog"
+ msgid "Inserts a new layer in the document. Layers are only available in Draw, not in Impress."
+-msgstr "Chèn một lớp phủ mới vào tài liệu. Các lớp phủ chỉ khả dụng trong Draw, không có trong Impress."
++msgstr "Chèn một lớp phủ mới vào tài liệu. Các lớp phủ chỉ khả dụng trong %PRODUCTNAME Bản vẽ, không có trong %PRODUCTNAME Trình chiếu."
+ 
+ #. dCRtD
+ #: sd/uiconfig/sdraw/ui/insertslidesdialog.ui:18
+@@ -4324,13 +4324,13 @@ msgstr ""
+ #: sd/uiconfig/sdraw/ui/notebookbar.ui:9911
+ msgctxt "TabbedDraw|DrawMenuButton"
+ msgid "_Draw"
+-msgstr ""
++msgstr "_Vẽ"
+ 
+ #. 94hir
+ #: sd/uiconfig/sdraw/ui/notebookbar.ui:10003
+ msgctxt "TabbedDraw|DrawTabLabel"
+ msgid "~Draw"
+-msgstr ""
++msgstr "~Vẽ"
+ 
+ #. AKcXA
+ #: sd/uiconfig/sdraw/ui/notebookbar.ui:10043
+@@ -4837,7 +4837,7 @@ msgstr "Bảng"
+ #: sd/uiconfig/sdraw/ui/notebookbar_groupedbar_compact.ui:6653
+ msgctxt "draw_notebookbar_groupedbar_compact|calculatet"
+ msgid "_Calc"
+-msgstr "_Calc"
++msgstr "_Tính toán"
+ 
+ #. 5GKtj
+ #: sd/uiconfig/sdraw/ui/notebookbar_groupedbar_compact.ui:6919
+@@ -7583,13 +7583,13 @@ msgstr ""
+ #: sd/uiconfig/simpress/ui/notebookbar.ui:10596
+ msgctxt "TabbedImpress|DrawMenuButton"
+ msgid "_Draw"
+-msgstr ""
++msgstr "_Vẽ"
+ 
+ #. anufQ
+ #: sd/uiconfig/simpress/ui/notebookbar.ui:10689
+ msgctxt "TabbedImpress|DrawTabLabel"
+ msgid "~Draw"
+-msgstr ""
++msgstr "~Vẽ"
+ 
+ #. igxrp
+ #: sd/uiconfig/simpress/ui/notebookbar.ui:10730
+@@ -8114,7 +8114,7 @@ msgstr "Bảng (_T)"
+ #: sd/uiconfig/simpress/ui/notebookbar_groupedbar_compact.ui:6617
+ msgctxt "notebookbar_groupedbar_compact|calculatet"
+ msgid "_Calc"
+-msgstr "_Calc"
++msgstr "_Tính toán"
+ 
+ #. DC7Hv
+ #: sd/uiconfig/simpress/ui/notebookbar_groupedbar_compact.ui:6883
+@@ -8342,7 +8342,7 @@ msgstr "Hàng (_O)"
+ #: sd/uiconfig/simpress/ui/notebookbar_groupedbar_full.ui:7397
+ msgctxt "notebookbar_groupedbar_full|calculatet"
+ msgid "_Calc"
+-msgstr "_Calc"
++msgstr "_Tính toán"
+ 
+ #. WfzeY
+ #: sd/uiconfig/simpress/ui/notebookbar_groupedbar_full.ui:7723
+@@ -8806,7 +8806,7 @@ msgstr "Thêm khoảng cách giữa các đoạn văn và bảng (_S)"
+ #: sd/uiconfig/simpress/ui/optimpressgeneralpage.ui:418
+ msgctxt "extended_tip|cbCompatibility"
+ msgid "Specifies that Impress calculates the paragraph spacing exactly like Microsoft PowerPoint."
+-msgstr "Chỉ định rằng Impress tính toán khoảng cách đoạn văn chính xác như Microsoft PowerPoint."
++msgstr "Chỉ định rằng %PRODUCTNAME Trình chiếu tính toán khoảng cách đoạn văn chính xác như Microsoft PowerPoint."
+ 
+ #. PaYjQ
+ #: sd/uiconfig/simpress/ui/optimpressgeneralpage.ui:446
+@@ -9262,7 +9262,7 @@ msgstr "Trong cửa sổ (_W)"
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:308
+ msgctxt "presentationdialog|extended_tip|window"
+ msgid "Slide show runs in the Impress program window."
+-msgstr "Trình chiếu chạy trong cửa sổ chương trình Impress."
++msgstr "Trình chiếu chạy trong cửa sổ chương trình %PRODUCTNAME Trình chiếu."
+ 
+ #. DAKWY
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:319
+@@ -9382,7 +9382,7 @@ msgstr ""
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:525
+ msgctxt "presentationdialog|extended_tip|alwaysontop"
+ msgid "The Impress window remains on top during the presentation. No other program will show its window in front of your presentation."
+-msgstr "Cửa sổ Impress giữ ở trên cùng trong khi trình chiếu. Không có chương trình nào khác sẽ hiển thị cửa sổ trước bài trình chiếu của bạn."
++msgstr "Cửa sổ %PRODUCTNAME Trình chiếu giữ ở trên cùng trong khi trình chiếu. Không có chương trình nào khác sẽ hiển thị cửa sổ trước bài trình chiếu của bạn."
+ 
+ #. qEFbc
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:536
+@@ -9394,7 +9394,7 @@ msgstr ""
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:544
+ msgctxt "presentationdialog|extended_tip|enableinteractivemode"
+ msgid "The Impress main document window remains active during the presentation. Users can continue editing slide content, which will be reflected in the running slideshow."
+-msgstr ""
++msgstr "Cửa sổ tài liệu chính của %PRODUCTNAME Trình chiếu vẫn hoạt động trong khi trình chiếu. Người dùng có thể tiếp tục sửa nội dung trang chiếu và thay đổi sẽ hiện ngay trong buổi trình chiếu đang chạy."
+ 
+ #. HiAEG
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:559
+@@ -9532,7 +9532,7 @@ msgstr ""
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:826
+ msgctxt "presentationdialog|learnmore|tooltip_text"
+ msgid "Download LibreOffice Impress Remote to remotely control the presentation from your smartphone or smartwatch."
+-msgstr ""
++msgstr "Tải ứng dụng LibreOffice Impress Remote để điều khiển bản trình chiếu từ xa bằng điện thoại thông minh hoặc đồng hồ thông minh."
+ 
+ #. VqnxK
+ #: sd/uiconfig/simpress/ui/presentationdialog.ui:839
+@@ -9784,7 +9784,7 @@ msgstr "Chỉ định cài đặt in trong tài liệu bản vẽ hoặc bản t
+ #: sd/uiconfig/simpress/ui/remotedialog.ui:8
+ msgctxt "remotedialog|RemoteDialog"
+ msgid "Impress Remote"
+-msgstr "Điều khiển Impress"
++msgstr "Điều khiển Trình chiếu từ xa"
+ 
+ #. hZKA2
+ #: sd/uiconfig/simpress/ui/remotedialog.ui:25
+@@ -9802,7 +9802,7 @@ msgstr "Kết nối"
+ #: sd/uiconfig/simpress/ui/remotedialog.ui:163
+ msgctxt "remotedialog|extended_tip|RemoteDialog"
+ msgid "List all Impress Remote available connections."
+-msgstr "Liệt kê các kết nối điều khiển Impress có sẵn."
++msgstr "Liệt kê mọi kết nối điều khiển Trình chiếu từ xa đang có."
+ 
+ #. oe6tG
+ #: sd/uiconfig/simpress/ui/rotatemenu.ui:12
+@@ -9940,7 +9940,7 @@ msgstr ""
+ #: sd/uiconfig/simpress/ui/sdviewpage.ui:106
+ msgctxt "extended_tip|zoomwithwheel"
+ msgid "When enabled in Draw, the mouse wheel zooms instead of scrolling, and Ctrl plus the mouse wheel scrolls instead of zooming."
+-msgstr ""
++msgstr "Khi bật trong %PRODUCTNAME Bản vẽ, con lăn chuột sẽ thu phóng thay vì cuộn, và Ctrl cộng con lăn chuột sẽ cuộn thay vì thu phóng."
+ 
+ #. kJGzf
+ #: sd/uiconfig/simpress/ui/sdviewpage.ui:186
+diff --git a/source/vi/sfx2/messages.po b/source/vi/sfx2/messages.po
+index 1acbf6d5..71e44d97 100644
+--- a/source/vi/sfx2/messages.po
++++ b/source/vi/sfx2/messages.po
+@@ -529,7 +529,7 @@ msgstr "Tùy chọn"
+ #: include/sfx2/strings.hrc:115
+ msgctxt "STR_GID_MATH"
+ msgid "Math"
+-msgstr "Math"
++msgstr "Công thức"
+ 
+ #. rFALW
+ #: include/sfx2/strings.hrc:116
+@@ -1112,7 +1112,7 @@ msgstr "Xảy ra lỗi khi thêm mục tiêu mới. Vui lòng báo cáo lại s
+ #: include/sfx2/strings.hrc:219
+ msgctxt "STR_REDACTION_NO_DRAW_WARNING"
+ msgid "Draw module is needed for redaction. Please make sure you have %PRODUCTNAME Draw installed and working correctly."
+-msgstr "Mô-đun Draw là cần thiết để chỉnh sửa. Vui lòng chắc chắn bạn đã cài đặt %PRODUCTNAME Draw và hoạt động bình thường."
++msgstr "Mô-đun %PRODUCTNAME Bản vẽ là cần thiết để chỉnh sửa. Vui lòng chắc chắn bạn đã cài đặt %PRODUCTNAME Bản vẽ và hoạt động bình thường."
+ 
+ #. AjnAF
+ #: include/sfx2/strings.hrc:220
+@@ -5087,40 +5087,39 @@ msgstr "Tạo:"
+ 
+ #. SY4iY
+ #: sfx2/uiconfig/ui/startcenter.ui:237
+-#, fuzzy
+ msgctxt "startcenter|writer_all"
+ msgid "_Writer Document"
+-msgstr "_Tài liệu Writer"
++msgstr "Tài _liệu"
+ 
+ #. Bvz5c
+ #: sfx2/uiconfig/ui/startcenter.ui:257
+ msgctxt "startcenter|calc_all"
+ msgid "_Calc Spreadsheet"
+-msgstr "_Bảng tính Calc"
++msgstr "_Bảng tính"
+ 
+ #. RxGP6
+ #: sfx2/uiconfig/ui/startcenter.ui:277
+ msgctxt "startcenter|impress_all"
+ msgid "_Impress Presentation"
+-msgstr "_Trình chiếu Impress"
++msgstr "Trình _chiếu"
+ 
+ #. 7fE2M
+ #: sfx2/uiconfig/ui/startcenter.ui:297
+ msgctxt "startcenter|draw_all"
+ msgid "_Draw Drawing"
+-msgstr "_Bản vẽ Draw"
++msgstr "Bản _vẽ"
+ 
+ #. 7wn8r
+ #: sfx2/uiconfig/ui/startcenter.ui:317
+ msgctxt "startcenter|math_all"
+ msgid "_Math Formula"
+-msgstr "_Công thức Math"
++msgstr "_Công thức"
+ 
+ #. nnwDC
+ #: sfx2/uiconfig/ui/startcenter.ui:337
+ msgctxt "startcenter|database_all"
+ msgid "_Base Database"
+-msgstr "_Cơ sở dữ liệu Base"
++msgstr "Cơ sở _dữ liệu"
+ 
+ #. ZEDmn
+ #: sfx2/uiconfig/ui/startcenter.ui:359
+diff --git a/source/vi/svtools/messages.po b/source/vi/svtools/messages.po
+index df946efc..003f7cdd 100644
+--- a/source/vi/svtools/messages.po
++++ b/source/vi/svtools/messages.po
+@@ -1413,7 +1413,7 @@ msgstr ""
+ #: include/svtools/strings.hrc:291
+ msgctxt "printersetupdialog|extended_tip|options"
+ msgid "Opens the Printer Options dialog where you can override the global printer options set on the Tools - Options - %PRODUCTNAME Writer/Web - Print panel for the current document."
+-msgstr ""
++msgstr "Mở hộp thoại Tuỳ chọn máy in, nơi bạn có thể ghi đè các tuỳ chọn máy in chung đặt tại Công cụ - Tuỳ chọn - %PRODUCTNAME Tài liệu Web - In cho tài liệu hiện tại."
+ 
+ #. q7s6f
+ #: include/svtools/strings.hrc:293
+@@ -1731,7 +1731,7 @@ msgstr ""
+ #: include/svtools/strings.hrc:345
+ msgctxt "STR_DESCRIPTION_OO_MATH_DOC"
+ msgid "%PRODUCTNAME Math Formula"
+-msgstr ""
++msgstr "Công thức %PRODUCTNAME Công thức"
+ 
+ #. 4F4Uo
+ #: include/svtools/strings.hrc:346
+@@ -1743,19 +1743,19 @@ msgstr ""
+ #: include/svtools/strings.hrc:347
+ msgctxt "STR_DESCRIPTION_OO_IMPRESS_DOC"
+ msgid "%PRODUCTNAME Impress Presentation"
+-msgstr ""
++msgstr "Bản trình chiếu %PRODUCTNAME Trình chiếu"
+ 
+ #. 3ReMe
+ #: include/svtools/strings.hrc:348
+ msgctxt "STR_DESCRIPTION_OO_CALC_DOC"
+ msgid "%PRODUCTNAME Calc Spreadsheet"
+-msgstr ""
++msgstr "Bảng tính %PRODUCTNAME Bảng tính"
+ 
+ #. pTYGw
+ #: include/svtools/strings.hrc:349
+ msgctxt "STR_DESCRIPTION_OO_WRITER_DOC"
+ msgid "%PRODUCTNAME Writer Document"
+-msgstr ""
++msgstr "Tài liệu %PRODUCTNAME Tài liệu"
+ 
+ #. m2AEw
+ #: include/svtools/strings.hrc:350
+diff --git a/source/vi/svx/messages.po b/source/vi/svx/messages.po
+index c75b2445..0ef3e974 100644
+--- a/source/vi/svx/messages.po
++++ b/source/vi/svx/messages.po
+@@ -17068,7 +17068,7 @@ msgstr "Tìm tất _cả"
+ #: svx/uiconfig/ui/findreplacedialog.ui:525
+ msgctxt "findreplacedialog|extended_tip|searchall"
+ msgid "Finds and selects all instances of the text or the format that you are searching for in the document (only in Writer and Calc documents)."
+-msgstr "Tìm và lựa chọn mọi lần gặp đoạn văn hay định dạng bạn tìm kiếm trong tài liệu (chỉ trong tài liệu kiểu Writer và Calc)."
++msgstr "Tìm và chọn mọi chỗ có văn bản hoặc định dạng bạn đang tìm trong tài liệu (chỉ trong tài liệu văn bản và bảng tính)."
+ 
+ #. A3wE5
+ #: svx/uiconfig/ui/findreplacedialog.ui:537
+@@ -17262,7 +17262,7 @@ msgstr ""
+ #: svx/uiconfig/ui/findreplacedialog.ui:1038
+ msgctxt "findreplacedialog|extended_tip|notes"
+ msgid "In Writer, you can select to include the comment texts in your searches."
+-msgstr "Trong Writer, bạn có thể lựa chọn để bao gồm ghi chú trong những tìm kiếm của bạn."
++msgstr "Trong %PRODUCTNAME Tài liệu, bạn có thể lựa chọn để bao gồm ghi chú trong những tìm kiếm của bạn."
+ 
+ #. hj5vn
+ #: svx/uiconfig/ui/findreplacedialog.ui:1056
+@@ -18959,7 +18959,7 @@ msgstr ""
+ #: svx/uiconfig/ui/optgridpage.ui:610
+ msgctxt "extended_tip|mtrfldsnaparea"
+ msgid "Defines the snap distance between the mouse pointer and the object contour. Impress snaps to a snap point if the mouse pointer is nearer than the distance selected in the Snap range control."
+-msgstr ""
++msgstr "Xác định khoảng cách bắt dính giữa con trỏ chuột và đường viền đối tượng. %PRODUCTNAME Trình chiếu bắt dính vào một điểm khi con trỏ chuột ở gần hơn khoảng cách đã chọn trong ô Phạm vi bắt dính."
+ 
+ #. FekAR
+ #: svx/uiconfig/ui/optgridpage.ui:623
+diff --git a/source/vi/sw/messages.po b/source/vi/sw/messages.po
+index c818a7a9..cdf0f1df 100644
+--- a/source/vi/sw/messages.po
++++ b/source/vi/sw/messages.po
+@@ -493,7 +493,7 @@ msgstr "Kiểu tự chọn"
+ #: sw/inc/cnttab.hrc:29
+ msgctxt "RES_SRCTYPES"
+ msgid "%PRODUCTNAME Math"
+-msgstr "%PRODUCTNAME Math"
++msgstr "%PRODUCTNAME Công thức"
+ 
+ #. wg2Rx
+ #: sw/inc/cnttab.hrc:30
+@@ -505,13 +505,13 @@ msgstr "%PRODUCTNAME Chart"
+ #: sw/inc/cnttab.hrc:31
+ msgctxt "RES_SRCTYPES"
+ msgid "%PRODUCTNAME Calc"
+-msgstr "%PRODUCTNAME Calc"
++msgstr "%PRODUCTNAME Bảng tính"
+ 
+ #. Ybz27
+ #: sw/inc/cnttab.hrc:32
+ msgctxt "RES_SRCTYPES"
+ msgid "%PRODUCTNAME Draw/%PRODUCTNAME Impress"
+-msgstr "%PRODUCTNAME Draw/%PRODUCTNAME Impress"
++msgstr "%PRODUCTNAME Bản vẽ/%PRODUCTNAME Trình chiếu"
+ 
+ #. ZDymA
+ #: sw/inc/cnttab.hrc:33
+@@ -658,7 +658,7 @@ msgstr "Lỗi ghi tài liệu phụ $(ARG1)."
+ #: sw/inc/error.hrc:46 sw/inc/error.hrc:47
+ msgctxt "RID_SW_ERRHDL"
+ msgid "Internal error in %PRODUCTNAME Writer file format."
+-msgstr "Lỗi nội bộ trong định dạng tập tin %PRODUCTNAME Writer."
++msgstr "Lỗi nội bộ trong định dạng tập tin %PRODUCTNAME Tài liệu."
+ 
+ #. AQxBy
+ #: sw/inc/error.hrc:48
+@@ -4296,24 +4296,21 @@ msgstr "Cột rộng %1"
+ 
+ #. ZLVNB
+ #: sw/inc/strings.hrc:343
+-#, fuzzy
+ msgctxt "STR_CAPTION_TABLE"
+ msgid "%PRODUCTNAME Writer Table"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "Bảng %PRODUCTNAME Tài liệu"
+ 
+ #. FMXrc
+ #: sw/inc/strings.hrc:344
+-#, fuzzy
+ msgctxt "STR_CAPTION_FRAME"
+ msgid "%PRODUCTNAME Writer Frame"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "Khung %PRODUCTNAME Tài liệu"
+ 
+ #. gEGv8
+ #: sw/inc/strings.hrc:345
+-#, fuzzy
+ msgctxt "STR_CAPTION_GRAPHIC"
+ msgid "%PRODUCTNAME Writer Image"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "Ảnh %PRODUCTNAME Tài liệu"
+ 
+ #. k8kLw
+ #: sw/inc/strings.hrc:346
+@@ -7728,19 +7725,19 @@ msgstr ""
+ #: sw/inc/strings.hrc:927
+ msgctxt "STR_FILTER_SXB"
+ msgid "%PRODUCTNAME Base"
+-msgstr ""
++msgstr "%PRODUCTNAME Cơ sở dữ liệu"
+ 
+ #. CVU2n
+ #: sw/inc/strings.hrc:928
+ msgctxt "STR_FILTER_SXC"
+ msgid "%PRODUCTNAME Calc"
+-msgstr ""
++msgstr "%PRODUCTNAME Bảng tính"
+ 
+ #. ccsQt
+ #: sw/inc/strings.hrc:929
+ msgctxt "STR_FILTER_SXW"
+ msgid "%PRODUCTNAME Writer"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "%PRODUCTNAME Tài liệu"
+ 
+ #. Jwqok
+ #: sw/inc/strings.hrc:930
+@@ -10403,7 +10400,7 @@ msgstr ""
+ #: sw/inc/strings.hrc:1429
+ msgctxt "STR_NO_BASE_FOR_MERGE"
+ msgid "%PRODUCTNAME Base component is absent, and it is required to use Mail Merge."
+-msgstr ""
++msgstr "Thiếu thành phần %PRODUCTNAME Cơ sở dữ liệu, thành phần này cần thiết để dùng chức năng Trộn thư."
+ 
+ #. wcuf4
+ #: sw/inc/strings.hrc:1430
+@@ -10716,7 +10713,7 @@ msgstr ""
+ #: sw/inc/strings.hrc:1499
+ msgctxt "insertcaption|extended_tip|auto"
+ msgid "Opens the Caption dialog. It has the same information as the dialog you get by menu %PRODUCTNAME Writer - AutoCaption in the Options dialog box."
+-msgstr ""
++msgstr "Mở hộp thoại Chú thích ảnh. Hộp thoại có cùng thông tin như hộp thoại tại %PRODUCTNAME Tài liệu - Chú thích tự động trong hộp thoại Tuỳ chọn."
+ 
+ #. 2iTJE
+ #: sw/inc/strings.hrc:1501
+@@ -13669,7 +13666,7 @@ msgstr "Kiểu dáng đã áp dụng"
+ #: sw/uiconfig/swriter/ui/conditionpage.ui:99
+ msgctxt "conditionpage|extended_tip|links"
+ msgid "Here you can see the Writer predefined contexts, including outline levels 1 to 10, list levels 1 to 10, table header, table contents, section, border, footnote, header and footer."
+-msgstr ""
++msgstr "Đây là các ngữ cảnh định sẵn của %PRODUCTNAME Tài liệu, gồm cấp đề cương 1 đến 10, cấp danh sách 1 đến 10, tiêu đề bảng, nội dung bảng, vùng, viền, cước chú, đầu trang và chân trang."
+ 
+ #. nDZqL
+ #: sw/uiconfig/swriter/ui/conditionpage.ui:128
+@@ -15693,7 +15690,7 @@ msgstr "Liệt kê các cơ sở dữ liệu đang được dùng."
+ #: sw/uiconfig/swriter/ui/exchangedatabases.ui:239
+ msgctxt "exchangedatabases|extended_tip|availablelb"
+ msgid "Lists the databases that are registered in Writer."
+-msgstr ""
++msgstr "Liệt kê các cơ sở dữ liệu đã đăng ký trong %PRODUCTNAME Tài liệu."
+ 
+ #. 8KDES
+ #: sw/uiconfig/swriter/ui/exchangedatabases.ui:252
+@@ -16849,7 +16846,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/footnotepage.ui:507
+ msgctxt "footnotepage|extended_tip|conted"
+ msgid "Enter the text that you want to display when the footnotes are continued on the next page, for example, \"Continued on Page \". Writer automatically inserts the number of the following page."
+-msgstr ""
++msgstr "Nhập văn bản bạn muốn hiển thị khi cước chú tiếp tục sang trang sau, ví dụ \"Tiếp theo ở trang \". %PRODUCTNAME Tài liệu sẽ tự động chèn số của trang kế tiếp."
+ 
+ #. pp4tE
+ #: sw/uiconfig/swriter/ui/footnotepage.ui:520
+@@ -16861,7 +16858,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/footnotepage.ui:540
+ msgctxt "footnotepage|extended_tip|contfromed"
+ msgid "Enter the text that you want to display on the page where the footnotes are continued, for example, \"Continued from Page \". Writer automatically inserts the number of the previous page."
+-msgstr ""
++msgstr "Nhập văn bản bạn muốn hiển thị ở trang có cước chú tiếp nối, ví dụ \"Tiếp theo từ trang \". %PRODUCTNAME Tài liệu sẽ tự động chèn số của trang trước."
+ 
+ #. ZEhG2
+ #: sw/uiconfig/swriter/ui/footnotepage.ui:555
+@@ -20481,7 +20478,7 @@ msgstr "RT~F"
+ #: sw/uiconfig/swriter/ui/mailmerge.ui:700
+ msgctxt "mailmerge|swriter"
+ msgid "%PRODUCTNAME Writer"
+-msgstr "%PRODUCTNAME Writer"
++msgstr "%PRODUCTNAME Tài liệu"
+ 
+ #. CnEBu
+ #: sw/uiconfig/swriter/ui/mailmerge.ui:715
+@@ -21864,7 +21861,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:38
+ msgctxt "mmselectpage|extended_tip|currentdoc"
+ msgid "Uses the current Writer document as the base for the mail merge document."
+-msgstr "Dùng tài liệu Writer hiện tại làm tài liệu gốc cho thư trộn."
++msgstr "Dùng tài liệu văn bản hiện tại làm tài liệu gốc cho thư trộn."
+ 
+ #. KUEyG
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:49
+@@ -21876,7 +21873,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:58
+ msgctxt "mmselectpage|extended_tip|newdoc"
+ msgid "Creates a new Writer document to use for the mail merge."
+-msgstr "Tạo một tài liệu Writer mới dùng để trộn thư."
++msgstr "Tạo một tài liệu văn bản mới dùng để trộn thư."
+ 
+ #. bATvf
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:69
+@@ -21888,7 +21885,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:79
+ msgctxt "mmselectpage|extended_tip|loaddoc"
+ msgid "Select an existing Writer document to use as the base for the mail merge document."
+-msgstr "Chọn một tài liệu Writer đã tồn tại làm tài liệu gốc để trộn thư."
++msgstr "Chọn một tài liệu văn bản đã tồn tại làm tài liệu gốc để trộn thư."
+ 
+ #. GieL3
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:90
+@@ -21931,7 +21928,7 @@ msgstr "Duyệt..."
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:156
+ msgctxt "mmselectpage|extended_tip|browsedoc"
+ msgid "Locate the Writer document that you want to use, and then click Open."
+-msgstr ""
++msgstr "Tìm tài liệu văn bản bạn muốn dùng, rồi nhấn Mở."
+ 
+ #. 3trwP
+ #: sw/uiconfig/swriter/ui/mmselectpage.ui:167
+@@ -23278,13 +23275,13 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/notebookbar.ui:11896
+ msgctxt "TabbedWriter|DrawMenuButton"
+ msgid "_Draw"
+-msgstr ""
++msgstr "_Vẽ"
+ 
+ #. ovPQg
+ #: sw/uiconfig/swriter/ui/notebookbar.ui:11989
+ msgctxt "TabbedWriter|DrawTabLabel"
+ msgid "~Draw"
+-msgstr ""
++msgstr "~Vẽ"
+ 
+ #. fYJC7
+ #: sw/uiconfig/swriter/ui/notebookbar.ui:12028
+@@ -23741,7 +23738,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/notebookbar_groupedbar_compact.ui:6315
+ msgctxt "notebookbar_groupedbar_compact|CalculateButton"
+ msgid "_Calc"
+-msgstr ""
++msgstr "_Tính toán"
+ 
+ #. DC7Hv
+ #: sw/uiconfig/swriter/ui/notebookbar_groupedbar_compact.ui:6571
+@@ -23988,7 +23985,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/notebookbar_groupedbar_full.ui:7941
+ msgctxt "notebookbar_groupedbar_full|CalculateButton"
+ msgid "_Calc"
+-msgstr ""
++msgstr "_Tính toán"
+ 
+ #. cyjNn
+ #: sw/uiconfig/swriter/ui/notebookbar_groupedbar_full.ui:8300
+@@ -25138,7 +25135,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optcompatpage.ui:116
+ msgctxt "extended_tip|default"
+ msgid "Click to use the current settings on this tab page as the default for further sessions with Writer."
+-msgstr ""
++msgstr "Nhấn để dùng thiết lập hiện tại trong thẻ này làm mặc định cho các phiên làm việc sau với %PRODUCTNAME Tài liệu."
+ 
+ #. XAXU2
+ #: sw/uiconfig/swriter/ui/optcompatpage.ui:131
+@@ -25150,7 +25147,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optcompatpage.ui:146
+ msgctxt "extended_tip|OptCompatPage"
+ msgid "Specifies compatibility settings for text documents. These options help in fine-tuning Writer when importing Microsoft Word documents."
+-msgstr ""
++msgstr "Xác định thiết lập tương thích cho tài liệu văn bản. Các tuỳ chọn này giúp tinh chỉnh %PRODUCTNAME Tài liệu khi nhập tài liệu Microsoft Word."
+ 
+ #. kHud8
+ #: sw/uiconfig/swriter/ui/optfonttabpage.ui:35
+@@ -25634,7 +25631,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optformataidspage.ui:1140
+ msgctxt "extended_tip|OptFormatAidsPage"
+ msgid "In Writer text and HTML documents, defines the display for certain characters and for the direct cursor."
+-msgstr ""
++msgstr "Trong tài liệu văn bản và HTML của %PRODUCTNAME Tài liệu, xác định cách hiển thị một số ký tự và con trỏ trực tiếp."
+ 
+ #. V9Ahc
+ #: sw/uiconfig/swriter/ui/optgeneralpage.ui:43
+@@ -25660,7 +25657,7 @@ msgstr "Đồ thị"
+ #: sw/uiconfig/swriter/ui/optgeneralpage.ui:70
+ msgctxt "extended_tip|updatecharts"
+ msgid "Specifies whether to automatically update charts. Whenever a Writer table cell value changes and the cursor leaves that cell, the chart that displays the cell value is updated automatically."
+-msgstr ""
++msgstr "Xác định có tự động cập nhật đồ thị hay không. Mỗi khi giá trị của một ô trong bảng %PRODUCTNAME Tài liệu thay đổi và con trỏ rời khỏi ô đó, đồ thị hiển thị giá trị của ô sẽ được tự động cập nhật."
+ 
+ #. GfsZW
+ #: sw/uiconfig/swriter/ui/optgeneralpage.ui:111
+@@ -25896,7 +25893,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:102
+ msgctxt "extended_tip|insertcolor"
+ msgid "You can also choose a color to display each type of recorded change. When you choose the condition \"By author\" in the list, the color is automatically determined by Writer, then modified to match to the author of each change."
+-msgstr ""
++msgstr "Bạn cũng có thể chọn màu để hiển thị từng loại thay đổi đã ghi. Khi bạn chọn điều kiện \"Theo tác giả\" trong danh sách, màu sẽ do %PRODUCTNAME Tài liệu tự động chọn, rồi điều chỉnh cho khớp với tác giả của từng thay đổi."
+ 
+ #. aCEwk
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:171
+@@ -25934,7 +25931,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:260
+ msgctxt "extended_tip|deletedcolor"
+ msgid "You can also choose a color to display each type of recorded change. When you choose the condition \"By author\" in the list, the color is automatically determined by Writer, then modified to match to the author of each change."
+-msgstr ""
++msgstr "Bạn cũng có thể chọn màu để hiển thị từng loại thay đổi đã ghi. Khi bạn chọn điều kiện \"Theo tác giả\" trong danh sách, màu sẽ do %PRODUCTNAME Tài liệu tự động chọn, rồi điều chỉnh cho khớp với tác giả của từng thay đổi."
+ 
+ #. 3FpZy
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:329
+@@ -25972,7 +25969,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:418
+ msgctxt "extended_tip|changedcolor"
+ msgid "You can also choose a color to display each type of recorded change. When you choose the condition \"By author\" in the list, the color is automatically determined by Writer, then modified to match to the author of each change."
+-msgstr ""
++msgstr "Bạn cũng có thể chọn màu để hiển thị từng loại thay đổi đã ghi. Khi bạn chọn điều kiện \"Theo tác giả\" trong danh sách, màu sẽ do %PRODUCTNAME Tài liệu tự động chọn, rồi điều chỉnh cho khớp với tác giả của từng thay đổi."
+ 
+ #. ZqYdk
+ #: sw/uiconfig/swriter/ui/optredlinepage.ui:487
+@@ -27837,7 +27834,7 @@ msgstr "In các tr~ang trắng đã chèn tự động"
+ #: sw/uiconfig/swriter/ui/printeroptions.ui:244
+ msgctxt "printeroptions|extended_tip|autoblankpages"
+ msgid "If this option is enabled automatically inserted blank pages are printed. This is best if you are printing double-sided. For example, in a book, a \"chapter\" paragraph style has been set to always start with an odd numbered page. If the previous chapter ends on an odd page, Writer inserts an even numbered blank page. This option controls whether to print that even numbered page."
+-msgstr ""
++msgstr "Nếu bật tuỳ chọn này, các trang trống được chèn tự động sẽ được in. Cách này phù hợp nhất khi in hai mặt. Ví dụ trong một cuốn sách, kiểu đoạn \"chương\" được đặt để luôn bắt đầu ở trang lẻ. Nếu chương trước kết thúc ở trang lẻ, %PRODUCTNAME Tài liệu sẽ chèn một trang chẵn trống. Tuỳ chọn này quyết định có in trang chẵn đó hay không."
+ 
+ #. tkryr
+ #: sw/uiconfig/swriter/ui/printeroptions.ui:253
+@@ -28078,7 +28075,7 @@ msgstr "In các tr_ang trắng đã chèn tự động"
+ #: sw/uiconfig/swriter/ui/printoptionspage.ui:593
+ msgctxt "extended_tip|blankpages"
+ msgid "If this option is enabled, automatically-inserted blank pages are being printed. This is best if you are printing double-sided. For example, in a book, a \"chapter\" paragraph style has been set to always start with an odd numbered page. If the previous chapter ends on an odd page, Writer inserts an even numbered blank page. This option controls whether to print that even numbered page or not."
+-msgstr ""
++msgstr "Nếu bật tuỳ chọn này, các trang trống được chèn tự động sẽ được in. Cách này phù hợp nhất khi in hai mặt. Ví dụ trong một cuốn sách, kiểu đoạn \"chương\" được đặt để luôn bắt đầu ở trang lẻ. Nếu chương trước kết thúc ở trang lẻ, %PRODUCTNAME Tài liệu sẽ chèn một trang chẵn trống. Tuỳ chọn này quyết định có in trang chẵn đó hay không."
+ 
+ #. oSYKd
+ #: sw/uiconfig/swriter/ui/printoptionspage.ui:604
+@@ -28428,7 +28425,7 @@ msgstr ""
+ #: sw/uiconfig/swriter/ui/querycontinuebegindialog.ui:15
+ msgctxt "querycontinuebegindialog|QueryContinueBeginDialog"
+ msgid "%PRODUCTNAME Writer has searched to the end of the document."
+-msgstr ""
++msgstr "%PRODUCTNAME Tài liệu đã tìm đến cuối tài liệu."
+ 
+ #. fuaTy
+ #: sw/uiconfig/swriter/ui/querycontinueenddialog.ui:7
+@@ -28447,7 +28444,7 @@ msgstr "Bạn có muốn tiếp tục lưu tài liệu này không?"
+ #: sw/uiconfig/swriter/ui/querycontinueenddialog.ui:15
+ msgctxt "querycontinueenddialog|QueryContinueEndDialog"
+ msgid "%PRODUCTNAME Writer has searched to the beginning of the document."
+-msgstr ""
++msgstr "%PRODUCTNAME Tài liệu đã tìm đến đầu tài liệu."
+ 
+ #. bj5SZ
+ #: sw/uiconfig/swriter/ui/querydefaultcompatdialog.ui:7
+diff --git a/source/vi/swext/mediawiki/src.po b/source/vi/swext/mediawiki/src.po
+index 8eb8cee7..c16db7fc 100644
+--- a/source/vi/swext/mediawiki/src.po
++++ b/source/vi/swext/mediawiki/src.po
+@@ -32,4 +32,4 @@ msgctxt ""
+ "extdesc\n"
+ "description.text"
+ msgid "The Wiki Publisher enables you to create Wiki articles on MediaWiki servers without having to know the syntax of the MediaWiki markup language. Publish your new and existing documents transparently with the Writer to a wiki page.\n"
+-msgstr "Trình xuất bản Wiki cho phép viết bài trên máy chủ MediaWiki mà không cần hiểu cú pháp của MediaWiki. Bạn có thể xuất bản tài liệu Writer tới trang wiki.\n"
++msgstr "Trình xuất bản Wiki cho phép viết bài trên máy chủ MediaWiki mà không cần hiểu cú pháp của MediaWiki. Bạn có thể xuất bản tài liệu văn bản tới trang wiki.\n"
+diff --git a/source/vi/wizards/messages.po b/source/vi/wizards/messages.po
+index d503ceb8..3409108f 100644
+--- a/source/vi/wizards/messages.po
++++ b/source/vi/wizards/messages.po
+@@ -26,31 +26,31 @@ msgstr "Không thể tạo thư mục « %1 ».<BR>Có thể không còn đủ c
+ #: wizards/com/sun/star/wizards/common/strings.hrc:33
+ msgctxt "RID_COMMON_START_1"
+ msgid "The text document could not be created.<BR>Please check if the module '%PRODUCTNAME Writer' is installed."
+-msgstr "Không thể tạo tài liệu văn bản. <BR> Vui lòng kiểm tra nếu mô-đun '%PRODUCTNAME%' đã được cài đặt."
++msgstr "Không thể tạo tài liệu văn bản.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Tài liệu' đã được cài đặt chưa."
+ 
+ #. m9CbQ
+ #: wizards/com/sun/star/wizards/common/strings.hrc:34
+ msgctxt "RID_COMMON_START_2"
+ msgid "The spreadsheet could not be created.<BR>Please check if the module '%PRODUCTNAME Calc' is installed."
+-msgstr "Không thể tạo bảng tính. <BR> Vui lòng kiểm tra nếu mô-đun '%PRODUCTNAME%' đã được cài đặt."
++msgstr "Không thể tạo bảng tính.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Bảng tính' đã được cài đặt chưa."
+ 
+ #. ZCzrE
+ #: wizards/com/sun/star/wizards/common/strings.hrc:35
+ msgctxt "RID_COMMON_START_3"
+ msgid "The presentation could not be created.<BR>Please check if the module '%PRODUCTNAME Impress' is installed."
+-msgstr "Không thể tạo bài trình chiếu. <BR> Vui lòng kiểm tra nếu mô-đun '%PRODUCTNAME%' đã được cài đặt."
++msgstr "Không thể tạo bản trình chiếu.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Trình chiếu' đã được cài đặt chưa."
+ 
+ #. s45vT
+ #: wizards/com/sun/star/wizards/common/strings.hrc:36
+ msgctxt "RID_COMMON_START_4"
+ msgid "The drawing could not be created.<BR>Please check if the module '%PRODUCTNAME Draw' is installed."
+-msgstr "Không thể tạo bản vẽ. <BR> Vui lòng kiểm tra nếu mô-đun '%PRODUCTNAME%' đã được cài đặt."
++msgstr "Không thể tạo bản vẽ.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Bản vẽ' đã được cài đặt chưa."
+ 
+ #. YzHou
+ #: wizards/com/sun/star/wizards/common/strings.hrc:37
+ msgctxt "RID_COMMON_START_5"
+ msgid "The formula could not be created.<BR>Please check if the module '%PRODUCTNAME Math' is installed."
+-msgstr "Không thể tạo công thức. <BR> Vui lòng kiểm tra nếu mô-đun '%PRODUCTNAME%' đã được cài đặt."
++msgstr "Không thể tạo công thức.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Công thức' đã được cài đặt chưa."
+ 
+ #. EcX4n
+ #: wizards/com/sun/star/wizards/common/strings.hrc:38
+diff --git a/source/vi/wizards/source/resources.po b/source/vi/wizards/source/resources.po
+index 6a5297e2..6d313add 100644
+--- a/source/vi/wizards/source/resources.po
++++ b/source/vi/wizards/source/resources.po
+@@ -32,7 +32,7 @@ msgctxt ""
+ "RID_COMMON_1\n"
+ "property.text"
+ msgid "The text document could not be created.<BR>Please check if the module '%PRODUCTNAME Writer' is installed."
+-msgstr ""
++msgstr "Không thể tạo tài liệu văn bản.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Tài liệu' đã được cài đặt chưa."
+ 
+ #. ovyQD
+ #: resources_en_US.properties
+@@ -41,7 +41,7 @@ msgctxt ""
+ "RID_COMMON_2\n"
+ "property.text"
+ msgid "The spreadsheet could not be created.<BR>Please check if the module '%PRODUCTNAME Calc' is installed."
+-msgstr ""
++msgstr "Không thể tạo bảng tính.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Bảng tính' đã được cài đặt chưa."
+ 
+ #. XoWgV
+ #: resources_en_US.properties
+@@ -50,7 +50,7 @@ msgctxt ""
+ "RID_COMMON_3\n"
+ "property.text"
+ msgid "The presentation could not be created.<BR>Please check if the module '%PRODUCTNAME Impress' is installed."
+-msgstr ""
++msgstr "Không thể tạo bản trình chiếu.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Trình chiếu' đã được cài đặt chưa."
+ 
+ #. 86ERo
+ #: resources_en_US.properties
+@@ -59,7 +59,7 @@ msgctxt ""
+ "RID_COMMON_4\n"
+ "property.text"
+ msgid "The drawing could not be created.<BR>Please check if the module '%PRODUCTNAME Draw' is installed."
+-msgstr ""
++msgstr "Không thể tạo bản vẽ.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Bản vẽ' đã được cài đặt chưa."
+ 
+ #. oGc3c
+ #: resources_en_US.properties
+@@ -68,7 +68,7 @@ msgctxt ""
+ "RID_COMMON_5\n"
+ "property.text"
+ msgid "The formula could not be created.<BR>Please check if the module '%PRODUCTNAME Math' is installed."
+-msgstr ""
++msgstr "Không thể tạo công thức.<BR>Vui lòng kiểm tra xem mô-đun '%PRODUCTNAME Công thức' đã được cài đặt chưa."
+ 
+ #. j5GzW
+ #: resources_en_US.properties

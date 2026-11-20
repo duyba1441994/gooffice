@@ -1,0 +1,5521 @@
+diff --git a/source/vi/fpicker/messages.po b/source/vi/fpicker/messages.po
+index d7afe86e..4363c6ac 100644
+--- a/source/vi/fpicker/messages.po
++++ b/source/vi/fpicker/messages.po
+@@ -70,7 +70,7 @@ msgctxt "RID_FILEOPEN_NOTEXISTENTFILE"
+ msgid ""
+ "The file $(ARG1) does not exist.\n"
+ "Make sure you have entered the correct file name."
+-msgstr ""
++msgstr "Tập tin $(ARG1) không tồn tại.\nHãy chắc chắn bạn đã nhập đúng tên tập tin."
+ 
+ #. CahDV
+ #: fpicker/inc/strings.hrc:33
+@@ -157,32 +157,28 @@ msgstr "Đồng ý (_Y)"
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:129
+ msgctxt "explorerfiledialog|connect_to_server"
+ msgid "Servers..."
+-msgstr ""
++msgstr "Máy chủ..."
+ 
+ #. ZqDfr
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:133
+-#, fuzzy
+ msgctxt "explorerfiledialog|connect_to_server|tooltip_text"
+ msgid "Connect To Server"
+-msgstr "Kết nối tới Máy chủ"
++msgstr "Kết nối tới máy chủ"
+ 
+ #. kaDnz
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:137
+-#, fuzzy
+ msgctxt "explorerfiledialog|connect_to_server-atkobject"
+ msgid "Connect To Server"
+-msgstr "Kết nối tới Máy chủ"
++msgstr "Kết nối tới máy chủ"
+ 
+ #. e8DSB
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:193
+-#, fuzzy
+ msgctxt "explorerfiledialog|new_folder|tooltip_text"
+ msgid "Create New Folder"
+ msgstr "Tạo thư mục mới"
+ 
+ #. Lyb7g
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:199
+-#, fuzzy
+ msgctxt "explorerfiledialog|new_folder-atkobject"
+ msgid "Create New Folder"
+ msgstr "Tạo thư mục mới"
+@@ -191,125 +187,118 @@ msgstr "Tạo thư mục mới"
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:261
+ msgctxt "explorerfiledialog|places"
+ msgid "Places"
+-msgstr ""
++msgstr "Địa điểm"
+ 
+ #. CnQhU
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:296
+ msgctxt "explorerfiledialog|add"
+ msgid "Add current folder to Places"
+-msgstr ""
++msgstr "Thêm thư mục hiện tại vào Địa điểm"
+ 
+ #. 6ZCFB
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:311
+ msgctxt "explorerfiledialog|del"
+ msgid "Remove selected folder from Places"
+-msgstr ""
++msgstr "Gỡ thư mục đã chọn khỏi Địa điểm"
+ 
+ #. Upnsg
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:365
+ msgctxt "explorerfiledialog|name"
+ msgid "Name"
+-msgstr ""
++msgstr "Tên"
+ 
+ #. CGq9e
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:385
+ msgctxt "explorerfiledialog|type"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. wDiXd
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:399
+ msgctxt "explorerfiledialog|size"
+ msgid "Size"
+-msgstr ""
++msgstr "Kích thước"
+ 
+ #. CDqza
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:413
+ msgctxt "explorerfiledialog|date"
+ msgid "Date modified"
+-msgstr ""
++msgstr "Ngày sửa đổi"
+ 
+ #. vQEZt
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:495
+ msgctxt "explorerfiledialog|open"
+ msgid "_Open"
+-msgstr ""
++msgstr "_Mở"
+ 
+ #. JnE2t
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:542
+ msgctxt "explorerfiledialog|play"
+ msgid "_Play"
+-msgstr ""
++msgstr "_Phát"
+ 
+ #. dWNqZ
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:580
+-#, fuzzy
+ msgctxt "explorerfiledialog|file_name_label"
+ msgid "File _name:"
+-msgstr "Tên tập tin:"
++msgstr "_Tên tập tin:"
+ 
+ #. 9cjFB
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:606
+-#, fuzzy
+ msgctxt "explorerfiledialog|file_type_label"
+ msgid "File _type:"
+-msgstr "~Kiểu tập tin:"
++msgstr "_Kiểu tập tin:"
+ 
+ #. quCXH
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:670
+-#, fuzzy
+ msgctxt "explorerfiledialog|readonly"
+ msgid "_Read-only"
+-msgstr "~Chỉ đọc"
++msgstr "_Chỉ đọc"
+ 
+ #. hm2xy
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:693
+-#, fuzzy
+ msgctxt "explorerfiledialog|password"
+ msgid "Save with password"
+-msgstr "Lưu ~bằng mật khẩu"
++msgstr "Lưu kèm mật khẩu"
+ 
+ #. 8EYcB
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:706
+-#, fuzzy
+ msgctxt "explorerfiledialog|extension"
+ msgid "_Automatic file name extension"
+-msgstr "~Tự động đặt phần mở rộng tên tập tin"
++msgstr "_Tự động thêm phần mở rộng tên tập tin"
+ 
+ #. 2CgAZ
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:719
+-#, fuzzy
+ msgctxt "explorerfiledialog|options"
+ msgid "Edit _filter settings"
+-msgstr "~Sửa thiết lập lọc"
++msgstr "Sửa thiết lập _bộ lọc"
+ 
+ #. 6XqLj
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:746
+ msgctxt "explorerfiledialog|gpgencrypt"
+ msgid "Encrypt with GPG key"
+-msgstr ""
++msgstr "Mã hoá bằng khoá GPG"
+ 
+ #. raQ3e
+ #: fpicker/uiconfig/ui/explorerfiledialog.ui:759
+ msgctxt "explorerfiledialog|gpgencrypt"
+ msgid "Sign with default certificate"
+-msgstr ""
++msgstr "Ký bằng chứng chỉ mặc định"
+ 
+ #. 2ZWy2
+ #: fpicker/uiconfig/ui/foldernamedialog.ui:8
+ msgctxt "foldernamedialog|FolderNameDialog"
+ msgid "Folder Name"
+-msgstr ""
++msgstr "Tên thư mục"
+ 
+ #. neJna
+ #: fpicker/uiconfig/ui/foldernamedialog.ui:83
+ msgctxt "foldernamedialog|label2"
+ msgid "Na_me:"
+-msgstr ""
++msgstr "_Tên:"
+ 
+ #. uiXuE
+ #: fpicker/uiconfig/ui/foldernamedialog.ui:113
+-#, fuzzy
+ msgctxt "foldernamedialog|label1"
+ msgid "Create New Folder"
+ msgstr "Tạo thư mục mới"
+@@ -318,67 +307,64 @@ msgstr "Tạo thư mục mới"
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:61
+ msgctxt "remotefilesdialog|edit_service"
+ msgid "_Add service"
+-msgstr ""
++msgstr "_Thêm dịch vụ"
+ 
+ #. kF4BR
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:69
+ msgctxt "remotefilesdialog|edit_service"
+ msgid "_Edit service"
+-msgstr ""
++msgstr "_Sửa dịch vụ"
+ 
+ #. 8Xguy
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:77
+ msgctxt "remotefilesdialog|delete_service"
+ msgid "_Delete service"
+-msgstr ""
++msgstr "_Xoá dịch vụ"
+ 
+ #. pVchs
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:85
+ msgctxt "remotefilesdialog|change_password"
+ msgid "_Change password"
+-msgstr ""
++msgstr "Đổi _mật khẩu"
+ 
+ #. RnU7Z
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:93
+ msgctxt "remotefilesdialog|RemoteFilesDialog"
+ msgid "Remote Files"
+-msgstr ""
++msgstr "Tập tin trên mây"
+ 
+ #. FA4UT
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:139
+ msgctxt "remotefilesdialog|open"
+ msgid "_Open"
+-msgstr ""
++msgstr "_Mở"
+ 
+ #. uGwr4
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:172
+-#, fuzzy
+ msgctxt "remotefilesdialog|label1"
+ msgid "Service:"
+-msgstr "Dịch vụ"
++msgstr "Dịch vụ:"
+ 
+ #. cwNkT
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:200
+ msgctxt "remotefilesdialog|add_service_btn"
+ msgid "_Manage services"
+-msgstr ""
++msgstr "_Quản lý dịch vụ"
+ 
+ #. Jnndg
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:251
+ msgctxt "remotefilesdialog|list_view|tooltip_text"
+ msgid "List view"
+-msgstr ""
++msgstr "Xem dạng danh sách"
+ 
+ #. xxBtB
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:266
+-#, fuzzy
+ msgctxt "remotefilesdialog|icon_view|tooltip_text"
+ msgid "Icon view"
+-msgstr "Xem biểu tượng"
++msgstr "Xem dạng biểu tượng"
+ 
+ #. 6CiqC
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:282
+-#, fuzzy
+ msgctxt "remotefilesdialog|new_folder|tooltip_text"
+ msgid "Create New Folder"
+ msgstr "Tạo thư mục mới"
+@@ -387,19 +373,19 @@ msgstr "Tạo thư mục mới"
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:387
+ msgctxt "remotefilesdialog|name"
+ msgid "Name"
+-msgstr ""
++msgstr "Tên"
+ 
+ #. qRHnF
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:407
+ msgctxt "remotefilesdialog|size"
+ msgid "Size"
+-msgstr ""
++msgstr "Kích thước"
+ 
+ #. qeF3r
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:421
+ msgctxt "remotefilesdialog|date"
+ msgid "Date modified"
+-msgstr ""
++msgstr "Ngày sửa đổi"
+ 
+ #. cGNWD
+ #: fpicker/uiconfig/ui/remotefilesdialog.ui:497
+@@ -430,13 +416,13 @@ msgstr "Lưu ~bằng mật khẩu"
+ #: include/fpicker/strings.hrc:17
+ msgctxt "STR_SVT_FILEPICKER_GPGENCRYPT"
+ msgid "Encrypt with ~GPG key"
+-msgstr ""
++msgstr "Mã hoá bằng khoá ~GPG"
+ 
+ #. uyMuc
+ #: include/fpicker/strings.hrc:18
+ msgctxt "STR_SVT_FILEPICKER_GPGSIGN"
+ msgid "Sign with ~default certificate"
+-msgstr ""
++msgstr "Ký bằng chứng chỉ ~mặc định"
+ 
+ #. LWkae
+ #: include/fpicker/strings.hrc:19
+@@ -490,7 +476,7 @@ msgstr "Kiểu dáng:"
+ #: include/fpicker/strings.hrc:27
+ msgctxt "STR_SVT_FILEPICKER_IMAGE_ANCHOR"
+ msgid "A~nchor:"
+-msgstr ""
++msgstr "~Neo:"
+ 
+ #. JvMvb
+ #: include/fpicker/strings.hrc:28
+@@ -532,13 +518,13 @@ msgstr ""
+ #: include/fpicker/strings.hrc:33
+ msgctxt "STR_SVT_ALREADYEXISTOVERWRITE_SECONDARY"
+ msgid "The file already exists in \"$dirname$\". Replacing it will overwrite its contents."
+-msgstr ""
++msgstr "Tập tin đã tồn tại trong \"$dirname$\". Thay thế sẽ ghi đè nội dung của nó."
+ 
+ #. cBvCB
+ #: include/fpicker/strings.hrc:34
+ msgctxt "STR_SVT_ALLFORMATS"
+ msgid "All Formats"
+-msgstr ""
++msgstr "Mọi định dạng"
+ 
+ #. z6Eo3
+ #: include/fpicker/strings.hrc:35
+@@ -546,14 +532,13 @@ msgctxt "STR_SVT_DELETESERVICE"
+ msgid ""
+ "Are you sure you want to delete the service?\n"
+ "\"$servicename$\""
+-msgstr ""
++msgstr "Bạn có chắc muốn xoá dịch vụ này không?\n\"$servicename$\""
+ 
+ #. KegFE
+ #: include/fpicker/strings.hrc:36
+-#, fuzzy
+ msgctxt "STR_SVT_ROOTLABEL"
+ msgid "Root"
+-msgstr "Phút"
++msgstr "Gốc"
+ 
+ #. sWRTd
+ #: include/fpicker/strings.hrc:37
+@@ -569,83 +554,81 @@ msgstr "Mở"
+ 
+ #. wJYsA
+ #: include/fpicker/strings.hrc:39
+-#, fuzzy
+ msgctxt "STR_FILEDLG_TYPE"
+ msgid "File ~type"
+-msgstr "~Kiểu tập tin:"
++msgstr "~Kiểu tập tin"
+ 
+ #. EEBg4
+ #: include/fpicker/strings.hrc:40
+-#, fuzzy
+ msgctxt "STR_FILEDLG_SAVE"
+ msgid "Save"
+-msgstr "~Lưu"
++msgstr "Lưu"
+ 
+ #. KACYH
+ #: include/fpicker/strings.hrc:42
+ msgctxt "STR_FILESAVE_AUTOEXTENSION"
+ msgid "Automatically adds the file extension to the end of the file name that corresponds to the selected file type."
+-msgstr ""
++msgstr "Tự động thêm phần mở rộng tương ứng với kiểu tập tin đã chọn vào cuối tên tập tin."
+ 
+ #. 4qPci
+ #: include/fpicker/strings.hrc:43
+ msgctxt "STR_FILESAVE_SAVEWITHPASSWORD"
+ msgid "Protects the file with a password that must be entered before a user can open the file."
+-msgstr ""
++msgstr "Bảo vệ tập tin bằng mật khẩu, người dùng phải nhập mật khẩu này mới mở được tập tin."
+ 
+ #. dFCgT
+ #: include/fpicker/strings.hrc:44
+ msgctxt "STR_FILESAVE_CUSTOMIZEFILTER"
+ msgid "Allows you to set the spreadsheet saving options for some types of data files."
+-msgstr ""
++msgstr "Cho phép đặt tuỳ chọn lưu bảng tính cho một số kiểu tập tin dữ liệu."
+ 
+ #. fJtCZ
+ #: include/fpicker/strings.hrc:45
+ msgctxt "STR_FILEOPEN_READONLY"
+ msgid "Opens the file in read-only mode."
+-msgstr ""
++msgstr "Mở tập tin ở chế độ chỉ đọc."
+ 
+ #. BMEgo
+ #: include/fpicker/strings.hrc:46
+ msgctxt "STR_FILEDLG_LINK_CB"
+ msgid "Inserts the selected graphic file as a link."
+-msgstr ""
++msgstr "Chèn tập tin ảnh đã chọn dưới dạng liên kết."
+ 
+ #. jHPYN
+ #: include/fpicker/strings.hrc:47
+ msgctxt "STR_FILEDLG_PREVIEW_CB"
+ msgid "Displays a preview of the selected graphic file."
+-msgstr ""
++msgstr "Hiển thị bản xem trước của tập tin ảnh đã chọn."
+ 
+ #. xWLX2
+ #: include/fpicker/strings.hrc:48
+ msgctxt "STR_FILESAVE_DOPLAY"
+ msgid "Plays the selected sound file. Click again to stop playing the sound file."
+-msgstr ""
++msgstr "Phát tập tin âm thanh đã chọn. Nhấn lần nữa để dừng."
+ 
+ #. 27ayC
+ #: include/fpicker/strings.hrc:49
+ msgctxt "STR_FILEOPEN_VERSION"
+ msgid "If there are multiple versions of the selected file, select the version that you want to open."
+-msgstr ""
++msgstr "Nếu tập tin đã chọn có nhiều phiên bản, hãy chọn phiên bản bạn muốn mở."
+ 
+ #. K6RjJ
+ #: include/fpicker/strings.hrc:50
+ msgctxt "STR_FILESAVE_TEMPLATE"
+ msgid "Select the paragraph style or outline level that you want to use to separate the source document into sub-documents."
+-msgstr ""
++msgstr "Chọn kiểu đoạn văn hoặc cấp đề cương bạn muốn dùng để tách tài liệu nguồn thành các tài liệu con."
+ 
+ #. 7GLrR
+ #: include/fpicker/strings.hrc:51
+ msgctxt "STR_FILEOPEN_IMAGE_TEMPLATE"
+ msgid "Select the frame style for the graphic."
+-msgstr ""
++msgstr "Chọn kiểu khung cho ảnh."
+ 
+ #. Lfiaj
+ #: include/fpicker/strings.hrc:52
+ msgctxt "STR_FILEOPEN_IMAGE_ANCHOR"
+ msgid "Select the frame style for the graphic."
+-msgstr ""
++msgstr "Chọn kiểu khung cho ảnh."
+ 
+ #. d6DG8
+ #: include/fpicker/strings.hrc:53
+diff --git a/source/vi/sfx2/messages.po b/source/vi/sfx2/messages.po
+index 71e44d97..4564fd61 100644
+--- a/source/vi/sfx2/messages.po
++++ b/source/vi/sfx2/messages.po
+@@ -128,7 +128,7 @@ msgstr "Định dạng tập tin:"
+ #: include/sfx2/strings.hrc:47
+ msgctxt "STR_HIDDENINFO_CONTAINS"
+ msgid "The document contains the following potentially sensitive elements:"
+-msgstr ""
++msgstr "Tài liệu chứa các thành phần có thể nhạy cảm sau:"
+ 
+ #. 8tujE
+ #: include/sfx2/strings.hrc:48
+@@ -158,31 +158,31 @@ msgstr "Nếu bạn không muốn ghi đè lên tài liệu gốc, bạn nên l
+ #: include/sfx2/strings.hrc:52
+ msgctxt "STR_QUERY_ALIENFORMAT_TITLE"
+ msgid "Non-standard file format"
+-msgstr ""
++msgstr "Định dạng tập tin không chuẩn"
+ 
+ #. hFJuJ
+ #: include/sfx2/strings.hrc:53
+ msgctxt "STR_QUERY_ALIENFORMAT_TEXT"
+ msgid "This document may contain formatting or content that cannot be saved in the currently selected file format “%FORMATNAME (*.%EXTENSION)”."
+-msgstr ""
++msgstr "Tài liệu này có thể chứa định dạng hoặc nội dung không lưu được trong định dạng tập tin đang chọn “%FORMATNAME (*.%EXTENSION)”."
+ 
+ #. wKVfT
+ #: include/sfx2/strings.hrc:54
+ msgctxt "STR_QUERY_ALIENFORMAT_QUESTION"
+ msgid "Use the default ODF file format (*.%EXTENSION) to be sure that the document is saved correctly."
+-msgstr ""
++msgstr "Hãy dùng định dạng ODF mặc định (*.%EXTENSION) để chắc chắn tài liệu được lưu đúng."
+ 
+ #. JCkAZ
+ #: include/sfx2/strings.hrc:55
+ msgctxt "STR_QUERY_ALIENFORMAT_YES"
+ msgid "Use %FORMATNAME Format"
+-msgstr ""
++msgstr "Dùng định dạng %FORMATNAME"
+ 
+ #. Z3aBj
+ #: include/sfx2/strings.hrc:56
+ msgctxt "STR_QUERY_ALIENFORMAT_No"
+ msgid "Use %DEFAULTEXTENSION Format"
+-msgstr ""
++msgstr "Dùng định dạng %DEFAULTEXTENSION"
+ 
+ #. 7stwX
+ #. Used in the title of a shared document.
+@@ -746,27 +746,27 @@ msgstr "Cảnh giác bảo mật"
+ #: include/sfx2/strings.hrc:151
+ msgctxt "STR_INFOBAR_LINKS_DISABLED"
+ msgid "Automatic update of external links has been disabled."
+-msgstr ""
++msgstr "Đã tắt tự động cập nhật liên kết ngoài."
+ 
+ #. T4E3r
+ #. infobar button for allowing links to update
+ #: include/sfx2/strings.hrc:153
+ msgctxt "STR_INFOBAR_ALLOW_UPDATING"
+ msgid "Allow updating"
+-msgstr ""
++msgstr "Cho phép cập nhật"
+ 
+ #. yFc5N
+ #. tooltip for the "Allow updating" infobar button
+ #: include/sfx2/strings.hrc:155
+ msgctxt "STR_INFOBAR_ALLOW_UPDATING_TOOLTIP"
+ msgid "Only allow updating if you trust this document."
+-msgstr ""
++msgstr "Chỉ cho phép cập nhật nếu bạn tin tưởng tài liệu này."
+ 
+ #. GaHho
+ #: include/sfx2/strings.hrc:156
+ msgctxt "STR_INFOBAR_ALLOW_UPDATING_TOOLTIP_DISABLED"
+ msgid "Active content is disabled in the security settings. It is not possible to allow updating."
+-msgstr ""
++msgstr "Nội dung chủ động đang bị tắt trong thiết lập bảo mật. Không thể cho phép cập nhật."
+ 
+ #. vVCon
+ #: include/sfx2/strings.hrc:157
+@@ -782,7 +782,7 @@ msgctxt "RID_SVXSTR_XMLSEC_QUERY_LOSINGSCRIPTINGSIGNATURE"
+ msgid ""
+ "Saving with password will remove all existing scripting signatures, and (depending on macro security settings) macros in the document may no longer be runnable.\n"
+ "Do you want to continue saving the document with password?"
+-msgstr ""
++msgstr "Lưu kèm mật khẩu sẽ gỡ bỏ mọi chữ ký số của mã kịch bản, và (tuỳ thiết lập bảo mật vĩ lệnh) các vĩ lệnh trong tài liệu có thể không chạy được nữa.\nBạn có muốn tiếp tục lưu tài liệu kèm mật khẩu không?"
+ 
+ #. cGnF9
+ #: include/sfx2/strings.hrc:159
+@@ -804,7 +804,7 @@ msgstr "Điều này sẽ hủy tất cả các thay đổi trên máy chủ k
+ #: include/sfx2/strings.hrc:161
+ msgctxt "STR_QUERY_REMEMBERSIGNATURE"
+ msgid "Do you want to remember that signature for each save?"
+-msgstr ""
++msgstr "Bạn có muốn ghi nhớ chữ ký này cho mỗi lần lưu không?"
+ 
+ #. NBpa3
+ #: include/sfx2/strings.hrc:162
+@@ -812,7 +812,7 @@ msgctxt "STR_ERROR_NOMATCHINGDEFUALTCERT"
+ msgid ""
+ "Couldn't find a matching signing key. The document won't be signed.\n"
+ "Please update the signing key in Options."
+-msgstr ""
++msgstr "Không tìm thấy khoá ký phù hợp. Tài liệu sẽ không được ký.\nVui lòng cập nhật khoá ký trong Tuỳ chọn."
+ 
+ #. jufLD
+ #: include/sfx2/strings.hrc:163
+@@ -994,7 +994,7 @@ msgstr "Bộ lọc đã chọn $(FILTER) không nằm trong bản in này.\nBạ
+ #: include/sfx2/strings.hrc:194
+ msgctxt "STR_WELCOME_LINE1"
+ msgid "Welcome to %PRODUCTNAME!"
+-msgstr ""
++msgstr "Chào mừng bạn đến với %PRODUCTNAME!"
+ 
+ #. DVEkR
+ #: include/sfx2/strings.hrc:195
+@@ -1011,10 +1011,9 @@ msgstr "Văn bản"
+ 
+ #. eG5qc
+ #: include/sfx2/strings.hrc:199
+-#, fuzzy
+ msgctxt "STR_REDACTION_TARGET_TYPE_REGEX"
+ msgid "Regular expression"
+-msgstr "Biểu hiện thông thường"
++msgstr "Biểu thức chính quy"
+ 
+ #. TaDCG
+ #: include/sfx2/strings.hrc:200
+@@ -1026,7 +1025,7 @@ msgstr "Được định nghĩa trước"
+ #: include/sfx2/strings.hrc:201
+ msgctxt "STR_REDACTION_TARGET_TYPE_IMAGE"
+ msgid "Image"
+-msgstr ""
++msgstr "Ảnh"
+ 
+ #. bDjwW
+ #: include/sfx2/strings.hrc:202
+@@ -1118,7 +1117,7 @@ msgstr "Mô-đun %PRODUCTNAME Bản vẽ là cần thiết để chỉnh sửa.
+ #: include/sfx2/strings.hrc:220
+ msgctxt "STR_REDACTION_MULTI_IMAGE_TARGETS"
+ msgid "An 'Image' target already exists, which redacts all the images in the document."
+-msgstr ""
++msgstr "Đã có một mục tiêu 'Ảnh' để che mọi ảnh trong tài liệu."
+ 
+ #. FQ9kN
+ #: include/sfx2/strings.hrc:222
+@@ -1160,7 +1159,7 @@ msgstr "Lưu bản sao"
+ #: include/sfx2/strings.hrc:228
+ msgctxt "STR_PB_COMPAREDOC"
+ msgid "Compare with"
+-msgstr ""
++msgstr "So sánh với"
+ 
+ #. 4qMCh
+ #: include/sfx2/strings.hrc:229
+@@ -1224,13 +1223,13 @@ msgstr "Kiểu này không thể được dùng như là một kiểu cơ bản,
+ #: include/sfx2/strings.hrc:241
+ msgctxt "STR_RESET_PROPERTY_TOOLTIP"
+ msgid "Reset this property to inherit from parent style"
+-msgstr ""
++msgstr "Đặt lại thuộc tính này để kế thừa từ kiểu cha"
+ 
+ #. Z9UGV
+ #: include/sfx2/strings.hrc:242
+ msgctxt "STR_NO_MODIFIED_PROPERTIES"
+ msgid "All properties are inherited from parent style."
+-msgstr ""
++msgstr "Mọi thuộc tính đều được kế thừa từ kiểu cha."
+ 
+ #. ECPSd
+ #: include/sfx2/strings.hrc:243
+@@ -1265,7 +1264,7 @@ msgstr "Bộ điều hướng"
+ #: include/sfx2/strings.hrc:247
+ msgctxt "STR_SID_QUICKFIND"
+ msgid "Quick Find"
+-msgstr ""
++msgstr "Tìm nhanh"
+ 
+ #. Acahp
+ #: include/sfx2/strings.hrc:248
+@@ -1398,19 +1397,19 @@ msgctxt "STR_BLUETOOTH_PACKAGE_ERROR"
+ msgid ""
+ "The Bluetooth transfer tool '%TOOL' could not be found on the system.\n"
+ "Please install the '%PKG' package for your distribution."
+-msgstr ""
++msgstr "Không tìm thấy công cụ truyền Bluetooth '%TOOL' trên hệ thống.\nVui lòng cài gói '%PKG' cho bản phân phối của bạn."
+ 
+ #. 8W2AE
+ #: include/sfx2/strings.hrc:272
+ msgctxt "STR_BLUETOOTH_ERROR_MACOS"
+ msgid "Failed to open %TOOL."
+-msgstr ""
++msgstr "Không mở được %TOOL."
+ 
+ #. YyDrd
+ #: include/sfx2/strings.hrc:273
+ msgctxt "STR_BLUETOOTH_SEND_ERROR"
+ msgid "Sending document via Bluetooth failed."
+-msgstr ""
++msgstr "Gửi tài liệu qua Bluetooth thất bại."
+ 
+ #. 3nzi6
+ #. Error codes look like "MAPI_E_FAILURE" or "1234"
+@@ -1464,7 +1463,7 @@ msgstr "M~ở"
+ #: include/sfx2/strings.hrc:282
+ msgctxt "STR_NEW_FROM_TEMPLATE"
+ msgid "New From Template"
+-msgstr ""
++msgstr "Mới từ mẫu"
+ 
+ #. GcSXH
+ #: include/sfx2/strings.hrc:283
+@@ -1494,7 +1493,7 @@ msgstr "Tham gia"
+ #: include/sfx2/strings.hrc:287
+ msgctxt "STR_DONATE_TEXT"
+ msgid "Support the development of %PRODUCTNAME."
+-msgstr ""
++msgstr "Ủng hộ việc phát triển %PRODUCTNAME."
+ 
+ #. KzgoD
+ #. Translators: text will be abbreviated at >8 characters, eg. "Please D..."
+@@ -1507,7 +1506,7 @@ msgstr "Đóng góp"
+ #: include/sfx2/strings.hrc:290
+ msgctxt "STR_CREDITS_BUTTON"
+ msgid "~Credits"
+-msgstr ""
++msgstr "~Người đóng góp"
+ 
+ #. N4YJU
+ #: include/sfx2/strings.hrc:291
+@@ -1516,7 +1515,7 @@ msgid ""
+ "You are running version %PRODUCTVERSION of %PRODUCTNAME for the first time. \n"
+ "\n"
+ "Do you want to learn what's new?"
+-msgstr ""
++msgstr "Bạn đang chạy phiên bản %PRODUCTVERSION của %PRODUCTNAME lần đầu tiên. \n\nBạn có muốn xem có gì mới không?"
+ 
+ #. NdSAJ
+ #: include/sfx2/strings.hrc:292
+@@ -1525,31 +1524,31 @@ msgid ""
+ "You are running %PRODUCTNAME for the first time.\n"
+ "\n"
+ "Please take a moment to personalize your settings."
+-msgstr ""
++msgstr "Bạn đang chạy %PRODUCTNAME lần đầu tiên.\n\nHãy dành chút thời gian để cá nhân hoá thiết lập của bạn."
+ 
+ #. wVtBB
+ #: include/sfx2/strings.hrc:293
+ msgctxt "STR_WHATSNEW_BUTTON"
+ msgid "~Release Notes"
+-msgstr ""
++msgstr "~Ghi chú phát hành"
+ 
+ #. Fu9L3
+ #: include/sfx2/strings.hrc:294
+ msgctxt "STR_WELCOME_APPLY"
+ msgid "~Apply"
+-msgstr ""
++msgstr "Á~p dụng"
+ 
+ #. ZzmGc
+ #: include/sfx2/strings.hrc:295
+ msgctxt "STR_WELCOME_CLOSE"
+ msgid "~Close"
+-msgstr ""
++msgstr "Đó~ng"
+ 
+ #. ZZZhH
+ #: include/sfx2/strings.hrc:296
+ msgctxt "STR_WELCOME_NEXT"
+ msgid "~Next"
+-msgstr ""
++msgstr "~Tiếp"
+ 
+ #. c7NPT
+ #: include/sfx2/strings.hrc:298
+@@ -1603,7 +1602,7 @@ msgstr "Kiểm soát xuất:"
+ #: include/sfx2/strings.hrc:306
+ msgctxt "STR_CHECKOUT"
+ msgid "Check Out"
+-msgstr ""
++msgstr "Kiểm xuất"
+ 
+ #. PwPNw
+ #: include/sfx2/strings.hrc:307
+@@ -1717,7 +1716,7 @@ msgstr "Macro đã được tắt do cài đặt Bảo mật Macro."
+ #: include/sfx2/strings.hrc:325
+ msgctxt "STR_MACROS_DISABLED_SIGNATURE_INVALID"
+ msgid "Macros are signed, but at least one signature has problems."
+-msgstr ""
++msgstr "Vĩ lệnh đã được ký, nhưng có ít nhất một chữ ký bị lỗi."
+ 
+ #. DRiDD
+ #: include/sfx2/strings.hrc:326
+@@ -1735,7 +1734,7 @@ msgstr "Hiện Macro"
+ #: include/sfx2/strings.hrc:328
+ msgctxt "STR_MACROS"
+ msgid "Show Security Options"
+-msgstr ""
++msgstr "Hiện tuỳ chọn bảo mật"
+ 
+ #. mBmGc
+ #: include/sfx2/strings.hrc:329
+@@ -1747,13 +1746,13 @@ msgstr "Hiện sự kiện"
+ #: include/sfx2/strings.hrc:330
+ msgctxt "STR_VCLGEN_TITLE"
+ msgid "Fallback UI controls in use"
+-msgstr ""
++msgstr "Đang dùng điều khiển giao diện dự phòng"
+ 
+ #. 3dNke
+ #: include/sfx2/strings.hrc:331
+ msgctxt "STR_VCLGEN_TEXT"
+ msgid "Look for a desktop environment integration package offered by your distribution."
+-msgstr ""
++msgstr "Hãy tìm gói tích hợp môi trường máy tính do bản phân phối của bạn cung cấp."
+ 
+ #. kej8D
+ #. Translators: default Impress template names
+@@ -1959,7 +1958,7 @@ msgstr "Tiếng Trung giản thể thông thường"
+ #: include/sfx2/strings.hrc:368
+ msgctxt "STR_TEMPLATE_NAME34"
+ msgid "Japanese Normal"
+-msgstr ""
++msgstr "Nhật Bản thường"
+ 
+ #. ZaGGB
+ #: include/sfx2/strings.hrc:370
+@@ -2109,37 +2108,37 @@ msgstr "Trình kiểm tra đối tượng UNO"
+ #: include/sfx2/strings.hrc:400
+ msgctxt "STR_QUERY_CLR_UNAVAILABLE_DOCS_TITLE"
+ msgid "Clear Unavailable Documents"
+-msgstr ""
++msgstr "Xoá tài liệu không khả dụng"
+ 
+ #. ZXj32
+ #: include/sfx2/strings.hrc:401
+ msgctxt "STR_QUERY_CLR_UNAVAILABLE_DOCS_TEXT"
+ msgid "This action is irreversible."
+-msgstr ""
++msgstr "Thao tác này không thể hoàn tác."
+ 
+ #. V2fFQ
+ #: include/sfx2/strings.hrc:402
+ msgctxt "STR_QUERY_CLR_UNAVAILABLE_DOCS_QUESTION"
+ msgid "Do you want to clear all unavailable Documents?"
+-msgstr ""
++msgstr "Bạn có muốn xoá mọi tài liệu không khả dụng không?"
+ 
+ #. 9LERL
+ #: include/sfx2/strings.hrc:404
+ msgctxt "STR_AUTOCORR_LEADTRAIL"
+ msgid "Autocorrection has removed a leading or trailing character."
+-msgstr ""
++msgstr "Tự động sửa lỗi đã xoá một ký tự ở đầu hoặc cuối."
+ 
+ #. Bzrar
+ #: include/sfx2/strings.hrc:405
+ msgctxt "STR_NOSHOWAGAIN"
+ msgid "Don't show again"
+-msgstr ""
++msgstr "Không hiện lại"
+ 
+ #. 3RJGf
+ #: include/sfx2/strings.hrc:406
+ msgctxt "STR_CHANGEOPTIONS"
+ msgid "Change options"
+-msgstr ""
++msgstr "Đổi tuỳ chọn"
+ 
+ #. wH3TZ
+ msgctxt "stock"
+@@ -2764,109 +2763,109 @@ msgstr "có thể mặc định"
+ #: sfx2/source/devtools/DevToolsStrings.hrc:71
+ msgctxt "STR_PROPERTY_VALUE_SEQUENCE"
+ msgid "<Sequence [%1]>"
+-msgstr ""
++msgstr "<Chuỗi [%1]>"
+ 
+ #. KZ5M4
+ #: sfx2/source/devtools/DevToolsStrings.hrc:72
+ msgctxt "STR_PROPERTY_VALUE_OBJECT"
+ msgid "<Object@%1>"
+-msgstr ""
++msgstr "<Đối tượng@%1>"
+ 
+ #. xKaJy
+ #: sfx2/source/devtools/DevToolsStrings.hrc:73
+ msgctxt "STR_PROPERTY_VALUE_STRUCT"
+ msgid "<Struct>"
+-msgstr ""
++msgstr "<Cấu trúc>"
+ 
+ #. AxfFu
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:8
+ msgctxt "addtargetdialog|AddTargetDialog"
+ msgid "Add Target"
+-msgstr ""
++msgstr "Thêm mục tiêu"
+ 
+ #. JC8Vd
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:86
+ msgctxt "addtargetdialog|label_name"
+ msgid "Name:"
+-msgstr ""
++msgstr "Tên:"
+ 
+ #. LXpbz
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:117
+ msgctxt "addtargetdialog|label_type"
+ msgid "Type:"
+-msgstr ""
++msgstr "Kiểu:"
+ 
+ #. Sy2A7
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:132
+ msgctxt "addtargetdialog|label_content"
+ msgid "Content:"
+-msgstr ""
++msgstr "Nội dung:"
+ 
+ #. e5sY6
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:166
+ msgctxt "addtargetdialog|type"
+ msgid "Text"
+-msgstr ""
++msgstr "Văn bản"
+ 
+ #. dGQqg
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:167
+ msgctxt "addtargetdialog|type"
+ msgid "Regular expression"
+-msgstr ""
++msgstr "Biểu thức chính quy"
+ 
+ #. wgzA4
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:168
+ msgctxt "addtargetdialog|type"
+ msgid "Predefined"
+-msgstr ""
++msgstr "Định sẵn"
+ 
+ #. kzodF
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:169
+ msgctxt "addtargetdialog|type"
+ msgid "All Images"
+-msgstr ""
++msgstr "Mọi ảnh"
+ 
+ #. nGjTR
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:184
+ msgctxt "addtargetdialog|label_content_predef"
+ msgid "Content:"
+-msgstr ""
++msgstr "Nội dung:"
+ 
+ #. 7uQgC
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:202
+ msgctxt "addtargetdialog|content_predef"
+ msgid "Credit card numbers"
+-msgstr ""
++msgstr "Số thẻ tín dụng"
+ 
+ #. jze4C
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:203
+ msgctxt "addtargetdialog|content_predef"
+ msgid "Email addresses"
+-msgstr ""
++msgstr "Địa chỉ email"
+ 
+ #. wDQAu
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:204
+ msgctxt "addtargetdialog|content_predef"
+ msgid "IP addresses"
+-msgstr ""
++msgstr "Địa chỉ IP"
+ 
+ #. CpoEL
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:205
+ msgctxt "addtargetdialog|content_predef"
+ msgid "Dates (Numerical)"
+-msgstr ""
++msgstr "Ngày (dạng số)"
+ 
+ #. 3Nz2x
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:206
+ msgctxt "addtargetdialog|content_predef"
+ msgid "National Insurance Number (UK)"
+-msgstr ""
++msgstr "Số bảo hiểm quốc gia (Anh)"
+ 
+ #. jSAay
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:207
+ msgctxt "addtargetdialog|content_predef"
+ msgid "Social Security Number (US)"
+-msgstr ""
++msgstr "Số an sinh xã hội (Mỹ)"
+ 
+ #. kdZJN
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:232
+@@ -2878,31 +2877,31 @@ msgstr "Phân biệt HOA/thường"
+ #: sfx2/uiconfig/ui/addtargetdialog.ui:247
+ msgctxt "addtargetdialog|checkboxWholeWords"
+ msgid "Whole words only"
+-msgstr ""
++msgstr "Chỉ nguyên từ"
+ 
+ #. GVVQ6
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:24
+ msgctxt "autoredactdialog|AutoRedactDialog"
+ msgid "Automatic Redaction"
+-msgstr ""
++msgstr "Tự động che thông tin"
+ 
+ #. QCidi
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:122
+ msgctxt "autoredactdialog|target"
+ msgid "Target Name"
+-msgstr ""
++msgstr "Tên mục tiêu"
+ 
+ #. szYkX
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:135
+ msgctxt "autoredactdialog|description"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. udcn4
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:148
+ msgctxt "autoredactdialog|target"
+ msgid "Content"
+-msgstr ""
++msgstr "Nội dung"
+ 
+ #. BBuAc
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:161
+@@ -2914,63 +2913,61 @@ msgstr "Phân biệt HOA/thường"
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:174
+ msgctxt "autoredactdialog|target"
+ msgid "Whole words"
+-msgstr ""
++msgstr "Nguyên từ"
+ 
+ #. 4MVdG
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:202
+ msgctxt "menuassignpage|contentslabel"
+ msgid "_Redaction Targets"
+-msgstr ""
++msgstr "_Mục tiêu che thông tin"
+ 
+ #. E4GWo
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:222
+ msgctxt "autoredactdialog|btnLoadTargets"
+ msgid "Load Targets"
+-msgstr ""
++msgstr "Nạp mục tiêu"
+ 
+ #. tpbYA
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:235
+ msgctxt "autoredactdialog|btnSaveTargets"
+ msgid "Save Targets"
+-msgstr ""
++msgstr "Lưu mục tiêu"
+ 
+ #. TQg85
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:261
+ msgctxt "autoredactdialog|add"
+ msgid "Add Target"
+-msgstr ""
++msgstr "Thêm mục tiêu"
+ 
+ #. 4TvHR
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:274
+ msgctxt "autoredactdialog|edit"
+ msgid "Edit Target"
+-msgstr ""
++msgstr "Sửa mục tiêu"
+ 
+ #. knEqb
+ #: sfx2/uiconfig/ui/autoredactdialog.ui:287
+ msgctxt "autoredactdialog|delete"
+ msgid "Delete Target"
+-msgstr ""
++msgstr "Xoá mục tiêu"
+ 
+ #. iLkdK
+ #: sfx2/uiconfig/ui/bookmarkdialog.ui:8
+-#, fuzzy
+ msgctxt "bookmarkdialog|BookmarkDialog"
+ msgid "Add to Bookmarks"
+-msgstr "Thêm vào Liên kết lưu..."
++msgstr "Thêm vào đánh dấu trang"
+ 
+ #. U6BGv
+ #: sfx2/uiconfig/ui/bookmarkdialog.ui:80
+ msgctxt "bookmarkdialog|alttitle"
+ msgid "Rename Bookmark"
+-msgstr ""
++msgstr "Đổi tên đánh dấu trang"
+ 
+ #. Fq2rD
+ #: sfx2/uiconfig/ui/bookmarkdialog.ui:99
+-#, fuzzy
+ msgctxt "bookmarkdialog|label2"
+ msgid "Bookmark:"
+-msgstr "Liên kết lưu"
++msgstr "Đánh dấu trang:"
+ 
+ #. 3A3VL
+ #: sfx2/uiconfig/ui/bookmarkmenu.ui:12
+@@ -2986,60 +2983,57 @@ msgstr "Thay tên..."
+ 
+ #. fCQ9n
+ #: sfx2/uiconfig/ui/bookmarkmenu.ui:34
+-#, fuzzy
+ msgctxt "bookmarkmenu|delete"
+ msgid "Delete"
+-msgstr "Xóa"
++msgstr "Xoá"
+ 
+ #. WGFBK
+ #: sfx2/uiconfig/ui/charmapcontrol.ui:40
+-#, fuzzy
+ msgctxt "charmapcontrol|label1"
+ msgid "Favorites"
+-msgstr "Ưa ~thích"
++msgstr "Ưa thích"
+ 
+ #. HAe2e
+ #: sfx2/uiconfig/ui/charmapcontrol.ui:72
+ msgctxt "charmapcontrol|label2"
+ msgid "Recent"
+-msgstr ""
++msgstr "Gần đây"
+ 
+ #. BQwCQ
+ #: sfx2/uiconfig/ui/charmapcontrol.ui:116
+ msgctxt "charmapcontrol|specialchardlg"
+ msgid "More Characters…"
+-msgstr ""
++msgstr "Ký tự khác…"
+ 
+ #. i2ZhQ
+ #: sfx2/uiconfig/ui/charviewmenu.ui:12
+ msgctxt "charviewmenu|clearchar"
+ msgid "Remove"
+-msgstr ""
++msgstr "Gỡ bỏ"
+ 
+ #. bKHTP
+ #: sfx2/uiconfig/ui/charviewmenu.ui:20
+ msgctxt "charviewmenu|clearallchar"
+ msgid "Clear All"
+-msgstr ""
++msgstr "Xoá tất cả"
+ 
+ #. Y8jYN
+ #: sfx2/uiconfig/ui/checkin.ui:8
+ msgctxt "checkin|CheckinDialog"
+ msgid "Check-In"
+-msgstr ""
++msgstr "Kiểm nhập"
+ 
+ #. ABZKD
+ #: sfx2/uiconfig/ui/checkin.ui:87
+ msgctxt "checkin|MajorVersion"
+ msgid "New major version"
+-msgstr ""
++msgstr "Phiên bản chính mới"
+ 
+ #. PYDWP
+ #: sfx2/uiconfig/ui/checkin.ui:103
+-#, fuzzy
+ msgctxt "checkin|label2"
+ msgid "Version comment:"
+-msgstr "Ghi chú phiên bản"
++msgstr "Ghi chú phiên bản:"
+ 
+ #. CEnTA
+ #: sfx2/uiconfig/ui/cmisline.ui:44
+@@ -3063,13 +3057,13 @@ msgstr "Không"
+ #: sfx2/uiconfig/ui/commandpopup.ui:35
+ msgctxt "commandpopup|entry"
+ msgid "Search command"
+-msgstr ""
++msgstr "Tìm lệnh"
+ 
+ #. w2G7M
+ #: sfx2/uiconfig/ui/custominfopage.ui:15
+ msgctxt "custominfopage|add"
+ msgid "Add _Property"
+-msgstr ""
++msgstr "Thêm _thuộc tính"
+ 
+ #. 85KDm
+ #: sfx2/uiconfig/ui/custominfopage.ui:23
+@@ -3127,72 +3121,69 @@ msgstr "Đóng Bộ Thanh bên"
+ 
+ #. pxEPn
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:29
+-#, fuzzy
+ msgctxt "descriptioninfopage|label27"
+ msgid "_Title:"
+-msgstr "_Tựa đề"
++msgstr "_Tựa đề:"
+ 
+ #. HqzQo
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:43
+-#, fuzzy
+ msgctxt "descriptioninfopage|label28"
+ msgid "_Subject:"
+-msgstr "_Chủ đề"
++msgstr "_Chủ đề:"
+ 
+ #. gEGPn
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:57
+-#, fuzzy
+ msgctxt "descriptioninfopage|label29"
+ msgid "_Keywords:"
+-msgstr "Từ _khoá"
++msgstr "Từ _khoá:"
+ 
+ #. FXZzx
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:72
+ msgctxt "descriptioninfopage|label31"
+ msgid "Co_ntributor:"
+-msgstr ""
++msgstr "Người đóng _góp:"
+ 
+ #. eKsAC
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:87
+ msgctxt "descriptioninfopage|label32"
+ msgid "Co_verage:"
+-msgstr ""
++msgstr "_Phạm vi:"
+ 
+ #. Wtpt7
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:102
+ msgctxt "descriptioninfopage|label37"
+ msgid "_Identifier:"
+-msgstr ""
++msgstr "_Mã định danh:"
+ 
+ #. 73G3F
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:117
+ msgctxt "descriptioninfopage|label39"
+ msgid "_Publisher:"
+-msgstr ""
++msgstr "Nhà _xuất bản:"
+ 
+ #. Axu5g
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:132
+ msgctxt "descriptioninfopage|label40"
+ msgid "R_elation:"
+-msgstr ""
++msgstr "_Liên quan:"
+ 
+ #. AGDpc
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:147
+ msgctxt "descriptioninfopage|label41"
+ msgid "Ri_ghts:"
+-msgstr ""
++msgstr "_Bản quyền:"
+ 
+ #. eK4rF
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:162
+ msgctxt "descriptioninfopage|label42"
+ msgid "So_urce:"
+-msgstr ""
++msgstr "_Nguồn:"
+ 
+ #. RFBPC
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:177
+ msgctxt "descriptioninfopage|label45"
+ msgid "T_ype:"
+-msgstr ""
++msgstr "_Loại:"
+ 
+ #. Nayo4
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:192
+@@ -3222,49 +3213,49 @@ msgstr "Điền vào những từ mà bạn muốn sử dụng để lập chỉ
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:261
+ msgctxt "descriptioninfopage|extended_tip|contributor"
+ msgid "Enter the names of the people, organizations, or other entities that have made contributions to the document."
+-msgstr ""
++msgstr "Nhập tên người, tổ chức hoặc thực thể khác đã đóng góp cho tài liệu."
+ 
+ #. ECAfA
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:278
+ msgctxt "descriptioninfopage|extended_tip|coverage"
+ msgid "Enter the time, place, or jurisdiction that the document is relevant to."
+-msgstr ""
++msgstr "Nhập thời gian, địa điểm hoặc phạm vi pháp lý mà tài liệu liên quan."
+ 
+ #. EGix4
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:295
+ msgctxt "descriptioninfopage|extended_tip|identifier"
+ msgid "Enter a unique and unambiguous identifier for the document."
+-msgstr ""
++msgstr "Nhập mã định danh duy nhất, rõ ràng cho tài liệu."
+ 
+ #. FQphA
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:312
+ msgctxt "descriptioninfopage|extended_tip|publisher"
+ msgid "Enter the name of the entity that is making the document available."
+-msgstr ""
++msgstr "Nhập tên của thực thể cung cấp tài liệu."
+ 
+ #. n8gwE
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:329
+ msgctxt "descriptioninfopage|extended_tip|relation"
+ msgid "Enter information about a resource related to the document."
+-msgstr ""
++msgstr "Nhập thông tin về tài nguyên có liên quan đến tài liệu."
+ 
+ #. ZiijJ
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:346
+ msgctxt "descriptioninfopage|extended_tip|rights"
+ msgid "Enter information about intellectual property rights associated with the document."
+-msgstr ""
++msgstr "Nhập thông tin về quyền sở hữu trí tuệ gắn với tài liệu."
+ 
+ #. Nze95
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:363
+ msgctxt "descriptioninfopage|extended_tip|source"
+ msgid "Enter information about other resources from which the document is derived."
+-msgstr ""
++msgstr "Nhập thông tin về các tài nguyên khác mà tài liệu được tạo ra từ đó."
+ 
+ #. UEyYw
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:380
+ msgctxt "descriptioninfopage|extended_tip|type"
+ msgid "Enter information about the category or format of the document."
+-msgstr ""
++msgstr "Nhập thông tin về loại hoặc định dạng của tài liệu."
+ 
+ #. bo2q7
+ #: sfx2/uiconfig/ui/descriptioninfopage.ui:406
+@@ -3282,73 +3273,73 @@ msgstr "Chức thông tin diễn tả tài liệu."
+ #: sfx2/uiconfig/ui/developmenttool.ui:116
+ msgctxt "developmenttool|dom_current_selection_toggle-tooltip"
+ msgid "Current Selection In Document"
+-msgstr ""
++msgstr "Vùng chọn hiện tại trong tài liệu"
+ 
+ #. Po2S3
+ #: sfx2/uiconfig/ui/developmenttool.ui:117
+ msgctxt "developmenttool|dom_current_selection_toggle"
+ msgid "Current Selection"
+-msgstr ""
++msgstr "Vùng chọn hiện tại"
+ 
+ #. eB6NR
+ #: sfx2/uiconfig/ui/developmenttool.ui:128
+ msgctxt "developmenttool|dom_refresh_button-tooltip"
+ msgid "Refresh Document Model Tree View"
+-msgstr ""
++msgstr "Làm mới cây mô hình tài liệu"
+ 
+ #. FD2yt
+ #: sfx2/uiconfig/ui/developmenttool.ui:129
+ msgctxt "developmenttool|dom_refresh_button"
+ msgid "Refresh"
+-msgstr ""
++msgstr "Làm mới"
+ 
+ #. qVgcX
+ #: sfx2/uiconfig/ui/developmenttool.ui:175
+ msgctxt "developmenttool|object"
+ msgid "Object"
+-msgstr ""
++msgstr "Đối tượng"
+ 
+ #. x6GLB
+ #: sfx2/uiconfig/ui/developmenttool.ui:223
+ msgctxt "developmenttool|tooltip-back"
+ msgid "Back"
+-msgstr ""
++msgstr "Quay lại"
+ 
+ #. SinPk
+ #: sfx2/uiconfig/ui/developmenttool.ui:224
+ msgctxt "developmenttool|back"
+ msgid "Back"
+-msgstr ""
++msgstr "Quay lại"
+ 
+ #. 4CBb3
+ #: sfx2/uiconfig/ui/developmenttool.ui:236
+ msgctxt "developmenttool|tooltip-inspect"
+ msgid "Inspect"
+-msgstr ""
++msgstr "Kiểm tra"
+ 
+ #. vCciB
+ #: sfx2/uiconfig/ui/developmenttool.ui:237
+ msgctxt "developmenttool|inspect"
+ msgid "Inspect"
+-msgstr ""
++msgstr "Kiểm tra"
+ 
+ #. nFMXe
+ #: sfx2/uiconfig/ui/developmenttool.ui:249
+ msgctxt "developmenttool|tooltip-refresh"
+ msgid "Refresh"
+-msgstr ""
++msgstr "Làm mới"
+ 
+ #. CFuvW
+ #: sfx2/uiconfig/ui/developmenttool.ui:250
+ msgctxt "developmenttool|refresh"
+ msgid "Refresh"
+-msgstr ""
++msgstr "Làm mới"
+ 
+ #. 6gFmn
+ #: sfx2/uiconfig/ui/developmenttool.ui:273
+ msgctxt "developmenttool|classname"
+ msgid "Class name:"
+-msgstr ""
++msgstr "Tên lớp:"
+ 
+ #. a9j7f
+ #: sfx2/uiconfig/ui/developmenttool.ui:338
+@@ -3356,173 +3347,169 @@ msgstr ""
+ #: sfx2/uiconfig/ui/developmenttool.ui:445
+ msgctxt "developmenttool|name"
+ msgid "Name"
+-msgstr ""
++msgstr "Tên"
+ 
+ #. VFqAa
+ #: sfx2/uiconfig/ui/developmenttool.ui:358
+ msgctxt "developmenttool|interfaces"
+ msgid "Interfaces"
+-msgstr ""
++msgstr "Giao diện"
+ 
+ #. iCdWe
+ #: sfx2/uiconfig/ui/developmenttool.ui:410
+ msgctxt "developmenttool|services"
+ msgid "Services"
+-msgstr ""
++msgstr "Dịch vụ"
+ 
+ #. H7pYE
+ #: sfx2/uiconfig/ui/developmenttool.ui:460
+ msgctxt "developmenttool|value"
+ msgid "Value"
+-msgstr ""
++msgstr "Giá trị"
+ 
+ #. Jjkqh
+ #: sfx2/uiconfig/ui/developmenttool.ui:474
+ msgctxt "developmenttool|type"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. zpXuY
+ #: sfx2/uiconfig/ui/developmenttool.ui:488
+ msgctxt "developmenttool|info"
+ msgid "Info"
+-msgstr ""
++msgstr "Thông tin"
+ 
+ #. AUktw
+ #: sfx2/uiconfig/ui/developmenttool.ui:539
+ msgctxt "developmenttool|properties"
+ msgid "Properties"
+-msgstr ""
++msgstr "Thuộc tính"
+ 
+ #. wGJtn
+ #: sfx2/uiconfig/ui/developmenttool.ui:569
+ msgctxt "developmenttool|method"
+ msgid "Method"
+-msgstr ""
++msgstr "Phương thức"
+ 
+ #. EnGfg
+ #: sfx2/uiconfig/ui/developmenttool.ui:584
+ msgctxt "developmenttool|returntype"
+ msgid "Return Type"
+-msgstr ""
++msgstr "Kiểu trả về"
+ 
+ #. AKnSa
+ #: sfx2/uiconfig/ui/developmenttool.ui:598
+ msgctxt "developmenttool|parameters"
+ msgid "Parameters"
+-msgstr ""
++msgstr "Tham số"
+ 
+ #. tmttq
+ #: sfx2/uiconfig/ui/developmenttool.ui:612
+ msgctxt "developmenttool|implementation_class"
+ msgid "Implementation Class"
+-msgstr ""
++msgstr "Lớp hiện thực"
+ 
+ #. Q2CBK
+ #: sfx2/uiconfig/ui/developmenttool.ui:634
+ msgctxt "developmenttool|methods"
+ msgid "Methods"
+-msgstr ""
++msgstr "Phương thức"
+ 
+ #. 68CBk
+ #: sfx2/uiconfig/ui/devtoolsmenu.ui:12
+ msgctxt "devtoolsmenu|inspect"
+ msgid "Inspect"
+-msgstr ""
++msgstr "Kiểm tra"
+ 
+ #. zjFgn
+ #: sfx2/uiconfig/ui/documentfontspage.ui:28
+ msgctxt "documentfontspage|embedFonts"
+ msgid "_Embed fonts in the document"
+-msgstr ""
++msgstr "_Nhúng phông chữ vào tài liệu"
+ 
+ #. FzuRv
+ #: sfx2/uiconfig/ui/documentfontspage.ui:36
+ msgctxt "documentfontspage|extended_tip|embedFonts"
+ msgid "Mark this box to embed document fonts into the document file, for portability between different computer systems."
+-msgstr ""
++msgstr "Đánh dấu ô này để nhúng phông chữ vào tập tin tài liệu, giúp tài liệu hiển thị giống nhau trên các máy tính khác nhau."
+ 
+ #. 6rfon
+ #: sfx2/uiconfig/ui/documentfontspage.ui:48
+ msgctxt "documentfontspage|embedUsedFonts"
+ msgid "_Only embed fonts that are used in documents"
+-msgstr ""
++msgstr "_Chỉ nhúng phông chữ được dùng trong tài liệu"
+ 
+ #. V8E5f
+ #: sfx2/uiconfig/ui/documentfontspage.ui:67
+ msgctxt "documentfontspage|fontEmbeddingLabel"
+ msgid "Font Embedding"
+-msgstr ""
++msgstr "Nhúng phông chữ"
+ 
+ #. Gip6V
+ #: sfx2/uiconfig/ui/documentfontspage.ui:95
+ msgctxt "documentfontspage|embedLatinScriptFonts"
+ msgid "_Latin fonts"
+-msgstr ""
++msgstr "Phông chữ _Latinh"
+ 
+ #. nFM92
+ #: sfx2/uiconfig/ui/documentfontspage.ui:110
+ msgctxt "documentfontspage|embedAsianScriptFonts"
+ msgid "_Asian fonts"
+-msgstr ""
++msgstr "Phông chữ _Châu Á"
+ 
+ #. nSg9b
+ #: sfx2/uiconfig/ui/documentfontspage.ui:125
+ msgctxt "documentfontspage|embedComplexScriptFonts"
+ msgid "_Complex fonts"
+-msgstr ""
++msgstr "Phông chữ _phức tạp"
+ 
+ #. EFytK
+ #: sfx2/uiconfig/ui/documentfontspage.ui:144
+ msgctxt "documentfontspage|fontScriptFrameLabel"
+ msgid "Font scripts to embed"
+-msgstr ""
++msgstr "Hệ chữ viết cần nhúng phông"
+ 
+ #. izc2Y
+ #: sfx2/uiconfig/ui/documentfontspage.ui:158
+ msgctxt "documentfontspage|extended_tip|DocumentFontsPage"
+ msgid "Embed document fonts in the current file."
+-msgstr ""
++msgstr "Nhúng phông chữ của tài liệu vào tập tin hiện tại."
+ 
+ #. CCxGn
+ #: sfx2/uiconfig/ui/documentinfopage.ui:19
+-#, fuzzy
+ msgctxt "documentinfopage|label13"
+ msgid "_Created:"
+-msgstr "Tạo:"
++msgstr "_Tạo lúc:"
+ 
+ #. EZKmF
+ #: sfx2/uiconfig/ui/documentinfopage.ui:33
+-#, fuzzy
+ msgctxt "documentinfopage|label14"
+ msgid "_Modified:"
+-msgstr "Đã sửa đổi:"
++msgstr "_Sửa đổi lúc:"
+ 
+ #. 4GLKx
+ #: sfx2/uiconfig/ui/documentinfopage.ui:47
+ msgctxt "documentinfopage|label15"
+ msgid "_Digitally signed:"
+-msgstr ""
++msgstr "Đã _ký số:"
+ 
+ #. gJwUC
+ #: sfx2/uiconfig/ui/documentinfopage.ui:61
+ msgctxt "documentinfopage|label16"
+ msgid "Last pri_nted:"
+-msgstr ""
++msgstr "In lần cuối _lúc:"
+ 
+ #. drz3P
+ #: sfx2/uiconfig/ui/documentinfopage.ui:75
+-#, fuzzy
+ msgctxt "documentinfopage|label17"
+ msgid "Total _editing time:"
+-msgstr "Tổng thời gian sửa:"
++msgstr "Tổng thời gian _sửa:"
+ 
+ #. MEzSr
+ #: sfx2/uiconfig/ui/documentinfopage.ui:89
+-#, fuzzy
+ msgctxt "documentinfopage|label18"
+ msgid "Re_vision number:"
+-msgstr "Số sửa đổi:"
++msgstr "Số lần _sửa đổi:"
+ 
+ #. BgTqU
+ #: sfx2/uiconfig/ui/documentinfopage.ui:131
+@@ -3540,7 +3527,7 @@ msgstr "Á_p dụng dữ liệu người dùng"
+ #: sfx2/uiconfig/ui/documentinfopage.ui:197
+ msgctxt "documentinfopage|reset"
+ msgid "Reset Properties"
+-msgstr ""
++msgstr "Đặt lại thuộc tính"
+ 
+ #. HrN2U
+ #: sfx2/uiconfig/ui/documentinfopage.ui:204
+@@ -3550,17 +3537,15 @@ msgstr "Đặt lại: thời gian chỉnh sửa về số không, ngày tháng t
+ 
+ #. qeWvU
+ #: sfx2/uiconfig/ui/documentinfopage.ui:215
+-#, fuzzy
+ msgctxt "documentinfopage|signature"
+ msgid "Di_gital Signatures..."
+-msgstr "Chữ ký số..."
++msgstr "Chữ ký _số..."
+ 
+ #. rEEgJ
+ #: sfx2/uiconfig/ui/documentinfopage.ui:234
+-#, fuzzy
+ msgctxt "documentinfopage|label11"
+ msgid "_Size:"
+-msgstr "Kích cỡ :"
++msgstr "_Kích thước:"
+ 
+ #. WNFYB
+ #: sfx2/uiconfig/ui/documentinfopage.ui:247
+@@ -3570,24 +3555,21 @@ msgstr "không rõ"
+ 
+ #. EgtLE
+ #: sfx2/uiconfig/ui/documentinfopage.ui:262
+-#, fuzzy
+ msgctxt "documentinfopage|label8"
+ msgid "_Location:"
+-msgstr "Vị trí:"
++msgstr "_Vị trí:"
+ 
+ #. 9xhwo
+ #: sfx2/uiconfig/ui/documentinfopage.ui:276
+-#, fuzzy
+ msgctxt "documentinfopage|label7"
+ msgid "_Type:"
+-msgstr "Kiểu :"
++msgstr "_Kiểu:"
+ 
+ #. ZLmAo
+ #: sfx2/uiconfig/ui/documentinfopage.ui:299
+-#, fuzzy
+ msgctxt "documentinfopage|changepass"
+ msgid "Change _Password"
+-msgstr "Đổi ~mật khẩu..."
++msgstr "Đổi _mật khẩu"
+ 
+ #. oqAZE
+ #: sfx2/uiconfig/ui/documentinfopage.ui:317
+@@ -3605,25 +3587,25 @@ msgstr "Hiển thị tên tập tin."
+ #: sfx2/uiconfig/ui/documentinfopage.ui:384
+ msgctxt "documentinfopage|thumbnailsavecb"
+ msgid "Save preview image with this document"
+-msgstr ""
++msgstr "Lưu ảnh xem trước cùng tài liệu này"
+ 
+ #. 6bF5w
+ #: sfx2/uiconfig/ui/documentinfopage.ui:403
+ msgctxt "documentinfopage|image-preferred-dpi-checkbutton"
+ msgid "Preferred resolution for images:"
+-msgstr ""
++msgstr "Độ phân giải ưu tiên cho ảnh:"
+ 
+ #. pukYD
+ #: sfx2/uiconfig/ui/documentinfopage.ui:453
+ msgctxt "documentinfopage|image-preferred-ppi-unit"
+ msgid "ppi"
+-msgstr ""
++msgstr "ppi"
+ 
+ #. FbxTB
+ #: sfx2/uiconfig/ui/documentinfopage.ui:469
+ msgctxt "documentinfopage|btnShowLocation"
+ msgid "Open"
+-msgstr ""
++msgstr "Mở"
+ 
+ #. VWjRu
+ #: sfx2/uiconfig/ui/documentinfopage.ui:515
+@@ -3633,28 +3615,27 @@ msgstr "Chứa thông tin cơ bản về tập tin hiện tại."
+ 
+ #. scgsx
+ #: sfx2/uiconfig/ui/documentpropertiesdialog.ui:8
+-#, fuzzy
+ msgctxt "documentpropertiesdialog|DocumentPropertiesDialog"
+ msgid "Properties of “%1”"
+-msgstr "Thuộc tính của"
++msgstr "Thuộc tính của “%1”"
+ 
+ #. 42uNG
+ #: sfx2/uiconfig/ui/editdocumentdialog.ui:7
+ msgctxt "editdocumentdialog|EditDocumentDialog"
+ msgid "Confirm editing of document"
+-msgstr ""
++msgstr "Xác nhận sửa tài liệu"
+ 
+ #. bdEZG
+ #: sfx2/uiconfig/ui/editdocumentdialog.ui:13
+ msgctxt "editdocumentdialog|EditDocumentDialog"
+ msgid "Are you sure you want to edit the document?"
+-msgstr ""
++msgstr "Bạn có chắc muốn sửa tài liệu này không?"
+ 
+ #. AMrnx
+ #: sfx2/uiconfig/ui/editdocumentdialog.ui:14
+ msgctxt "editdocumentdialog|EditDocumentDialog"
+ msgid "The original file can be signed without editing the document. Existing signatures on the document will be lost in case of saving an edited version."
+-msgstr ""
++msgstr "Tập tin gốc có thể được ký mà không cần sửa tài liệu. Các chữ ký hiện có trên tài liệu sẽ mất nếu bạn lưu một bản đã sửa."
+ 
+ #. wRps5
+ #: sfx2/uiconfig/ui/editdocumentdialog.ui:25
+@@ -3670,63 +3651,57 @@ msgstr "Thôi"
+ 
+ #. hrgcD
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:43
+-#, fuzzy
+ msgctxt "editdurationdialog|EditDurationDialog"
+ msgid "Edit Duration"
+-msgstr "Sửa hàm"
++msgstr "Sửa khoảng thời gian"
+ 
+ #. 66AnB
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:132
+-#, fuzzy
+ msgctxt "editdurationdialog|negative"
+ msgid "_Negative"
+-msgstr "Âm"
++msgstr "_Âm"
+ 
+ #. LeAmz
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:149
+ msgctxt "editdurationdialog|label1"
+ msgid "_Years:"
+-msgstr ""
++msgstr "_Năm:"
+ 
+ #. kFDdM
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:163
+-#, fuzzy
+ msgctxt "editdurationdialog|label"
+ msgid "_Months:"
+-msgstr "Tháng"
++msgstr "_Tháng:"
+ 
+ #. CHLhB
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:177
+ msgctxt "editdurationdialog|label3"
+ msgid "_Days:"
+-msgstr ""
++msgstr "_Ngày:"
+ 
+ #. 2w5Dd
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:191
+ msgctxt "editdurationdialog|label4"
+ msgid "H_ours:"
+-msgstr ""
++msgstr "_Giờ:"
+ 
+ #. TtWAW
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:205
+-#, fuzzy
+ msgctxt "editdurationdialog|label5"
+ msgid "Min_utes:"
+-msgstr "Phút"
++msgstr "_Phút:"
+ 
+ #. TieWF
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:219
+-#, fuzzy
+ msgctxt "editdurationdialog|label6"
+ msgid "_Seconds:"
+-msgstr "Giây"
++msgstr "_Giây:"
+ 
+ #. GxEZZ
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:233
+-#, fuzzy
+ msgctxt "editdurationdialog|label7"
+ msgid "Millise_conds:"
+-msgstr "Mili giây"
++msgstr "_Mili giây:"
+ 
+ #. FLFW8
+ #: sfx2/uiconfig/ui/editdurationdialog.ui:340
+@@ -3738,19 +3713,19 @@ msgstr "Thời gian"
+ #: sfx2/uiconfig/ui/errorfindemaildialog.ui:7
+ msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
+ msgid "No email configuration"
+-msgstr ""
++msgstr "Không có cấu hình email"
+ 
+ #. cFct7
+ #: sfx2/uiconfig/ui/errorfindemaildialog.ui:14
+ msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
+ msgid "%PRODUCTNAME was unable to find a working email configuration."
+-msgstr ""
++msgstr "%PRODUCTNAME không tìm thấy cấu hình email hoạt động được."
+ 
+ #. xQi7X
+ #: sfx2/uiconfig/ui/errorfindemaildialog.ui:15
+ msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
+ msgid "Please save this document locally instead and attach it from within your email client."
+-msgstr ""
++msgstr "Vui lòng lưu tài liệu này vào máy, rồi đính kèm từ trình email của bạn."
+ 
+ #. DVQUS
+ #: sfx2/uiconfig/ui/floatingrecord.ui:7
+@@ -3760,24 +3735,21 @@ msgstr "Ghi vĩ lệnh"
+ 
+ #. Fa63R
+ #: sfx2/uiconfig/ui/helpbookmarkpage.ui:32
+-#, fuzzy
+ msgctxt "helpbookmarkpage|label1"
+ msgid "_Bookmarks"
+-msgstr "Liên kết lưu"
++msgstr "_Đánh dấu trang"
+ 
+ #. kZqGE
+ #: sfx2/uiconfig/ui/helpbookmarkpage.ui:83
+-#, fuzzy
+ msgctxt "helpbookmarkpage|display"
+ msgid "_Display"
+-msgstr "Hiển thị"
++msgstr "_Hiển thị"
+ 
+ #. S7ppr
+ #: sfx2/uiconfig/ui/helpcontrol.ui:53
+-#, fuzzy
+ msgctxt "helpcontrol|contents"
+ msgid "Contents"
+-msgstr "_Bình luận"
++msgstr "Mục lục"
+ 
+ #. vxPLh
+ #: sfx2/uiconfig/ui/helpcontrol.ui:78
+@@ -3799,66 +3771,63 @@ msgstr "Liên kết lưu"
+ 
+ #. UQL8A
+ #: sfx2/uiconfig/ui/helpindexpage.ui:30
+-#, fuzzy
+ msgctxt "helpindexpage|display"
+ msgid "_Display"
+-msgstr "Hiển thị"
++msgstr "_Hiển thị"
+ 
+ #. 4MkAM
+ #: sfx2/uiconfig/ui/helpindexpage.ui:116
+ msgctxt "helpindexpage|label1"
+ msgid "_Search Term"
+-msgstr ""
++msgstr "_Từ khoá tìm kiếm"
+ 
+ #. wKLbH
+ #: sfx2/uiconfig/ui/helpmanual.ui:7
+ msgctxt "helpmanual|onlinehelpmanual"
+ msgid "%PRODUCTNAME Help Not Installed"
+-msgstr ""
++msgstr "Chưa cài trợ giúp %PRODUCTNAME"
+ 
+ #. JBdnz
+ #: sfx2/uiconfig/ui/helpmanual.ui:12
+ msgctxt "helpmanual|onlinehelpmanual"
+ msgid "The %PRODUCTNAME built-in help for current UI language ($UILOCALE) is not installed on your computer."
+-msgstr ""
++msgstr "Trợ giúp tích hợp của %PRODUCTNAME cho ngôn ngữ giao diện hiện tại ($UILOCALE) chưa được cài trên máy tính của bạn."
+ 
+ #. DxMPr
+ #: sfx2/uiconfig/ui/helpmanual.ui:13
+ msgctxt "helpmanual|onlinehelpmanual"
+ msgid "You may either install it from our website or your system’s repositories, or read an online version."
+-msgstr ""
++msgstr "Bạn có thể cài từ trang web của chúng tôi hoặc kho phần mềm của hệ thống, hoặc đọc bản trực tuyến."
+ 
+ #. AaeBL
+ #: sfx2/uiconfig/ui/helpmanual.ui:23
+ msgctxt "helpmanual|website"
+ msgid "Read Help Online"
+-msgstr ""
++msgstr "Đọc trợ giúp trực tuyến"
+ 
+ #. 8ADMP
+ #: sfx2/uiconfig/ui/helpmanual.ui:68
+ msgctxt "helpmanual|builtin"
+ msgid "Learn more about installing the built-in help"
+-msgstr ""
++msgstr "Tìm hiểu cách cài trợ giúp tích hợp"
+ 
+ #. B2Wzh
+ #: sfx2/uiconfig/ui/helpmanual.ui:84
+ msgctxt "helpmanual|hidedialog"
+ msgid "Do not show this dialog again"
+-msgstr ""
++msgstr "Không hiện lại hộp thoại này"
+ 
+ #. 8FjCk
+ #: sfx2/uiconfig/ui/helpsearchpage.ui:30
+-#, fuzzy
+ msgctxt "helpsearchpage|display"
+ msgid "_Display"
+-msgstr "Hiển thị"
++msgstr "_Hiển thị"
+ 
+ #. JDsn3
+ #: sfx2/uiconfig/ui/helpsearchpage.ui:46
+-#, fuzzy
+ msgctxt "helpsearchpage|label1"
+ msgid "_Search term"
+-msgstr "_Tìm kiếm"
++msgstr "_Từ khoá tìm kiếm"
+ 
+ #. VRVyq
+ #: sfx2/uiconfig/ui/helpsearchpage.ui:122
+@@ -3870,59 +3839,58 @@ msgstr "_Tìm"
+ #: sfx2/uiconfig/ui/helpsearchpage.ui:141
+ msgctxt "helpsearchpage|completewords"
+ msgid "_Complete words only"
+-msgstr ""
++msgstr "_Chỉ nguyên từ"
+ 
+ #. vzqdb
+ #: sfx2/uiconfig/ui/helpsearchpage.ui:155
+ msgctxt "helpsearchpage|headings"
+ msgid "Find in _headings only"
+-msgstr ""
++msgstr "Chỉ tìm trong _tiêu đề"
+ 
+ #. JDZho
+ #: sfx2/uiconfig/ui/helpwindow.ui:69
+ msgctxt "helpwindow|backward|tooltip_text"
+ msgid "Previous Page"
+-msgstr ""
++msgstr "Trang trước"
+ 
+ #. Gv3uP
+ #: sfx2/uiconfig/ui/helpwindow.ui:80
+ msgctxt "helpwindow|forward|tooltip_text"
+ msgid "Next Page"
+-msgstr ""
++msgstr "Trang sau"
+ 
+ #. uaBtK
+ #: sfx2/uiconfig/ui/helpwindow.ui:91
+ msgctxt "helpwindow|start|tooltip_text"
+ msgid "First Page"
+-msgstr ""
++msgstr "Trang đầu"
+ 
+ #. TizVY
+ #: sfx2/uiconfig/ui/helpwindow.ui:112
+ msgctxt "helpwindow|print|tooltip_text"
+ msgid "Print"
+-msgstr ""
++msgstr "In"
+ 
+ #. 7wgqt
+ #: sfx2/uiconfig/ui/helpwindow.ui:123
+ msgctxt "helpwindow|bookmarks|tooltip_text"
+ msgid "Add to Bookmarks"
+-msgstr ""
++msgstr "Thêm vào đánh dấu trang"
+ 
+ #. qPF9A
+ #: sfx2/uiconfig/ui/helpwindow.ui:134
+ msgctxt "helpwindow|searchdialog|tooltip_text"
+ msgid "Find on this Page"
+-msgstr ""
++msgstr "Tìm trong trang này"
+ 
+ #. VnXxR
+ #: sfx2/uiconfig/ui/infobar.ui:65
+ msgctxt "infobar|close|tooltip_text"
+ msgid "Close Infobar"
+-msgstr ""
++msgstr "Đóng thanh thông tin"
+ 
+ #. DpXCY
+ #: sfx2/uiconfig/ui/inputdialog.ui:87
+-#, fuzzy
+ msgctxt "inputdialog|label"
+ msgid "Height:"
+ msgstr "Chiều cao:"
+@@ -3958,103 +3926,97 @@ msgstr ""
+ #: sfx2/uiconfig/ui/linefragment.ui:89
+ msgctxt "linefragment|date"
+ msgid "Date"
+-msgstr ""
++msgstr "Ngày"
+ 
+ #. 8gPai
+ #: sfx2/uiconfig/ui/linefragment.ui:140
+ msgctxt "linefragment|SFX_ST_EDIT"
+ msgid "..."
+-msgstr ""
++msgstr "..."
+ 
+ #. x4Fjd
+ #: sfx2/uiconfig/ui/linefragment.ui:176
+ msgctxt "linefragment|yes"
+ msgid "Yes"
+-msgstr ""
++msgstr "Có"
+ 
+ #. mJFyB
+ #: sfx2/uiconfig/ui/linefragment.ui:191
+ msgctxt "linefragment|no"
+ msgid "No"
+-msgstr ""
++msgstr "Không"
+ 
+ #. QuVoN
+ #: sfx2/uiconfig/ui/linefragment.ui:226
+ msgctxt "linefragment|STR_SFX_REMOVE_PROPERTY"
+ msgid "Remove Property"
+-msgstr ""
++msgstr "Gỡ bỏ thuộc tính"
+ 
+ #. muk9B
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:8
+ msgctxt "linkeditdialog|title"
+ msgid "Modify DDE Link"
+-msgstr ""
++msgstr "Sửa liên kết DDE"
+ 
+ #. CZn3G
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:99
+-#, fuzzy
+ msgctxt "linkeditdialog|label2"
+ msgid "_Application:"
+-msgstr "Ứng dụng"
++msgstr "Ứ_ng dụng:"
+ 
+ #. GZsEX
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:113
+-#, fuzzy
+ msgctxt "linkeditdialog|label3"
+ msgid "_File:"
+-msgstr "Tập tin:"
++msgstr "_Tập tin:"
+ 
+ #. 6Fx6h
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:127
+-#, fuzzy
+ msgctxt "linkeditdialog|label4"
+ msgid "_Category:"
+-msgstr "_Loại"
++msgstr "_Loại:"
+ 
+ #. AzB2M
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:145
+ msgctxt "linkeditdialog|extended_tip|app"
+ msgid "Lists the application that last saved the source file. The office suite applications have the server name soffice."
+-msgstr ""
++msgstr "Liệt kê ứng dụng đã lưu tập tin nguồn lần cuối. Các ứng dụng của bộ văn phòng có tên máy chủ là soffice."
+ 
+ #. cj9do
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:163
+ msgctxt "linkeditdialog|extended_tip|file"
+ msgid "Path to the source file. Relative paths must be expressed by full URI, for example, with file://."
+-msgstr ""
++msgstr "Đường dẫn tới tập tin nguồn. Đường dẫn tương đối phải viết dưới dạng URI đầy đủ, ví dụ với file://."
+ 
+ #. cMPNq
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:181
+ msgctxt "linkeditdialog|extended_tip|category"
+ msgid "Lists the section or object that the link refers to in the source file. If you want, you can enter a new section or object here."
+-msgstr ""
++msgstr "Liệt kê phần hoặc đối tượng mà liên kết trỏ tới trong tập tin nguồn. Nếu muốn, bạn có thể nhập phần hoặc đối tượng mới tại đây."
+ 
+ #. hiapi
+ #: sfx2/uiconfig/ui/linkeditdialog.ui:196
+-#, fuzzy
+ msgctxt "linkeditdialog|label1"
+ msgid "Modify Link"
+ msgstr "Sửa liên kết"
+ 
+ #. ba2Tn
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:24
+-#, fuzzy
+ msgctxt "loadtemplatedialog|LoadTemplateDialog"
+ msgid "New"
+ msgstr "Mới"
+ 
+ #. MkW3E
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:40
+-#, fuzzy
+ msgctxt "loadtemplatedialog|fromfile"
+ msgid "From File..."
+-msgstr "~Từ tập tin..."
++msgstr "Từ tập tin..."
+ 
+ #. jSrBT
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:44
+ msgctxt "loadtemplatedialog|fromfile|tooltip_text"
+ msgid "Copy styles from selected external document to current document."
+-msgstr ""
++msgstr "Sao chép kiểu từ tài liệu bên ngoài đã chọn sang tài liệu hiện tại."
+ 
+ #. GE236
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:48
+@@ -4084,26 +4046,25 @@ msgstr "Liệt kê các mẫu sẵn sàng cho phân loại đã chọn."
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:241
+ msgctxt "loadtemplatedialog|label2|tooltip_text"
+ msgid "Templates in the selected category"
+-msgstr ""
++msgstr "Các mẫu trong loại đã chọn"
+ 
+ #. hryGV
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:242
+-#, fuzzy
+ msgctxt "loadtemplatedialog|label2"
+ msgid "Templates"
+-msgstr "Mẫu :"
++msgstr "Mẫu"
+ 
+ #. rFENe
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:264
+ msgctxt "loadtemplatedialog|text"
+ msgid "_Paragraph and Character"
+-msgstr ""
++msgstr "_Đoạn văn và ký tự"
+ 
+ #. jCAuA
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:268
+ msgctxt "loadtemplatedialog|text|tooltip_text"
+ msgid "Copy paragraph and character styles to current document."
+-msgstr ""
++msgstr "Sao chép kiểu đoạn văn và kiểu ký tự sang tài liệu hiện tại."
+ 
+ #. VLWfZ
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:273
+@@ -4113,16 +4074,15 @@ msgstr "Nạp vào tài liệu hiện tại các kiểu dáng kiểu đoạn vă
+ 
+ #. d2q55
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:284
+-#, fuzzy
+ msgctxt "loadtemplatedialog|frame"
+ msgid "_Frame"
+-msgstr "Khung"
++msgstr "_Khung"
+ 
+ #. HSCZj
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:288
+ msgctxt "loadtemplatedialog|frame|tooltip_text"
+ msgid "Copy frame styles to current document."
+-msgstr ""
++msgstr "Sao chép kiểu khung sang tài liệu hiện tại."
+ 
+ #. 4ZF6u
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:293
+@@ -4134,13 +4094,13 @@ msgstr "Nạp vào tài liệu hiện tại các kiểu dáng khung từ tập t
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:304
+ msgctxt "loadtemplatedialog|pages"
+ msgid "Pa_ge"
+-msgstr ""
++msgstr "_Trang"
+ 
+ #. hdRo6
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:308
+ msgctxt "loadtemplatedialog|pages|tooltip_text"
+ msgid "Copy page styles to current document."
+-msgstr ""
++msgstr "Sao chép kiểu trang sang tài liệu hiện tại."
+ 
+ #. o2C8c
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:313
+@@ -4152,32 +4112,31 @@ msgstr "Nạp vào tài liệu hiện tại các kiểu dáng trang từ tập t
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:324
+ msgctxt "loadtemplatedialog|numbering"
+ msgid "_List"
+-msgstr ""
++msgstr "_Danh sách"
+ 
+ #. VZxbf
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:328
+ msgctxt "loadtemplatedialog|numbering|tooltip_text"
+ msgid "Copy list styles to current document."
+-msgstr ""
++msgstr "Sao chép kiểu danh sách sang tài liệu hiện tại."
+ 
+ #. PAsEB
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:333
+ msgctxt "loadtemplatedialog|extended_tip|numbering"
+ msgid "Loads the list styles from the selected document into the current document."
+-msgstr ""
++msgstr "Nạp các kiểu danh sách từ tài liệu đã chọn vào tài liệu hiện tại."
+ 
+ #. VWzsG
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:344
+-#, fuzzy
+ msgctxt "loadtemplatedialog|overwrite"
+ msgid "_Overwrite"
+-msgstr "~Ghi đè"
++msgstr "_Ghi đè"
+ 
+ #. cr86W
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:348
+ msgctxt "loadtemplatedialog|overwrite|tooltip_text"
+ msgid "Overwrite styles with same name"
+-msgstr ""
++msgstr "Ghi đè các kiểu trùng tên"
+ 
+ #. A9ogA
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:353
+@@ -4189,7 +4148,7 @@ msgstr "Thay thế các kiểu dáng trong tài liệu hiện tại mà có cùn
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:376
+ msgctxt "loadtemplatedialog|alttitle"
+ msgid "Load Styles from Template"
+-msgstr ""
++msgstr "Nạp kiểu từ mẫu"
+ 
+ #. X5Pi5
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:413
+@@ -4201,108 +4160,103 @@ msgstr "_Xem thử"
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:419
+ msgctxt "loadtemplatedialog|extended_tip|expander"
+ msgid "Shows or hides a preview of a selected template."
+-msgstr ""
++msgstr "Hiện hoặc ẩn bản xem trước của mẫu đã chọn."
+ 
+ #. CRcca
+ #: sfx2/uiconfig/ui/loadtemplatedialog.ui:446
+ msgctxt "loadtemplatedialog|extended_tip|LoadTemplateDialog"
+ msgid "Imports formatting styles from another document or template into the current document."
+-msgstr ""
++msgstr "Nhập các kiểu định dạng từ tài liệu hoặc mẫu khác vào tài liệu hiện tại."
+ 
+ #. EAhup
+ #: sfx2/uiconfig/ui/managestylepage.ui:33
+-#, fuzzy
+ msgctxt "managestylepage|nameft"
+ msgid "_Name:"
+-msgstr "Tê_n"
++msgstr "Tê_n:"
+ 
+ #. s49RT
+ #: sfx2/uiconfig/ui/managestylepage.ui:54
+ msgctxt "managestylepage|extended_tip|name"
+ msgid "Enter a name for the style."
+-msgstr ""
++msgstr "Nhập tên cho kiểu."
+ 
+ #. cFCws
+ #: sfx2/uiconfig/ui/managestylepage.ui:65
+ msgctxt "managestylepage|autoupdate"
+ msgid "_Automatic update from document"
+-msgstr ""
++msgstr "_Tự động cập nhật từ tài liệu"
+ 
+ #. TZByH
+ #: sfx2/uiconfig/ui/managestylepage.ui:69
+ msgctxt "managestylepage|autoupdate|tooltip_text"
+ msgid "Any paragraph formatting changes in the document to a paragraph with this style are applied automatically to modify the paragraph style."
+-msgstr ""
++msgstr "Mọi thay đổi định dạng đoạn văn trong tài liệu cho đoạn dùng kiểu này sẽ tự động được áp dụng để sửa kiểu đoạn văn."
+ 
+ #. 2AHAQ
+ #: sfx2/uiconfig/ui/managestylepage.ui:74
+ msgctxt "managestylepage|extended_tip|autoupdate"
+ msgid "Updates the style when you apply direct formatting to a paragraph using this style in your document. The formatting of all paragraphs using this style is automatically updated."
+-msgstr ""
++msgstr "Cập nhật kiểu khi bạn định dạng trực tiếp cho một đoạn văn dùng kiểu này trong tài liệu. Định dạng của mọi đoạn văn dùng kiểu này sẽ được tự động cập nhật."
+ 
+ #. VroAG
+ #: sfx2/uiconfig/ui/managestylepage.ui:87
+-#, fuzzy
+ msgctxt "managestylepage|nextstyleft"
+ msgid "Ne_xt style:"
+-msgstr "Kiểu dáng _sau"
++msgstr "Kiểu _kế tiếp:"
+ 
+ #. aCzKF
+ #: sfx2/uiconfig/ui/managestylepage.ui:105
+ msgctxt "managestylepage|extended_tip|nextstyle"
+ msgid "Select an existing style that you want to follow the current style in your document. For paragraph styles, the next style is applied to an empty paragraph that is created when you press Enter at the end of an existing paragraph. For page styles, the next style is applied when a new page is created."
+-msgstr ""
++msgstr "Chọn kiểu có sẵn sẽ theo sau kiểu hiện tại trong tài liệu. Với kiểu đoạn văn, kiểu kế tiếp được áp dụng cho đoạn trống được tạo khi bạn nhấn Enter ở cuối một đoạn có sẵn. Với kiểu trang, kiểu kế tiếp được áp dụng khi tạo trang mới."
+ 
+ #. MMhJQ
+ #: sfx2/uiconfig/ui/managestylepage.ui:116
+-#, fuzzy
+ msgctxt "managestylepage|editstyle"
+ msgid "Edit Style"
+-msgstr "Sửa kiểu dáng..."
++msgstr "Sửa kiểu"
+ 
+ #. TyuDG
+ #: sfx2/uiconfig/ui/managestylepage.ui:122
+ msgctxt "managestylepage|extended_tip|editstyle"
+ msgid "Edit the properties of the next style."
+-msgstr ""
++msgstr "Sửa thuộc tính của kiểu kế tiếp."
+ 
+ #. mJYgm
+ #: sfx2/uiconfig/ui/managestylepage.ui:135
+ msgctxt "managestylepage|linkedwithft"
+ msgid "Inherit from:"
+-msgstr ""
++msgstr "Kế thừa từ:"
+ 
+ #. FS9sk
+ #: sfx2/uiconfig/ui/managestylepage.ui:153
+ msgctxt "managestylepage|extended_tip|linkedwith"
+ msgid "Select an existing style (or - None -) to provide its definitions to the current style. Use the other tabs to modify the inherited style."
+-msgstr ""
++msgstr "Chọn một kiểu có sẵn (hoặc - Không -) để cung cấp định nghĩa cho kiểu hiện tại. Dùng các thẻ khác để sửa kiểu được kế thừa."
+ 
+ #. 7XGEs
+ #: sfx2/uiconfig/ui/managestylepage.ui:164
+-#, fuzzy
+ msgctxt "managestylepage|editlinkstyle"
+ msgid "Edit Style"
+-msgstr "Sửa kiểu dáng..."
++msgstr "Sửa kiểu"
+ 
+ #. aGs9D
+ #: sfx2/uiconfig/ui/managestylepage.ui:170
+ msgctxt "managestylepage|extended_tip|editlinkstyle"
+ msgid "Edit the properties of the parent style."
+-msgstr ""
++msgstr "Sửa thuộc tính của kiểu cha."
+ 
+ #. 9pGL9
+ #: sfx2/uiconfig/ui/managestylepage.ui:183
+-#, fuzzy
+ msgctxt "managestylepage|categoryft"
+ msgid "_Category:"
+-msgstr "_Loại"
++msgstr "_Loại:"
+ 
+ #. CXjeA
+ #: sfx2/uiconfig/ui/managestylepage.ui:201
+ msgctxt "managestylepage|extended_tip|category"
+ msgid "Displays the category for the current style. If you are creating or modifying a new style, select 'Custom Style' from the list."
+-msgstr ""
++msgstr "Hiển thị loại của kiểu hiện tại. Nếu bạn tạo hoặc sửa một kiểu mới, hãy chọn 'Kiểu tuỳ chỉnh' trong danh sách."
+ 
+ #. oTXJz
+ #: sfx2/uiconfig/ui/managestylepage.ui:228
+@@ -4314,25 +4268,25 @@ msgstr "Kiểu dáng"
+ #: sfx2/uiconfig/ui/managestylepage.ui:312
+ msgctxt "managestylepage|viewprops"
+ msgid "View"
+-msgstr ""
++msgstr "Xem"
+ 
+ #. i4fHL
+ #: sfx2/uiconfig/ui/managestylepage.ui:318
+ msgctxt "managestylepage|viewprops"
+ msgid "View style properties as description text"
+-msgstr ""
++msgstr "Xem thuộc tính kiểu dưới dạng văn bản mô tả"
+ 
+ #. tBEan
+ #: sfx2/uiconfig/ui/managestylepage.ui:330
+ msgctxt "managestylepage|editprops"
+ msgid "Edit"
+-msgstr ""
++msgstr "Sửa"
+ 
+ #. DABG7
+ #: sfx2/uiconfig/ui/managestylepage.ui:336
+ msgctxt "managestylepage|editprops"
+ msgid "Edit style properties as interactive chips"
+-msgstr ""
++msgstr "Sửa thuộc tính kiểu dưới dạng nhãn tương tác"
+ 
+ #. NXG9o
+ #: sfx2/uiconfig/ui/managestylepage.ui:359
+@@ -4344,31 +4298,31 @@ msgstr "Chứa"
+ #: sfx2/uiconfig/ui/newstyle.ui:16
+ msgctxt "newstyle|CreateStyleDialog"
+ msgid "New Style from Selection"
+-msgstr ""
++msgstr "Kiểu mới từ vùng chọn"
+ 
+ #. 2XkTt
+ #: sfx2/uiconfig/ui/newstyle.ui:137
+ msgctxt "newstyle|styles-atkobject"
+ msgid "Custom styles for selected category"
+-msgstr ""
++msgstr "Kiểu tuỳ chỉnh cho loại đã chọn"
+ 
+ #. UEGSg
+ #: sfx2/uiconfig/ui/newstyle.ui:157
+ msgctxt "newstyle|stylename-atkobject"
+ msgid "Style name"
+-msgstr ""
++msgstr "Tên kiểu"
+ 
+ #. bjN3T
+ #: sfx2/uiconfig/ui/newstyle.ui:170
+ msgctxt "newstyle|categorylabel"
+ msgid "Custom styles for current document"
+-msgstr ""
++msgstr "Kiểu tuỳ chỉnh cho tài liệu hiện tại"
+ 
+ #. 6mnDS
+ #: sfx2/uiconfig/ui/newstyle.ui:188
+ msgctxt "newstyle|label1"
+ msgid "Enter new style name:"
+-msgstr ""
++msgstr "Nhập tên kiểu mới:"
+ 
+ #. R6zJz
+ #: sfx2/uiconfig/ui/notebookbar.ui:74
+@@ -4386,7 +4340,7 @@ msgstr "_Máy in"
+ #: sfx2/uiconfig/ui/optprintpage.ui:44
+ msgctxt "extended_tip|printer"
+ msgid "Specifies whether the print settings apply to direct printing or to printing to a file."
+-msgstr ""
++msgstr "Xác định thiết lập in áp dụng cho in trực tiếp hay in ra tập tin."
+ 
+ #. Eyv8g
+ #: sfx2/uiconfig/ui/optprintpage.ui:55
+@@ -4398,13 +4352,13 @@ msgstr "In _vào tập tin"
+ #: sfx2/uiconfig/ui/optprintpage.ui:64
+ msgctxt "extended_tip|file"
+ msgid "Specifies whether the print settings apply to direct printing or to printing to a file."
+-msgstr ""
++msgstr "Xác định thiết lập in áp dụng cho in trực tiếp hay in ra tập tin."
+ 
+ #. C8jvp
+ #: sfx2/uiconfig/ui/optprintpage.ui:79
+ msgctxt "optprintpage|label4"
+ msgid "Settings for"
+-msgstr ""
++msgstr "Thiết lập cho"
+ 
+ #. wm7C7
+ #: sfx2/uiconfig/ui/optprintpage.ui:122
+@@ -4416,25 +4370,25 @@ msgstr "Chuyển đổi màu thành g_am xám"
+ #: sfx2/uiconfig/ui/optprintpage.ui:130
+ msgctxt "extended_tip|converttogray"
+ msgid "Specifies that all colors are printed only as grayscale."
+-msgstr ""
++msgstr "Xác định mọi màu chỉ được in dưới dạng thang xám."
+ 
+ #. CrFLq
+ #: sfx2/uiconfig/ui/optprintpage.ui:154
+ msgctxt "optprintpage|reducebitmaptrans"
+ msgid "Include transparent objects"
+-msgstr ""
++msgstr "Bao gồm đối tượng trong suốt"
+ 
+ #. FFAFJ
+ #: sfx2/uiconfig/ui/optprintpage.ui:162
+ msgctxt "extended_tip|reducebitmaptrans"
+ msgid "If this field is marked, the reduction in print quality for bitmaps also applies to the transparent areas of objects."
+-msgstr ""
++msgstr "Nếu đánh dấu ô này, việc giảm chất lượng in cho ảnh bitmap cũng áp dụng cho vùng trong suốt của đối tượng."
+ 
+ #. bWPko
+ #: sfx2/uiconfig/ui/optprintpage.ui:177
+ msgctxt "optprintpage|label4"
+ msgid "Defaults"
+-msgstr ""
++msgstr "Mặc định"
+ 
+ #. 2T5Af
+ #: sfx2/uiconfig/ui/optprintpage.ui:220
+@@ -4446,7 +4400,7 @@ msgstr "Kích cỡ giấ_y"
+ #: sfx2/uiconfig/ui/optprintpage.ui:228
+ msgctxt "extended_tip|papersize"
+ msgid "Mark this check box if a certain paper size is needed for printing the current document."
+-msgstr ""
++msgstr "Đánh dấu ô này nếu cần một khổ giấy nhất định để in tài liệu hiện tại."
+ 
+ #. stDFq
+ #: sfx2/uiconfig/ui/optprintpage.ui:252
+@@ -4458,7 +4412,7 @@ msgstr "_Hướng giấy"
+ #: sfx2/uiconfig/ui/optprintpage.ui:260
+ msgctxt "extended_tip|paperorient"
+ msgid "Mark this check box if you need a certain paper orientation for printing the current document."
+-msgstr ""
++msgstr "Đánh dấu ô này nếu cần một hướng giấy nhất định để in tài liệu hiện tại."
+ 
+ #. L6rtF
+ #: sfx2/uiconfig/ui/optprintpage.ui:284
+@@ -4470,13 +4424,13 @@ msgstr "_Trong suốt"
+ #: sfx2/uiconfig/ui/optprintpage.ui:292
+ msgctxt "extended_tip|trans"
+ msgid "Mark this check box if you always want to be warned if transparent objects are contained in the document."
+-msgstr ""
++msgstr "Đánh dấu ô này nếu bạn luôn muốn được cảnh báo khi tài liệu có đối tượng trong suốt."
+ 
+ #. C5jZN
+ #: sfx2/uiconfig/ui/optprintpage.ui:307
+ msgctxt "optprintpage|label2"
+ msgid "Warnings"
+-msgstr ""
++msgstr "Cảnh báo"
+ 
+ #. ySmQe
+ #: sfx2/uiconfig/ui/optprintpage.ui:348
+@@ -4488,20 +4442,19 @@ msgstr "Giảm _mảng"
+ #: sfx2/uiconfig/ui/optprintpage.ui:356
+ msgctxt "extended_tip|reducebitmap"
+ msgid "Specifies that bitmaps are printed with reduced quality. The resolution can only be reduced and not increased."
+-msgstr ""
++msgstr "Xác định ảnh bitmap được in với chất lượng giảm. Độ phân giải chỉ có thể giảm, không thể tăng."
+ 
+ #. EZGK5
+ #: sfx2/uiconfig/ui/optprintpage.ui:393
+-#, fuzzy
+ msgctxt "optprintpage|reducebitmapresol"
+ msgid "Reso_lution:"
+-msgstr "Độ _phân giải"
++msgstr "Độ _phân giải:"
+ 
+ #. q3aJL
+ #: sfx2/uiconfig/ui/optprintpage.ui:402
+ msgctxt "extended_tip|reducebitmapresol"
+ msgid "Specifies the maximum print quality in dpi. The resolution can only be reduced and not increased."
+-msgstr ""
++msgstr "Xác định chất lượng in tối đa theo dpi. Độ phân giải chỉ có thể giảm, không thể tăng."
+ 
+ #. 6ALtE
+ #: sfx2/uiconfig/ui/optprintpage.ui:416
+@@ -4543,7 +4496,7 @@ msgstr "600 DPI"
+ #: sfx2/uiconfig/ui/optprintpage.ui:425
+ msgctxt "extended_tip|reducebitmapdpi"
+ msgid "Specifies the maximum print quality in dpi. The resolution can only be reduced and not increased."
+-msgstr ""
++msgstr "Xác định chất lượng in tối đa theo dpi. Độ phân giải chỉ có thể giảm, không thể tăng."
+ 
+ #. qF2KM
+ #: sfx2/uiconfig/ui/optprintpage.ui:442
+@@ -4555,7 +4508,7 @@ msgstr "_Chất lượng in chuẩn"
+ #: sfx2/uiconfig/ui/optprintpage.ui:451
+ msgctxt "extended_tip|reducebitmapnormal"
+ msgid "High print quality corresponds to a resolution of 300dpi. Normal print quality corresponds to a resolution of 200dpi. "
+-msgstr ""
++msgstr "Chất lượng in cao tương ứng độ phân giải 300dpi. Chất lượng in thường tương ứng độ phân giải 200dpi."
+ 
+ #. YXTXc
+ #: sfx2/uiconfig/ui/optprintpage.ui:462
+@@ -4567,44 +4520,43 @@ msgstr "C_hất lượng in cao"
+ #: sfx2/uiconfig/ui/optprintpage.ui:471
+ msgctxt "extended_tip|reducebitmapoptimal"
+ msgid "High print quality corresponds to a resolution of 300dpi. Normal print quality corresponds to a resolution of 200dpi. "
+-msgstr ""
++msgstr "Chất lượng in cao tương ứng độ phân giải 300dpi. Chất lượng in thường tương ứng độ phân giải 200dpi."
+ 
+ #. YxX2s
+ #: sfx2/uiconfig/ui/optprintpage.ui:492
+ msgctxt "optprintpage|label1"
+ msgid "Reduce Bitmaps"
+-msgstr ""
++msgstr "Giảm chất lượng bitmap"
+ 
+ #. PJFLE
+ #: sfx2/uiconfig/ui/optprintpage.ui:533
+ msgctxt "optprintpage|reducegrad"
+ msgid "Reduce _gradient"
+-msgstr ""
++msgstr "Giảm _chuyển sắc"
+ 
+ #. GC8dk
+ #: sfx2/uiconfig/ui/optprintpage.ui:541
+ msgctxt "extended_tip|reducegrad"
+ msgid "If this field is marked, gradients are printed with reduced quality."
+-msgstr ""
++msgstr "Nếu đánh dấu ô này, phần chuyển sắc được in với chất lượng giảm."
+ 
+ #. skDME
+ #: sfx2/uiconfig/ui/optprintpage.ui:578
+-#, fuzzy
+ msgctxt "optprintpage|reducegradstripes"
+ msgid "Gradient _stripes:"
+-msgstr "_Sọc chuyển màu"
++msgstr "Số _dải chuyển sắc:"
+ 
+ #. k8zh7
+ #: sfx2/uiconfig/ui/optprintpage.ui:587
+ msgctxt "extended_tip|reducegradstripes"
+ msgid "Specifies the maximum number of gradient stripes for printing."
+-msgstr ""
++msgstr "Xác định số dải chuyển sắc tối đa khi in."
+ 
+ #. 5HCxT
+ #: sfx2/uiconfig/ui/optprintpage.ui:605
+ msgctxt "extended_tip|reducegradstep"
+ msgid "Specifies the maximum number of gradient stripes for printing."
+-msgstr ""
++msgstr "Xác định số dải chuyển sắc tối đa khi in."
+ 
+ #. W8LE7
+ #: sfx2/uiconfig/ui/optprintpage.ui:622
+@@ -4616,19 +4568,19 @@ msgstr "_Màu trung gian"
+ #: sfx2/uiconfig/ui/optprintpage.ui:631
+ msgctxt "extended_tip|reducegradcolor"
+ msgid "Specifies that gradients are only printed in a single intermediate color."
+-msgstr ""
++msgstr "Xác định phần chuyển sắc chỉ được in bằng một màu trung gian."
+ 
+ #. myMLR
+ #: sfx2/uiconfig/ui/optprintpage.ui:652
+ msgctxt "optprintpage|label1"
+ msgid "Reduce Gradient"
+-msgstr ""
++msgstr "Giảm chuyển sắc"
+ 
+ #. abbre
+ #: sfx2/uiconfig/ui/optprintpage.ui:660
+ msgctxt "extended_tip|frame2"
+ msgid "Defines which warnings appear before printing begins."
+-msgstr ""
++msgstr "Xác định những cảnh báo nào hiện ra trước khi bắt đầu in."
+ 
+ #. 5qQBR
+ #: sfx2/uiconfig/ui/optprintpage.ui:698
+@@ -4652,7 +4604,7 @@ msgstr "_Tự động"
+ #: sfx2/uiconfig/ui/optprintpage.ui:746
+ msgctxt "extended_tip|reducetransauto"
+ msgid "Specifies that the transparency is only printed if the transparent area covers less than a quarter of the entire page."
+-msgstr ""
++msgstr "Xác định độ trong suốt chỉ được in nếu vùng trong suốt chiếm ít hơn một phần tư trang."
+ 
+ #. K7P4C
+ #: sfx2/uiconfig/ui/optprintpage.ui:757
+@@ -4664,13 +4616,13 @@ msgstr "Khô_ng trong suốt"
+ #: sfx2/uiconfig/ui/optprintpage.ui:766
+ msgctxt "extended_tip|reducetransnone"
+ msgid "With this option transparency is never printed."
+-msgstr ""
++msgstr "Với tuỳ chọn này, độ trong suốt không bao giờ được in."
+ 
+ #. B5Cpd
+ #: sfx2/uiconfig/ui/optprintpage.ui:787
+ msgctxt "optprintpage|label1"
+ msgid "Reduce Transparency"
+-msgstr ""
++msgstr "Giảm độ trong suốt"
+ 
+ #. mMKbc
+ #: sfx2/uiconfig/ui/optprintpage.ui:807
+@@ -4682,7 +4634,7 @@ msgstr "Xác định các tùy chọn về chức năng in ấn."
+ #: sfx2/uiconfig/ui/panel.ui:74 sfx2/uiconfig/ui/panel.ui:79
+ msgctxt "panel|SFX_STR_SIDEBAR_MORE_OPTIONS"
+ msgid "More Options"
+-msgstr ""
++msgstr "Tuỳ chọn khác"
+ 
+ #. QrtGb
+ #: sfx2/uiconfig/ui/password.ui:28
+@@ -4692,10 +4644,9 @@ msgstr "Nhập mật khẩu"
+ 
+ #. gATKy
+ #: sfx2/uiconfig/ui/password.ui:122
+-#, fuzzy
+ msgctxt "password|userft"
+ msgid "User:"
+-msgstr "~Người dùng:"
++msgstr "Người dùng:"
+ 
+ #. FRqiZ
+ #: sfx2/uiconfig/ui/password.ui:136
+@@ -4705,10 +4656,9 @@ msgstr "Mật khẩu:"
+ 
+ #. HE8mc
+ #: sfx2/uiconfig/ui/password.ui:149
+-#, fuzzy
+ msgctxt "password|confirm1ft"
+ msgid "Confirm:"
+-msgstr "_Xác nhận"
++msgstr "Xác nhận:"
+ 
+ #. EFJRk
+ #: sfx2/uiconfig/ui/password.ui:210
+@@ -4720,31 +4670,31 @@ msgstr "Mật khẩu"
+ #: sfx2/uiconfig/ui/password.ui:211
+ msgctxt "password|extended_tip|pass1ed"
+ msgid "Type a password. A password is case sensitive."
+-msgstr ""
++msgstr "Nhập mật khẩu. Mật khẩu phân biệt chữ hoa chữ thường."
+ 
+ #. Y8R6K
+ #: sfx2/uiconfig/ui/password.ui:229
+ msgctxt "password|togglebt1-atkobject"
+ msgid "Show characters"
+-msgstr ""
++msgstr "Hiện ký tự"
+ 
+ #. U8HV4
+ #: sfx2/uiconfig/ui/password.ui:230
+ msgctxt "password|extended_tip|togglebt1"
+ msgid "Show or hide password characters"
+-msgstr ""
++msgstr "Hiện hoặc ẩn ký tự mật khẩu"
+ 
+ #. kEcVk
+ #: sfx2/uiconfig/ui/password.ui:262
+ msgctxt "password|extended_tip|confirm1ed"
+ msgid "Re-enter the password."
+-msgstr ""
++msgstr "Nhập lại mật khẩu."
+ 
+ #. JBr3g
+ #: sfx2/uiconfig/ui/password.ui:280
+ msgctxt "password|extended_tip|togglebt2"
+ msgid "Show or hide password characters"
+-msgstr ""
++msgstr "Hiện hoặc ẩn ký tự mật khẩu"
+ 
+ #. JBCUB
+ #: sfx2/uiconfig/ui/password.ui:308
+@@ -4760,52 +4710,51 @@ msgstr "Mật khẩu:"
+ 
+ #. 8RcEw
+ #: sfx2/uiconfig/ui/password.ui:353
+-#, fuzzy
+ msgctxt "password|confirm2ft"
+ msgid "Confirm:"
+-msgstr "_Xác nhận"
++msgstr "Xác nhận:"
+ 
+ #. EkHiq
+ #: sfx2/uiconfig/ui/password.ui:401
+ msgctxt "password|extended_tip|pass2ed"
+ msgid "Type a password. A password is case sensitive."
+-msgstr ""
++msgstr "Nhập mật khẩu. Mật khẩu phân biệt chữ hoa chữ thường."
+ 
+ #. FFPUB
+ #: sfx2/uiconfig/ui/password.ui:419
+ msgctxt "password|extended_tip|togglebt3"
+ msgid "Show or hide password characters"
+-msgstr ""
++msgstr "Hiện hoặc ẩn ký tự mật khẩu"
+ 
+ #. c4nGS
+ #: sfx2/uiconfig/ui/password.ui:451
+ msgctxt "password|extended_tip|confirm2ed"
+ msgid "Re-enter the password."
+-msgstr ""
++msgstr "Nhập lại mật khẩu."
+ 
+ #. Di72F
+ #: sfx2/uiconfig/ui/password.ui:469
+ msgctxt "password|extended_tip|togglebt4"
+ msgid "Show or hide password characters"
+-msgstr ""
++msgstr "Hiện hoặc ẩn ký tự mật khẩu"
+ 
+ #. mCxpj
+ #: sfx2/uiconfig/ui/password.ui:497
+ msgctxt "password|label2"
+ msgid "Second Password"
+-msgstr ""
++msgstr "Mật khẩu thứ hai"
+ 
+ #. WJCdh
+ #: sfx2/uiconfig/ui/password.ui:535
+ msgctxt "password|onlyascii|tooltip_text"
+ msgid "Characters in the Unicode 'Basic Latin' block (also known as ASCII) including the letters A-Z, a-z, numbers 0-9 and the most common punctuation marks."
+-msgstr ""
++msgstr "Các ký tự trong khối Unicode 'Basic Latin' (còn gọi là ASCII), gồm chữ A-Z, a-z, số 0-9 và các dấu câu thông dụng nhất."
+ 
+ #. LKoDN
+ #: sfx2/uiconfig/ui/password.ui:537
+ msgctxt "password|onlyascii"
+ msgid "Only Unicode 'Basic Latin' characters can be entered"
+-msgstr ""
++msgstr "Chỉ được nhập ký tự Unicode 'Basic Latin'"
+ 
+ #. AFsUP
+ #: sfx2/uiconfig/ui/printeroptionsdialog.ui:8
+@@ -4817,129 +4766,127 @@ msgstr "Tùy chọn máy in"
+ #: sfx2/uiconfig/ui/propertycategoryrow.ui:19
+ msgctxt "propertycategoryrow|label"
+ msgid "Property category name"
+-msgstr ""
++msgstr "Tên nhóm thuộc tính"
+ 
+ #. BPUb7
+ #: sfx2/uiconfig/ui/propertychip.ui:21
+ msgctxt "propertychip|remove"
+ msgid "Reset this property to inherit from parent style"
+-msgstr ""
++msgstr "Đặt lại thuộc tính này để kế thừa từ kiểu cha"
+ 
+ #. oAzTR
+ #: sfx2/uiconfig/ui/querysavedialog.ui:7
+-#, fuzzy
+ msgctxt "querysavedialog|QuerySaveDialog"
+ msgid "Save Document?"
+-msgstr "Lưu tài liệu"
++msgstr "Lưu tài liệu?"
+ 
+ #. wFiA8
+ #: sfx2/uiconfig/ui/querysavedialog.ui:13
+ msgctxt "querysavedialog|QuerySaveDialog"
+ msgid "Save changes to document “$(DOC)” before closing?"
+-msgstr ""
++msgstr "Lưu thay đổi cho tài liệu “$(DOC)” trước khi đóng?"
+ 
+ #. 7mtVz
+ #: sfx2/uiconfig/ui/querysavedialog.ui:14
+ msgctxt "querysavedialog|QuerySaveDialog"
+ msgid "Your changes will be lost if you don’t save them."
+-msgstr ""
++msgstr "Các thay đổi sẽ bị mất nếu bạn không lưu."
+ 
+ #. sQCdE
+ #: sfx2/uiconfig/ui/querysavedialog.ui:25
+ msgctxt "querysavedialog|discard"
+ msgid "Do_n’t Save"
+-msgstr ""
++msgstr "_Không lưu"
+ 
+ #. dzVqL
+ #: sfx2/uiconfig/ui/querysavedialog.ui:56
+ msgctxt "querysavedialog|save"
+ msgid "_Save"
+-msgstr ""
++msgstr "_Lưu"
+ 
+ #. QZ5ur
+ #: sfx2/uiconfig/ui/safemodequerydialog.ui:7
+ msgctxt "safemodequerydialog|SafeModeQueryDialog"
+ msgid "Enter Troubleshoot Mode"
+-msgstr ""
++msgstr "Vào chế độ khắc phục sự cố"
+ 
+ #. eEXsy
+ #: sfx2/uiconfig/ui/safemodequerydialog.ui:12
+ msgctxt "safemodequerydialog|label"
+ msgid "Are you sure you want to restart %PRODUCTNAME and enter troubleshoot mode?"
+-msgstr ""
++msgstr "Bạn có chắc muốn khởi động lại %PRODUCTNAME và vào chế độ khắc phục sự cố không?"
+ 
+ #. DpN8R
+ #: sfx2/uiconfig/ui/safemodequerydialog.ui:40
+ msgctxt "safemodequerydialog|restart"
+ msgid "_Restart"
+-msgstr ""
++msgstr "_Khởi động lại"
+ 
+ #. ejCo9
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:16
+ msgctxt "saveastemplatedlg|SaveAsTemplateDialog"
+ msgid "Save As Template"
+-msgstr ""
++msgstr "Lưu dạng mẫu"
+ 
+ #. NyFdH
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:104
+ msgctxt "saveastemplatedlg|create_label"
+ msgid "Enter a name for the template."
+-msgstr ""
++msgstr "Nhập tên cho mẫu."
+ 
+ #. Gjb3A
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:105
+ msgctxt "saveastemplatedlg|create_label"
+ msgid "Enter Template _Name:"
+-msgstr ""
++msgstr "Nhập _tên mẫu:"
+ 
+ #. Xo6BH
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:128
+ msgctxt "saveastemplatedlg|extended_tip|name_entry"
+ msgid "Enter a name for the template."
+-msgstr ""
++msgstr "Nhập tên cho mẫu."
+ 
+ #. 4ANkg
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:156
+ msgctxt "saveastemplatedlg|select_label"
+ msgid "Save template in selected category."
+-msgstr ""
++msgstr "Lưu mẫu vào loại đã chọn."
+ 
+ #. GLDum
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:157
+ msgctxt "saveastemplatedlg|select_label"
+ msgid "Select Template _Category:"
+-msgstr ""
++msgstr "Chọn _loại mẫu:"
+ 
+ #. JBPKb
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:205
+ msgctxt "saveastemplatedlg|extended_tip|categorylb"
+ msgid "Select a category in which to save the new template."
+-msgstr ""
++msgstr "Chọn loại để lưu mẫu mới."
+ 
+ #. wpZGc
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:225
+ msgctxt "saveastemplatedlg|defaultcb"
+ msgid "_Set as default template"
+-msgstr ""
++msgstr "Đặt làm mẫu _mặc định"
+ 
+ #. syB4y
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:233
+ msgctxt "saveastemplatedlg|extended_tip|defaultcb"
+ msgid "The new template will be used as the default template."
+-msgstr ""
++msgstr "Mẫu mới sẽ được dùng làm mẫu mặc định."
+ 
+ #. gH8PB
+ #: sfx2/uiconfig/ui/saveastemplatedlg.ui:258
+ msgctxt "saveastemplatedlg|extended_tip|SaveAsTemplateDialog"
+ msgid "Saves the current document as a template."
+-msgstr ""
++msgstr "Lưu tài liệu hiện tại dạng mẫu."
+ 
+ #. 9tSnA
+ #: sfx2/uiconfig/ui/searchdialog.ui:8
+-#, fuzzy
+ msgctxt "searchdialog|SearchDialog"
+ msgid "Find on this Page"
+-msgstr "Tìm trên trang này..."
++msgstr "Tìm trong trang này"
+ 
+ #. LAKYg
+ #: sfx2/uiconfig/ui/searchdialog.ui:23
+@@ -4949,10 +4896,9 @@ msgstr "_Tìm"
+ 
+ #. G5Qc9
+ #: sfx2/uiconfig/ui/searchdialog.ui:96
+-#, fuzzy
+ msgctxt "searchdialog|label1"
+ msgid "_Search for:"
+-msgstr "_Tìm kiếm"
++msgstr "_Tìm:"
+ 
+ #. TY5bL
+ #: sfx2/uiconfig/ui/searchdialog.ui:122
+@@ -4968,16 +4914,15 @@ msgstr "Chỉ tìm ngu_yên từ"
+ 
+ #. ycWSx
+ #: sfx2/uiconfig/ui/searchdialog.ui:150
+-#, fuzzy
+ msgctxt "searchdialog|backwards"
+ msgid "Bac_kwards"
+-msgstr "Ngược _lại"
++msgstr "_Ngược lại"
+ 
+ #. C7fSt
+ #: sfx2/uiconfig/ui/searchdialog.ui:164
+ msgctxt "searchdialog|wrap"
+ msgid "Wrap _around"
+-msgstr ""
++msgstr "_Quay vòng"
+ 
+ #. onEmh
+ #: sfx2/uiconfig/ui/securityinfopage.ui:22
+@@ -4989,7 +4934,7 @@ msgstr "_Mở chỉ-đọc"
+ #: sfx2/uiconfig/ui/securityinfopage.ui:31
+ msgctxt "securityinfopage|extended_tip|readonly"
+ msgid "Select to allow this document to be opened in read-only mode only."
+-msgstr ""
++msgstr "Chọn để chỉ cho phép mở tài liệu này ở chế độ chỉ đọc."
+ 
+ #. GvCw9
+ #: sfx2/uiconfig/ui/securityinfopage.ui:42
+@@ -5001,19 +4946,19 @@ msgstr "_Ghi thay đổi"
+ #: sfx2/uiconfig/ui/securityinfopage.ui:50
+ msgctxt "securityinfopage|extended_tip|recordchanges"
+ msgid "Select to enable recording changes. This is the same as Edit - Track Changes - Record."
+-msgstr ""
++msgstr "Chọn để bật ghi lại thay đổi. Tương tự Chỉnh sửa - Theo dõi thay đổi - Ghi lại."
+ 
+ #. Nv8rA
+ #: sfx2/uiconfig/ui/securityinfopage.ui:66
+ msgctxt "securityinfopage|protect"
+ msgid "Protect..."
+-msgstr ""
++msgstr "Bảo vệ..."
+ 
+ #. 6T6ZP
+ #: sfx2/uiconfig/ui/securityinfopage.ui:72
+ msgctxt "securityinfopage|extended_tip|protect"
+ msgid "Protects the change recording state with a password. If change recording is protected for the current document, the button is named Unprotect. Click Unprotect and type the correct password to disable the protection."
+-msgstr ""
++msgstr "Bảo vệ trạng thái ghi thay đổi bằng mật khẩu. Nếu việc ghi thay đổi đang được bảo vệ trong tài liệu hiện tại, nút sẽ có tên Bỏ bảo vệ. Nhấn Bỏ bảo vệ và nhập đúng mật khẩu để tắt bảo vệ."
+ 
+ #. jgWP4
+ #: sfx2/uiconfig/ui/securityinfopage.ui:84
+@@ -5025,20 +4970,19 @@ msgstr "_Hủy bảo vệ..."
+ #: sfx2/uiconfig/ui/securityinfopage.ui:91
+ msgctxt "securityinfopage|extended_tip|unprotect"
+ msgid "Protects the change recording state with a password. If change recording is protected for the current document, the button is named Unprotect. Click Unprotect and type the correct password to disable the protection."
+-msgstr ""
++msgstr "Bảo vệ trạng thái ghi thay đổi bằng mật khẩu. Nếu việc ghi thay đổi đang được bảo vệ trong tài liệu hiện tại, nút sẽ có tên Bỏ bảo vệ. Nhấn Bỏ bảo vệ và nhập đúng mật khẩu để tắt bảo vệ."
+ 
+ #. JNezG
+ #: sfx2/uiconfig/ui/securityinfopage.ui:113
+-#, fuzzy
+ msgctxt "securityinfopage|label47"
+ msgid "File Sharing Options"
+-msgstr "Tùy chọn chia sẻ tệp"
++msgstr "Tuỳ chọn chia sẻ tập tin"
+ 
+ #. VXrJ5
+ #: sfx2/uiconfig/ui/securityinfopage.ui:121
+ msgctxt "securityinfopage|extended_tip|SecurityInfoPage"
+ msgid "Sets password options for the current document."
+-msgstr ""
++msgstr "Đặt tuỳ chọn mật khẩu cho tài liệu hiện tại."
+ 
+ #. EDC9x
+ #: sfx2/uiconfig/ui/startcenter.ui:17
+@@ -5054,10 +4998,9 @@ msgstr "Xóa các tệp không khả dụng"
+ 
+ #. isnw8
+ #: sfx2/uiconfig/ui/startcenter.ui:115
+-#, fuzzy
+ msgctxt "startcenter|open_all"
+ msgid "_Open File"
+-msgstr "Mở tập tin"
++msgstr "_Mở tập tin"
+ 
+ #. 6zjop
+ #: sfx2/uiconfig/ui/startcenter.ui:136
+@@ -5073,17 +5016,15 @@ msgstr "_Tài liệu gần đây"
+ 
+ #. BnkvG
+ #: sfx2/uiconfig/ui/startcenter.ui:189
+-#, fuzzy
+ msgctxt "startcenter|templates_all"
+ msgid "T_emplates"
+-msgstr "_Mẫu tài liệu"
++msgstr "Mẫ_u"
+ 
+ #. JEkqY
+ #: sfx2/uiconfig/ui/startcenter.ui:226
+-#, fuzzy
+ msgctxt "startcenter|create_label"
+ msgid "Create:"
+-msgstr "Tạo:"
++msgstr "Tạo mới:"
+ 
+ #. SY4iY
+ #: sfx2/uiconfig/ui/startcenter.ui:237
+@@ -5113,7 +5054,7 @@ msgstr "Bản _vẽ"
+ #: sfx2/uiconfig/ui/startcenter.ui:317
+ msgctxt "startcenter|math_all"
+ msgid "_Math Formula"
+-msgstr "_Công thức"
++msgstr "Côn_g thức"
+ 
+ #. nnwDC
+ #: sfx2/uiconfig/ui/startcenter.ui:337
+@@ -5123,17 +5064,15 @@ msgstr "Cơ sở _dữ liệu"
+ 
+ #. ZEDmn
+ #: sfx2/uiconfig/ui/startcenter.ui:359
+-#, fuzzy
+ msgctxt "startcenter|althelplabel"
+ msgid "He_lp"
+-msgstr "Trợ giúp"
++msgstr "Trợ giú_p"
+ 
+ #. oqVes
+ #: sfx2/uiconfig/ui/startcenter.ui:429
+-#, fuzzy
+ msgctxt "startcenter|extensions"
+ msgid "E_xtensions"
+-msgstr "_Phần mở rộng"
++msgstr "Phần mở _rộng"
+ 
+ #. rDw4E
+ #: sfx2/uiconfig/ui/startcenter.ui:502
+@@ -5199,23 +5138,22 @@ msgstr "Thao tác"
+ #: sfx2/uiconfig/ui/startcenter.ui:708
+ msgctxt "startcenter|donatetitle"
+ msgid "%PRODUCTNAME is free software."
+-msgstr ""
++msgstr "%PRODUCTNAME là phần mềm tự do."
+ 
+ #. D3RnU
+ #: sfx2/uiconfig/ui/startcenter.ui:727
+ msgctxt "startcenter|donatetext"
+ msgid "Please support the community that makes it!"
+-msgstr ""
++msgstr "Hãy ủng hộ cộng đồng đã tạo ra nó!"
+ 
+ #. iweEL
+ #: sfx2/uiconfig/ui/startcenter.ui:736
+ msgctxt "startcenter|donatelink"
+ msgid "Click here to donate"
+-msgstr ""
++msgstr "Nhấn vào đây để quyên góp"
+ 
+ #. UHrAZ
+ #: sfx2/uiconfig/ui/stylecontextmenu.ui:12
+-#, fuzzy
+ msgctxt "stylecontextmenu|new"
+ msgid "New..."
+ msgstr "Mới..."
+@@ -5224,7 +5162,7 @@ msgstr "Mới..."
+ #: sfx2/uiconfig/ui/stylecontextmenu.ui:20
+ msgctxt "stylecontextmenu|edit"
+ msgid "Edit Style..."
+-msgstr ""
++msgstr "Sửa kiểu..."
+ 
+ #. TPTqm
+ #: sfx2/uiconfig/ui/stylecontextmenu.ui:28
+@@ -5248,13 +5186,13 @@ msgstr "Xoá..."
+ #: sfx2/uiconfig/ui/tabbarcontents.ui:24
+ msgctxt "tabbar|locktaskpanel"
+ msgid "Dock"
+-msgstr ""
++msgstr "Gắn cố định"
+ 
+ #. GNBR3
+ #: sfx2/uiconfig/ui/tabbarcontents.ui:33
+ msgctxt "tabbar|unlocktaskpanel"
+ msgid "Undock"
+-msgstr ""
++msgstr "Thả nổi"
+ 
+ #. jXux4
+ #: sfx2/uiconfig/ui/tabbarcontents.ui:42
+@@ -5266,7 +5204,7 @@ msgstr "Đóng Thanh bên"
+ #: sfx2/uiconfig/ui/tabbarcontents.ui:50
+ msgctxt "tabbar|customization"
+ msgid "Customization"
+-msgstr ""
++msgstr "Tuỳ biến"
+ 
+ #. DBWZf
+ #: sfx2/uiconfig/ui/tabbarcontents.ui:102
+@@ -5278,36 +5216,34 @@ msgstr "Cài đặt Thanh bên"
+ #: sfx2/uiconfig/ui/templatecategorydlg.ui:16
+ msgctxt "templatecategorydlg|TemplatesCategoryDialog"
+ msgid "Select Category"
+-msgstr ""
++msgstr "Chọn loại"
+ 
+ #. HXfot
+ #: sfx2/uiconfig/ui/templatecategorydlg.ui:105
+ msgctxt "templatecategorydlg|select_label"
+ msgid "Select from Existing Category"
+-msgstr ""
++msgstr "Chọn từ loại có sẵn"
+ 
+ #. 7eShP
+ #: sfx2/uiconfig/ui/templatecategorydlg.ui:175
+ msgctxt "templatecategorydlg|create_label"
+ msgid "or Create a New Category"
+-msgstr ""
++msgstr "hoặc tạo loại mới"
+ 
+ #. eUWTy
+ #: sfx2/uiconfig/ui/templatedlg.ui:44
+-#, fuzzy
+ msgctxt "templatedlg|TemplateDialog"
+ msgid "Templates"
+-msgstr "Mẫu :"
++msgstr "Mẫu"
+ 
+ #. rhuYP
+ #: sfx2/uiconfig/ui/templatedlg.ui:76
+ msgctxt "templatedlg|hidedialogcb"
+ msgid "Show this dialog at startup"
+-msgstr ""
++msgstr "Hiện hộp thoại này khi khởi động"
+ 
+ #. 32zsB
+ #: sfx2/uiconfig/ui/templatedlg.ui:143
+-#, fuzzy
+ msgctxt "templatedlg|search_filter|tooltip_text"
+ msgid "Search"
+ msgstr "Tìm"
+@@ -5328,13 +5264,13 @@ msgstr "Lọc"
+ #: sfx2/uiconfig/ui/templatedlg.ui:181
+ msgctxt "templatedlg|filter_application|tooltip_text"
+ msgid "Filter by Application"
+-msgstr ""
++msgstr "Lọc theo ứng dụng"
+ 
+ #. tqVhJ
+ #: sfx2/uiconfig/ui/templatedlg.ui:183
+ msgctxt "templatedlg|applist"
+ msgid "All Applications"
+-msgstr ""
++msgstr "Mọi ứng dụng"
+ 
+ #. pD6pU
+ #: sfx2/uiconfig/ui/templatedlg.ui:184
+@@ -5364,232 +5300,229 @@ msgstr "Bản vẽ"
+ #: sfx2/uiconfig/ui/templatedlg.ui:201
+ msgctxt "templatedlg|filter_folder|tooltip_text"
+ msgid "Filter by Category"
+-msgstr ""
++msgstr "Lọc theo loại"
+ 
+ #. 93CGw
+ #: sfx2/uiconfig/ui/templatedlg.ui:203
+ msgctxt "templatedlg|folderlist"
+ msgid "All Categories"
+-msgstr ""
++msgstr "Mọi loại"
+ 
+ #. DF5YC
+ #: sfx2/uiconfig/ui/templatedlg.ui:225
+ msgctxt "templatedlg|action_menu|label"
+ msgid "_Manage"
+-msgstr ""
++msgstr "_Quản lý"
+ 
+ #. LUs2m
+ #: sfx2/uiconfig/ui/templatedlg.ui:239
+ msgctxt "templatedlg|extended_tip|action_menu"
+ msgid "Provides commands to create, rename and delete categories, reset default templates, and refresh the template manager."
+-msgstr ""
++msgstr "Cung cấp các lệnh để tạo, đổi tên và xoá loại, đặt lại mẫu mặc định và làm mới trình quản lý mẫu."
+ 
+ #. ewTL3
+ #: sfx2/uiconfig/ui/templatedlg.ui:352
+ msgctxt "templatedlg|treeviewcolumn1"
+ msgid "Name"
+-msgstr ""
++msgstr "Tên"
+ 
+ #. 7EJRA
+ #: sfx2/uiconfig/ui/templatedlg.ui:369
+ msgctxt "templatedlg|treeviewcolumn2"
+ msgid "Category"
+-msgstr ""
++msgstr "Loại"
+ 
+ #. AC27i
+ #: sfx2/uiconfig/ui/templatedlg.ui:384
+ msgctxt "templatedlg|treeviewcolumn3"
+ msgid "Application"
+-msgstr ""
++msgstr "Ứng dụng"
+ 
+ #. eSaBw
+ #: sfx2/uiconfig/ui/templatedlg.ui:399
+ msgctxt "templatedlg|treeviewcolumn4"
+ msgid "Modified"
+-msgstr ""
++msgstr "Sửa đổi"
+ 
+ #. pNzYA
+ #: sfx2/uiconfig/ui/templatedlg.ui:414
+ msgctxt "templatedlg|treeviewcolumn5"
+ msgid "Size"
+-msgstr ""
++msgstr "Kích thước"
+ 
+ #. j39jM
+ #: sfx2/uiconfig/ui/templatedlg.ui:440
+ msgctxt "templatedlg|thumbnailviewlabel"
+ msgid "Template List"
+-msgstr ""
++msgstr "Danh sách mẫu"
+ 
+ #. yEhgP
+ #: sfx2/uiconfig/ui/templatedlg.ui:459
+ msgctxt "templatedlg|thumbnail_view_btn|tooltip_text"
+ msgid "Thumbnail View"
+-msgstr ""
++msgstr "Xem dạng ảnh thu nhỏ"
+ 
+ #. j76ke
+ #: sfx2/uiconfig/ui/templatedlg.ui:476
+ msgctxt "templatedlg|list_view_btn|tooltip_text"
+ msgid "List View"
+-msgstr ""
++msgstr "Xem dạng danh sách"
+ 
+ #. pm89q
+ #: sfx2/uiconfig/ui/templatepanel.ui:214
+ msgctxt "templatepanel|STR_STYLE_FILL_FORMAT_MODE"
+ msgid "Fill Format Mode"
+-msgstr ""
++msgstr "Chế độ tô định dạng"
+ 
+ #. YHTHB
+ #: sfx2/uiconfig/ui/templatepanel.ui:219
+ msgctxt "templatepanel|accessible_name|watercan"
+ msgid "Fill Format Mode"
+-msgstr ""
++msgstr "Chế độ tô định dạng"
+ 
+ #. jfeoE
+ #: sfx2/uiconfig/ui/templatepanel.ui:220
+ msgctxt "templatepanel|extended_tip|watercan"
+ msgid "Applies the selected style to the object or text that you select in the document. "
+-msgstr ""
++msgstr "Áp dụng kiểu đã chọn cho đối tượng hoặc văn bản bạn chọn trong tài liệu."
+ 
+ #. GLRFT
+ #: sfx2/uiconfig/ui/templatepanel.ui:232
+ msgctxt "templatepanel|STR_STYLE_NEW_STYLE_FROM_SELECTION"
+ msgid "New Style from Selection"
+-msgstr ""
++msgstr "Kiểu mới từ vùng chọn"
+ 
+ #. qvBEu
+ #: sfx2/uiconfig/ui/templatepanel.ui:237
+ msgctxt "templatepanel|accessible_name|new"
+ msgid "New Style from Selection"
+-msgstr ""
++msgstr "Kiểu mới từ vùng chọn"
+ 
+ #. tAdD9
+ #: sfx2/uiconfig/ui/templatepanel.ui:249
+ msgctxt "templatepanel|STR_STYLE_NEW_STYLE_ACTION"
+ msgid "Styles actions"
+-msgstr ""
++msgstr "Thao tác với kiểu"
+ 
+ #. 5ZAqh
+ #: sfx2/uiconfig/ui/templatepanel.ui:254
+ msgctxt "templatepanel|accessible_name|newmenu"
+ msgid "Styles actions"
+-msgstr ""
++msgstr "Thao tác với kiểu"
+ 
+ #. Xk5tD
+ #: sfx2/uiconfig/ui/templatepanel.ui:266
+ msgctxt "templatepanel|STR_STYLE_UPDATE_STYLE"
+ msgid "Update Style"
+-msgstr ""
++msgstr "Cập nhật kiểu"
+ 
+ #. 7NfdA
+ #: sfx2/uiconfig/ui/templatepanel.ui:271
+ msgctxt "templatepanel|accessible_name|update"
+ msgid "Update Style"
+-msgstr ""
++msgstr "Cập nhật kiểu"
+ 
+ #. n5BD7
+ #: sfx2/uiconfig/ui/templatepanel.ui:311
+ msgctxt "templatepanel|STR_STYLE_FILTERS_MENU_TOOLTIP"
+ msgid "Style Filters"
+-msgstr ""
++msgstr "Bộ lọc kiểu"
+ 
+ #. mLnBB
+ #: sfx2/uiconfig/ui/templatepanel.ui:312
+ msgctxt "templatepanel|STR_STYLE_FILTERS_MENU_LABEL"
+ msgid "Filter"
+-msgstr ""
++msgstr "Lọc"
+ 
+ #. AV36A
+ #: sfx2/uiconfig/ui/templatepanel.ui:316
+ msgctxt "templatepanel|accessible_name|stylefiltersmenutoolbutton"
+ msgid "Style Filters"
+-msgstr ""
++msgstr "Bộ lọc kiểu"
+ 
+ #. GNFTF
+ #: sfx2/uiconfig/ui/templatepanel.ui:334
+ msgctxt "commontemplate|STR_HIERARCHICAL_CHECKBOX"
+ msgid "Hierarchical"
+-msgstr ""
++msgstr "Phân cấp"
+ 
+ #. VDD6o
+ #: sfx2/uiconfig/ui/templatepanel.ui:342
+ msgctxt "templatepanel|extended_tip|hierarchical"
+ msgid "Display the style list in hierarchical formatting. "
+-msgstr ""
++msgstr "Hiển thị danh sách kiểu theo dạng phân cấp."
+ 
+ #. Vzf2x
+ #: sfx2/uiconfig/ui/templatepanel.ui:354
+ msgctxt "commontemplate|STR_PREVIEW_CHECKBOX"
+ msgid "Preview"
+-msgstr ""
++msgstr "Xem thử"
+ 
+ #. BkCZH
+ #: sfx2/uiconfig/ui/templatepanel.ui:362
+ msgctxt "templatepanel|extended_tip|showpreview"
+ msgid "Display the style names as examples of their formatting. "
+-msgstr ""
++msgstr "Hiển thị tên kiểu dưới dạng mẫu định dạng của chính nó."
+ 
+ #. gPd9u
+ #: sfx2/uiconfig/ui/templatepanel.ui:374
+ msgctxt "commontemplate|STR_SPOTLIGHT_CHECKBOX"
+ msgid "Spotlight"
+-msgstr ""
++msgstr "Làm nổi"
+ 
+ #. Frjk2
+ #: sfx2/uiconfig/ui/templatepanel.ui:381
+ msgctxt "templatepanel|extended_tip|spotlightstyles"
+ msgid "Displays a color and a unique number code for each applied paragraph or character style in the document. "
+-msgstr ""
++msgstr "Hiển thị màu và mã số riêng cho từng kiểu đoạn văn hoặc kiểu ký tự đã áp dụng trong tài liệu."
+ 
+ #. irBvi
+ #: sfx2/uiconfig/ui/templatepanel.ui:442 sfx2/uiconfig/ui/templatepanel.ui:499
+ msgctxt "templatepanel|STR_STYLE_ELEMTLIST"
+ msgid "Style List"
+-msgstr ""
++msgstr "Danh sách kiểu"
+ 
+ #. p9AWW
+ #: sfx2/uiconfig/ui/versioncommentdialog.ui:8
+-#, fuzzy
+ msgctxt "versioncommentdialog|VersionCommentDialog"
+ msgid "Insert Version Comment"
+ msgstr "Chèn ghi chú phiên bản"
+ 
+ #. CPwta
+ #: sfx2/uiconfig/ui/versioncommentdialog.ui:103
+-#, fuzzy
+ msgctxt "versioncommentdialog|timestamp"
+ msgid "Date and time: "
+-msgstr "Ngày và giờ"
++msgstr "Ngày và giờ:"
+ 
+ #. 2mDfC
+ #: sfx2/uiconfig/ui/versioncommentdialog.ui:115
+ msgctxt "versioncommentdialog|author"
+ msgid "Saved by: "
+-msgstr ""
++msgstr "Lưu bởi:"
+ 
+ #. T5AY5
+ #: sfx2/uiconfig/ui/versioncommentdialog.ui:162
+ msgctxt "versioncommentdialog|extended_tip|VersionCommentDialog"
+ msgid "Enter a comment here when you are saving a new version. If you clicked Show to open this dialog, you cannot edit the comment."
+-msgstr ""
++msgstr "Nhập ghi chú tại đây khi bạn lưu phiên bản mới. Nếu bạn nhấn Hiện để mở hộp thoại này thì không thể sửa ghi chú."
+ 
+ #. oBSSb
+ #: sfx2/uiconfig/ui/versionscmis.ui:47
+ msgctxt "versionscmis|compare"
+ msgid "_Compare"
+-msgstr ""
++msgstr "_So sánh"
+ 
+ #. WyDoB
+ #: sfx2/uiconfig/ui/versionscmis.ui:61
+-#, fuzzy
+ msgctxt "versionscmis|show"
+ msgid "_Show..."
+-msgstr "~Hiện..."
++msgstr "_Hiện..."
+ 
+ #. A8Eqt
+ #: sfx2/uiconfig/ui/versionscmis.ui:89
+ msgctxt "versionscmis|open"
+ msgid "_Open"
+-msgstr ""
++msgstr "_Mở"
+ 
+ #. gRBJa
+ #: sfx2/uiconfig/ui/versionscmis.ui:173
+@@ -5601,7 +5534,7 @@ msgstr "Ngày và giờ"
+ #: sfx2/uiconfig/ui/versionscmis.ui:186
+ msgctxt "versionscmis|savedby"
+ msgid "Saved by"
+-msgstr ""
++msgstr "Lưu bởi"
+ 
+ #. FzBeT
+ #: sfx2/uiconfig/ui/versionscmis.ui:199
+@@ -5613,13 +5546,13 @@ msgstr "Chú thích"
+ #: sfx2/uiconfig/ui/versionscmis.ui:222
+ msgctxt "versionscmis|label2"
+ msgid "Existing Versions"
+-msgstr ""
++msgstr "Các phiên bản hiện có"
+ 
+ #. A4BT2
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:33
+ msgctxt "versionsofdialog|cmis"
+ msgid "CMIS"
+-msgstr ""
++msgstr "CMIS"
+ 
+ #. EqmYX
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:53
+@@ -5631,20 +5564,19 @@ msgstr "Xoá phiên bản đã chọn."
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:65
+ msgctxt "versionsofdialog|compare"
+ msgid "_Compare"
+-msgstr ""
++msgstr "_So sánh"
+ 
+ #. TKEzJ
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:72
+ msgctxt "versionsofdialog|extended_tip|compare"
+ msgid "Compare the changes that were made in each version."
+-msgstr ""
++msgstr "So sánh các thay đổi đã thực hiện ở từng phiên bản."
+ 
+ #. UkbhC
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:84
+-#, fuzzy
+ msgctxt "versionsofdialog|show"
+ msgid "_Show..."
+-msgstr "~Hiện..."
++msgstr "_Hiện..."
+ 
+ #. 4SD7F
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:91
+@@ -5656,43 +5588,43 @@ msgstr "Hiển thị toàn ghi chú về phiên bản đã chọn."
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:119
+ msgctxt "versionsofdialog|open"
+ msgid "_Open"
+-msgstr ""
++msgstr "_Mở"
+ 
+ #. ASJac
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:126
+ msgctxt "versionsofdialog|extended_tip|open"
+ msgid "Opens the selected version in a read-only window."
+-msgstr ""
++msgstr "Mở phiên bản đã chọn trong cửa sổ chỉ đọc."
+ 
+ #. qKnKv
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:184
+ msgctxt "versionsofdialog|save"
+ msgid "Save _New Version"
+-msgstr ""
++msgstr "Lưu phiên bản _mới"
+ 
+ #. gTR6x
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:191
+ msgctxt "versionsofdialog|extended_tip|save"
+ msgid "Saves the current state of the document as a new version. If you want, you can also enter comments in the Insert Version Comment dialog before you save the new version."
+-msgstr ""
++msgstr "Lưu trạng thái hiện tại của tài liệu thành phiên bản mới. Nếu muốn, bạn có thể nhập ghi chú trong hộp thoại Chèn ghi chú phiên bản trước khi lưu."
+ 
+ #. aCeEr
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:202
+ msgctxt "versionsofdialog|always"
+ msgid "_Always save a new version on closing"
+-msgstr ""
++msgstr "_Luôn lưu phiên bản mới khi đóng"
+ 
+ #. JxFDN
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:210
+ msgctxt "versionsofdialog|extended_tip|always"
+ msgid "If you have made changes to your document then a new version is automatically saved when you close the document."
+-msgstr ""
++msgstr "Nếu bạn đã thay đổi tài liệu, một phiên bản mới sẽ tự động được lưu khi bạn đóng tài liệu."
+ 
+ #. vuHjH
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:225
+ msgctxt "versionsofdialog|label1"
+ msgid "New Versions"
+-msgstr ""
++msgstr "Phiên bản mới"
+ 
+ #. nDGNv
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:278
+@@ -5704,7 +5636,7 @@ msgstr "Ngày và giờ"
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:291
+ msgctxt "versionsofdialog|savedby"
+ msgid "Saved by"
+-msgstr ""
++msgstr "Lưu bởi"
+ 
+ #. kqEcm
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:304
+@@ -5722,10 +5654,10 @@ msgstr "Liệt kê các phiên bản đã tồn tại của tài liệu, và cho
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:332
+ msgctxt "versionsofdialog|label2"
+ msgid "Existing Versions"
+-msgstr ""
++msgstr "Các phiên bản hiện có"
+ 
+ #. 5BdCA
+ #: sfx2/uiconfig/ui/versionsofdialog.ui:364
+ msgctxt "versionsofdialog|extended_tip|VersionsOfDialog"
+ msgid "Saves and organizes multiple versions of the current document in the same file. You can also open, delete and compare previous versions."
+-msgstr ""
++msgstr "Lưu và sắp xếp nhiều phiên bản của tài liệu hiện tại trong cùng một tập tin. Bạn cũng có thể mở, xoá và so sánh các phiên bản trước."
+diff --git a/source/vi/vcl/messages.po b/source/vi/vcl/messages.po
+index 9a5d7bf2..c3d879cd 100644
+--- a/source/vi/vcl/messages.po
++++ b/source/vi/vcl/messages.po
+@@ -20,837 +20,837 @@ msgstr ""
+ #: include/vcl/tabs.hrc:33
+ msgctxt "RID_TAB_BORDER"
+ msgid "Border"
+-msgstr ""
++msgstr "Viền"
+ 
+ #. Frtia
+ #: include/vcl/tabs.hrc:34
+ msgctxt "RID_TAB_LINE"
+ msgid "Line"
+-msgstr ""
++msgstr "Đường"
+ 
+ #. c96DE
+ #: include/vcl/tabs.hrc:35
+ msgctxt "RID_TAB_LINE"
+ msgid "Line Style"
+-msgstr ""
++msgstr "Kiểu đường"
+ 
+ #. XFvEp
+ #: include/vcl/tabs.hrc:36
+ msgctxt "RID_TAB_ARROWSTYLE"
+ msgid "Arrow Style"
+-msgstr ""
++msgstr "Kiểu mũi tên"
+ 
+ #. fEyCZ
+ #: include/vcl/tabs.hrc:37
+ msgctxt "RID_TAB_AREA"
+ msgid "Area"
+-msgstr ""
++msgstr "Vùng tô"
+ 
+ #. manex
+ #: include/vcl/tabs.hrc:38
+ msgctxt "RID_TAB_TRANSPARENCE"
+ msgid "Transparency"
+-msgstr ""
++msgstr "Độ trong suốt"
+ 
+ #. GSW3C
+ #: include/vcl/tabs.hrc:39
+ msgctxt "RID_TAB_FONT"
+ msgid "Font"
+-msgstr ""
++msgstr "Phông chữ"
+ 
+ #. qnz2s
+ #: include/vcl/tabs.hrc:40
+ msgctxt "RID_TAB_FONTEFFECTS"
+ msgid "Font Effects"
+-msgstr ""
++msgstr "Hiệu ứng phông chữ"
+ 
+ #. oMhpA
+ #: include/vcl/tabs.hrc:41
+ msgctxt "RID_TAB_ALIGNMENT"
+ msgid "Alignment"
+-msgstr ""
++msgstr "Căn chỉnh"
+ 
+ #. 42ijj
+ #: include/vcl/tabs.hrc:42
+ msgctxt "RID_TAB_ASIANTYPO"
+ msgid "Asian Typography"
+-msgstr ""
++msgstr "Kiểu chữ Châu Á"
+ 
+ #. 8SfAE
+ #: include/vcl/tabs.hrc:43
+ msgctxt "RID_TAB_POSITION"
+ msgid "Position"
+-msgstr ""
++msgstr "Vị trí"
+ 
+ #. qdV57
+ #. font
+ #: include/vcl/tabs.hrc:44
+ msgctxt "RID_TAB_HIGHLIGHTING"
+ msgid "Highlighting"
+-msgstr ""
++msgstr "Tô sáng"
+ 
+ #. tBcUc
+ #: include/vcl/tabs.hrc:45
+ msgctxt "RID_TAB_COLORPALETTE"
+ msgid "Color Palette"
+-msgstr ""
++msgstr "Bảng màu"
+ 
+ #. RXodz
+ #: include/vcl/tabs.hrc:46
+ msgctxt "RID_TAB_NUMBERS"
+ msgid "Numbers"
+-msgstr ""
++msgstr "Số"
+ 
+ #. ZSCk6
+ #: include/vcl/tabs.hrc:47
+ msgctxt "RID_TAB_INDENTS"
+ msgid "Indents & Spacing"
+-msgstr ""
++msgstr "Thụt lề và giãn cách"
+ 
+ #. FBzmP
+ #: include/vcl/tabs.hrc:48
+ msgctxt "RID_TAB_TABS"
+ msgid "Tabs"
+-msgstr ""
++msgstr "Tab"
+ 
+ #. NFgub
+ #: include/vcl/tabs.hrc:49
+ msgctxt "RID_TAB_ORGANIZER"
+ msgid "General"
+-msgstr ""
++msgstr "Chung"
+ 
+ #. VBrcC
+ #: include/vcl/tabs.hrc:50
+ msgctxt "RID_TAB_FILES"
+ msgid "Files"
+-msgstr ""
++msgstr "Tập tin"
+ 
+ #. WhCBk
+ #: include/vcl/tabs.hrc:51
+ msgctxt "RID_TAB_BACKGROUND"
+ msgid "Background"
+-msgstr ""
++msgstr "Nền"
+ 
+ #. 5HaZy
+ #: include/vcl/tabs.hrc:52
+ msgctxt "RID_TAB_TEXTFLOW"
+ msgid "Text Flow"
+-msgstr ""
++msgstr "Dòng chảy văn bản"
+ 
+ #. DeZpe
+ #: include/vcl/tabs.hrc:53
+ msgctxt "RID_TAB_ASIANLAYOUT"
+ msgid "Asian Layout"
+-msgstr ""
++msgstr "Bố cục Châu Á"
+ 
+ #. aVFmH
+ #: include/vcl/tabs.hrc:54
+ msgctxt "RID_TAB_OUTLINELIST"
+ msgid "Outline & List"
+-msgstr ""
++msgstr "Đề cương và danh sách"
+ 
+ #. EgtJD
+ #: include/vcl/tabs.hrc:55
+ msgctxt "RID_TAB_DROPCAPS"
+ msgid "Drop Caps"
+-msgstr ""
++msgstr "Chữ hoa thả"
+ 
+ #. EJwUa
+ #: include/vcl/tabs.hrc:56
+ msgctxt "RID_TAB_CONDITION"
+ msgid "Condition"
+-msgstr ""
++msgstr "Điều kiện"
+ 
+ #. UFFWE
+ #: include/vcl/tabs.hrc:57
+ msgctxt "RID_TAB_HEADER"
+ msgid "Header"
+-msgstr ""
++msgstr "Đầu trang"
+ 
+ #. GMuGw
+ #: include/vcl/tabs.hrc:58
+ msgctxt "RID_TAB_FOOTER"
+ msgid "Footer"
+-msgstr ""
++msgstr "Chân trang"
+ 
+ #. ShWFT
+ #: include/vcl/tabs.hrc:59
+ msgctxt "RID_TAB_PAGE"
+ msgid "Page"
+-msgstr ""
++msgstr "Trang"
+ 
+ #. AE7C5
+ #. also Draw/Impress
+ #: include/vcl/tabs.hrc:60
+ msgctxt "RID_TAB_SLIDE"
+ msgid "Slide"
+-msgstr ""
++msgstr "Trang chiếu"
+ 
+ #. yasDB
+ #. also Draw/Impress
+ #: include/vcl/tabs.hrc:61
+ msgctxt "RID_TAB_COLUMNS"
+ msgid "Columns"
+-msgstr ""
++msgstr "Cột"
+ 
+ #. HCWcm
+ #: include/vcl/tabs.hrc:62
+ msgctxt "RID_TAB_FOOTNOTES"
+ msgid "Footnote"
+-msgstr ""
++msgstr "Cước chú"
+ 
+ #. GZENk
+ #: include/vcl/tabs.hrc:63
+ msgctxt "RID_TAB_ENDNOTES"
+ msgid "Endnote"
+-msgstr ""
++msgstr "Chú thích cuối"
+ 
+ #. FLvga
+ #: include/vcl/tabs.hrc:64
+ msgctxt "RID_TAB_TEXTGRID"
+ msgid "Text Grid"
+-msgstr ""
++msgstr "Lưới văn bản"
+ 
+ #. qEHBG
+ #. list
+ #: include/vcl/tabs.hrc:66
+ msgctxt "RID_TAB_UNOORDERED"
+ msgid "Unordered"
+-msgstr ""
++msgstr "Không thứ tự"
+ 
+ #. Ba82j
+ #: include/vcl/tabs.hrc:67
+ msgctxt "RID_TAB_ORDERED"
+ msgid "Ordered"
+-msgstr ""
++msgstr "Có thứ tự"
+ 
+ #. PHcjM
+ #: include/vcl/tabs.hrc:68
+ msgctxt "RID_TAB_OUTLINE"
+ msgid "Outline"
+-msgstr ""
++msgstr "Đề cương"
+ 
+ #. 8hfFX
+ #: include/vcl/tabs.hrc:69
+ msgctxt "RID_TAB_IMAGE"
+ msgid "Image"
+-msgstr ""
++msgstr "Ảnh"
+ 
+ #. 3Xnvz
+ #: include/vcl/tabs.hrc:70
+ msgctxt "RID_TAB_CUSTOMIZE"
+ msgid "Customize"
+-msgstr ""
++msgstr "Tuỳ chỉnh"
+ 
+ #. J53nC
+ #: include/vcl/tabs.hrc:71
+ msgctxt "RID_TAB_LIST_POSITION"
+ msgid "Position"
+-msgstr ""
++msgstr "Vị trí"
+ 
+ #. GwQkB
+ #. frame
+ #: include/vcl/tabs.hrc:73
+ msgctxt "RID_TAB_FRAME_TYPE"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. nMCFh
+ #: include/vcl/tabs.hrc:74
+ msgctxt "RID_TAB_FRAME_OPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. LjWQv
+ #: include/vcl/tabs.hrc:75
+ msgctxt "RID_TAB_FRAME_WRAP"
+ msgid "Wrap"
+-msgstr ""
++msgstr "Bao quanh"
+ 
+ #. iADqt
+ #: include/vcl/tabs.hrc:76
+ msgctxt "RID_TAB_MACRO"
+ msgid "Macro"
+-msgstr ""
++msgstr "Vĩ lệnh"
+ 
+ #. m65Yr
+ #. section
+ #: include/vcl/tabs.hrc:78
+ msgctxt "RID_TAB_SECTION"
+ msgid "Section"
+-msgstr ""
++msgstr "Vùng"
+ 
+ #. ny3g7
+ #: include/vcl/tabs.hrc:79
+ msgctxt "RID_TAB_FOOTENDNOTES"
+ msgid "Footnotes/Endnotes"
+-msgstr ""
++msgstr "Cước chú/Chú thích cuối"
+ 
+ #. KhbtA
+ #: include/vcl/tabs.hrc:80
+ msgctxt "RID_TAB_INDENTS"
+ msgid "Indents"
+-msgstr ""
++msgstr "Thụt lề"
+ 
+ #. Sss29
+ #. ToC
+ #: include/vcl/tabs.hrc:82
+ msgctxt "RID_TAB_TOCTYPE"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. pU9bg
+ #: include/vcl/tabs.hrc:83
+ msgctxt "RID_TAB_TOCENTRIES"
+ msgid "Entries"
+-msgstr ""
++msgstr "Mục"
+ 
+ #. rAESV
+ #: include/vcl/tabs.hrc:84
+ msgctxt "RID_TAB_STYLES"
+ msgid "Styles"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. GWBxE
+ #. table
+ #: include/vcl/tabs.hrc:86
+ msgctxt "RID_TAB_TABLE"
+ msgid "Table"
+-msgstr ""
++msgstr "Bảng"
+ 
+ #. cojr2
+ #. field
+ #: include/vcl/tabs.hrc:88
+ msgctxt "RID_TAB_DOCUMENT"
+ msgid "Document"
+-msgstr ""
++msgstr "Tài liệu"
+ 
+ #. vZhCk
+ #: include/vcl/tabs.hrc:89
+ msgctxt "RID_TAB_CROSSREF"
+ msgid "Cross-references"
+-msgstr ""
++msgstr "Tham chiếu chéo"
+ 
+ #. iA3ax
+ #: include/vcl/tabs.hrc:90
+ msgctxt "RID_TAB_FUNCTIONS"
+ msgid "Functions"
+-msgstr ""
++msgstr "Hàm"
+ 
+ #. YQdpN
+ #: include/vcl/tabs.hrc:91
+ msgctxt "RID_TAB_DOCINFO"
+ msgid "DocInformation"
+-msgstr ""
++msgstr "Thông tin tài liệu"
+ 
+ #. AqoNT
+ #: include/vcl/tabs.hrc:92
+ msgctxt "RID_TAB_VARIABLES"
+ msgid "Variables"
+-msgstr ""
++msgstr "Biến"
+ 
+ #. d8DHs
+ #: include/vcl/tabs.hrc:93
+ msgctxt "RID_TAB_DATABASE"
+ msgid "Database"
+-msgstr ""
++msgstr "Cơ sở dữ liệu"
+ 
+ #. j27Qo
+ #. label / business card
+ #: include/vcl/tabs.hrc:95
+ msgctxt "RID_TAB_LABEL"
+ msgid "Labels"
+-msgstr ""
++msgstr "Nhãn"
+ 
+ #. 7gRn5
+ #: include/vcl/tabs.hrc:96
+ msgctxt "RID_TAB_PRIVATE"
+ msgid "Private"
+-msgstr ""
++msgstr "Cá nhân"
+ 
+ #. dMSBp
+ #: include/vcl/tabs.hrc:97
+ msgctxt "RID_TAB_BUSINESS"
+ msgid "Business"
+-msgstr ""
++msgstr "Công việc"
+ 
+ #. Y9C35
+ #: include/vcl/tabs.hrc:98
+ msgctxt "RID_TAB_FORMAT"
+ msgid "Format"
+-msgstr ""
++msgstr "Định dạng"
+ 
+ #. 9BGEE
+ #: include/vcl/tabs.hrc:99
+ msgctxt "RID_TAB_LABEL_OPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. 7BFen
+ #. draw
+ #: include/vcl/tabs.hrc:101
+ msgctxt "RID_TAB_SHADOW"
+ msgid "Shadowing"
+-msgstr ""
++msgstr "Đổ bóng"
+ 
+ #. aVmMF
+ #: include/vcl/tabs.hrc:102
+ msgctxt "RID_TAB_TEXT"
+ msgid "Text"
+-msgstr ""
++msgstr "Văn bản"
+ 
+ #. PbR8B
+ #: include/vcl/tabs.hrc:103
+ msgctxt "RID_TAB_TEXTANIMATION"
+ msgid "Text Animation"
+-msgstr ""
++msgstr "Hoạt ảnh văn bản"
+ 
+ #. wsS7r
+ #: include/vcl/tabs.hrc:104
+ msgctxt "RID_TAB_DIMENSIONING"
+ msgid "Dimensioning"
+-msgstr ""
++msgstr "Đo kích thước"
+ 
+ #. euiCW
+ #: include/vcl/tabs.hrc:105
+ msgctxt "RID_TAB_CONNECTOR"
+ msgid "Connector"
+-msgstr ""
++msgstr "Đường nối"
+ 
+ #. BFqU6
+ #: include/vcl/tabs.hrc:106
+ msgctxt "RID_TAB_NUMBERING"
+ msgid "Numbering"
+-msgstr ""
++msgstr "Đánh số"
+ 
+ #. GW2bA
+ #: include/vcl/tabs.hrc:107
+ msgctxt "RID_TAB_BULLETS"
+ msgid "Bullets"
+-msgstr ""
++msgstr "Dấu đầu dòng"
+ 
+ #. LTPBm
+ #. calc
+ #: include/vcl/tabs.hrc:109
+ msgctxt "RID_TAB_SHEET"
+ msgid "Sheet"
+-msgstr ""
++msgstr "Trang tính"
+ 
+ #. hZXjB
+ #: include/vcl/tabs.hrc:110
+ msgctxt "RID_TAB_PROTECTION"
+ msgid "Cell Protection"
+-msgstr ""
++msgstr "Bảo vệ ô"
+ 
+ #. KqGGe
+ #: include/vcl/tabs.hrc:111
+ msgctxt "RID_TAB_SORT"
+ msgid "Sort Criteria"
+-msgstr ""
++msgstr "Tiêu chí sắp xếp"
+ 
+ #. tkGTQ
+ #: include/vcl/tabs.hrc:112
+ msgctxt "RID_TAB_SORTOPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. ZHhmB
+ #: include/vcl/tabs.hrc:113
+ msgctxt "RID_TAB_VALIDITY_CRITERIA"
+ msgid "Criteria"
+-msgstr ""
++msgstr "Tiêu chí"
+ 
+ #. DvmDe
+ #: include/vcl/tabs.hrc:114
+ msgctxt "RID_TAB_VALIDITY_INPUT"
+ msgid "Input Help"
+-msgstr ""
++msgstr "Trợ giúp nhập"
+ 
+ #. iBGCa
+ #: include/vcl/tabs.hrc:115
+ msgctxt "RID_TAB_VALIDITY_ERROR"
+ msgid "Error Alert"
+-msgstr ""
++msgstr "Cảnh báo lỗi"
+ 
+ #. g67DM
+ #: include/vcl/tabs.hrc:116
+ msgctxt "RID_TAB_SUBTOTAL_1ST"
+ msgid "1st Group"
+-msgstr ""
++msgstr "Nhóm 1"
+ 
+ #. 97co4
+ #: include/vcl/tabs.hrc:117
+ msgctxt "RID_TAB_SUBTOTAL_2ND"
+ msgid "2nd Group"
+-msgstr ""
++msgstr "Nhóm 2"
+ 
+ #. qTxhd
+ #: include/vcl/tabs.hrc:118
+ msgctxt "RID_TAB_SUBTOTAL_3RD"
+ msgid "3rd Group"
+-msgstr ""
++msgstr "Nhóm 3"
+ 
+ #. BkrwQ
+ #: include/vcl/tabs.hrc:119
+ msgctxt "RID_TAB_SUBTOTAL_OPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. FASoE
+ #: include/vcl/tabs.hrc:120
+ msgctxt "RID_TAB_HEADER_FIRST"
+ msgid "Header (first)"
+-msgstr ""
++msgstr "Đầu trang (trang đầu)"
+ 
+ #. C3uz6
+ #: include/vcl/tabs.hrc:121
+ msgctxt "RID_TAB_HEADER_LEFT"
+ msgid "Header (left)"
+-msgstr ""
++msgstr "Đầu trang (trang trái)"
+ 
+ #. SW64w
+ #: include/vcl/tabs.hrc:122
+ msgctxt "RID_TAB_HEADER_RIGHT"
+ msgid "Header (right)"
+-msgstr ""
++msgstr "Đầu trang (trang phải)"
+ 
+ #. EgWo5
+ #: include/vcl/tabs.hrc:123
+ msgctxt "RID_TAB_FOOTER_FIRST"
+ msgid "Footer (first)"
+-msgstr ""
++msgstr "Chân trang (trang đầu)"
+ 
+ #. Aaata
+ #: include/vcl/tabs.hrc:124
+ msgctxt "RID_TAB_FOOTER_LEFT"
+ msgid "Footer (left)"
+-msgstr ""
++msgstr "Chân trang (trang trái)"
+ 
+ #. T424f
+ #: include/vcl/tabs.hrc:125
+ msgctxt "RID_TAB_FOOTER_RIGHT"
+ msgid "Footer (right)"
+-msgstr ""
++msgstr "Chân trang (trang phải)"
+ 
+ #. fcv7z
+ #. picture/frame formatting
+ #: include/vcl/tabs.hrc:127
+ msgctxt "RID_TAB_POSSIZE"
+ msgid "Position and Size"
+-msgstr ""
++msgstr "Vị trí và kích thước"
+ 
+ #. c2CJi
+ #: include/vcl/tabs.hrc:128
+ msgctxt "RID_TAB_HYPERLINK"
+ msgid "Hyperlink"
+-msgstr ""
++msgstr "Siêu liên kết"
+ 
+ #. aoFWy
+ #: include/vcl/tabs.hrc:129
+ msgctxt "RID_TAB_CROP"
+ msgid "Crop"
+-msgstr ""
++msgstr "Xén"
+ 
+ #. aqUPZ
+ #: include/vcl/tabs.hrc:130
+ msgctxt "RID_TAB_ROTATION"
+ msgid "Rotation"
+-msgstr ""
++msgstr "Xoay"
+ 
+ #. qqnXd
+ #: include/vcl/tabs.hrc:131
+ msgctxt "RID_TAB_CALLOUT"
+ msgid "Callout"
+-msgstr ""
++msgstr "Chú thích"
+ 
+ #. gwA4V
+ #: include/vcl/tabs.hrc:132
+ msgctxt "RID_TAB_SLANT"
+ msgid "Slant & Corner Radius"
+-msgstr ""
++msgstr "Nghiêng và bán kính góc"
+ 
+ #. WUKJw
+ #. chart
+ #: include/vcl/tabs.hrc:134
+ msgctxt "RID_TAB_CHART_OPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. 2DXGc
+ #: include/vcl/tabs.hrc:135
+ msgctxt "RID_TAB_CHART_ERROR_X"
+ msgid "X Error Bars"
+-msgstr ""
++msgstr "Thanh sai số X"
+ 
+ #. r8GXe
+ #: include/vcl/tabs.hrc:136
+ msgctxt "RID_TAB_CHART_ERROR_Y"
+ msgid "Y Error Bars"
+-msgstr ""
++msgstr "Thanh sai số Y"
+ 
+ #. B5ek6
+ #: include/vcl/tabs.hrc:137
+ msgctxt "RID_TAB_CHART_TREND"
+ msgid "Type"
+-msgstr ""
++msgstr "Kiểu"
+ 
+ #. dQPqu
+ #: include/vcl/tabs.hrc:138
+ msgctxt "RID_TAB_CHART_TABLE"
+ msgid "Data Table"
+-msgstr ""
++msgstr "Bảng dữ liệu"
+ 
+ #. YQZGa
+ #: include/vcl/tabs.hrc:139
+ msgctxt "RID_TAB_CHART_LEGENDPOS"
+ msgid "Position"
+-msgstr ""
++msgstr "Vị trí"
+ 
+ #. 6GFjg
+ #: include/vcl/tabs.hrc:140
+ msgctxt "RID_TAB_CHART_DATALABEL"
+ msgid "Data Labels"
+-msgstr ""
++msgstr "Nhãn dữ liệu"
+ 
+ #. SFKLz
+ #: include/vcl/tabs.hrc:141
+ msgctxt "RID_TAB_CHART_SCALE"
+ msgid "Scale"
+-msgstr ""
++msgstr "Tỷ lệ"
+ 
+ #. ktCwt
+ #: include/vcl/tabs.hrc:142
+ msgctxt "RID_TAB_CHART_POSITIONING"
+ msgid "Positioning"
+-msgstr ""
++msgstr "Định vị"
+ 
+ #. oSVPd
+ #: include/vcl/tabs.hrc:143
+ msgctxt "RID_TAB_CHART_AXISLABEL"
+ msgid "Label"
+-msgstr ""
++msgstr "Nhãn"
+ 
+ #. FBHCc
+ #: include/vcl/tabs.hrc:144
+ msgctxt "RID_TAB_CHART_LAYOUT"
+ msgid "Layout"
+-msgstr ""
++msgstr "Bố cục"
+ 
+ #. 4zVBt
+ #: include/vcl/tabs.hrc:145
+ msgctxt "RID_TAB_CHART_PERSPECTIVE"
+ msgid "Perspective"
+-msgstr ""
++msgstr "Phối cảnh"
+ 
+ #. aMu2Q
+ #: include/vcl/tabs.hrc:146
+ msgctxt "RID_TAB_CHART_APPEARANCE"
+ msgid "Appearance"
+-msgstr ""
++msgstr "Diện mạo"
+ 
+ #. iQACT
+ #: include/vcl/tabs.hrc:147
+ msgctxt "RID_TAB_CHART_ILLUMINATION"
+ msgid "Illumination"
+-msgstr ""
++msgstr "Chiếu sáng"
+ 
+ #. kjugn
+ #. customization
+ #: include/vcl/tabs.hrc:149
+ msgctxt "RID_TAB_MENUS"
+ msgid "Menus"
+-msgstr ""
++msgstr "Trình đơn"
+ 
+ #. H5DXJ
+ #: include/vcl/tabs.hrc:150
+ msgctxt "RID_TAB_TOOLBARS"
+ msgid "Toolbars"
+-msgstr ""
++msgstr "Thanh công cụ"
+ 
+ #. 6BdbB
+ #: include/vcl/tabs.hrc:151
+ msgctxt "RID_TAB_NOTEBOOKBARS"
+ msgid "Notebookbars"
+-msgstr ""
++msgstr "Notebookbar"
+ 
+ #. FCx3c
+ #: include/vcl/tabs.hrc:152
+ msgctxt "RID_TAB_CONTEXTMENUS"
+ msgid "Context Menus"
+-msgstr ""
++msgstr "Trình đơn ngữ cảnh"
+ 
+ #. ofMja
+ #: include/vcl/tabs.hrc:153
+ msgctxt "RID_TAB_KEYBOARD"
+ msgid "Keyboard"
+-msgstr ""
++msgstr "Bàn phím"
+ 
+ #. NTWAX
+ #: include/vcl/tabs.hrc:154
+ msgctxt "RID_TAB_EVENTS"
+ msgid "Events"
+-msgstr ""
++msgstr "Sự kiện"
+ 
+ #. VjRzG
+ #. ui mode
+ #: include/vcl/tabs.hrc:156
+ msgctxt "RID_TAB_UIMODE"
+ msgid "UI Mode"
+-msgstr ""
++msgstr "Chế độ giao diện"
+ 
+ #. vGDyG
+ #: include/vcl/tabs.hrc:157
+ msgctxt "RID_TAB_HLINTERNET"
+ msgid "~Internet"
+-msgstr ""
++msgstr "~Internet"
+ 
+ #. WKFJJ
+ #: include/vcl/tabs.hrc:158
+ msgctxt "RID_TAB_HLMAIL"
+ msgid "~Mail"
+-msgstr ""
++msgstr "~Thư"
+ 
+ #. QuEYV
+ #: include/vcl/tabs.hrc:159
+ msgctxt "RID_TAB_HLDOC"
+ msgid "~Document"
+-msgstr ""
++msgstr "~Tài liệu"
+ 
+ #. ADyiJ
+ #: include/vcl/tabs.hrc:160
+ msgctxt "RID_TAB_HLDOCN"
+ msgid "~New Document"
+-msgstr ""
++msgstr "Tài liệu ~mới"
+ 
+ #. Bmska
+ #. envelope
+ #: include/vcl/tabs.hrc:162
+ msgctxt "RID_TAB_ENVELOPE"
+ msgid "Envelope"
+-msgstr ""
++msgstr "Phong bì"
+ 
+ #. gMKKG
+ #: include/vcl/tabs.hrc:163
+ msgctxt "RID_TAB_ENV_FORMAT"
+ msgid "Format"
+-msgstr ""
++msgstr "Định dạng"
+ 
+ #. yoqrF
+ #: include/vcl/tabs.hrc:164
+ msgctxt "RID_TAB_PRINTER"
+ msgid "Printer"
+-msgstr ""
++msgstr "Máy in"
+ 
+ #. oWXSE
+ #. autocorrect
+ #: include/vcl/tabs.hrc:166
+ msgctxt "RID_TAB_OFA_REPLACE"
+ msgid "Replace"
+-msgstr ""
++msgstr "Thay thế"
+ 
+ #. wrtBS
+ #: include/vcl/tabs.hrc:167
+ msgctxt "RID_TAB_OFA_EXCEPTIONS"
+ msgid "Exceptions"
+-msgstr ""
++msgstr "Ngoại lệ"
+ 
+ #. P6iYS
+ #: include/vcl/tabs.hrc:168
+ msgctxt "RID_TAB_OFA_APPLY"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. xKM8d
+ #: include/vcl/tabs.hrc:169
+ msgctxt "RID_TAB_OFA_OPTIONS"
+ msgid "Options"
+-msgstr ""
++msgstr "Tuỳ chọn"
+ 
+ #. sAGFM
+ #: include/vcl/tabs.hrc:170
+ msgctxt "RID_TAB_OFA_LOCALIZED"
+ msgid "Localized Options"
+-msgstr ""
++msgstr "Tuỳ chọn theo ngôn ngữ"
+ 
+ #. fhYVr
+ #: include/vcl/tabs.hrc:171
+ msgctxt "RID_TAB_OFA_WORDCOMPL"
+ msgid "Word Completion"
+-msgstr ""
++msgstr "Hoàn thành từ"
+ 
+ #. 2Wazf
+ #: include/vcl/tabs.hrc:172
+ msgctxt "RID_TAB_OFA_SMARTTAG"
+ msgid "Smart Tags"
+-msgstr ""
++msgstr "Thẻ thông minh"
+ 
+ #. wajDT
+ #. doc info
+ #: include/vcl/tabs.hrc:174
+ msgctxt "RID_TAB_DESCRIPTION"
+ msgid "Description"
+-msgstr ""
++msgstr "Mô tả"
+ 
+ #. XHS5d
+ #: include/vcl/tabs.hrc:175
+ msgctxt "RID_TAB_CUSTOM"
+ msgid "Custom Properties"
+-msgstr ""
++msgstr "Thuộc tính tuỳ chỉnh"
+ 
+ #. UQxQh
+ #: include/vcl/tabs.hrc:176
+ msgctxt "RID_TAB_CMIS"
+ msgid "CMIS Properties"
+-msgstr ""
++msgstr "Thuộc tính CMIS"
+ 
+ #. pBmFA
+ #: include/vcl/tabs.hrc:177
+ msgctxt "RID_TAB_SECURITY"
+ msgid "Security"
+-msgstr ""
++msgstr "Bảo mật"
+ 
+ #. XYzoK
+ #: include/vcl/tabs.hrc:178
+ msgctxt "RID_TAB_STATISTICS"
+ msgid "Statistics"
+-msgstr ""
++msgstr "Thống kê"
+ 
+ #. FFmCh
+ #. pdf export
+ #: include/vcl/tabs.hrc:180
+ msgctxt "RID_TAB_PDFGENERAL"
+ msgid "General"
+-msgstr ""
++msgstr "Chung"
+ 
+ #. EpofA
+ #: include/vcl/tabs.hrc:181
+ msgctxt "RID_TAB_PDFINITIAL"
+ msgid "Initial View"
+-msgstr ""
++msgstr "Khung nhìn ban đầu"
+ 
+ #. L2ShM
+ #: include/vcl/tabs.hrc:182
+ msgctxt "RID_TAB_PDFUI"
+ msgid "User Interface"
+-msgstr ""
++msgstr "Giao diện người dùng"
+ 
+ #. xqCAc
+ #: include/vcl/tabs.hrc:183
+ msgctxt "RID_TAB_PDFLINKS"
+ msgid "Links"
+-msgstr ""
++msgstr "Liên kết"
+ 
+ #. Sq8At
+ #: include/vcl/tabs.hrc:184
+ msgctxt "RID_TAB_PDFPROTECT"
+ msgid "Security"
+-msgstr ""
++msgstr "Bảo mật"
+ 
+ #. Pt7iw
+ #: include/vcl/tabs.hrc:185
+ msgctxt "RID_TAB_PDFSIGN"
+ msgid "Digital Signatures"
+-msgstr ""
++msgstr "Chữ ký số"
+ 
+ #. wH3TZ
+ msgctxt "stock"
+@@ -1955,10 +1955,9 @@ msgstr "Có tài liệu chưa được lưu"
+ 
+ #. LXCUf
+ #: vcl/inc/strings.hrc:127
+-#, fuzzy
+ msgctxt "editmenu|specialchar"
+ msgid "_Special Character..."
+-msgstr "~Ký tự đặc biệt..."
++msgstr "Ký tự đặc _biệt..."
+ 
+ #. be4e7
+ #: vcl/inc/strings.hrc:129
+@@ -2012,7 +2011,7 @@ msgstr "Vui lòng nhấn phím enter để vào chế độ điều khiển con
+ #: vcl/inc/strings.hrc:138
+ msgctxt "RID_STR_PICK_COLOR"
+ msgid "Pick a Color"
+-msgstr ""
++msgstr "Chọn màu"
+ 
+ #. V2EuY
+ #. To translators: This is the first entry of a sequence of measurement unit names
+@@ -2179,7 +2178,7 @@ msgstr "mili giây"
+ #: vcl/inc/units.hrc:60
+ msgctxt "SV_FUNIT_STRINGS"
+ msgid "em"
+-msgstr ""
++msgstr "em"
+ 
+ #. STLgX
+ #. To translators: This is the last entry of the sequence of measurement unit names
+@@ -2187,7 +2186,7 @@ msgstr ""
+ #: vcl/inc/units.hrc:63
+ msgctxt "SV_FUNIT_STRINGS"
+ msgid "ic"
+-msgstr ""
++msgstr "ic"
+ 
+ #. AdRDT
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:24
+@@ -2263,10 +2262,9 @@ msgstr "Biến thể ký tự %1"
+ 
+ #. BFCqG
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:36
+-#, fuzzy
+ msgctxt "STR_FONT_FEATURE_ID_DCAP"
+ msgid "Drop Caps"
+-msgstr "Tắt viết hoa"
++msgstr "Chữ hoa thả"
+ 
+ #. jaUfX
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:37
+@@ -2542,160 +2540,157 @@ msgstr "Bộ kiểu %1"
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:82
+ msgctxt "STR_FONT_FEATURE_ID_SUBS"
+ msgid "Subscript"
+-msgstr ""
++msgstr "Chỉ số dưới"
+ 
+ #. zFXhJ
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:83
+ msgctxt "STR_FONT_FEATURE_ID_SUPS"
+ msgid "Superscript"
+-msgstr ""
++msgstr "Chỉ số trên"
+ 
+ #. HQF8g
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:84
+ msgctxt "STR_FONT_FEATURE_ID_SWSH"
+ msgid "Swash"
+-msgstr ""
++msgstr "Nét bay"
+ 
+ #. khFYQ
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:85
+ msgctxt "STR_FONT_FEATURE_ID_TITL"
+ msgid "Titling"
+-msgstr ""
++msgstr "Kiểu tiêu đề"
+ 
+ #. eBecx
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:86
+ msgctxt "STR_FONT_FEATURE_ID_TNAM"
+ msgid "Traditional Name Forms"
+-msgstr ""
++msgstr "Dạng tên truyền thống"
+ 
+ #. ARJtP
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:87
+ msgctxt "STR_FONT_FEATURE_ID_TNUM"
+ msgid "Tabular Numbers"
+-msgstr ""
++msgstr "Số dạng bảng"
+ 
+ #. HcAKS
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:88
+ msgctxt "STR_FONT_FEATURE_ID_TRAD"
+ msgid "Traditional Forms"
+-msgstr ""
++msgstr "Dạng truyền thống"
+ 
+ #. ZbLR8
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:89
+ msgctxt "STR_FONT_FEATURE_ID_TWID"
+ msgid "Third Widths"
+-msgstr ""
++msgstr "Độ rộng một phần ba"
+ 
+ #. pEFRX
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:90
+ msgctxt "STR_FONT_FEATURE_ID_UNIC"
+ msgid "Unicase"
+-msgstr ""
++msgstr "Chữ hoa thường đồng nhất"
+ 
+ #. fMCzE
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:91
+ msgctxt "STR_FONT_FEATURE_ID_VALT"
+ msgid "Alternate Vertical Metrics"
+-msgstr ""
++msgstr "Số đo dọc thay thế"
+ 
+ #. hQhof
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:92
+ msgctxt "STR_FONT_FEATURE_ID_VHAL"
+ msgid "Alternate Vertical Half Metrics"
+-msgstr ""
++msgstr "Số đo dọc nửa thay thế"
+ 
+ #. s9mJa
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:93
+ msgctxt "STR_FONT_FEATURE_ID_VKNA"
+ msgid "Vertical Kana Alternates"
+-msgstr ""
++msgstr "Kana dọc thay thế"
+ 
+ #. mEiFj
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:94
+ msgctxt "STR_FONT_FEATURE_ID_VKRN"
+ msgid "Vertical Kerning"
+-msgstr ""
++msgstr "Co giãn dọc"
+ 
+ #. 9WDxe
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:95
+ msgctxt "STR_FONT_FEATURE_ID_VPAL"
+ msgid "Proportional Alternate Vertical Metrics"
+-msgstr ""
++msgstr "Số đo dọc tỷ lệ thay thế"
+ 
+ #. qo8GF
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:96
+ msgctxt "STR_FONT_FEATURE_ID_VRT2"
+ msgid "Vertical Alternates and Rotation"
+-msgstr ""
++msgstr "Thay thế dọc và xoay"
+ 
+ #. PwgCD
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:97
+ msgctxt "STR_FONT_FEATURE_ID_VRTR"
+ msgid "Vertical Alternates for Rotation"
+-msgstr ""
++msgstr "Thay thế dọc khi xoay"
+ 
+ #. 2nYeE
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:98
+ msgctxt "STR_FONT_FEATURE_ID_ZERO"
+ msgid "Slashed Zero"
+-msgstr ""
++msgstr "Số không có gạch chéo"
+ 
+ #. 8jmFo
+ #: vcl/inc/font/OpenTypeFeatureStrings.hrc:99
+ msgctxt "STR_FONT_FEATURE_PARAM_NONE"
+ msgid "None"
+-msgstr ""
++msgstr "Không"
+ 
+ #. TxdMF
+ #: vcl/uiconfig/ui/aboutbox.ui:74
+ msgctxt "aboutdialog|buildIdLink"
+ msgid "See Log: $GITHASH"
+-msgstr ""
++msgstr "Xem nhật ký: $GITHASH"
+ 
+ #. HbZ5F
+ #: vcl/uiconfig/ui/cupspassworddialog.ui:8
+ msgctxt "cupspassworddialog|CUPSPasswordDialog"
+ msgid "Authentication Request"
+-msgstr ""
++msgstr "Yêu cầu xác thực"
+ 
+ #. N2oto
+ #: vcl/uiconfig/ui/cupspassworddialog.ui:73
+ msgctxt "cupspassworddialog|label1"
+ msgid "_User:"
+-msgstr ""
++msgstr "_Người dùng:"
+ 
+ #. mdDrQ
+ #: vcl/uiconfig/ui/cupspassworddialog.ui:87
+-#, fuzzy
+ msgctxt "cupspassworddialog|label2"
+ msgid "_Password:"
+-msgstr "_Mật khẩu"
++msgstr "_Mật khẩu:"
+ 
+ #. tmXzc
+ #: vcl/uiconfig/ui/cupspassworddialog.ui:101
+ msgctxt "cupspassworddialog|text"
+ msgid "Please enter your authentication data for server “%s”"
+-msgstr ""
++msgstr "Vui lòng nhập thông tin xác thực cho máy chủ “%s”"
+ 
+ #. dRSJu
+ #: vcl/uiconfig/ui/cupspassworddialog.ui:145
+ msgctxt "cupspassworddialog|label1"
+ msgid "_Domain:"
+-msgstr ""
++msgstr "_Miền:"
+ 
+ #. zQA7A
+ #: vcl/uiconfig/ui/editmenu.ui:12
+-#, fuzzy
+ msgctxt "editmenu|undo"
+ msgid "_Undo"
+-msgstr "~Hủy bước"
++msgstr "_Hoàn tác"
+ 
+ #. wVVXn
+ #: vcl/uiconfig/ui/editmenu.ui:26
+-#, fuzzy
+ msgctxt "editmenu|cut"
+ msgid "Cu_t"
+-msgstr "Cắt"
++msgstr "_Cắt"
+ 
+ #. KAqKY
+ #: vcl/uiconfig/ui/editmenu.ui:34
+@@ -2705,17 +2700,15 @@ msgstr "_Sao"
+ 
+ #. PAGBt
+ #: vcl/uiconfig/ui/editmenu.ui:42
+-#, fuzzy
+ msgctxt "editmenu|paste"
+ msgid "_Paste"
+-msgstr "~Dán"
++msgstr "_Dán"
+ 
+ #. 36WAk
+ #: vcl/uiconfig/ui/editmenu.ui:50
+-#, fuzzy
+ msgctxt "editmenu|delete"
+ msgid "_Delete"
+-msgstr "~Xoá"
++msgstr "_Xoá"
+ 
+ #. cK3D7
+ #: vcl/uiconfig/ui/editmenu.ui:64
+@@ -2733,13 +2726,13 @@ msgstr "%PRODUCTNAME"
+ #: vcl/uiconfig/ui/errornocontentdialog.ui:14
+ msgctxt "errornocontentdialog|ErrorNoContentDialog"
+ msgid "There are no pages to be printed."
+-msgstr ""
++msgstr "Không có trang nào để in."
+ 
+ #. 4ndwx
+ #: vcl/uiconfig/ui/errornocontentdialog.ui:15
+ msgctxt "errornocontentdialog|ErrorNoContentDialog"
+ msgid "Please check your document for ranges relevant to printing."
+-msgstr ""
++msgstr "Vui lòng kiểm tra trong tài liệu các vùng cần in."
+ 
+ #. VGE4u
+ #: vcl/uiconfig/ui/errornoprinterdialog.ui:7
+@@ -2751,49 +2744,49 @@ msgstr "%PRODUCTNAME"
+ #: vcl/uiconfig/ui/errornoprinterdialog.ui:14
+ msgctxt "errornoprinterdialog|ErrorNoPrinterDialog"
+ msgid "No default printer found."
+-msgstr ""
++msgstr "Không tìm thấy máy in mặc định."
+ 
+ #. EB7RA
+ #: vcl/uiconfig/ui/errornoprinterdialog.ui:15
+ msgctxt "errornoprinterdialog|ErrorNoPrinterDialog"
+ msgid "Please choose a printer and try again."
+-msgstr ""
++msgstr "Vui lòng chọn máy in và thử lại."
+ 
+ #. puBNZ
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:8
+ msgctxt "openlockedquerybox|OpenLockedQueryBox"
+ msgid "Document in Use"
+-msgstr ""
++msgstr "Tài liệu đang được dùng"
+ 
+ #. FEZDV
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:24
+ msgctxt "openlockedquerybox|open"
+ msgid "_Open"
+-msgstr ""
++msgstr "_Mở"
+ 
+ #. EwQnG
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:38
+ msgctxt "openlockedquerybox|cancel"
+ msgid "_Cancel"
+-msgstr ""
++msgstr "_Huỷ"
+ 
+ #. 4ZftN
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:74
+ msgctxt "openlockedquerybox|questionmark"
+ msgid "Question mark image"
+-msgstr ""
++msgstr "Ảnh dấu chấm hỏi"
+ 
+ #. LCYux
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:75
+ msgctxt "openlockedquerybox|questionmark"
+ msgid "Question mark icon for dialog box."
+-msgstr ""
++msgstr "Biểu tượng dấu chấm hỏi cho hộp thoại."
+ 
+ #. j4NGP
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:98
+ msgctxt "openlockedquerybox|messagetext"
+ msgid "This file has been locked by another user."
+-msgstr ""
++msgstr "Tập tin này đang bị người dùng khác khoá."
+ 
+ #. sq7go
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:122
+@@ -2801,19 +2794,19 @@ msgctxt "openlockedquerybox|ReadOnlyMessage"
+ msgid ""
+ "You can open it read only  and\n"
+ "receive a notification if ready."
+-msgstr ""
++msgstr "Bạn có thể mở ở chế độ chỉ đọc  và\nnhận thông báo khi tập tin sẵn sàng."
+ 
+ #. 8h9CW
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:144
+ msgctxt "openlockedquerybox|readonly"
+ msgid "Open _R/O"
+-msgstr ""
++msgstr "Mở _chỉ đọc"
+ 
+ #. J9XA6
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:158
+ msgctxt "openlockedquerybox|notify"
+ msgid "_Notify"
+-msgstr ""
++msgstr "_Thông báo"
+ 
+ #. nFBTF
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:181
+@@ -2821,25 +2814,25 @@ msgctxt "openlockedquerybox|OpenCopyMessage"
+ msgid ""
+ "You can open a copy on your\n"
+ "local system."
+-msgstr ""
++msgstr "Bạn có thể mở một bản sao trên\nmáy của bạn."
+ 
+ #. n9Abv
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:197
+ msgctxt "openlockedquerybox|opencopy"
+ msgid "Open Co_py"
+-msgstr ""
++msgstr "Mở _bản sao"
+ 
+ #. W3Sbv
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:230
+ msgctxt "openlockedquerybox|expandertext"
+ msgid "_More Details"
+-msgstr ""
++msgstr "_Chi tiết"
+ 
+ #. jEGxc
+ #: vcl/uiconfig/ui/openlockedquerybox.ui:262
+ msgctxt "openlockedquerybox|OpenLockedQueryBox"
+ msgid "Displays information about locked files and further steps to take when opening a locked file."
+-msgstr ""
++msgstr "Hiển thị thông tin về tập tin bị khoá và các bước tiếp theo khi mở tập tin bị khoá."
+ 
+ #. DUavz
+ #: vcl/uiconfig/ui/printdialog.ui:64
+@@ -2851,13 +2844,13 @@ msgstr "In"
+ #: vcl/uiconfig/ui/printdialog.ui:95
+ msgctxt "printdialog|print"
+ msgid "_Print"
+-msgstr ""
++msgstr "_In"
+ 
+ #. M3L4L
+ #: vcl/uiconfig/ui/printdialog.ui:160
+ msgctxt "printdialog|printpreview"
+ msgid "Print preview"
+-msgstr ""
++msgstr "Xem thử bản in"
+ 
+ #. 67YPm
+ #: vcl/uiconfig/ui/printdialog.ui:166
+@@ -2869,43 +2862,43 @@ msgstr "Bản xem trước cho thấy mỗi tờ giấy sẽ trông như thế n
+ #: vcl/uiconfig/ui/printdialog.ui:196
+ msgctxt "printdialog|previewbox"
+ msgid "Pre_view"
+-msgstr ""
++msgstr "_Xem thử"
+ 
+ #. EpB5H
+ #: vcl/uiconfig/ui/printdialog.ui:205
+ msgctxt "printdialog|extended_tip|previewbox"
+ msgid "Turn on or off display of the print preview."
+-msgstr ""
++msgstr "Bật hoặc tắt hiển thị bản xem thử."
+ 
+ #. SbgFv
+ #: vcl/uiconfig/ui/printdialog.ui:235
+ msgctxt "printdialog|firstpage"
+ msgid "First page"
+-msgstr ""
++msgstr "Trang đầu"
+ 
+ #. GVGSq
+ #: vcl/uiconfig/ui/printdialog.ui:240
+ msgctxt "printdialog|extended_tip|btnFirst"
+ msgid "Shows preview of the first page."
+-msgstr ""
++msgstr "Xem thử trang đầu tiên."
+ 
+ #. ebceU
+ #: vcl/uiconfig/ui/printdialog.ui:255
+ msgctxt "printdialog|backward"
+ msgid "Previous page"
+-msgstr ""
++msgstr "Trang trước"
+ 
+ #. uS5Ka
+ #: vcl/uiconfig/ui/printdialog.ui:260
+ msgctxt "printdialog|extended_tip|backward"
+ msgid "Shows preview of the previous page."
+-msgstr ""
++msgstr "Xem thử trang trước."
+ 
+ #. c7uMG
+ #: vcl/uiconfig/ui/printdialog.ui:279
+ msgctxt "printdialog|extended_tip|pageedit"
+ msgid "Enter the number of page to be shown in the preview."
+-msgstr ""
++msgstr "Nhập số trang cần hiển thị trong bản xem thử."
+ 
+ #. yyFVV
+ #: vcl/uiconfig/ui/printdialog.ui:293
+@@ -2917,49 +2910,49 @@ msgstr "/ %n"
+ #: vcl/uiconfig/ui/printdialog.ui:306
+ msgctxt "printdialog|forward"
+ msgid "Next page"
+-msgstr ""
++msgstr "Trang sau"
+ 
+ #. emK9r
+ #: vcl/uiconfig/ui/printdialog.ui:311
+ msgctxt "printdialog|extended_tip|forward"
+ msgid "Shows preview of the next page."
+-msgstr ""
++msgstr "Xem thử trang kế tiếp."
+ 
+ #. Aq6Gv
+ #: vcl/uiconfig/ui/printdialog.ui:326
+ msgctxt "printdialog|lastpage"
+ msgid "Last page"
+-msgstr ""
++msgstr "Trang cuối"
+ 
+ #. RwCmD
+ #: vcl/uiconfig/ui/printdialog.ui:331
+ msgctxt "printdialog|extended_tip|btnLast"
+ msgid "Shows preview of the last page."
+-msgstr ""
++msgstr "Xem thử trang cuối cùng."
+ 
+ #. PD6Aj
+ #: vcl/uiconfig/ui/printdialog.ui:408
+ msgctxt "printdialog|extended_tip|printersbox"
+ msgid "The list box shows the installed printers. Click the printer to use for the current print job. Click the Properties button to change some of the printer properties."
+-msgstr ""
++msgstr "Danh sách các máy in đã cài. Nhấn vào máy in để dùng cho lệnh in hiện tại. Nhấn nút Thuộc tính để thay đổi một số thuộc tính của máy in."
+ 
+ #. qgQDX
+ #: vcl/uiconfig/ui/printdialog.ui:427
+ msgctxt "printdialog|labelstatus"
+ msgid "Status:"
+-msgstr ""
++msgstr "Trạng thái:"
+ 
+ #. dyo2j
+ #: vcl/uiconfig/ui/printdialog.ui:442
+ msgctxt "printdialog|status"
+ msgid "Default Printer"
+-msgstr ""
++msgstr "Máy in mặc định"
+ 
+ #. McZgQ
+ #: vcl/uiconfig/ui/printdialog.ui:448
+ msgctxt "printdialog|extended_tip|status"
+ msgid "Shows the availability of the selected printer."
+-msgstr ""
++msgstr "Cho biết máy in đã chọn có sẵn sàng không."
+ 
+ #. oBACQ
+ #: vcl/uiconfig/ui/printdialog.ui:460
+@@ -2971,19 +2964,19 @@ msgstr "Thuộc tính..."
+ #: vcl/uiconfig/ui/printdialog.ui:467
+ msgctxt "printdialog|extended_tip|setup"
+ msgid "Opens the Printer Properties dialog. The printer properties vary according to the printer that you select."
+-msgstr ""
++msgstr "Mở hộp thoại Thuộc tính máy in. Các thuộc tính khác nhau tuỳ theo máy in bạn chọn."
+ 
+ #. AJGau
+ #: vcl/uiconfig/ui/printdialog.ui:491
+ msgctxt "printdialog|labelprinter"
+ msgid "Printer"
+-msgstr ""
++msgstr "Máy in"
+ 
+ #. AyxGJ
+ #: vcl/uiconfig/ui/printdialog.ui:529
+ msgctxt "printdialog|rbAllPages"
+ msgid "_All pages"
+-msgstr ""
++msgstr "_Tất cả các trang"
+ 
+ #. AQ7Ms
+ #: vcl/uiconfig/ui/printdialog.ui:540
+@@ -2995,127 +2988,127 @@ msgstr "Tạo một tài liệu chủ mới."
+ #: vcl/uiconfig/ui/printdialog.ui:551
+ msgctxt "printdialog|rbPageRange"
+ msgid "_Pages:"
+-msgstr ""
++msgstr "_Trang:"
+ 
+ #. azXfE
+ #: vcl/uiconfig/ui/printdialog.ui:563
+ msgctxt "printdialog|extended_tip|rbRangePages"
+ msgid "Prints only the pages or slides that you specify in the Pages box."
+-msgstr ""
++msgstr "Chỉ in các trang hoặc trang chiếu bạn chỉ định trong ô Trang."
+ 
+ #. 786QC
+ #: vcl/uiconfig/ui/printdialog.ui:579
+ msgctxt "printdialog|pagerange"
+ msgid "e.g.: 1, 3-5, 7, 9"
+-msgstr ""
++msgstr "vd: 1, 3-5, 7, 9"
+ 
+ #. FTtLK
+ #: vcl/uiconfig/ui/printdialog.ui:582
+ msgctxt "printdialog|extended_tip|pagerange"
+ msgid "To print a range of pages, use a format like 3-6. To print single pages, use a format like 7;9;11. You can print a combination of page ranges and single pages, by using a format like 3-6;8;10;12."
+-msgstr ""
++msgstr "Để in một khoảng trang, dùng dạng 3-6. Để in từng trang riêng lẻ, dùng dạng 7;9;11. Bạn có thể kết hợp khoảng trang và trang riêng lẻ, dùng dạng 3-6;8;10;12."
+ 
+ #. Z5kiB
+ #: vcl/uiconfig/ui/printdialog.ui:593
+ msgctxt "printdialog|rbRangeSelection"
+ msgid "_Selection"
+-msgstr ""
++msgstr "_Vùng chọn"
+ 
+ #. CJ2E7
+ #: vcl/uiconfig/ui/printdialog.ui:603
+ msgctxt "printdialog|extended_tip|rbRangeSelection"
+ msgid "Prints only the selected area(s) or object(s) in the current document."
+-msgstr ""
++msgstr "Chỉ in các vùng hoặc đối tượng đã chọn trong tài liệu hiện tại."
+ 
+ #. AVv6D
+ #: vcl/uiconfig/ui/printdialog.ui:617
+ msgctxt "printdialog|labelcopies"
+ msgid "_Number of copies:"
+-msgstr ""
++msgstr "_Số bản in:"
+ 
+ #. NwD7S
+ #: vcl/uiconfig/ui/printdialog.ui:640
+ msgctxt "printdialog|extended_tip|copycount"
+ msgid "Enter the number of copies that you want to print."
+-msgstr ""
++msgstr "Nhập số bản bạn muốn in."
+ 
+ #. UKYwM
+ #: vcl/uiconfig/ui/printdialog.ui:673
+ msgctxt "printdialog|includeevenodd"
+ msgid "Include:"
+-msgstr ""
++msgstr "Gồm:"
+ 
+ #. XmeFL
+ #: vcl/uiconfig/ui/printdialog.ui:690
+ msgctxt "printdialog|liststore3"
+ msgid "Odd and Even Pages"
+-msgstr ""
++msgstr "Trang lẻ và trang chẵn"
+ 
+ #. 49y67
+ #: vcl/uiconfig/ui/printdialog.ui:691
+ msgctxt "printdialog|liststore3"
+ msgid "Odd Pages"
+-msgstr ""
++msgstr "Trang lẻ"
+ 
+ #. 6CkPE
+ #: vcl/uiconfig/ui/printdialog.ui:692
+ msgctxt "printdialog|liststore3"
+ msgid "Even Pages"
+-msgstr ""
++msgstr "Trang chẵn"
+ 
+ #. ZeA37
+ #: vcl/uiconfig/ui/printdialog.ui:696
+ msgctxt "printdialog|extended_tip|evenoddbox"
+ msgid "Select the subset of pages to print."
+-msgstr ""
++msgstr "Chọn nhóm trang cần in."
+ 
+ #. wn2kB
+ #: vcl/uiconfig/ui/printdialog.ui:709
+ msgctxt "printdialog|fromwhich"
+ msgid "_From which print:"
+-msgstr ""
++msgstr "_In từ:"
+ 
+ #. Cuc2u
+ #: vcl/uiconfig/ui/printdialog.ui:734
+ msgctxt "printdialog|labelpapersides"
+ msgid "Paper _sides:"
+-msgstr ""
++msgstr "_Mặt giấy:"
+ 
+ #. SYxRJ
+ #: vcl/uiconfig/ui/printdialog.ui:750
+ msgctxt "printdialog|liststore4"
+ msgid "Print on one side (simplex)"
+-msgstr ""
++msgstr "In một mặt"
+ 
+ #. hCZPg
+ #: vcl/uiconfig/ui/printdialog.ui:751
+ msgctxt "printdialog|liststore4"
+ msgid "Print on both sides (duplex long edge)"
+-msgstr ""
++msgstr "In hai mặt (lật theo cạnh dài)"
+ 
+ #. iqr9C
+ #: vcl/uiconfig/ui/printdialog.ui:752
+ msgctxt "printdialog|liststore4"
+ msgid "Print on both sides (duplex short edge)"
+-msgstr ""
++msgstr "In hai mặt (lật theo cạnh ngắn)"
+ 
+ #. CKpgL
+ #: vcl/uiconfig/ui/printdialog.ui:756
+ msgctxt "printdialog|extended_tip|sidesbox"
+ msgid "If the printer is capable of duplex printing it's possible to choose between using only one side of the paper or both."
+-msgstr ""
++msgstr "Nếu máy in hỗ trợ in hai mặt, bạn có thể chọn in một mặt hoặc cả hai mặt giấy."
+ 
+ #. BT4nY
+ #: vcl/uiconfig/ui/printdialog.ui:770
+ msgctxt "printdialog|cbPrintOrder"
+ msgid "Order:"
+-msgstr ""
++msgstr "Thứ tự:"
+ 
+ #. G6QEr
+ #: vcl/uiconfig/ui/printdialog.ui:789
+ msgctxt "printdialog|collate"
+ msgid "_Collate"
+-msgstr ""
++msgstr "_Theo bộ"
+ 
+ #. kR6bA
+ #: vcl/uiconfig/ui/printdialog.ui:797
+@@ -3127,7 +3120,7 @@ msgstr "Hoàn nguyên kích cỡ của đối tượng về kích cỡ gốc."
+ #: vcl/uiconfig/ui/printdialog.ui:827
+ msgctxt "printdialog|singlejobs"
+ msgid "Create separate print jobs for collated output"
+-msgstr ""
++msgstr "Tạo lệnh in riêng cho từng bộ"
+ 
+ #. X4Am9
+ #: vcl/uiconfig/ui/printdialog.ui:835
+@@ -3139,7 +3132,7 @@ msgstr "Chọn phạm vi ô bạn muốn dùng làm bộ lọc."
+ #: vcl/uiconfig/ui/printdialog.ui:846
+ msgctxt "printdialog|reverseorder"
+ msgid "Print in _reverse order"
+-msgstr ""
++msgstr "In theo thứ tự _ngược"
+ 
+ #. svd2Q
+ #: vcl/uiconfig/ui/printdialog.ui:855
+@@ -3151,31 +3144,31 @@ msgstr "Đặt thứ tự các điểm dữ liệu."
+ #: vcl/uiconfig/ui/printdialog.ui:876
+ msgctxt "printdialog|rangeexpander"
+ msgid "Collation and Paper Sides"
+-msgstr ""
++msgstr "In theo bộ và mặt giấy"
+ 
+ #. ehfCG
+ #: vcl/uiconfig/ui/printdialog.ui:892
+ msgctxt "printdialog|label2"
+ msgid "Range and Copies"
+-msgstr ""
++msgstr "Phạm vi và số bản"
+ 
+ #. U4byk
+ #: vcl/uiconfig/ui/printdialog.ui:931
+ msgctxt "printdialog|labelsize"
+ msgid "Paper size:"
+-msgstr ""
++msgstr "Khổ giấy:"
+ 
+ #. DSFv2
+ #: vcl/uiconfig/ui/printdialog.ui:948
+ msgctxt "printdialog|extended_tip|papersizebox"
+ msgid "Set the paper size you would like to use. The preview will show how the document would look on a paper of the given size."
+-msgstr ""
++msgstr "Đặt khổ giấy bạn muốn dùng. Bản xem thử sẽ cho thấy tài liệu trông thế nào trên khổ giấy đó."
+ 
+ #. CBLet
+ #: vcl/uiconfig/ui/printdialog.ui:962
+ msgctxt "printdialog|labelorientation"
+ msgid "Orientation:"
+-msgstr ""
++msgstr "Hướng giấy:"
+ 
+ #. X9iBj
+ #: vcl/uiconfig/ui/printdialog.ui:979
+@@ -3205,7 +3198,7 @@ msgstr "Gõ tên."
+ #: vcl/uiconfig/ui/printdialog.ui:1021
+ msgctxt "printdialog|pagespersheetbtn"
+ msgid "Pages per sheet:"
+-msgstr ""
++msgstr "Số trang mỗi tờ:"
+ 
+ #. ok8Lw
+ #: vcl/uiconfig/ui/printdialog.ui:1035
+@@ -3229,7 +3222,7 @@ msgstr "Đối với bản phát tay, chọn số các ảnh chiếu cần in tr
+ #: vcl/uiconfig/ui/printdialog.ui:1097
+ msgctxt "printdialog|pagespersheettxt"
+ msgid "Pages:"
+-msgstr ""
++msgstr "Trang:"
+ 
+ #. X8bjE
+ #: vcl/uiconfig/ui/printdialog.ui:1117
+@@ -3253,7 +3246,7 @@ msgstr "Chọn định dạng tập tin."
+ #: vcl/uiconfig/ui/printdialog.ui:1160
+ msgctxt "printdialog|pagemargintxt1"
+ msgid "Margin:"
+-msgstr ""
++msgstr "Lề:"
+ 
+ #. QxE58
+ #: vcl/uiconfig/ui/printdialog.ui:1179
+@@ -3271,7 +3264,7 @@ msgstr "giữa các trang"
+ #: vcl/uiconfig/ui/printdialog.ui:1203
+ msgctxt "printdialog|sheetmargintxt1"
+ msgid "Distance:"
+-msgstr ""
++msgstr "Khoảng cách:"
+ 
+ #. EDFnW
+ #: vcl/uiconfig/ui/printdialog.ui:1222
+@@ -3289,31 +3282,31 @@ msgstr "tới viền bảng tính"
+ #: vcl/uiconfig/ui/printdialog.ui:1248
+ msgctxt "printdialog|labelorder"
+ msgid "Order:"
+-msgstr ""
++msgstr "Thứ tự:"
+ 
+ #. psAku
+ #: vcl/uiconfig/ui/printdialog.ui:1265
+ msgctxt "printdialog|liststore2"
+ msgid "Left to right, then down"
+-msgstr ""
++msgstr "Trái sang phải, rồi xuống"
+ 
+ #. fnfLt
+ #: vcl/uiconfig/ui/printdialog.ui:1266
+ msgctxt "printdialog|liststore2"
+ msgid "Top to bottom, then right"
+-msgstr ""
++msgstr "Trên xuống dưới, rồi sang phải"
+ 
+ #. y6nZE
+ #: vcl/uiconfig/ui/printdialog.ui:1267
+ msgctxt "printdialog|liststore2"
+ msgid "Top to bottom, then left"
+-msgstr ""
++msgstr "Trên xuống dưới, rồi sang trái"
+ 
+ #. PteTg
+ #: vcl/uiconfig/ui/printdialog.ui:1268
+ msgctxt "printdialog|liststore2"
+ msgid "Right to left, then down"
+-msgstr ""
++msgstr "Phải sang trái, rồi xuống"
+ 
+ #. DvF8r
+ #: vcl/uiconfig/ui/printdialog.ui:1272
+@@ -3343,31 +3336,31 @@ msgstr "Sách mỏng"
+ #: vcl/uiconfig/ui/printdialog.ui:1315
+ msgctxt "printdialog|extended_tip|brochure"
+ msgid "Select to print the document in brochure format."
+-msgstr ""
++msgstr "Chọn để in tài liệu dạng sách gấp."
+ 
+ #. JMA7A
+ #: vcl/uiconfig/ui/printdialog.ui:1338
+ msgctxt "printdialog|collationpreview"
+ msgid "Collation preview"
+-msgstr ""
++msgstr "Xem thử thứ tự in"
+ 
+ #. dePkB
+ #: vcl/uiconfig/ui/printdialog.ui:1343
+ msgctxt "printdialog|extended_tip|orderpreview"
+ msgid "Change the arrangement of pages to be printed on every sheet of paper. The preview shows how every final sheet of paper will look."
+-msgstr ""
++msgstr "Đổi cách sắp xếp các trang in trên mỗi tờ giấy. Bản xem thử cho thấy từng tờ giấy sau cùng trông thế nào."
+ 
+ #. 2rFEV
+ #: vcl/uiconfig/ui/printdialog.ui:1365
+ msgctxt "printdialog|layoutexpander"
+ msgid "Pages per Sheet"
+-msgstr ""
++msgstr "Số trang mỗi tờ"
+ 
+ #. rCBA5
+ #: vcl/uiconfig/ui/printdialog.ui:1381
+ msgctxt "printdialog|label3"
+ msgid "Page Layout"
+-msgstr ""
++msgstr "Bố cục trang"
+ 
+ #. A2iC5
+ #: vcl/uiconfig/ui/printdialog.ui:1404
+@@ -3383,35 +3376,33 @@ msgstr "In ấn tài liệu hiện tại, vùng chọn hiện tại, hay những
+ 
+ #. 4DiAY
+ #: vcl/uiconfig/ui/printerdevicepage.ui:35
+-#, fuzzy
+ msgctxt "printerdevicepage|label7"
+ msgid "_Option:"
+-msgstr "Tùy chọn"
++msgstr "_Tuỳ chọn:"
+ 
+ #. deJLS
+ #: vcl/uiconfig/ui/printerdevicepage.ui:49
+ msgctxt "printerdevicepage|label8"
+ msgid "Current _value:"
+-msgstr ""
++msgstr "_Giá trị hiện tại:"
+ 
+ #. e9E5A
+ #: vcl/uiconfig/ui/printerdevicepage.ui:174
+-#, fuzzy
+ msgctxt "printerdevicepage|label11"
+ msgid "Color _depth:"
+-msgstr "Độ sâu màu"
++msgstr "Độ _sâu màu:"
+ 
+ #. U29RG
+ #: vcl/uiconfig/ui/printerdevicepage.ui:188
+ msgctxt "printerdevicepage|label10"
+ msgid "Co_lor:"
+-msgstr ""
++msgstr "_Màu:"
+ 
+ #. yCnjf
+ #: vcl/uiconfig/ui/printerdevicepage.ui:203
+ msgctxt "printerdevicepage|colorspace"
+ msgid "From driver"
+-msgstr ""
++msgstr "Theo trình điều khiển"
+ 
+ #. WXFof
+ #: vcl/uiconfig/ui/printerdevicepage.ui:204
+@@ -3429,39 +3420,37 @@ msgstr "Gam xám"
+ #: vcl/uiconfig/ui/printerdevicepage.ui:218
+ msgctxt "printerdevicepage|colordepth"
+ msgid "8 Bit"
+-msgstr ""
++msgstr "8 bit"
+ 
+ #. HAD2U
+ #: vcl/uiconfig/ui/printerdevicepage.ui:219
+ msgctxt "printerdevicepage|colordepth"
+ msgid "24 Bit"
+-msgstr ""
++msgstr "24 bit"
+ 
+ #. A6FnW
+ #: vcl/uiconfig/ui/printerpaperpage.ui:20
+-#, fuzzy
+ msgctxt "printerpaperpage|paperft"
+ msgid "_Paper size:"
+-msgstr "Kích cỡ giấ_y"
++msgstr "_Khổ giấy:"
+ 
+ #. mC9U8
+ #: vcl/uiconfig/ui/printerpaperpage.ui:34
+ msgctxt "printerpaperpage|orientft"
+ msgid "_Orientation:"
+-msgstr ""
++msgstr "_Hướng giấy:"
+ 
+ #. yKXAH
+ #: vcl/uiconfig/ui/printerpaperpage.ui:48
+ msgctxt "printerpaperpage|duplexft"
+ msgid "_Duplex:"
+-msgstr ""
++msgstr "In _hai mặt:"
+ 
+ #. CDcLD
+ #: vcl/uiconfig/ui/printerpaperpage.ui:62
+-#, fuzzy
+ msgctxt "printerpaperpage|slotft"
+ msgid "Paper tray:"
+-msgstr "Khay giấy"
++msgstr "Khay giấy:"
+ 
+ #. vzdaz
+ #: vcl/uiconfig/ui/printerpaperpage.ui:87
+@@ -3479,26 +3468,25 @@ msgstr "Nằm ng~ang"
+ #: vcl/uiconfig/ui/printerpaperpage.ui:118
+ msgctxt "printerpaperpage|papersizefromsetup"
+ msgid "Use only paper size from printer preferences"
+-msgstr ""
++msgstr "Chỉ dùng khổ giấy từ thiết lập của máy in"
+ 
+ #. gWBUe
+ #: vcl/uiconfig/ui/printerpropertiesdialog.ui:8
+ msgctxt "printerpropertiesdialog|PrinterPropertiesDialog"
+ msgid "Properties of %s"
+-msgstr ""
++msgstr "Thuộc tính của %s"
+ 
+ #. bS39j
+ #: vcl/uiconfig/ui/printerpropertiesdialog.ui:82
+-#, fuzzy
+ msgctxt "printerpropertiesdialog|paper"
+ msgid "Paper"
+-msgstr "Nhắn tin"
++msgstr "Giấy"
+ 
+ #. XqADw
+ #: vcl/uiconfig/ui/printerpropertiesdialog.ui:106
+ msgctxt "printerpropertiesdialog|device"
+ msgid "Device"
+-msgstr ""
++msgstr "Thiết bị"
+ 
+ #. u3bDF
+ #: vcl/uiconfig/ui/printprogressdialog.ui:8
+@@ -3510,10 +3498,10 @@ msgstr "In"
+ #: vcl/uiconfig/ui/printprogressdialog.ui:55
+ msgctxt "printprogressdialog|label"
+ msgid "Page %p of %n"
+-msgstr ""
++msgstr "Trang %p / %n"
+ 
+ #. nduV9
+ #: vcl/uiconfig/ui/querydialog.ui:8
+ msgctxt "querydialog|QueryDialog"
+ msgid "New Data Type"
+-msgstr ""
++msgstr "Kiểu dữ liệu mới"
