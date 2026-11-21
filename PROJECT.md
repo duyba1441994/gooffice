@@ -3,6 +3,16 @@
 > Bộ office mã nguồn mở dựa trên LibreOffice, mang thương hiệu GoOffice.
 > **30-10-2026: 5/5 nền tảng + QA tổng thể hoàn tất** 🏆 — chi tiết QA: `docs/QA-REPORT.md`
 > **20-11-2026 (PC mới GoAI): tích hợp xong nhánh vi-app-names, 5/5 nền tảng xanh** ✅
+> **21-11-2026: acc GitHub chính `duyba144194` bị suspend → mirror tạm sang `duyba1441994/gooffice` (public), 5/5 nền tảng của bản tích hợp ĐỀU XANH** ✅
+
+## Sự kiện 21-11: suspend + mirror
+
+- Chiều 20-11 sau ~15:30, acc chính `duyba144194` bị GitHub suspend (API 403 "account was suspended", profile/repo/release 404 toàn bộ). Dấu hiệu báo trước: annotation "payments have failed" trên run 12:22 ngày 20-11 → khả năng cao nhất là lỗi thanh toán plan trả phí; đang chờ email/appeal của chủ acc
+- **Mirror tạm** (phương án A — URL trong installer patch 0002/0003 vẫn trỏ acc cũ, chưa sửa): repo này `duyba1441994/gooffice` — vốn là bản mirror private từ 13-11 — đã rebase giữ commit README `4d0be9b` của chủ acc, push main (037f310) + tag v1.0.0 + nhánh vi-app-names, bật public, origin local trỏ sang đây
+- **CI 5/5 xanh cho commit tích hợp app-names (037f310)**: win-x64 (44660983715, acc cũ, đã cài lên PC GoAI), win-arm64 (44464683115, acc cũ), linux-arm64 (44867406660), macos-arm64 (44867409247 job1), macos-x64-cross (44867409247 rerun — lần đầu chết vì crash hạ tầng runner IOException, không phải lỗi code)
+- Artifact xanh tải về `C:\Users\GoAI\GoOffice\dist\mirror-037f310\` (6 DMG macOS + 44 deb linux-arm64); bundle git an toàn `C:\Users\GoAI\GoOffice\backup\`
+- Khi acc chính hồi: release v1.0.0 + 18 assets sống lại; quyết định lúc đó: giữ 1 repo chính (nên gộp về 1 nơi, cập nhật lại URL nếu đổi hẳn)
+
 
 ## Phiên 20-11 (PC mới — GoAI, nhận repo qua rar từ PC cũ 19-11)
 
