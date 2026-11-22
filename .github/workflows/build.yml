@@ -2,7 +2,7 @@ name: Build GoOffice
 
 # Builds GoOffice installers on free GitHub-hosted runners (public repo):
 #   - macOS arm64 + x64 (DMG) — macos-15 runners (x64 = cross-compile)
-#   - Linux arm64 (deb)      — ubuntu-24.04-arm runner
+#   - Linux amd64 + arm64 (deb) — ubuntu-24.04 / ubuntu-24.04-arm runners
 #   - Windows x64 + arm64 (MSI) — windows-2022 runner (arm64 cross from x64)
 # The dispatch `platforms` input selects jobs (empty = all).
 #
@@ -17,8 +17,8 @@ name: Build GoOffice
 on:
   workflow_dispatch:
     inputs:
-      platforms:
-        description: 'Comma list to build (empty = all): macos-arm64, macos-x64-cross, linux-arm64, win-x64, win-arm64'
+        platforms:
+        description: 'Comma list to build (empty = all): macos-arm64, macos-x64-cross, linux-arm64, linux-x64, win-x64, win-arm64'
         required: false
         default: ''
   push:
@@ -45,6 +45,7 @@ jobs:
             {"platform":"macos-arm64","os":"macos-15","input":"macos-arm64.input"},
             {"platform":"macos-x64","os":"macos-13","input":"macos-x64.input"},
             {"platform":"linux-arm64","os":"ubuntu-24.04-arm","input":"linux-arm64.input"},
+            {"platform":"linux-x64","os":"ubuntu-24.04","input":"linux-x64-ci.input"},
             {"platform":"macos-x64-cross","os":"macos-15","input":"macos-x64-cross.input"},
             {"platform":"win-x64","os":"windows-2022","input":"win-x64.input"},
             {"platform":"win-arm64","os":"windows-2022","input":"win-arm64.input"}
@@ -56,7 +57,7 @@ jobs:
               '[.[] | select(.platform as $x | ($p | split(",") | index($x)))]')
           fi
           if [ "$M" = "[]" ]; then
-            echo "No known platform in '$PLAT_INPUT'. Known: macos-arm64, macos-x64, macos-x64-cross, linux-arm64, win-x64, win-arm64" >&2
+            echo "No known platform in '$PLAT_INPUT'. Known: macos-arm64, macos-x64, macos-x64-cross, linux-arm64, linux-x64, win-x64, win-arm64" >&2
             exit 1
           fi
           echo "Selected: $M" >&2
@@ -147,8 +148,8 @@ jobs:
              "$CORE_DIR/instsetoo_native/inc_common/windows/msi_templates/Binary/Banner.bmp"
 
       # ---------- platform deps ----------
-      - name: Install deps (Linux arm64)
-        if: matrix.platform == 'linux-arm64'
+      - name: Install deps (Linux)
+        if: matrix.platform == 'linux-arm64' || matrix.platform == 'linux-x64'
         shell: bash
         run: |
           sudo apt-get update -qq
@@ -230,7 +231,7 @@ jobs:
 
       # ---------- ccache ----------
       - name: ccache cache
-        if: matrix.platform == 'linux-arm64' || startsWith(matrix.platform, 'macos')
+        if: matrix.platform == 'linux-arm64' || matrix.platform == 'linux-x64' || startsWith(matrix.platform, 'macos')
         uses: actions/cache@v4
         with:
           path: ~/.cache/ccache

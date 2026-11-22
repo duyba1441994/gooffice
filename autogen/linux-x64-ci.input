@@ -1,0 +1,33 @@
+# GoOffice — autogen.input for Linux amd64 on GitHub Actions (ubuntu-24.04 runner)
+# Same feature set as linux-x64.input / linux-arm64.input (bundled externals,
+# GTK3 GUI) but with CI-safe paths — replaces the old local-WSL build path
+# (autogen/linux-x64.input references the retired PC's /mnt/c paths).
+
+--with-help=html
+--without-helppack-integration
+--with-myspell-dicts
+--with-fonts
+--enable-extension-integration
+--enable-scripting-beanshell
+--enable-scripting-javascript
+--enable-ext-nlpsolver
+--enable-dbus
+--enable-gtk3
+--enable-gstreamer-1-0
+--enable-gio
+--enable-python=internal
+--with-package-format=deb
+--disable-online-update
+--enable-release-build
+--disable-lto
+--enable-epm
+--without-dotnet
+
+# --- GoOffice branding ---
+--with-product-name=GoOffice
+--with-vendor=GoOffice Project
+--with-package-version=1.0.0.0
+--with-branding=/home/runner/work/gooffice/gooffice/branding
+--with-macosx-bundle-identifier=org.gooffice.script
+--with-extra-buildid=GoOffice 1.0.0 (LibreOffice 26.8.2)
+--with-lang=vi
