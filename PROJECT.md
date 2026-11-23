@@ -13,6 +13,14 @@
 - Artifact xanh tải về `C:\Users\GoAI\GoOffice\dist\mirror-037f310\` (6 DMG macOS + 44 deb linux-arm64); bundle git an toàn `C:\Users\GoAI\GoOffice\backup\`
 - Khi acc chính hồi: release v1.0.0 + 18 assets sống lại; quyết định lúc đó: giữ 1 repo chính (nên gộp về 1 nơi, cập nhật lại URL nếu đổi hẳn)
 
+## Phiên 23-11: linux-x64 vào CI — 6/6 nền tảng xanh
+
+- Thêm matrix `linux-x64` (runner ubuntu-24.04) + `autogen/linux-x64-ci.input` (bản cũ trỏ path PC đã nghỉ) — commit 3251bc4
+- **Bài học (ghi thêm vào danh sách dưới)**: 3251bc4 có lỗi indent — dòng `platforms:` 8 spaces thay vì 6 → `inputs:` thành mapping rỗng → GitHub đánh dấu workflow invalid (run push-event chết 0s + mọi dispatch 422 "Unexpected inputs"). pyyaml KHÔNG bắt được vì là lỗi SCHEMA Actions chứ không phải cú pháp YAML — validate phải kiểm tra `on.workflow_dispatch.inputs.platforms` tồn tại thật. Sửa ở c9592d2
+- **linux-x64 XANH** (run 45161421030, 2h10m): 44 deb amd64 đủ November work → đóng lại thành tarball cùng cấu trúc cũ (DEBS/ 39 + langpack-vi/ 5) và thay vào `C:\Users\GoAI\GoOffice\ubuntu-test-kit\` (bản 10/30 cũ chuyển `backup\`); install-gooffice.sh/check-gtk.sh chạy nguyên không sửa
+- Từ 23-11: mọi nền tảng đều build từ CI trên mirror — không còn phụ thuộc máy local nào
+
+
 
 ## Phiên 20-11 (PC mới — GoAI, nhận repo qua rar từ PC cũ 19-11)
 
