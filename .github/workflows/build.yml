@@ -17,7 +17,7 @@ name: Build GoOffice
 on:
   workflow_dispatch:
     inputs:
-        platforms:
+      platforms:
         description: 'Comma list to build (empty = all): macos-arm64, macos-x64-cross, linux-arm64, linux-x64, win-x64, win-arm64'
         required: false
         default: ''
