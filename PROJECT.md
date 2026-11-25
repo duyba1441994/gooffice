@@ -20,6 +20,12 @@
 - **linux-x64 XANH** (run 45161421030, 2h10m): 44 deb amd64 đủ November work → đóng lại thành tarball cùng cấu trúc cũ (DEBS/ 39 + langpack-vi/ 5) và thay vào `C:\Users\GoAI\GoOffice\ubuntu-test-kit\` (bản 10/30 cũ chuyển `backup\`); install-gooffice.sh/check-gtk.sh chạy nguyên không sửa
 - Từ 23-11: mọi nền tảng đều build từ CI trên mirror — không còn phụ thuộc máy local nào
 
+## 25-11: Release v1.1.0 trên mirror (đủ 15 assets)
+
+- **github.com/duyba1441994/gooffice/releases/tag/v1.1.0** — "Việt hóa toàn diện": win-x64 MSI ×3 + win-arm64 MSI ×3 (build lại trên mirror, run 45537702659 xanh) + linux x64/arm64 tarball + macOS arm64/x64 DMG ×6 + SHA256SUMS.txt
+- Tag v1.1.0 tại b23f9ca; note ghi rõ installer hiển thị 1.0.0.0 nội bộ, v1.1.0 = mốc tính năng
+- 6/6 nền tảng xanh trên CI mirror; sản phẩm có nhà phân phối công khai trở lại (thay cho release v1.0.0 ở acc suspend)
+
 
 
 ## Phiên 20-11 (PC mới — GoAI, nhận repo qua rar từ PC cũ 19-11)
