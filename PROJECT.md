@@ -26,6 +26,15 @@
 - Tag v1.1.0 tại b23f9ca; note ghi rõ installer hiển thị 1.0.0.0 nội bộ, v1.1.0 = mốc tính năng
 - 6/6 nền tảng xanh trên CI mirror; sản phẩm có nhà phân phối công khai trở lại (thay cho release v1.0.0 ở acc suspend)
 
+## 27-11: sc (Bảng tính/Calc) dịch xong 100% — patch 0008
+
+- Theo danh sách ưu tiên trong ảnh chụp GoChat 19-11 (cui ✅→sc→svx→sw→còn lại, emoji cuối)
+- **3008 entry**: 404 mô tả hàm scfuncs.hrc + 251 runtime strings/globstr.hrc + ~2350 dialog .ui (TM-reuse từ các module vi đã dịch + dịch tay theo nhóm dialog); **624 cờ fuzzy cleared**; cuối cùng sc/messages.po: 0 untranslated, 0 fuzzy (6.094 entry; 4 entry plural nplurals=1 là chuẩn vi gettext)
+- **Bài học (ghi thêm)**: (a) polib.save() viết lại toàn bộ file → CRLF + 36k dòng diff — sinh patch bằng "surgical transplant": lấy msgstr đã dịch cấy vào văn bản gốc giữ format (script `GoOffice/tools/sc-surgical2.py`); (b) polib bỏ msgstr của entry có msgid_plural → phải set msgstr_plural riêng; (c) entry chỉ clear fuzzy không đổi msgstr không nằm trong diff msgstr — phải so cờ riêng
+- Patch `patches/translations/0008-vi-sc-calc-ui.patch` (23.901 dòng, pure LF, 0 BOM): verify chuỗi 0001→0008 apply sạch từ pristine tag, hash cây cuối = file nguồn (54db84c6)
+- Commit f745855; **CI linux-x64 xanh** (run 45925479369) — smoke test pass, artifact 44 deb tải về `dist\sc-0008\`
+- Kế tiếp theo ảnh: **svx (1.816)** → sw (3.284) → các phần còn lại (emoji cuối cùng)
+
 
 
 ## Phiên 20-11 (PC mới — GoAI, nhận repo qua rar từ PC cũ 19-11)
