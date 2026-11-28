@@ -4,6 +4,7 @@
 > **30-10-2026: 5/5 nền tảng + QA tổng thể hoàn tất** 🏆 — chi tiết QA: `docs/QA-REPORT.md`
 > **20-11-2026 (PC mới GoAI): tích hợp xong nhánh vi-app-names, 5/5 nền tảng xanh** ✅
 > **21-11-2026: acc GitHub chính `duyba144194` bị suspend → mirror tạm sang `duyba1441994/gooffice` (public), 5/5 nền tảng của bản tích hợp ĐỀU XANH** ✅
+> **28-11-2026: 4/4 module ưu tiên trong ảnh GoChat 19-11 dịch xong 100% (cui/sc/svx/sw — patches 0005,0008,0009,0010)** ✅
 
 ## Sự kiện 21-11: suspend + mirror
 
@@ -33,7 +34,14 @@
 - **Bài học (ghi thêm)**: (a) polib.save() viết lại toàn bộ file → CRLF + 36k dòng diff — sinh patch bằng "surgical transplant": lấy msgstr đã dịch cấy vào văn bản gốc giữ format (script `GoOffice/tools/sc-surgical2.py`); (b) polib bỏ msgstr của entry có msgid_plural → phải set msgstr_plural riêng; (c) entry chỉ clear fuzzy không đổi msgstr không nằm trong diff msgstr — phải so cờ riêng
 - Patch `patches/translations/0008-vi-sc-calc-ui.patch` (23.901 dòng, pure LF, 0 BOM): verify chuỗi 0001→0008 apply sạch từ pristine tag, hash cây cuối = file nguồn (54db84c6)
 - Commit f745855; **CI linux-x64 xanh** (run 45925479369) — smoke test pass, artifact 44 deb tải về `dist\sc-0008\`
-- Kế tiếp theo ảnh: **svx (1.816)** → sw (3.284) → các phần còn lại (emoji cuối cùng)
+
+## 28-11: svx + sw dịch xong 100% — patches 0009, 0010 (4/4 module ưu tiên hoàn tất)
+
+- **svx (hộp thoại dùng chung) — patch 0009** (commit f90342b, CI 46107611255 xanh 18m): 1.569 entry — catalog pattern (dốc màu/gạch chéo/bitmap/kiểu nét/mũi tên/màu chủ đề), 3D-effects, fontwork, tìm-thay thế, safemode/khôi phục, sidebar (area/line/shadow/glow/gallery), table-style, theme-color editor; 398 fuzzy cleared. **247 entry giữ nguyên CHỦ ĐÍCH**: 235 tên khối Unicode (RID_SUBSETMAP), 11 mẫu đánh số chữ nước ngoài, 1 SQL keyword — upstream cũng giữ (proper names)
+- **sw (Tài liệu/Writer) — patch 0010** (commit 2cfd0bb, CI 46108700508): 3.274 entry — strings.hrc (kiểu sẵn/UNDO/tooltip lề/in), RID_ATTRIBUTE_NAMES_MAP (tên thuộc tính introspection), dialog lớn (TOC/chỉ mục, thuật sĩ trộn thư 8 trang, phong bì/nhãn, chân chú/cuối chú, khung, số trang, hình mờ, lưới CJK), navigator, 5 biến thể notebookbar; 664 fuzzy cleared; 10 entry plural nplurals=1 fix msgstr[0] bằng text-level patch
+- Cả hai: surgical diff pure LF 0 BOM, verify chuỗi 0001→0010 apply sạch từ pristine tag, hash cây cuối trùng file nguồn (sw: 599cbab4)
+- **Tổng từ ảnh GoChat 19-11: 4/4 module ưu tiên XONG** (cui 582→0, sc 3.004→0, svx 1.816→284 giữ chủ đích, sw 3.284→0) — UI tiếng Việt giờ trọn vẹn ở mọi nơi người dùng gặp. Còn: nhóm module nhỏ (~2.708: dbaccess/filter/svtools/sd/starmath...) + emoji (1.318, cuối danh sách)
+
 
 
 
